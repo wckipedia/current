@@ -1,0 +1,10 @@
+[
+  { "name": "GitHub Blog", "url": "https://github.blog/feed/", "defaultCategory": "Developer Tools", "weight": 10 },
+  { "name": "Cloudflare Blog", "url": "https://blog.cloudflare.com/rss/", "defaultCategory": "Cloud", "weight": 10 },
+  { "name": "Chrome for Developers", "url": "https://developer.chrome.com/static/blog/feed.xml", "defaultCategory": "Web", "weight": 9 },
+  { "name": "Kubernetes Blog", "url": "https://kubernetes.io/feed.xml", "defaultCategory": "DevOps", "weight": 9 },
+  { "name": "Google Security Blog", "url": "https://security.googleblog.com/feeds/posts/default", "defaultCategory": "Security", "weight": 10 },
+  { "name": "Docker Blog", "url": "https://www.docker.com/blog/feed/", "defaultCategory": "DevOps", "weight": 8 },
+  { "name": "Rust Blog", "url": "https://blog.rust-lang.org/feed.xml", "defaultCategory": "Languages", "weight": 9 },
+  { "name": "OpenAI News", "url": "https://openai.com/news/rss.xml", "defaultCategory": "AI", "weight": 9 }
+]

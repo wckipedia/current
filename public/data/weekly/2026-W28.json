@@ -1,0 +1,361 @@
+{
+  "week": "2026-W28",
+  "generatedAt": "2026-07-11T21:06:32.541Z",
+  "sections": [
+    {
+      "name": "AI",
+      "articles": [
+        {
+          "id": "6e4ea61ea6fdf631",
+          "title": "Better tools made Copilot code review worse. Here’s how we actually improved it.",
+          "excerpt": "How migrating Copilot code review to shared Unix-style code exploration tools reduced review cost by reshaping agent workflows around pull request evidence. The post Better tools made Copilot code review worse. Here’s how we actually improved it. appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
+          "publishedAt": "2026-07-10T15:57:47.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Give an agent better tools and it should do better work. That's the instinct, anyway.",
+            "When you open a pull request, Copilot code review reads the diff and explores the surrounding code to find the problems that matter before they ship. To do that, it used its own code exploration tools. So when we swapped in the better-maintained, shared tools that power the Copilot CLI, grep , glob , and view , we expected a clean upgrade.",
+            "Instead, in our benchmarks, we found that the cost of reviews was higher and fewer issues were being caught.",
+            "But the tools weren't the problem. The instructions were. Once we rewrote them for the way a reviewer actually reads a pull request, the regression flipped into a win: roughly 20% lower average review cost , while maintaining the same review quality.",
+            "This is the story of how adjusting the workflows around the tools led us to a fix."
+          ]
+        },
+        {
+          "id": "521cb8f5727237af",
+          "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+          "excerpt": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/deutsche-telekom",
+          "publishedAt": "2026-07-10T07:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Deutsche Telekom is one of the world's largest telecommunications companies, serving more than 300 million customers across Europe and the United States and employing more than 200,000 people across the group.",
+            "Operating at this scale means managing vast customer service operations, complex network infrastructure, and millions of daily interactions that keep people connected.",
+            "As generative AI capabilities accelerated, Deutsche Telekom saw an opportunity that went beyond productivity gains.",
+            "The company set an ambitious goal: to be among the world's first AI-native telco.",
+            "Rather than treating AI as another software rollout, the leadership team viewed it as a fundamental transformation of how decisions are made, how customer journeys are designed, and how telecommunications services are delivered."
+          ]
+        },
+        {
+          "id": "fed88e5c2993c2e6",
+          "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
+          "excerpt": "Explore how the Aspire team turns merged product changes into SME-reviewed docs pull requests, closing the gap between release and documentation. The post Automating cross-repo documentation with GitHub Agentic Workflows appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/",
+          "publishedAt": "2026-07-08T21:11:56.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "\"Where are the docs?\" It's a question nobody on a product team enjoys answering. The honest reply is usually some variant of \"behind.\" A writer is staring at a closed pull request, trying to reverse-engineer what changed. The pull request's author has already moved on. By the time the doc actually publishes, the feature has shipped, sometimes more than once.",
+            "That used to be us on the Aspire team (we're a small team of 10 building dev tools for distributed apps). A few months back, we were trying to figure out how to safely bring AI into automations we already trusted. That's when we discovered GitHub Agentic Workflows. I started bolting prototypes into microsoft/aspire .",
+            "Here's what that bought us, in numbers pulled straight out of GitHub: for Aspire 13.3 and 13.4, 82 feature-docs pull requests merged at a median of 44.8 hours after the product pull request , every one of them reviewed by the engineer who shipped the feature. No new headcount. No process retraining. Just a different way of asking \"who writes this?\"",
+            "Our product lives in microsoft/aspire and our docs site lives in microsoft/aspire.dev -different repo, deploy target, and review chain.",
+            "Most teams figure out same-repo automation pretty quickly; cross-repo automation is where things get sharp."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "articles": [
+        {
+          "id": "fe917b3c66903abf",
+          "title": "Improving Smart Tiered Cache for Public Cloud Regions",
+          "excerpt": "Smart Tiered Cache allows for precise upper tier selection for origins hosted on AWS, GCP, Azure, and Oracle Cloud with customer-provided cloud region hints.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds/",
+          "publishedAt": "2026-07-10T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "In 2021, we shipped Smart Tiered Cache . The idea: for each origin behind your site, Cloudflare picks the single best upper-tier data center to route through, based on real-time latency. Flip one switch, and we find the fastest path from our network to your origin.",
+            "That works as long as an origin IP lives in one fixed place.",
+            "They sit behind anycast or regional unicast front ends, so one origin IP can look equally close to a dozen Cloudflare data centers at once - and the latency probes have nothing to lock onto.",
+            "Smart Tiered Cache handles this the safe way: when there's no clear winner, it falls back to several upper tiers.",
+            "You just lose the thing that made a single closest tier worth it, which is cache efficiency."
+          ]
+        },
+        {
+          "id": "e431d21c219b7ed6",
+          "title": "Why we cannot wait for better post-quantum signature algorithms",
+          "excerpt": "NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We take a closer look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best one currently available.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do/",
+          "publishedAt": "2026-07-09T14:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "RSA and ECC, cryptographic algorithms that we’ve all relied on for decades, are vulnerable to the attack of sufficiently advanced quantum computers.",
+            "Such quantum computers do not exist yet, but they seem to be coming sooner than expected.",
+            "Luckily, the solution is already available: migrate to ML-KEM encryption and ML-DSA signatures, which are designed to be resistant to quantum attack.",
+            "National Institute of Standards and Technology (NIST) after an eight-year open international competition.",
+            "The migration to post-quantum cryptography is in full swing now."
+          ]
+        },
+        {
+          "id": "c3b103b19d2b2c3e",
+          "title": "Introducing Meerkat: an experiment in global consensus",
+          "excerpt": "Cloudflare Research is building a global consensus service called Meerkat that uses a new consensus algorithm called QuePaxa. We plan to use Meerkat to build a strongly consistent, fault-tolerant key-value store, and other applications.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/meerkat-introduction/",
+          "publishedAt": "2026-07-08T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Many internal services at Cloudflare need to read and modify the same control-plane state from across our 330+ global data centers. They need guarantees that different readers never see inconsistent state, and that the system remains available for writes even when some data centers or links fail.",
+            "But Cloudflare’s network runs across the entire Internet, and the Internet is an unpredictable place.",
+            "These conditions make it difficult to run a globally available data system that guarantees strong consistency (e.g., that all readers are guaranteed to read all prior writes) because hostile conditions hinder distributed system replicas’ ability to reliably synchronize data with one another.",
+            "One way to synchronize data safely despite adverse network conditions is via a consensus algorithm, which allows a set of machines to agree on the same sequence of values, such as key-value store put and get operations, as long as a majority remains alive and able to communicate.",
+            "Unfortunately, commonly deployed consensus algorithms like Raft suffer in wide-area networks like Cloudflare’s because they rely on leaders and timeouts ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "articles": [
+        {
+          "id": "f52a3dc504073d1d",
+          "title": "Announcing etcd v3.7.0",
+          "excerpt": "This article is a mirror of the original announcement Today, SIG etcd is releasing etcd v3.7.0 , the latest minor release of the popular distributed key-value store and core Kubernetes component. v3.7 ships the long-requested RangeStream feature, delivers several other performance improvements, removes the…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/07/08/announcing-etcd-3.7/",
+          "publishedAt": "2026-07-08T12:00:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Today, SIG etcd is releasing etcd v3.7.0 , the latest minor release of the popular distributed key-value store and core Kubernetes component. v3.7 ships the long-requested RangeStream feature, delivers several other performance improvements, removes the last remnants of the legacy v2store, and completes a major protobuf overhaul.",
+            "This release also includes new versions of the two core etcd dependencies, bbolt v1.5.0 and raft v3.7.0 .",
+            "For instructions on installing etcd, see the install documentation . For the full list of changes, see the etcd v3.7 changelog .",
+            "A heartfelt thank you to all the contributors who made this release possible!",
+            "RangeStream - stream large result sets in chunks instead of buffering the whole response."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "articles": [
+        {
+          "id": "e00d55023af7c16f",
+          "title": "Our approach to government and national security partnerships",
+          "excerpt": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/government-national-security-partnerships",
+          "publishedAt": "2026-07-08T13:30:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Governments are beginning to use frontier AI systems for increasingly important work, including in national security.",
+            "That creates new imperatives for AI labs, governments, and civil society to work together on how these tools should be used in sensitive settings.",
+            "We believe democratic societies should be able to use AI to protect people, defend critical infrastructure, deliver public services, and respond to emerging threats, including in areas like cyber defense and biological security where AI can meaningfully advantage defenders.",
+            "We engaged a leading national security expert, David Kris, to help facilitate the process and provide his independent judgment, held listening sessions across the company, and engaged employees representing a range of teams from research and safety to policy and government partnerships.",
+            "We are publishing them now as we expand our work with the U.S. government and allied partners in critical defensive areas, particularly cyber and biosecurity."
+          ]
+        },
+        {
+          "id": "20cee94b04172682",
+          "title": "Cloudflare proudly joins the UK government's Cyber Resilience Pledge",
+          "excerpt": "The pledge is a voluntary framework inviting organizations to commit to foundational cyber security governance, board-level accountability, and supply chain rigor. For over a decade, Cloudflare has pioneered the core pillars of this framework: democratizing security, leadership accountability, and radical…",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge/",
+          "publishedAt": "2026-07-07T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Today, the UK government launched the Cyber Resilience Pledge : a voluntary framework inviting organizations to commit to foundational cybersecurity governance, board-level accountability, and comprehensive cybersecurity coverage across supply chains.",
+            "Cloudflare is proud to join the pledge’s founding cohort of signatories and continue our long-standing work with the Department of Science, Innovation and Technology (DSIT), National Cyber Security Centre, and others to shape a more secure, future-ready digital economy for the UK .",
+            "The pledge's core pillars - democratizing security, leadership accountability, and radical transparency - have been at the heart of Cloudflare since day one.",
+            "Instead of approaching this framework as a new set of commitments to meet, we see it as a welcome validation from the UK government of the security philosophy and principles Cloudflare has championed for over a decade.",
+            "We are glad to see the rest of the industry moving in this direction."
+          ]
+        },
+        {
+          "id": "9d0b7cca463c54de",
+          "title": "6 security settings every GitHub maintainer should enable this week",
+          "excerpt": "These six free settings will not make your project unhackable. Nothing will. What they will do is close the easy doors. Turn these on, and your project will be meaningfully harder to attack than it was before. The post 6 security settings every GitHub maintainer should enable this week appeared first on The…",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/",
+          "publishedAt": "2026-07-01T15:59:29.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "At GitHub Security Lab, we spend a lot of our week talking to maintainers.",
+            "Most maintainers we talk to weren't hired to be security engineers.",
+            "While this is true, ignoring a project's security settings completely will lead into leaving a lot in the table in terms of automation and scalability, leading into a poor security posture, and before you realize it to vulnerabilities that pile up, exposing your users.",
+            "Here's the short version. Six settings, free to use, updated in less than half an hour. We've bundled them into a guided flow called Protect Your Project so you can do them in one pass, and we walk through each tool you'll use below.",
+            "This is the lightest-lift setting on the list and the one that makes everything else easier."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Languages",
+      "articles": [
+        {
+          "id": "74e95472baba362c",
+          "title": "Announcing Rust 1.97.0",
+          "excerpt": "The Rust team is happy to announce a new version of Rust, 1.97.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.97.0 with: $ rustup update stable If you don't have it already, you can…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/07/09/Rust-1.97.0/",
+          "publishedAt": "2026-07-09T00:00:00.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "If you have a previous version of Rust installed via rustup , you can get 1.97.0 with:",
+            "If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.97.0 .",
+            "If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default nightly ). Please report any bugs you might come across!",
+            "When Rust is compiled into object files and binaries, each item (functions, statics, etc) must have a globally unique \"symbol\" identifying it.",
+            "To avoid conflicts when linking together different Rust programs, Rust mangles the original name of items to include additional context such as the module path, defining crate, generics, and more."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Open Source",
+      "articles": [
+        {
+          "id": "b2b3646548d6942e",
+          "title": "How GitHub gave every repository a durable owner",
+          "excerpt": "GitHub had over 14,000 repositories. Fewer than half had clear ownership. Here's how we gave every active repository a validated owner in under 45 days, archived the rest, and made ownership the foundation for everything that followed. The post How GitHub gave every repository a durable owner appeared first…",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
+          "publishedAt": "2026-07-09T16:29:37.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Open Source",
+          "scanMinutes": 1,
+          "details": [
+            "GitHub has over 14,000 repositories across our primary internal GitHub organization. As of early 2025, there were over 11,000 non-archived repositories, the vast majority of which with no clear owner. For repositories attached to production services, we have historically had robust durable ownership, but for repositories with no associated service, there was no reliable way to tell who the owner is.",
+            "That gap became a recurring problem during our secret scanning remediation effort : while we could technically rotate a secret, doing so without knowing the repository owner was risky and often disruptive, and we had no clear way to route remediation work.",
+            "Over the course of a month and a half, we validated ownership for every active repository, archived about 8,000 repositories that were no longer in use, and changed repository creation so that ownership was required from the start.",
+            "For years, GitHub has been tracking ownership for deployed services through our internal Service Catalog. Each service entry recorded metadata like which repository it lived in, which gave us a mapping from service to repository; the owning team; executive sponsor; and support information.",
+            "Here's an example of the Repo Ownership app's service ownership entry:"
+          ]
+        },
+        {
+          "id": "b8f033ffb8550b55",
+          "title": "Q1 2026 Innovation Graph update: Open source collaboration is accelerating worldwide",
+          "excerpt": "New Innovation Graph data shows global developer communities growing faster than ever, with collaboration reaching new highs across many economies. The post Q1 2026 Innovation Graph update: Open source collaboration is accelerating worldwide appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/policy-news-and-insights/q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide/",
+          "publishedAt": "2026-07-07T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Open Source",
+          "scanMinutes": 1,
+          "details": [
+            "Q1 2026 was a banner quarter for open source collaboration, as shown by the GitHub Innovation Graph's economy collaborators metric, part of the latest data release. Outbound collaboration, defined as the sum of git pushes and pull requests sent from developers in one economy to public repositories in another economy, grew by 16% quarter-over-quarter from Q4 2025 to Q1 2026.",
+            "That's the second highest quarter-over-quarter growth rate we've seen since 2020. The highest was in Q2 2020, with a 21% growth rate, when many of us suddenly and collectively decided to use our computers more .",
+            "In third place was Q1 2023, with a 9% growth rate. This was the first quarter after a research lab blogged about a new website they made, and they enticed users to sign up and file bug reports by offering a chance to win up to $500 in API credits . Evidently, sweepstakes are unreasonably effective motivators.",
+            "While it's clear that collaboration is growing globally, plotting these and other metrics separately by economy highlights the different trajectories of the world's developer communities:",
+            "Now, it's your turn to analyze the underlying datasets yourself for interesting pursuits, such as improving how economic growth is measured or estimating the impact of a research lab's new website . While we have no sweepstakes to offer (for now), we think there are fascinating data stories strewn throughout these CSVs just waiting to be told."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "articles": [
+        {
+          "id": "1c4dac257710150a",
+          "title": "GitHub availability report: June 2026",
+          "excerpt": "In June, we experienced six incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: June 2026 appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/github-availability-report-june-2026/",
+          "publishedAt": "2026-07-08T19:35:51.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Last month, we added a new section to our monthly reports with updates on GitHub’s availability work and the infrastructure investments behind it. The response and the questions we heard made one thing clear: customers want more of this, not less-including when the news is mixed.",
+            "The short version of June: We made real structural progress, we paused deliberately when a ramp went sideways, and we missed a target that we’ve now re-baselined.",
+            "Monolith traffic in Azure peaked at 45% in Central US this month.",
+            "That number is lower than we’d hoped, because we paused the ramp for roughly a month after a stability incident on May 21 made it clear the environment wasn’t ready for more traffic.",
+            "We restarted the ramp on June 17 with a new per-turnup stability gate that requires the environment to be verifiably healthy before each step up."
+          ]
+        },
+        {
+          "id": "826a407adcaa15ca",
+          "title": "How GitHub Copilot enables zero DNS configuration for GitHub Pages",
+          "excerpt": "Go from an empty repository to a live custom domain with HTTPS in about 14 minutes, without manually editing a single DNS record. The post How GitHub Copilot enables zero DNS configuration for GitHub Pages appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages/",
+          "publishedAt": "2026-07-08T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Custom domains make a project feel real. But for many developers, DNS, the last mile, is also the most frustrating: A records, CNAME entries, TTLs, and that long wait where you're never quite sure if the internet is broken or you are.",
+            "In this post, I'll walk through how I took a project from an empty repository to a live website on a custom domain, secured with HTTPS, in about 14 minutes without manually editing a single DNS record. The trick is to let GitHub Copilot CLI drive the work, with a community Namecheap skill handling the DNS automation through the registrar's API.",
+            "Enable your registrar's API and connect it to Copilot CLI",
+            "Point the domain at GitHub Pages and verify it end to end",
+            "GitHub Copilot CLI , installed and authenticated with GitHub Copilot"
+          ]
+        },
+        {
+          "id": "e0d963130fa3a9f6",
+          "title": "How GitHub used secret scanning to reach inbox zero",
+          "excerpt": "GitHub had 20,000+ secret scanning alerts across 15,000 repositories. Here's how we separated signal from noise, built remediation workflows, and reached inbox zero in nine months. The post How GitHub used secret scanning to reach inbox zero appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
+          "publishedAt": "2026-07-02T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Several years ago, GitHub Security launched an initiative to assess and improve our overall secrets hygiene. As part of that effort, we piloted the Secret Scanning capability that was under development at the time. That's when we found more than 20,000 secrets spread across our 15,000+ repositories.",
+            "The number was significantly higher than we anticipated, but it quickly became clear that success would depend on identifying which alerts represented real risk, assigning ownership, and remediating them safely. Nine months later, we reached zero open alerts.",
+            "New secret scanning customers often ask us: \"How do you manage this internally? How did you actually clean up your existing secrets?\"",
+            "Like many long-running software companies, GitHub's approach to secrets management evolved over time.",
+            "GitHub was founded in 2008, before today's centralized vaults, automated secret scanning, and dedicated secrets-management platforms were common across the industry."
+          ]
+        }
+      ]
+    }
+  ]
+}

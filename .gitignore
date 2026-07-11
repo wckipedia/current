@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+public/pagefind
+.DS_Store
+*.log
+*.tsbuildinfo
+.env*
+!.env.example
