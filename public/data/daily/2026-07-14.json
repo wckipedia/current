@@ -1,6 +1,10 @@
 {
-  "week": "2026-W29",
+  "date": "2026-07-14",
   "generatedAt": "2026-07-13T22:09:58.376Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "As generative AI capabilities accelerated, Deutsche Telekom saw an opportunity that went beyond productivity gains.",
             "The company set an ambitious goal: to be among the world's first AI-native telco.",
             "Rather than treating AI as another software rollout, the leadership team viewed it as a fundamental transformation of how decisions are made, how customer journeys are designed, and how telecommunications services are delivered."
+          ]
+        },
+        {
+          "id": "aa67bf587bd0c123",
+          "title": "Getting started with ChatGPT",
+          "excerpt": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/academy/getting-started",
+          "publishedAt": "2026-07-10T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "ChatGPT is a conversational AI assistant that helps you think, write, and solve problems by understanding natural language and generating human-like responses in real time.",
+            "ChatGPT is built on large language models, enabling it to assist with a wide range of tasks.",
+            "Use **Chat** when you want a quick answer, explanation, brainstorm, rewrite, or short draft.",
+            "Use **Work** when you want ChatGPT to complete a larger task with a clear, reviewable output, like a brief, analysis, deck, spreadsheet, or recurring update.",
+            "You can start simple in Chat, then move to Work when the task needs more context, tools, or follow-through."
           ]
         }
       ]
@@ -128,6 +152,26 @@
             "These conditions make it difficult to run a globally available data system that guarantees strong consistency (e.g., that all readers are guaranteed to read all prior writes) because hostile conditions hinder distributed system replicas’ ability to reliably synchronize data with one another.",
             "One way to synchronize data safely despite adverse network conditions is via a consensus algorithm, which allows a set of machines to agree on the same sequence of values, such as key-value store put and get operations, as long as a majority remains alive and able to communicate.",
             "Unfortunately, commonly deployed consensus algorithms like Raft suffer in wide-area networks like Cloudflare’s because they rely on leaders and timeouts ."
+          ]
+        },
+        {
+          "id": "15eef1b575c58f94",
+          "title": "Your Worker can now have its own cache in front of it",
+          "excerpt": "We are launching Workers Cache, a regionally tiered cache that sits directly in front of your Worker entrypoints. Infinitely composable, configured via standard HTTP headers",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/workers-cache/",
+          "publishedAt": "2026-07-06T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Today we are launching Workers Cache : a tiered cache that sits in front of your Worker, configured by a single line of Wrangler config and the same Cache-Control headers you already know.",
+            "When Workers Cache is enabled, every cacheable request to your Worker hits Cloudflare's cache first. If there's a fresh cached response, Cloudflare returns it directly - your Worker doesn't run, and you don't pay CPU time for it. On a miss, your Worker runs, and if your response is cacheable, Cloudflare stores it for the next request. The next request from anywhere on Earth can be served straight from cache.",
+            "After that, you control caching the way HTTP has always wanted you to - by setting headers on your responses:",
+            "And when content changes, your Worker purges its own cache:",
+            "That's the whole API. There is no zone to configure, no rules engine to set up, no separate cache to provision, and no second product to log into. The Worker's code is the configuration surface, and the cache follows the Worker wherever it runs - on a custom domain, on workers.dev , behind a service binding, in a preview, in a Workers for Platforms tenant. One Worker, one cache, configured once."
           ]
         }
       ]
