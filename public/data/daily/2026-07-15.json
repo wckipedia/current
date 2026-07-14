@@ -1,6 +1,10 @@
 {
-  "week": "2026-W29",
+  "date": "2026-07-15",
   "generatedAt": "2026-07-14T22:13:23.011Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "Watch the on-demand webinar Watch **_How finance teams use Codex_** on-demand **here**. **Note:** This webinar was recorded when these workflows lived in the former Codex app.",
             "You can now follow along using ChatGPT Work at chatgpt.com or in the ChatGPT desktop app.",
             "Top ChatGPT Work use cases for data science teams Ready to try ChatGPT Work on real data science work?"
+          ]
+        },
+        {
+          "id": "0090139282200a1d",
+          "title": "How sales teams use ChatGPT Work",
+          "excerpt": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+          "publishedAt": "2026-07-14T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Listen to article 1:28 Sales work often lives across CRM fields, call notes, email threads, Slack discussions, decks, customer docs, and account signals.",
+            "ChatGPT Work helps pull that context together and produce the first usable version of the artifact, whether that is a prioritized account brief, meeting prep packet, forecast risk review, account strategy pack, or stalled-deal diagnosis.",
+            "Sellers and managers still own the relationship strategy and judgment; ChatGPT Work helps get the working draft in front of the team faster.",
+            "Watch the on-demand webinar **Note:** This webinar was recorded when these workflows lived in the former Codex app.",
+            "You can now follow along using ChatGPT Work at chatgpt.com or in the ChatGPT desktop app."
           ]
         }
       ]
