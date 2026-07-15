@@ -1,6 +1,10 @@
 {
-  "week": "2026-W29",
+  "date": "2026-07-16",
   "generatedAt": "2026-07-15T22:13:05.551Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "At the network level, we analyze over 1 trillion requests per day to understand reputation, patterns, and anomalies across more than 20% of the web.",
             "On the client side, we’ve pushed detection deeper with Cloudflare Turnstile , which has evolved from a CAPTCHA replacement to a risk-based managed challenge that adapts the amount of friction needed to verify the user is authentic.",
             "Today, Turnstile runs nearly 3 billion times per day on some of the most sensitive endpoints on the Internet, helping verify users at key moments like login, signup, and checkout. This improves protection on the most important areas of customer applications, but still leaves limited visibility into the rest of the application - how humans and bots actually interact across the full user journey."
+          ]
+        },
+        {
+          "id": "0a5ca4c5b5238e08",
+          "title": "How to manage AI investments in the agentic era",
+          "excerpt": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+          "publishedAt": "2026-07-14T10:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "OpenAI’s goal is to make AI more accessible, capable and affordable over time.",
+            "From GPT‑4 to GPT‑5.4, the price per million tokens fell 97%.",
+            "GPT‑5.6⁠ continues that progress, delivering better performance in the Artificial Analysis Coding Agent Index with 54% fewer output tokens and 57% less time per task.",
+            "But token price alone does not show whether AI is creating value.",
+            "Leaders should look at **useful work per dollar**: tasks completed, time saved, decisions improved, and workflows ready to scale."
           ]
         }
       ]
