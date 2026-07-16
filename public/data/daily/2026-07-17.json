@@ -1,6 +1,10 @@
 {
-  "week": "2026-W29",
+  "date": "2026-07-17",
   "generatedAt": "2026-07-16T22:15:39.988Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "The short version is that an agent doesn’t just respond, it acts: give it a goal and it’ll plan the steps, call tools, check the results, and adjust, usually without stopping to ask.",
             "That’s what separates an agent from the generative AI it’s built on , and it’s why where an agent runs matters as much as which model sits behind it.",
             "• An AI agent pursues a goal on its own. It reasons, picks tools, and takes actions in a loop rather than answering one prompt at a time."
+          ]
+        },
+        {
+          "id": "6f24759b4b33d3e7",
+          "title": "The Developer Has Changed. So Should Developer Conferences",
+          "excerpt": "Discover why Docker is co-hosting WeAreDevelopers World Congress North America and how AI agents are transforming software development and developer communities.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/docker-wearedevelopers-world-congress-north-america-2026/",
+          "publishedAt": "2026-07-16T13:00:00.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "When we announced our partnership with WeAreDevelopers , AI agents were still mostly something developers experimented with. Today, they’re becoming part of everyday software development.",
+            "That’s why the timing for this year’s WeAreDevelopers World Congress couldn’t be better.",
+            "In the months since that announcement, the developer landscape has changed dramatically. If you’re writing software today, your workflow probably looks very different than it did a year ago. You’re prompting AI agents, reviewing AI-generated code, deciding what to accept and what to reject, and thinking about security much earlier in the development process.",
+            "Developers are no longer spending all of their time writing code. They’re designing systems that generate code, supervising autonomous agents, deciding what those agents can access, reviewing AI-generated changes, and making sure software is secure before it reaches production.",
+            "That shift feels a lot like the rise of data science a little over a decade ago. We didn’t replace programmers. We created an entirely new discipline that blended software engineering, mathematics, and statistics into something bigger."
           ]
         }
       ]
