@@ -1,6 +1,6 @@
 {
   "week": "2026-W29",
-  "generatedAt": "2026-07-16T22:15:39.988Z",
+  "generatedAt": "2026-07-16T23:12:38.217Z",
   "sections": [
     {
       "name": "AI",
@@ -62,7 +62,7 @@
             "But what is an AI agent, and why does the term suddenly stretch from a coding assistant to an autonomous research system?",
             "The short version is that an agent doesn’t just respond, it acts: give it a goal and it’ll plan the steps, call tools, check the results, and adjust, usually without stopping to ask.",
             "That’s what separates an agent from the generative AI it’s built on , and it’s why where an agent runs matters as much as which model sits behind it.",
-            "• An AI agent pursues a goal on its own. It reasons, picks tools, and takes actions in a loop rather than answering one prompt at a time."
+            "An AI agent pursues a goal on its own. It reasons, picks tools, and takes actions in a loop rather than answering one prompt at a time."
           ]
         }
       ]
