@@ -1,6 +1,10 @@
 {
-  "week": "2026-W29",
+  "date": "2026-07-18",
   "generatedAt": "2026-07-17T22:07:01.568Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "This is why we believe it’s critical for teens to have access to AI.",
             "Keeping teens from using it until adulthood would be like asking a previous generation to avoid the internet or search engines until they turned 18, leaving them less prepared to use one of the defining technologies of their time.",
             "But access must be paired with protections designed specifically for teens."
+          ]
+        },
+        {
+          "id": "f47e8f0dcf67a37e",
+          "title": "How Cars24 scales conversations and builds faster with OpenAI",
+          "excerpt": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/cars24",
+          "publishedAt": "2026-07-16T00:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Cars24 operates one of the world’s largest AI native automotive ecosystems for buying and selling cars in India, with additional operations in the UAE and Australia.",
+            "The company supports the full car ownership journey, from discovery and financing to resale and post-purchase services, while helping extend the lifecycle of vehicles through a more efficient and accessible pre-owned car ecosystem, in a market where most transactions remain manual, regulated, and fragmented.",
+            "Scaling a complex, conversation-driven marketplace Unlike traditional e-commerce, car buying and selling in India rarely happens in a single session.",
+            "Much of the process happens outside the app, across calls, document checks, and follow-ups that can take days or weeks.",
+            "As Cars24 scaled, this created a core challenge: how to deliver consistent, high-quality experiences across millions of interactions without continuously expanding operational teams."
           ]
         }
       ]
