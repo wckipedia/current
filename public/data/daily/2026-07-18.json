@@ -1,6 +1,6 @@
 {
   "date": "2026-07-18",
-  "generatedAt": "2026-07-17T22:07:01.568Z",
+  "generatedAt": "2026-07-17T23:11:19.146Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -187,7 +187,7 @@
         {
           "id": "6650138bebb35fc2",
           "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
-          "excerpt": "Cloudflare has deployed two WAF rules in response to high-severity vulnerabilities disclosed to us by the WordPress security team. The new rules protect all Cloudflare customers using affected WordPress versions, but customers should still update immediately to a patched release.",
+          "excerpt": "Cloudflare has deployed two WAF rules in response to high-severity vulnerabilities disclosed to us by the WordPress security team. The new rules protect all Cloudflare customers using affected WordPress versions, but customers should still update immediately to a patched release",
           "source": "Cloudflare Blog",
           "url": "https://blog.cloudflare.com/wordpress-vulnerabilities/",
           "publishedAt": "2026-07-17T21:30:43.000Z",
