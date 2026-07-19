@@ -1,0 +1,276 @@
+{
+  "week": "2026-W30",
+  "generatedAt": "2026-07-19T22:09:55.952Z",
+  "sections": [
+    {
+      "name": "AI",
+      "articles": [
+        {
+          "id": "6792a6598ab6a153",
+          "title": "The cost of saying yes has changed",
+          "excerpt": "The cost of writing code dropped; the cost of owning it didn't. A framework for deciding which changes are actually cheap in the AI era. The post The cost of saying yes has changed appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
+          "publishedAt": "2026-07-17T16:46:47.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "The most expensive part of a small feature request used to be writing the code. Now it's usually the meeting about whether or not to write the code.",
+            "That's a real shift, and it quietly breaks a lot of engineering instincts.",
+            "Engineers learn early that most \"small asks\" aren't small: they need tests, a rollout plan, someone to think through the edge cases and own the behavior after it ships.",
+            "A two-hour change can become a two-week distraction if it touches the wrong part of the system.",
+            "But it rests on an assumption that's quietly breaking, which is that writing the first version of the code is the expensive step. For a specific class of change, it no longer is. If you can tell those changes apart from the rest, you can replace \"is this in scope?\" with a question you can answer in thirty minutes instead of a two-day debate."
+          ]
+        },
+        {
+          "id": "c5c5248230951857",
+          "title": "A scorecard for the AI age",
+          "excerpt": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
+          "publishedAt": "2026-07-17T10:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "The question I hear from CFOs everywhere is simple: how do we get more value from our AI spend?",
+            "For years, the market measured the success of software through adoption: seats purchased, users active, licenses renewed.",
+            "Understanding the value of AI demands a more powerful measure: work accomplished.",
+            "The basic economic question facing CFOs and other business leaders is whether the value of the work AI completes grows faster than the cost of producing it.",
+            "Answering that question requires looking more deeply than a metric such as cost per token."
+          ]
+        },
+        {
+          "id": "a907415b440a72c9",
+          "title": "Why teens deserve access to safe AI",
+          "excerpt": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+          "publishedAt": "2026-07-16T16:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Teens are the first generation growing up with AI, and this technology will heavily shape their future.",
+            "Today, nearly 9 in 10 teens on ChatGPT use it for learning, information, skill-building, or productivity in a single week.",
+            "This is why we believe it’s critical for teens to have access to AI.",
+            "Keeping teens from using it until adulthood would be like asking a previous generation to avoid the internet or search engines until they turned 18, leaving them less prepared to use one of the defining technologies of their time.",
+            "But access must be paired with protections designed specifically for teens."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "articles": [
+        {
+          "id": "4de323b0f5b58c64",
+          "title": "From the Captain’s Chair: Mohammad-Ali A’râbi",
+          "excerpt": "In this edition of From the Captain’s Chair, we’re interviewing Mohammad-Ali A'râbi, author, public speaker, and software engineer.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/from-the-captains-chair-mohammad-ali-arabi/",
+          "publishedAt": "2026-07-16T17:15:44.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Docker Captains are leaders from the developer community that are both experts in their field and are passionate about sharing their Docker knowledge with others. “From the Captain’s Chair” is a blog series where we get a closer look at one Captain to learn more about them and their experiences.",
+            "Today we are interviewing Mohammad-Ali A’râbi, a Docker Captain based in the sunniest German city, Freiburg.",
+            "He is the author of the book “ Docker and Kubernetes Security ,” a Best DevOps Book of the Year finalist in 2025.",
+            "He is also a software engineer, public speaker, and community builder, organizing Docker meetups in Freiburg since 2022.",
+            "Mohammad-Ali is originally from Iran and has a BSc in Mathematics and an MSc in Computer Science."
+          ]
+        },
+        {
+          "id": "695b8d5359717af8",
+          "title": "Building a Custom Metrics Exporter for Kubernetes",
+          "excerpt": "Kubernetes ships with built-in awareness of CPU and memory, but most real-world scaling decisions depend on signals that live entirely outside that narrow window: how many messages are waiting in a queue, how long the last batch job took, how many active WebSocket connections a pod is holding. When the…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/07/14/custom-metrics-exporter-kubernetes/",
+          "publishedAt": "2026-07-14T18:00:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "This post walks through writing one from scratch, packaging it as a container, and wiring it into a cluster so that Prometheus - and ultimately the HorizontalPodAutoscaler - can consume it.",
+            "An exporter is a small HTTP server with a single responsibility: expose application state as text on a /metrics endpoint. Prometheus scrapes that endpoint on a regular interval, stores the time-series data, and makes it available for queries, alerts, and autoscaling rules.",
+            "In some cases you can instrument your application directly - embedding the Prometheus client library and exposing /metrics from within the same process - rather than running a separate exporter. A standalone exporter makes more sense when the data source is external to your application or when you do not control the application code.",
+            "The format Prometheus expects is plain text - one metric per line, with a name, optional labels, and a numeric value. Client libraries handle the serialization for you, so in practice you only need to decide what to measure and call the right function when that value changes.",
+            "Before writing any code, it helps to decide what kind of signal you are dealing with. The Prometheus data model has three main types:"
+          ]
+        },
+        {
+          "id": "839722f95294e987",
+          "title": "Kubernetes Dashboard to Headlamp: A Step-by-Step Guide",
+          "excerpt": "1. Before you start: know what is changing Kubernetes Dashboard and Headlamp both show what is running in a cluster, but they work differently. When Headlamp runs on the desktop, it uses your existing kubeconfig to connect to one or more clusters and can be extended with plugins. When Headlamp runs inside a…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/07/13/kubernetes-dashboard-to-headlamp/",
+          "publishedAt": "2026-07-13T18:00:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Kubernetes Dashboard and Headlamp both show what is running in a cluster, but they work differently.",
+            "When Headlamp runs on the desktop, it uses your existing kubeconfig to connect to one or more clusters and can be extended with plugins.",
+            "When Headlamp runs inside a cluster, it uses a Kubernetes ServiceAccount to access the API and follow RBAC rules.",
+            "Kubernetes Dashboard, in contrast, only runs in-cluster and always relies on service account tokens.",
+            "Understanding these models early helps you choose the right setup and permissions."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "articles": [
+        {
+          "id": "6650138bebb35fc2",
+          "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
+          "excerpt": "Cloudflare has deployed two WAF rules in response to high-severity vulnerabilities disclosed to us by the WordPress security team. The new rules protect all Cloudflare customers using affected WordPress versions, but customers should still update immediately to a patched release",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/wordpress-vulnerabilities/",
+          "publishedAt": "2026-07-17T21:30:43.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Cloudflare has deployed new Web Application Firewall (WAF) protections for two critical vulnerabilities affecting WordPress. The protections address an Unauthenticated Remote Code Execution (RCE) vulnerability in WordPress's REST API and a related SQL Injection vulnerability.",
+            "The WordPress security team disclosed the vulnerabilities to Cloudflare before public release so that we could prepare protections for customers. Cloudflare has deployed the new rules to protect all customers, including those on free and paid plans, as long as their application traffic is proxied through the Cloudflare WAF. The rules were deployed at 17:03 UTC on July 17 2026.",
+            "WAF protections reduce exposure while customers update, but they are not a substitute for patching.",
+            "WordPress has released fixes in version 7.0.2, with backports to affected earlier branches: 6.9.5, 6.8.6, and 7.1 Beta 2 ( see release details ).",
+            "WordPress is treating this as its highest-severity, highest-priority class of issue and is forcing automatic updates to affected sites, so most sites will be updated automatically."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Languages",
+      "articles": [
+        {
+          "id": "44ee7bfabf13acf1",
+          "title": "Announcing Rust 1.97.1",
+          "excerpt": "The Rust team has published a new point release of Rust, 1.97.1. Rust is a programming language that is empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup, getting Rust 1.97.1 is as easy as: rustup update stable If you don't have it…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/",
+          "publishedAt": "2026-07-16T00:00:00.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "If you have a previous version of Rust installed via rustup, getting Rust 1.97.1 is as easy as:",
+            "If you don't have it already, you can get rustup from the appropriate page on our website.",
+            "Rust 1.97.1 fixes a miscompilation in an LLVM optimization .",
+            "We have backported both an LLVM fix and a disable of the underlying change in Rust 1.97.0 of Rust's generated IR that increased the likelihood of this happening. However, note that the underlying miscompilation has been present since at least Rust 1.87.",
+            "If you'd like to help us out by testing future releases, you might consider running your code's CI or locally using the beta channel ( rustup default beta ) or the nightly channel ( rustup default nightly ). Please report any bugs you might come across!"
+          ]
+        },
+        {
+          "id": "1bddb3b0171fce2c",
+          "title": "A broken DNSSEC rollover took down .al. Now 1.1.1.1 tells you when validation is bypassed",
+          "excerpt": "When a failed DNSSEC key rollover took down the .al TLD, we deployed a Negative Trust Anchor to restore resolution. This time, though, clients didn't have to take our word for it: 1.1.1.1 returned EDE 33, a new DNS error code that signals directly in the response that DNSSEC validation was bypassed.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/dnssec-nta-ede-33/",
+          "publishedAt": "2026-07-14T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "On July 3, 2026, the Albanian communications authority (AKEP), the operator of the .al country-code top-level domain (TLD) of Albania, attempted a DNSSEC key rollover.",
+            "Something went wrong, resulting in DNSSEC validation failures.",
+            "Any validating DNS resolver receiving these signatures was required by the DNSSEC specification to reject them and return errors to clients.",
+            "That includes 1.1.1.1 , the public DNS resolver operated by Cloudflare.",
+            "The .al TLD is the online home of Albanian government services, banks, and media; it ranks #191 on Cloudflare Radar's TLD ranking . Anyone trying to visit those sites, using a validating resolver, found them unreachable during the incident. The failure had the potential to affect every .al domain, regardless of where it was hosted or which authoritative nameservers served it."
+          ]
+        },
+        {
+          "id": "8e5cf40115a90802",
+          "title": "crates.io: development update",
+          "excerpt": "Another six months have passed since our last development update , and the crates.io team has been busy. Here's a summary of the most notable changes and improvements made to crates.io since then. Source Code Viewer Crate pages now have a \"Code\" tab that lets you browse the contents of published crate…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/07/13/crates-io-development-update/",
+          "publishedAt": "2026-07-13T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "Crate pages now have a \"Code\" tab that lets you browse the contents of published crate versions directly on crates.io.",
+            "This shows you the exact files that cargo downloads when you add a crate as a dependency, which might differ from the linked repository.",
+            "This makes it much easier to audit your dependencies, including files that never appear in the repository, like the normalized Cargo.toml files that cargo generates.",
+            "The viewer comes with a file tree sidebar with search functionality, syntax highlighting, and GitHub-style line selection, where clicking or dragging line numbers produces shareable #L10-L20 URLs.",
+            "Under the hood, the server now builds a zip file for every published version."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Open Source",
+      "articles": [
+        {
+          "id": "b2b3646548d6942e",
+          "title": "How GitHub gave every repository a durable owner",
+          "excerpt": "GitHub had over 14,000 repositories. Fewer than half had clear ownership. Here's how we gave every active repository a validated owner in under 45 days, archived the rest, and made ownership the foundation for everything that followed. The post How GitHub gave every repository a durable owner appeared first…",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
+          "publishedAt": "2026-07-09T16:29:37.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Open Source",
+          "scanMinutes": 1,
+          "details": [
+            "GitHub has over 14,000 repositories across our primary internal GitHub organization. As of early 2025, there were over 11,000 non-archived repositories, the vast majority of which with no clear owner. For repositories attached to production services, we have historically had robust durable ownership, but for repositories with no associated service, there was no reliable way to tell who the owner is.",
+            "That gap became a recurring problem during our secret scanning remediation effort : while we could technically rotate a secret, doing so without knowing the repository owner was risky and often disruptive, and we had no clear way to route remediation work.",
+            "Over the course of a month and a half, we validated ownership for every active repository, archived about 8,000 repositories that were no longer in use, and changed repository creation so that ownership was required from the start.",
+            "For years, GitHub has been tracking ownership for deployed services through our internal Service Catalog. Each service entry recorded metadata like which repository it lived in, which gave us a mapping from service to repository; the owning team; executive sponsor; and support information.",
+            "Here's an example of the Repo Ownership app's service ownership entry:"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "articles": [
+        {
+          "id": "17f1ba5072cbda2c",
+          "title": "GitHub for Beginners: Your roadmap to mastering the GitHub essentials",
+          "excerpt": "New to GitHub? This beginner's guide explains version control, repositories, and pull requests—plus everything else you need to start working confidently on GitHub. The post GitHub for Beginners: Your roadmap to mastering the GitHub essentials appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/",
+          "publishedAt": "2026-07-15T17:29:31.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Everyone starts somewhere. Whether you're writing your very first line of code or you've been building for years and never fully learned the tools underneath, this guide is your on-ramp.",
+            "This is the entire GitHub for Beginners series distilled into one holistic story-a detailed path that takes you from \"what even is a repository?\" all the way to collaborating on real projects and contributing to open source.",
+            "Read it top to bottom, and you'll have a complete model of how modern software gets built on GitHub. Jump to any section, and you'll find a self-contained answer. Let's dive in.",
+            "Version control is a system that tracks changes to your files over time, and Git is the most widely used version control system in the world.",
+            "If you've ever saved brand_guide_v2 , brand_guide_final , and brand_guide_FINAL_actually , you've already felt the problem that version control solves. Git records every change you make, so you can see what changed, when, and why. If you need to go back to an earlier version, it can handle that, too. You never need a folder full of \"final\" files again."
+          ]
+        }
+      ]
+    }
+  ]
+}
