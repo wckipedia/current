@@ -1,6 +1,10 @@
 {
-  "week": "2026-W30",
+  "date": "2026-07-21",
   "generatedAt": "2026-07-20T22:13:32.496Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "Engineers learn early that most \"small asks\" aren't small: they need tests, a rollout plan, someone to think through the edge cases and own the behavior after it ships.",
             "A two-hour change can become a two-week distraction if it touches the wrong part of the system.",
             "But it rests on an assumption that's quietly breaking, which is that writing the first version of the code is the expensive step. For a specific class of change, it no longer is. If you can tell those changes apart from the rest, you can replace \"is this in scope?\" with a question you can answer in thirty minutes instead of a two-day debate."
+          ]
+        },
+        {
+          "id": "c5c5248230951857",
+          "title": "A scorecard for the AI age",
+          "excerpt": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
+          "publishedAt": "2026-07-17T10:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "The question I hear from CFOs everywhere is simple: how do we get more value from our AI spend?",
+            "For years, the market measured the success of software through adoption: seats purchased, users active, licenses renewed.",
+            "Understanding the value of AI demands a more powerful measure: work accomplished.",
+            "The basic economic question facing CFOs and other business leaders is whether the value of the work AI completes grows faster than the cost of producing it.",
+            "Answering that question requires looking more deeply than a metric such as cost per token."
           ]
         }
       ]
