@@ -1,6 +1,10 @@
 {
-  "week": "2026-W30",
+  "date": "2026-07-22",
   "generatedAt": "2026-07-21T22:13:15.930Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "About two months ago we announced⁠ that an internal general-purpose model disproved the Erdős unit distance conjecture.",
             "This model was designed to work autonomously for very long periods of time.",
             "During limited, monitored internal use, we observed unwanted behavior that our existing deployment evaluations had not captured."
+          ]
+        },
+        {
+          "id": "26c6c5768192b3b3",
+          "title": "Coding Agent Horror Stories: The Agent That Deleted Production",
+          "excerpt": "Learn how an AI coding agent caused a 13-hour outage and how Docker Sandboxes help reduce risk with scoped identities and isolated execution.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-agent-that-deleted-production/",
+          "publishedAt": "2026-07-20T13:00:00.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "In Part 1 , we walked through six categories of AI coding agent failures and why they keep happening.",
+            "The agent runs as you, with your filesystem permissions and your credentials, and nothing sits between the model’s decision and the shell’s execution.",
+            "In Part 2 , we looked at one specific version of that failure in detail, the rm -rf ~/ incident that wiped a developer’s entire Mac in a single command.",
+            "Part 3 moves the same problem up the stack, into a production AWS environment where the blast radius is no longer one laptop but a regional cloud service.",
+            "What can happen when the agent isn’t running on your laptop, but on a production AWS environment with operator-level credentials? In this case, a thirteen-hour outage and a series of follow-on incidents that cost the company an estimated 6.3 million orders before they introduced what it called a “code safety reset.”"
           ]
         }
       ]
