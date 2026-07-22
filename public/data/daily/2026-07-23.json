@@ -1,6 +1,10 @@
 {
-  "week": "2026-W30",
+  "date": "2026-07-23",
   "generatedAt": "2026-07-22T22:16:53.761Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "We’re excited about the opportunity to work with this community.",
             "We also recognize that new data center projects can raise important questions, so we’ve outlined our initial commitments that will guide how we engage, develop, and operate. **1.",
             "Electricity rates will not go up for residents because of this project.**Georgia families will not subsidize this project."
+          ]
+        },
+        {
+          "id": "932591afba7f1cf5",
+          "title": "How news organizations are using AI to advance their vital missions",
+          "excerpt": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+          "publishedAt": "2026-07-22T13:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Over the past year, we’ve continued working with news organizations to explore how AI can be most useful-helping with time-consuming tasks, enabling new reader experiences, and supporting stronger, more sustainable businesses.",
+            "Across the industry, reporters, editors, and businesses are using OpenAI technology to help journalists cover more ground, make decades of reporting searchable, reach audiences in new languages and formats, and turn complex information into faster decision-making.",
+            "These tools are becoming embedded across all departments-including newsroom, product, and business workflows.",
+            "For example, the American Journalism Project recently announced our renewed support for its portfolio of dozens of publications spanning 38 states.",
+            "We’re also proud to continue supporting the important work of both the Lenfest Institute for Journalism and WAN-IFRA."
           ]
         }
       ]
