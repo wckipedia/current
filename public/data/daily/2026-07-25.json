@@ -1,6 +1,10 @@
 {
-  "week": "2026-W30",
+  "date": "2026-07-25",
   "generatedAt": "2026-07-24T22:18:31.313Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "Some tasks are easier when you can see and interact with the information. You may need to triage a backlog, visualize complex information, or bring information together from multiple sources. A visual interface makes it easier to understand patterns, spot connections, and take action.",
             "Instead of working through a long chain of prompts and responses, you can use canvases to interact directly with the information in front of you.",
             "These shared, interactive surfaces are extensions of the Copilot app called canvases. A canvas is an interface in the GitHub Copilot app where developers and agents can collaborate in real time. These shared, interactive surfaces are called canvas extensions."
+          ]
+        },
+        {
+          "id": "082c4173c70b0451",
+          "title": "Building AI infrastructure with the Effingham County community",
+          "excerpt": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+          "publishedAt": "2026-07-22T13:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Project Camellia is a long-term datacenter project that OpenAI is designing and developing in Effingham County, Georgia.",
+            "To support the data center, we are contracting with Georgia Power Company for 3.2 gigawatts of power which will be delivered in phases between 2028 and 2032.",
+            "We’re excited about the opportunity to work with this community.",
+            "We also recognize that new data center projects can raise important questions, so we’ve outlined our initial commitments that will guide how we engage, develop, and operate. **1.",
+            "Electricity rates will not go up for residents because of this project.**Georgia families will not subsidize this project."
           ]
         }
       ]
@@ -174,6 +198,26 @@
             "We are sharing preliminary findings at this stage to help defenders understand what happened and to help calibrate on what models are now capable of.",
             "We will continue to conduct a thorough investigation alongside Hugging Face and will share more details on the vulnerabilities, incident, and findings when our investigation is complete."
           ]
+        },
+        {
+          "id": "6650138bebb35fc2",
+          "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
+          "excerpt": "Cloudflare has deployed two WAF rules in response to high-severity vulnerabilities disclosed to us by the WordPress security team. The new rules protect all Cloudflare customers using affected WordPress versions, but customers should still update immediately to a patched release",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/wordpress-vulnerabilities/",
+          "publishedAt": "2026-07-17T21:30:43.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Cloudflare has deployed new Web Application Firewall (WAF) protections for two critical vulnerabilities affecting WordPress. The protections address an Unauthenticated Remote Code Execution (RCE) vulnerability in WordPress's REST API and a related SQL Injection vulnerability.",
+            "The WordPress security team disclosed the vulnerabilities to Cloudflare before public release so that we could prepare protections for customers. Cloudflare has deployed the new rules to protect all customers, including those on free and paid plans, as long as their application traffic is proxied through the Cloudflare WAF. The rules were deployed at 17:03 UTC on July 17 2026.",
+            "WAF protections reduce exposure while customers update, but they are not a substitute for patching.",
+            "WordPress has released fixes in version 7.0.2, with backports to affected earlier branches: 6.9.5, 6.8.6, and 7.1 Beta 2 ( see release details ).",
+            "WordPress is treating this as its highest-severity, highest-priority class of issue and is forcing automatic updates to affected sites, so most sites will be updated automatically."
+          ]
         }
       ]
     },
@@ -264,6 +308,26 @@
             "Cloudflare Radar tracks HTTP traffic, DNS, security, and more to highlight global Internet trends. In this blog post we’ll use that data to explore how the World Cup impacted global traffic patterns throughout the tournament’s run.",
             "To understand how traffic changes throughout a match, we had to establish what it is “normally.” One way to do this is by looking at raw request volumes, or the amount of traffic we see on our network per country.",
             "But these amounts vary per country (the amount of daily traffic in the United States is always a larger number than the traffic in Portugal), which makes it difficult to establish a globally applicable baseline."
+          ]
+        },
+        {
+          "id": "17f1ba5072cbda2c",
+          "title": "GitHub for Beginners: Your roadmap to mastering the GitHub essentials",
+          "excerpt": "New to GitHub? This beginner's guide explains version control, repositories, and pull requests—plus everything else you need to start working confidently on GitHub. The post GitHub for Beginners: Your roadmap to mastering the GitHub essentials appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/",
+          "publishedAt": "2026-07-15T17:29:31.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Everyone starts somewhere. Whether you're writing your very first line of code or you've been building for years and never fully learned the tools underneath, this guide is your on-ramp.",
+            "This is the entire GitHub for Beginners series distilled into one holistic story-a detailed path that takes you from \"what even is a repository?\" all the way to collaborating on real projects and contributing to open source.",
+            "Read it top to bottom, and you'll have a complete model of how modern software gets built on GitHub. Jump to any section, and you'll find a self-contained answer. Let's dive in.",
+            "Version control is a system that tracks changes to your files over time, and Git is the most widely used version control system in the world.",
+            "If you've ever saved brand_guide_v2 , brand_guide_final , and brand_guide_FINAL_actually , you've already felt the problem that version control solves. Git records every change you make, so you can see what changed, when, and why. If you need to go back to an earlier version, it can handle that, too. You never need a folder full of \"final\" files again."
           ]
         }
       ]
