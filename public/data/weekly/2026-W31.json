@@ -1,0 +1,297 @@
+{
+  "week": "2026-W31",
+  "generatedAt": "2026-07-26T22:13:11.706Z",
+  "sections": [
+    {
+      "name": "AI",
+      "articles": [
+        {
+          "id": "860827f8221d497e",
+          "title": "Copilot vs. raw API access: What are you actually paying for?",
+          "excerpt": "Copilot now bills usage at listed API rates. Compare direct model access with the coding workflow, policy, and harness work around it. The post Copilot vs. raw API access: What are you actually paying for? appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/",
+          "publishedAt": "2026-07-22T19:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "I keep seeing this question: \"Why would I pay for GitHub Copilot when I can call the same models through an API?\"",
+            "It's a fair question. The answer depends on what work you need to own.",
+            "Are you building a product feature with your own prompts, retrieval, routing, logs, security model, and billing controls? Or are you trying to get from a GitHub Issue to a reviewed pull request with the editor, repository, terminal, and organization policies already connected?",
+            "Cost is part of that equation. Copilot plans include a monthly allocation of GitHub AI Credits. Metered usage is calculated from input, output, and cached tokens at the listed rate for the selected model.",
+            "Raw API access and Copilot address different layers of that system. The right choice follows the work you need to own."
+          ]
+        },
+        {
+          "id": "bf70d809f9542eee",
+          "title": "Launching Health in ChatGPT",
+          "excerpt": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/health-in-chatgpt",
+          "publishedAt": "2026-07-23T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "You can choose to securely connect Apple Health and supported medical records so ChatGPT can help you understand your information in context, keep track of what has changed, and have more informed, personalized conversations.",
+            "The experience builds on feedback from early testers and gives you control over what you connect and when ChatGPT can use it.",
+            "Every week, more than 300 million people turn to ChatGPT with health-related questions-from understanding a lab result and preparing for an appointment to making sense of what a doctor said and building a healthier routine.",
+            "But the context behind those questions is often scattered across patient portals, medical records, apps, and wearables, making it difficult to see and act on the complete picture.",
+            "With your permission, ChatGPT can now draw on relevant information you’ve connected in Health to help you compare a new result with prior tests, summarize changes since your last appointment, or explore how sleep, activity, and workouts relate to your routine."
+          ]
+        },
+        {
+          "id": "3ac65a5d9987462d",
+          "title": "How to build interactive experiences with canvases",
+          "excerpt": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks. The post How to build interactive experiences with canvases appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+          "publishedAt": "2026-07-21T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Most developers are now working alongside agents, or are at least familiar with how to do so. Agents help you explore ideas and turn them into action, from planning projects to automating workflows. Oftentimes, a conversation is all you need to move your work forward.",
+            "But what about tasks that don't quite fit the conversation mold?",
+            "Some tasks are easier when you can see and interact with the information. You may need to triage a backlog, visualize complex information, or bring information together from multiple sources. A visual interface makes it easier to understand patterns, spot connections, and take action.",
+            "Instead of working through a long chain of prompts and responses, you can use canvases to interact directly with the information in front of you.",
+            "These shared, interactive surfaces are extensions of the Copilot app called canvases. A canvas is an interface in the GitHub Copilot app where developers and agents can collaborate in real time. These shared, interactive surfaces are called canvas extensions."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "articles": [
+        {
+          "id": "e8f4b82241ccd98a",
+          "title": "Introducing Cache Response Rules",
+          "excerpt": "Perhaps you’ve seen something that should sail out of cache get dragged back to the origin by a stray Set-Cookie or Cache-Control, headers that can be difficult to change on the origin itself. Cache Response Rules is the fix, applied at the right time.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/introducing-cache-response-rules/",
+          "publishedAt": "2026-07-23T18:40:38.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Today we’re excited to announce Cache Response Rules. These are a new rule type that runs after an origin server replies but before Cloudflare caches the content.",
+            "Their goal is to answer from the cache whenever possible and only go back to the origin when the edge can’t respond.",
+            "Every point of cache hit ratio comes from getting that division of labor right.",
+            "Check the cache when we shouldn't, and we waste a lookup that was always going to miss.",
+            "Check it too rarely, the origin serves traffic the edge should have absorbed, and the performance win evaporates."
+          ]
+        },
+        {
+          "id": "540f90446a941654",
+          "title": "Cloudflare Internal DNS is now generally available",
+          "excerpt": "Cloudflare Internal DNS brings authoritative and recursive DNS for private networks to the same global network and control plane that runs Cloudflare's Zero Trust, networking, and public DNS.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/internal-dns/",
+          "publishedAt": "2026-07-20T20:59:31.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Starting today, Cloudflare Internal DNS is generally available. Cloudflare Internal DNS provides authoritative and recursive DNS for private networks on the same global network and control plane customers already use for public DNS, Zero Trust, networking, and application services.",
+            "Internal DNS - sometimes also referred to as private DNS - is one of the last pieces of enterprise infrastructure still managed separately from the rest of the network.",
+            "Many organizations operate one platform for public DNS, another for internal DNS, and use cloud-native DNS services inside each cloud environment with separate security policies layered on top.",
+            "Split-horizon DNS adds another layer of complexity, often requiring multiple DNS environments to remain synchronized so internal and external users receive different answers for the same hostname.",
+            "With Cloudflare Internal DNS, you get a single platform to manage public and private DNS resources, enforcing DNS policies and gaining visibility across your entire DNS stack. For Enterprise customers, this is included with Cloudflare Gateway without any additional charge."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "articles": [
+        {
+          "id": "7391ec038d05b55e",
+          "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
+          "excerpt": "A new default three-day cooldown delays version update pull requests so maintainers and security researchers can address findings in a release before it gets into your code. The post The case for a cooldown: Why Dependabot now waits before issuing version updates appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
+          "publishedAt": "2026-07-23T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "In September 2025, an attacker phished the credentials of a single npm maintainer and published booby-trapped versions of chalk , debug , and around a dozen other packages that are together downloaded more than 2 billion times a week.",
+            "The code rewrote cryptocurrency wallet addresses inside any browser app that loaded it.",
+            "The poisoned versions were live for roughly two hours before the community caught them and npm pulled them.",
+            "Two hours is a fast response. However, it is also more than enough time for an automated update tool to see the new version, open a pull request, and put it in front of your team, because version update tooling is built to grab the newest release the moment it lands.",
+            "That pattern sits behind a growing share of supply chain attacks. The malicious code rides in on a brand-new release, is published to a public registry, and gets pulled into build pipelines within minutes, before a human or a scanner has even looked at it."
+          ]
+        },
+        {
+          "id": "b4469b440ad405da",
+          "title": "Agentic AI Needs Guardrails, Not Guesswork",
+          "excerpt": "Docker brought together enterprise security leaders to tackle agentic AI's biggest challenge: how to govern AI agents without slowing developers down. Here's what they said.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/agentic-ai-needs-guardrails-not-guesswork/",
+          "publishedAt": "2026-07-24T17:19:36.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "What does it take to secure AI agents without slowing developers down? A recent panel explored the answer",
+            "I recently joined Zach Lloyd, founder and CEO of Warp ; Gavriel Cohen, co-founder and CEO of NanoCo and creator of NanoClaw ; and moderator Moriah Hara, founder of a community of more than 3,000 CISOs and a three-time Fortune 500 CISO , for a discussion on one of the biggest challenges facing enterprise security teams today: how to safely unlock the productivity of agentic AI.",
+            "The rapid rise of agentic AI in the enterprise is putting CISOs in a tough spot. On one hand, business leaders are clamoring to run with the new technology, which promises a productivity revolution like no other. On the other, setting AI agents loose without rigorous guardrails creates severe vulnerabilities.",
+            "Moriah put the dilemma facing CISOs like this: “The business wants AI agents everywhere, developers are already using them, sometimes without approval, oftentimes without security. …CISOs are left in this uncomfortable middle where we’re tolerating some tools, we’re praying that nothing breaks, we’re buying some time until we can get some governance beyond policy in place to have better visibility.”",
+            "The panel explored the role of the CISO in balancing this tension between productivity and security. Here are some highlights."
+          ]
+        },
+        {
+          "id": "d925d8c91f460a44",
+          "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+          "excerpt": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+          "publishedAt": "2026-07-21T07:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Last week, Hugging Face disclosed a new kind of security incident after they detected and contained an AI agent that compromised their infrastructure, something we expect to become more commonplace with the proliferation of increasingly cyber-capable models.",
+            "After investigating, we now know that this particular incident was driven by a combination of OpenAI models - including GPT‑5.6 Sol and an even more capable pre-release model, all with reduced cyber refusals for evaluation purposes - while being internally tested on a benchmark of cyber capabilities.",
+            "We consider this incident to be an unprecedented cyber incident, involving state-of-the-art cyber capabilities, and are responding accordingly.",
+            "We are sharing preliminary findings at this stage to help defenders understand what happened and to help calibrate on what models are now capable of.",
+            "We will continue to conduct a thorough investigation alongside Hugging Face and will share more details on the vulnerabilities, incident, and findings when our investigation is complete."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Languages",
+      "articles": [
+        {
+          "id": "1bddb3b0171fce2c",
+          "title": "A broken DNSSEC rollover took down .al. Now 1.1.1.1 tells you when validation is bypassed",
+          "excerpt": "When a failed DNSSEC key rollover took down the .al TLD, we deployed a Negative Trust Anchor to restore resolution. This time, though, clients didn't have to take our word for it: 1.1.1.1 returned EDE 33, a new DNS error code that signals directly in the response that DNSSEC validation was bypassed.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/dnssec-nta-ede-33/",
+          "publishedAt": "2026-07-14T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "On July 3, 2026, the Albanian communications authority (AKEP), the operator of the .al country-code top-level domain (TLD) of Albania, attempted a DNSSEC key rollover.",
+            "Something went wrong, resulting in DNSSEC validation failures.",
+            "Any validating DNS resolver receiving these signatures was required by the DNSSEC specification to reject them and return errors to clients.",
+            "That includes 1.1.1.1 , the public DNS resolver operated by Cloudflare.",
+            "The .al TLD is the online home of Albanian government services, banks, and media; it ranks #191 on Cloudflare Radar's TLD ranking . Anyone trying to visit those sites, using a validating resolver, found them unreachable during the incident. The failure had the potential to affect every .al domain, regardless of where it was hosted or which authoritative nameservers served it."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Open Source",
+      "articles": [
+        {
+          "id": "43e53199b50c66f4",
+          "title": "$100 million for open source: A milestone built by the community",
+          "excerpt": "Celebrating $100 million contributed by the community to the people who build and sustain open source every day. The post $100 million for open source: A milestone built by the community appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
+          "publishedAt": "2026-07-20T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Open Source",
+          "scanMinutes": 1,
+          "details": [
+            "We launched GitHub Sponsors in 2019 with a simple belief: the people who build and maintain open source software deserve to be supported for their work. Since then, tens of thousands of sponsors-individuals and organizations alike-have turned that belief into action.",
+            "We're proud to announce that more than $100 million has been invested in open source maintainers and projects through GitHub Sponsors. This milestone belongs to the developers, organizations, and maintainers who have invested in a more sustainable open source ecosystem, and it signals that the way we value open source is changing.",
+            "We wanted to make it possible for any developer to directly support the maintainers they depend on.",
+            "In 2023, we made organization-funded sponsorships generally available and saw organizations like Shopify step up to fund their dependencies at scale.",
+            "The program expanded to 103 regions, partnered with Patreon, and introduced tools like bulk sponsorships and invoice payments to make it easy to participate."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "articles": [
+        {
+          "id": "5bd6beb83c1f9a50",
+          "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
+          "excerpt": "By doing in-depth testing, we found nearly 70% of BGP paths experience ORIGIN attribute rewrites by transit providers seeking traffic advantages. We examine the global impact of this practice and argue for deprecating ORIGIN in route selection.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/bgp-origin-attribute/",
+          "publishedAt": "2026-07-24T17:25:28.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Border Gateway Protocol ( BGP ) is the de facto routing protocol of the Internet.",
+            "It offers built-in mechanisms to allow entities, represented by Autonomous Systems (ASes), to express how they want to send and receive traffic on the Internet.",
+            "One such mechanism is path attributes , which carry essential routing information and metadata for their associated route.",
+            "The path selection algorithm processes some of these path attributes in a deterministic sequence to calculate the best path for this specific prefix.",
+            "Using our unique position on the Internet, we took an investigative look at one of the well-known mandatory attributes in BGP, the ORIGIN attribute."
+          ]
+        },
+        {
+          "id": "01514fb95de7f68f",
+          "title": "Next chapter: Restructuring GitHub’s bug bounty program",
+          "excerpt": "GitHub is making some significant changes to its bug bounty program, shifting its focus to give researchers a better experience working with the GitHub team. The post Next chapter: Restructuring GitHub’s bug bounty program appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
+          "publishedAt": "2026-07-22T16:00:00.000Z",
+          "technologies": [
+            "Next.js",
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "The security research community makes GitHub safer for everyone. That's the simple idea behind our bug bounty program.",
+            "For more than a decade, researchers from around the world have helped us find and fix vulnerabilities before they could be exploited, and we've worked hard to be a program worth their time.",
+            "Today, we're sharing some meaningful changes to how the program works. These decisions comes after months of reflecting on our program, analyzing what's happening across the industry, and thinking about researcher experience.",
+            "The program is facing an increasing queue. We have already made adjustments to accommodate the rise in new researchers and the acceleration in efforts of researchers we've been working with. We shared these changes in a recent blog post .",
+            "These changes are about two things: reducing the noise so we can focus on the signal, and building a program that serious researchers find rewarding to participate in."
+          ]
+        },
+        {
+          "id": "2603a69780ad7769",
+          "title": "How the 2026 World Cup affected Internet traffic",
+          "excerpt": "We analyzed global HTTP traffic to explore how kickoff times, streaming habits, and hydration breaks reshaped online activity worldwide. From late-night traffic surges to halftime browsing spikes, here is how the world connected during the global tournament.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/2026-world-cup-internet-traffic/",
+          "publishedAt": "2026-07-21T12:59:40.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "For 96 years, the World Cup has been a global phenomenon, uniting nations and communities through a shared love of sportsmanship. While its popularity is nothing new, what is novel today is how rare a truly collective global experience has become. In an era defined by microtrends and algorithmic bubbles, it is increasingly uncommon for people across most countries to engage in the exact same event.",
+            "That is precisely the unifying power of the World Cup. Fans from all over the globe reshape their daily routines around these once-in-a-lifetime matchups and storylines - and because Cloudflare operates a global network with 330+ points of presence worldwide, we are in a unique position to see exactly how this global ritual reshaped the world’s online activity throughout June and July 2026.",
+            "Cloudflare Radar tracks HTTP traffic, DNS, security, and more to highlight global Internet trends. In this blog post we’ll use that data to explore how the World Cup impacted global traffic patterns throughout the tournament’s run.",
+            "To understand how traffic changes throughout a match, we had to establish what it is “normally.” One way to do this is by looking at raw request volumes, or the amount of traffic we see on our network per country.",
+            "But these amounts vary per country (the amount of daily traffic in the United States is always a larger number than the traffic in Portugal), which makes it difficult to establish a globally applicable baseline."
+          ]
+        }
+      ]
+    }
+  ]
+}
