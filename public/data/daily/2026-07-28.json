@@ -1,6 +1,10 @@
 {
-  "week": "2026-W31",
+  "date": "2026-07-28",
   "generatedAt": "2026-07-27T22:18:40.203Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "A salesperson can use AI to explore a customer dataset that might once have gone to an analyst.",
             "A marketer can troubleshoot a website without waiting for a developer.",
             "In each case, AI changes not just how work gets done, but who does what."
+          ]
+        },
+        {
+          "id": "860827f8221d497e",
+          "title": "Copilot vs. raw API access: What are you actually paying for?",
+          "excerpt": "Copilot now bills usage at listed API rates. Compare direct model access with the coding workflow, policy, and harness work around it. The post Copilot vs. raw API access: What are you actually paying for? appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/",
+          "publishedAt": "2026-07-22T19:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "I keep seeing this question: \"Why would I pay for GitHub Copilot when I can call the same models through an API?\"",
+            "It's a fair question. The answer depends on what work you need to own.",
+            "Are you building a product feature with your own prompts, retrieval, routing, logs, security model, and billing controls? Or are you trying to get from a GitHub Issue to a reviewed pull request with the editor, repository, terminal, and organization policies already connected?",
+            "Cost is part of that equation. Copilot plans include a monthly allocation of GitHub AI Credits. Metered usage is calculated from input, output, and cached tokens at the listed rate for the selected model.",
+            "Raw API access and Copilot address different layers of that system. The right choice follows the work you need to own."
           ]
         }
       ]
