@@ -1,6 +1,10 @@
 {
-  "week": "2026-W31",
+  "date": "2026-07-29",
   "generatedAt": "2026-07-28T22:17:42.948Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "Agent sessions are connected to a project, giving each session the repository context needed for a specific task.",
             "From the GitHub Copilot app home screen, you can choose a project you've worked with before or add a new one from GitHub or your local machine. Once a project is selected, you can start a session with the codebase, files, and tools needed to begin working on a task.",
             "For example, you might want to add a breadcrumb navigation component to an existing application. Instead of manually searching through files to find the right place to make the change, you can describe the update you want to make. The session can examine the project, identify relevant files, make the changes, and run tests to help validate the work."
+          ]
+        },
+        {
+          "id": "ae53703590504c2e",
+          "title": "Coding Agent Horror Stories: The 29 Million Secret Problem",
+          "excerpt": "Learn how AI coding agents can expose credentials in supply chain attacks and how Docker Sandboxes keep secrets out of an agent's reach.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-29-million-secret-problem/",
+          "publishedAt": "2026-07-28T13:00:00.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "This is Part 4 of our AI Coding Agent Horror Stories series, a look at real security incidents involving AI coding agents, and how Docker Sandboxes keeps credentials out of an agent’s reach at the execution layer.",
+            "In Part 1 , we walked through six categories of AI coding agent failures and why they keep happening.",
+            "The agent runs as you, with your filesystem permissions and your credentials, and nothing sits between the model’s decision and the shell’s execution.",
+            "Part 3 moved the same problem into a production cloud environment.",
+            "The issue keeps credentials in frame but flips the questions around: instead of asking what an agent does with the secrets it holds, we ask what happens to the secrets themselves."
           ]
         }
       ]
@@ -128,6 +152,26 @@
             "Every point of cache hit ratio comes from getting that division of labor right.",
             "Check the cache when we shouldn't, and we waste a lookup that was always going to miss.",
             "Check it too rarely, the origin serves traffic the edge should have absorbed, and the performance win evaporates."
+          ]
+        },
+        {
+          "id": "540f90446a941654",
+          "title": "Cloudflare Internal DNS is now generally available",
+          "excerpt": "Cloudflare Internal DNS brings authoritative and recursive DNS for private networks to the same global network and control plane that runs Cloudflare's Zero Trust, networking, and public DNS.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/internal-dns/",
+          "publishedAt": "2026-07-20T20:59:31.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Starting today, Cloudflare Internal DNS is generally available. Cloudflare Internal DNS provides authoritative and recursive DNS for private networks on the same global network and control plane customers already use for public DNS, Zero Trust, networking, and application services.",
+            "Internal DNS - sometimes also referred to as private DNS - is one of the last pieces of enterprise infrastructure still managed separately from the rest of the network.",
+            "Many organizations operate one platform for public DNS, another for internal DNS, and use cloud-native DNS services inside each cloud environment with separate security policies layered on top.",
+            "Split-horizon DNS adds another layer of complexity, often requiring multiple DNS environments to remain synchronized so internal and external users receive different answers for the same hostname.",
+            "With Cloudflare Internal DNS, you get a single platform to manage public and private DNS resources, enforcing DNS policies and gaining visibility across your entire DNS stack. For Enterprise customers, this is included with Cloudflare Gateway without any additional charge."
           ]
         }
       ]
@@ -264,6 +308,26 @@
             "Today, we're sharing some meaningful changes to how the program works. These decisions comes after months of reflecting on our program, analyzing what's happening across the industry, and thinking about researcher experience.",
             "The program is facing an increasing queue. We have already made adjustments to accommodate the rise in new researchers and the acceleration in efforts of researchers we've been working with. We shared these changes in a recent blog post .",
             "These changes are about two things: reducing the noise so we can focus on the signal, and building a program that serious researchers find rewarding to participate in."
+          ]
+        },
+        {
+          "id": "2603a69780ad7769",
+          "title": "How the 2026 World Cup affected Internet traffic",
+          "excerpt": "We analyzed global HTTP traffic to explore how kickoff times, streaming habits, and hydration breaks reshaped online activity worldwide. From late-night traffic surges to halftime browsing spikes, here is how the world connected during the global tournament.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/2026-world-cup-internet-traffic/",
+          "publishedAt": "2026-07-21T12:59:40.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "For 96 years, the World Cup has been a global phenomenon, uniting nations and communities through a shared love of sportsmanship. While its popularity is nothing new, what is novel today is how rare a truly collective global experience has become. In an era defined by microtrends and algorithmic bubbles, it is increasingly uncommon for people across most countries to engage in the exact same event.",
+            "That is precisely the unifying power of the World Cup. Fans from all over the globe reshape their daily routines around these once-in-a-lifetime matchups and storylines - and because Cloudflare operates a global network with 330+ points of presence worldwide, we are in a unique position to see exactly how this global ritual reshaped the world’s online activity throughout June and July 2026.",
+            "Cloudflare Radar tracks HTTP traffic, DNS, security, and more to highlight global Internet trends. In this blog post we’ll use that data to explore how the World Cup impacted global traffic patterns throughout the tournament’s run.",
+            "To understand how traffic changes throughout a match, we had to establish what it is “normally.” One way to do this is by looking at raw request volumes, or the amount of traffic we see on our network per country.",
+            "But these amounts vary per country (the amount of daily traffic in the United States is always a larger number than the traffic in Portugal), which makes it difficult to establish a globally applicable baseline."
           ]
         }
       ]
