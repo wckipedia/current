@@ -1,6 +1,10 @@
 {
-  "week": "2026-W31",
+  "date": "2026-07-30",
   "generatedAt": "2026-07-29T22:13:18.093Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "I work with AI every single day, and what I'm finding is that less is way more. It's not about what I install or configure or trick the agent into doing that makes any real difference. That stuff is interesting, but at the end of the day it feels like gimmicks.",
             "I see the biggest gains in my productivity from how I use the harness and how well I understand it.",
             "So in this post, I'm sharing you a simple workflow that you can use to drastically improve your effectiveness with AI just by using existing features of GitHub Copilot . No weird prompts. No skill everyone else seems to know about. Just the harness. The harness is all you need-mostly."
+          ]
+        },
+        {
+          "id": "824b5ba22f1e74f5",
+          "title": "Scientific computing in the age of agentic AI",
+          "excerpt": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/scientific-computing-agentic-ai",
+          "publishedAt": "2026-07-28T17:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Scientific computing is a core pillar of modern research across academia and industry.",
+            "Yet the software needed to analyze scientific information has struggled to keep pace with the rapid rate of data generation.",
+            "Many widely used research tools began as code accompanying a research paper, built by small academic teams with limited engineering experience and minimal time for packaging, testing, optimization, or long-term support.",
+            "The result is scientific infrastructure that often depends on slow, fragile workflows requiring constant maintenance.",
+            "By lowering the costs of engineering work and taking on tedious implementation tasks, they can help researchers prototype ideas more quickly, pursue projects that were previously impractical, and more easily maintain software over the long term."
           ]
         }
       ]
@@ -129,6 +153,26 @@
             "Check the cache when we shouldn't, and we waste a lookup that was always going to miss.",
             "Check it too rarely, the origin serves traffic the edge should have absorbed, and the performance win evaporates."
           ]
+        },
+        {
+          "id": "540f90446a941654",
+          "title": "Cloudflare Internal DNS is now generally available",
+          "excerpt": "Cloudflare Internal DNS brings authoritative and recursive DNS for private networks to the same global network and control plane that runs Cloudflare's Zero Trust, networking, and public DNS.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/internal-dns/",
+          "publishedAt": "2026-07-20T20:59:31.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Starting today, Cloudflare Internal DNS is generally available. Cloudflare Internal DNS provides authoritative and recursive DNS for private networks on the same global network and control plane customers already use for public DNS, Zero Trust, networking, and application services.",
+            "Internal DNS - sometimes also referred to as private DNS - is one of the last pieces of enterprise infrastructure still managed separately from the rest of the network.",
+            "Many organizations operate one platform for public DNS, another for internal DNS, and use cloud-native DNS services inside each cloud environment with separate security policies layered on top.",
+            "Split-horizon DNS adds another layer of complexity, often requiring multiple DNS environments to remain synchronized so internal and external users receive different answers for the same hostname.",
+            "With Cloudflare Internal DNS, you get a single platform to manage public and private DNS resources, enforcing DNS policies and gaining visibility across your entire DNS stack. For Enterprise customers, this is included with Cloudflare Gateway without any additional charge."
+          ]
         }
       ]
     },
@@ -193,6 +237,26 @@
             "The poisoned versions were live for roughly two hours before the community caught them and npm pulled them.",
             "Two hours is a fast response. However, it is also more than enough time for an automated update tool to see the new version, open a pull request, and put it in front of your team, because version update tooling is built to grab the newest release the moment it lands.",
             "That pattern sits behind a growing share of supply chain attacks. The malicious code rides in on a brand-new release, is published to a public registry, and gets pulled into build pipelines within minutes, before a human or a scanner has even looked at it."
+          ]
+        },
+        {
+          "id": "b4469b440ad405da",
+          "title": "Agentic AI Needs Guardrails, Not Guesswork",
+          "excerpt": "Docker brought together enterprise security leaders to tackle agentic AI's biggest challenge: how to govern AI agents without slowing developers down. Here's what they said.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/agentic-ai-needs-guardrails-not-guesswork/",
+          "publishedAt": "2026-07-24T17:19:36.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "What does it take to secure AI agents without slowing developers down? A recent panel explored the answer",
+            "I recently joined Zach Lloyd, founder and CEO of Warp ; Gavriel Cohen, co-founder and CEO of NanoCo and creator of NanoClaw ; and moderator Moriah Hara, founder of a community of more than 3,000 CISOs and a three-time Fortune 500 CISO , for a discussion on one of the biggest challenges facing enterprise security teams today: how to safely unlock the productivity of agentic AI.",
+            "The rapid rise of agentic AI in the enterprise is putting CISOs in a tough spot. On one hand, business leaders are clamoring to run with the new technology, which promises a productivity revolution like no other. On the other, setting AI agents loose without rigorous guardrails creates severe vulnerabilities.",
+            "Moriah put the dilemma facing CISOs like this: “The business wants AI agents everywhere, developers are already using them, sometimes without approval, oftentimes without security. …CISOs are left in this uncomfortable middle where we’re tolerating some tools, we’re praying that nothing breaks, we’re buying some time until we can get some governance beyond policy in place to have better visibility.”",
+            "The panel explored the role of the CISO in balancing this tension between productivity and security. Here are some highlights."
           ]
         }
       ]
@@ -259,6 +323,26 @@
             "Today, we're sharing some meaningful changes to how the program works. These decisions comes after months of reflecting on our program, analyzing what's happening across the industry, and thinking about researcher experience.",
             "The program is facing an increasing queue. We have already made adjustments to accommodate the rise in new researchers and the acceleration in efforts of researchers we've been working with. We shared these changes in a recent blog post .",
             "These changes are about two things: reducing the noise so we can focus on the signal, and building a program that serious researchers find rewarding to participate in."
+          ]
+        },
+        {
+          "id": "2603a69780ad7769",
+          "title": "How the 2026 World Cup affected Internet traffic",
+          "excerpt": "We analyzed global HTTP traffic to explore how kickoff times, streaming habits, and hydration breaks reshaped online activity worldwide. From late-night traffic surges to halftime browsing spikes, here is how the world connected during the global tournament.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/2026-world-cup-internet-traffic/",
+          "publishedAt": "2026-07-21T12:59:40.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "For 96 years, the World Cup has been a global phenomenon, uniting nations and communities through a shared love of sportsmanship. While its popularity is nothing new, what is novel today is how rare a truly collective global experience has become. In an era defined by microtrends and algorithmic bubbles, it is increasingly uncommon for people across most countries to engage in the exact same event.",
+            "That is precisely the unifying power of the World Cup. Fans from all over the globe reshape their daily routines around these once-in-a-lifetime matchups and storylines - and because Cloudflare operates a global network with 330+ points of presence worldwide, we are in a unique position to see exactly how this global ritual reshaped the world’s online activity throughout June and July 2026.",
+            "Cloudflare Radar tracks HTTP traffic, DNS, security, and more to highlight global Internet trends. In this blog post we’ll use that data to explore how the World Cup impacted global traffic patterns throughout the tournament’s run.",
+            "To understand how traffic changes throughout a match, we had to establish what it is “normally.” One way to do this is by looking at raw request volumes, or the amount of traffic we see on our network per country.",
+            "But these amounts vary per country (the amount of daily traffic in the United States is always a larger number than the traffic in Portugal), which makes it difficult to establish a globally applicable baseline."
           ]
         }
       ]
