@@ -1,6 +1,6 @@
 {
   "date": "2026-07-30",
-  "generatedAt": "2026-07-29T22:13:18.093Z",
+  "generatedAt": "2026-07-29T23:17:07.783Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -285,6 +285,26 @@
           ]
         },
         {
+          "id": "265c6a0134aba9b6",
+          "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+          "excerpt": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+          "publishedAt": "2026-07-29T15:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "_A sped-up video of GPT‑5.6 Sol attempting to solve puzzles in the ARC-AGI-3 benchmark, with the official harness (left) and our Responses API harness (right), which retains reasoning and enables compaction.",
+            "On the leaderboard for__this game__, no frontier model solves any level beyond the first.",
+            "With our harness, GPT‑5.6 Sol solves all six._ GPT‑5.6 Sol has solved longstanding open problems in mathematics like the cycle double cover conjecture and beaten games like Pokémon FireRed.",
+            "But on ARC-AGI-3, a benchmark of 2D puzzle games, GPT‑5.6 Sol scored just 7.8%, and GPT‑5.5 could barely play the games at all, scoring a paltry 0.4%.",
+            "Were 2D puzzle games unusually difficult for our models?"
+          ]
+        },
+        {
           "id": "5bd6beb83c1f9a50",
           "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
           "excerpt": "By doing in-depth testing, we found nearly 70% of BGP paths experience ORIGIN attribute rewrites by transit providers seeking traffic advantages. We examine the global impact of this practice and argue for deprecating ORIGIN in route selection.",
@@ -323,26 +343,6 @@
             "Today, we're sharing some meaningful changes to how the program works. These decisions comes after months of reflecting on our program, analyzing what's happening across the industry, and thinking about researcher experience.",
             "The program is facing an increasing queue. We have already made adjustments to accommodate the rise in new researchers and the acceleration in efforts of researchers we've been working with. We shared these changes in a recent blog post .",
             "These changes are about two things: reducing the noise so we can focus on the signal, and building a program that serious researchers find rewarding to participate in."
-          ]
-        },
-        {
-          "id": "2603a69780ad7769",
-          "title": "How the 2026 World Cup affected Internet traffic",
-          "excerpt": "We analyzed global HTTP traffic to explore how kickoff times, streaming habits, and hydration breaks reshaped online activity worldwide. From late-night traffic surges to halftime browsing spikes, here is how the world connected during the global tournament.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/2026-world-cup-internet-traffic/",
-          "publishedAt": "2026-07-21T12:59:40.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Developer Tools",
-          "scanMinutes": 1,
-          "details": [
-            "For 96 years, the World Cup has been a global phenomenon, uniting nations and communities through a shared love of sportsmanship. While its popularity is nothing new, what is novel today is how rare a truly collective global experience has become. In an era defined by microtrends and algorithmic bubbles, it is increasingly uncommon for people across most countries to engage in the exact same event.",
-            "That is precisely the unifying power of the World Cup. Fans from all over the globe reshape their daily routines around these once-in-a-lifetime matchups and storylines - and because Cloudflare operates a global network with 330+ points of presence worldwide, we are in a unique position to see exactly how this global ritual reshaped the world’s online activity throughout June and July 2026.",
-            "Cloudflare Radar tracks HTTP traffic, DNS, security, and more to highlight global Internet trends. In this blog post we’ll use that data to explore how the World Cup impacted global traffic patterns throughout the tournament’s run.",
-            "To understand how traffic changes throughout a match, we had to establish what it is “normally.” One way to do this is by looking at raw request volumes, or the amount of traffic we see on our network per country.",
-            "But these amounts vary per country (the amount of daily traffic in the United States is always a larger number than the traffic in Portugal), which makes it difficult to establish a globally applicable baseline."
           ]
         }
       ]

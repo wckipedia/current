@@ -1,6 +1,6 @@
 {
   "week": "2026-W31",
-  "generatedAt": "2026-07-29T22:13:18.093Z",
+  "generatedAt": "2026-07-29T23:17:07.783Z",
   "sections": [
     {
       "name": "AI",
@@ -221,6 +221,26 @@
           ]
         },
         {
+          "id": "265c6a0134aba9b6",
+          "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+          "excerpt": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+          "publishedAt": "2026-07-29T15:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "_A sped-up video of GPT‑5.6 Sol attempting to solve puzzles in the ARC-AGI-3 benchmark, with the official harness (left) and our Responses API harness (right), which retains reasoning and enables compaction.",
+            "On the leaderboard for__this game__, no frontier model solves any level beyond the first.",
+            "With our harness, GPT‑5.6 Sol solves all six._ GPT‑5.6 Sol has solved longstanding open problems in mathematics like the cycle double cover conjecture and beaten games like Pokémon FireRed.",
+            "But on ARC-AGI-3, a benchmark of 2D puzzle games, GPT‑5.6 Sol scored just 7.8%, and GPT‑5.5 could barely play the games at all, scoring a paltry 0.4%.",
+            "Were 2D puzzle games unusually difficult for our models?"
+          ]
+        },
+        {
           "id": "5bd6beb83c1f9a50",
           "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
           "excerpt": "By doing in-depth testing, we found nearly 70% of BGP paths experience ORIGIN attribute rewrites by transit providers seeking traffic advantages. We examine the global impact of this practice and argue for deprecating ORIGIN in route selection.",
@@ -238,27 +258,6 @@
             "One such mechanism is path attributes , which carry essential routing information and metadata for their associated route.",
             "The path selection algorithm processes some of these path attributes in a deterministic sequence to calculate the best path for this specific prefix.",
             "Using our unique position on the Internet, we took an investigative look at one of the well-known mandatory attributes in BGP, the ORIGIN attribute."
-          ]
-        },
-        {
-          "id": "01514fb95de7f68f",
-          "title": "Next chapter: Restructuring GitHub’s bug bounty program",
-          "excerpt": "GitHub is making some significant changes to its bug bounty program, shifting its focus to give researchers a better experience working with the GitHub team. The post Next chapter: Restructuring GitHub’s bug bounty program appeared first on The GitHub Blog .",
-          "source": "GitHub Blog",
-          "url": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
-          "publishedAt": "2026-07-22T16:00:00.000Z",
-          "technologies": [
-            "Next.js",
-            "GitHub"
-          ],
-          "category": "Developer Tools",
-          "scanMinutes": 1,
-          "details": [
-            "The security research community makes GitHub safer for everyone. That's the simple idea behind our bug bounty program.",
-            "For more than a decade, researchers from around the world have helped us find and fix vulnerabilities before they could be exploited, and we've worked hard to be a program worth their time.",
-            "Today, we're sharing some meaningful changes to how the program works. These decisions comes after months of reflecting on our program, analyzing what's happening across the industry, and thinking about researcher experience.",
-            "The program is facing an increasing queue. We have already made adjustments to accommodate the rise in new researchers and the acceleration in efforts of researchers we've been working with. We shared these changes in a recent blog post .",
-            "These changes are about two things: reducing the noise so we can focus on the signal, and building a program that serious researchers find rewarding to participate in."
           ]
         }
       ]
