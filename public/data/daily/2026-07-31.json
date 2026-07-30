@@ -1,6 +1,10 @@
 {
-  "week": "2026-W31",
+  "date": "2026-07-31",
   "generatedAt": "2026-07-30T22:19:41.378Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "To deliver these efficiencies, our research and technical teams have made significant optimizations at every major layer of our stack.",
             "These improvements span our models, inference (how we run models to generate output), and our agentic harness, which is used by both Codex and ChatGPT Work.",
             "As we’ve scaled our models to 1 billion active users and more than 2 million businesses over the past four years, efficiency has been central to distributing the benefits of intelligence to everyone."
+          ]
+        },
+        {
+          "id": "fda5bd9ca453ecca",
+          "title": "The harness is all you need (mostly)",
+          "excerpt": "A practical GitHub Copilot workflow for prototyping, planning, implementing, and reviewing software without chasing every new AI tool. The post The harness is all you need (mostly) appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
+          "publishedAt": "2026-07-27T18:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "If you're feeling overwhelmed by AI right now, you're not alone.",
+            "Every day it seems there is a new tool, new MCP, new model, new skill, new workflow, new feature, new social post that is some form of \"Hey look! I have completely figured out AI with this one weird prompt.\"",
+            "I work with AI every single day, and what I'm finding is that less is way more. It's not about what I install or configure or trick the agent into doing that makes any real difference. That stuff is interesting, but at the end of the day it feels like gimmicks.",
+            "I see the biggest gains in my productivity from how I use the harness and how well I understand it.",
+            "So in this post, I'm sharing you a simple workflow that you can use to drastically improve your effectiveness with AI just by using existing features of GitHub Copilot . No weird prompts. No skill everyone else seems to know about. Just the harness. The harness is all you need-mostly."
           ]
         }
       ]
@@ -128,6 +152,26 @@
             "Here’s a single line of code that executes a full Oblivious HTTP request with a relay, gateway and origin. Don't worry if you don't know what that means, we'll cover it below.",
             "We’ll explain why we built this tool, and show just how handy it can be.",
             "Let’s take a closer look at our motivation for creating pvcli."
+          ]
+        },
+        {
+          "id": "e8f4b82241ccd98a",
+          "title": "Introducing Cache Response Rules",
+          "excerpt": "Perhaps you’ve seen something that should sail out of cache get dragged back to the origin by a stray Set-Cookie or Cache-Control, headers that can be difficult to change on the origin itself. Cache Response Rules is the fix, applied at the right time.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/introducing-cache-response-rules/",
+          "publishedAt": "2026-07-23T18:40:38.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Today we’re excited to announce Cache Response Rules. These are a new rule type that runs after an origin server replies but before Cloudflare caches the content.",
+            "Their goal is to answer from the cache whenever possible and only go back to the origin when the edge can’t respond.",
+            "Every point of cache hit ratio comes from getting that division of labor right.",
+            "Check the cache when we shouldn't, and we waste a lookup that was always going to miss.",
+            "Check it too rarely, the origin serves traffic the edge should have absorbed, and the performance win evaporates."
           ]
         }
       ]
@@ -219,6 +263,26 @@
             "For that to happen, we as technology leaders must empower customers with the solutions they need to build and maintain deterministic control over what agents can and can’t do.",
             "Developers and businesses alike need to have confidence that AI agents will behave predictably, operate within well-defined boundaries, and remain secure regardless of how quickly the underlying technology evolves."
           ]
+        },
+        {
+          "id": "7391ec038d05b55e",
+          "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
+          "excerpt": "A new default three-day cooldown delays version update pull requests so maintainers and security researchers can address findings in a release before it gets into your code. The post The case for a cooldown: Why Dependabot now waits before issuing version updates appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
+          "publishedAt": "2026-07-23T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "In September 2025, an attacker phished the credentials of a single npm maintainer and published booby-trapped versions of chalk , debug , and around a dozen other packages that are together downloaded more than 2 billion times a week.",
+            "The code rewrote cryptocurrency wallet addresses inside any browser app that loaded it.",
+            "The poisoned versions were live for roughly two hours before the community caught them and npm pulled them.",
+            "Two hours is a fast response. However, it is also more than enough time for an automated update tool to see the new version, open a pull request, and put it in front of your team, because version update tooling is built to grab the newest release the moment it lands.",
+            "That pattern sits behind a growing share of supply chain attacks. The malicious code rides in on a brand-new release, is published to a public registry, and gets pulled into build pipelines within minutes, before a human or a scanner has even looked at it."
+          ]
         }
       ]
     },
@@ -283,6 +347,26 @@
             "With our harness, GPT‑5.6 Sol solves all six._ GPT‑5.6 Sol has solved longstanding open problems in mathematics like the cycle double cover conjecture and beaten games like Pokémon FireRed.",
             "But on ARC-AGI-3, a benchmark of 2D puzzle games, GPT‑5.6 Sol scored just 7.8%, and GPT‑5.5 could barely play the games at all, scoring a paltry 0.4%.",
             "Were 2D puzzle games unusually difficult for our models?"
+          ]
+        },
+        {
+          "id": "5bd6beb83c1f9a50",
+          "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
+          "excerpt": "By doing in-depth testing, we found nearly 70% of BGP paths experience ORIGIN attribute rewrites by transit providers seeking traffic advantages. We examine the global impact of this practice and argue for deprecating ORIGIN in route selection.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/bgp-origin-attribute/",
+          "publishedAt": "2026-07-24T17:25:28.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Border Gateway Protocol ( BGP ) is the de facto routing protocol of the Internet.",
+            "It offers built-in mechanisms to allow entities, represented by Autonomous Systems (ASes), to express how they want to send and receive traffic on the Internet.",
+            "One such mechanism is path attributes , which carry essential routing information and metadata for their associated route.",
+            "The path selection algorithm processes some of these path attributes in a deterministic sequence to calculate the best path for this specific prefix.",
+            "Using our unique position on the Internet, we took an investigative look at one of the well-known mandatory attributes in BGP, the ORIGIN attribute."
           ]
         }
       ]
