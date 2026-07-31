@@ -1,6 +1,10 @@
 {
-  "week": "2026-W31",
+  "date": "2026-08-01",
   "generatedAt": "2026-07-31T22:16:15.070Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "The operation illustrates an important reality about modern scam networks: organized criminal groups rarely restrict themselves to a single type of scam.",
             "Instead, they opportunistically employ whatever narratives, personas, and tactics they think will be most effective to deceive victims.",
             "In our investigations we routinely observe actors moving between scam types, or combining multiple scam techniques within a single operation."
+          ]
+        },
+        {
+          "id": "dca7adc62d79fe1c",
+          "title": "Advancing the price-performance frontier with GPT-5.6",
+          "excerpt": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+          "publishedAt": "2026-07-30T10:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Yesterday, we shared how GPT‑5.6⁠ helped make itself more efficient to run⁠.",
+            "Today, we’re passing those gains on to customers with lower prices for GPT‑5.6 Luna and Terra and faster performance with GPT‑5.6 Sol⁠ in the API.",
+            "Together, these updates help customers get more from every dollar they invest in AI and move faster when time matters.",
+            "Starting today, GPT‑5.6 Luna, our fastest and most affordable model, will cost 80% less, while GPT‑5.6 Terra, our balanced model for everyday work, will cost 20% less.",
+            "These lower prices for Luna and Terra are also reflected in how usage is counted against paid subscriptions when using Codex and ChatGPT Work."
           ]
         }
       ]
@@ -128,6 +152,26 @@
             "Iran restored national Internet access, reconnecting its citizens to the global network after an 88-day blackout, even as damage from drone strikes continued to disrupt AWS infrastructure elsewhere in the region.",
             "Finally, a cable cut in Saint Lucia and the distribution of faulty DNSSEC signatures in Germany underscored the fragility of Internet infrastructure, but also the remarkable stability these regional and global systems maintain when operating normally.",
             "Here we will walk through the most significant Internet disruptions we observed in the second quarter of 2026, drawing on traffic data from Cloudflare Radar to show how each unfolded and what it meant for users on the ground. As always, this is a summary of notable, confirmed disruptions rather than an exhaustive list; a fuller view of detected traffic anomalies is available in the Cloudflare Radar Outage Center ."
+          ]
+        },
+        {
+          "id": "05725279e4862fae",
+          "title": "We’re open-sourcing our privacy proxy CLI",
+          "excerpt": "pvcli is a curl-like tool designed to simplify the testing of complex privacy protocols like OHTTP.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/open-sourcing-our-privacy-proxy-cli/",
+          "publishedAt": "2026-07-27T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Debugging privacy-preserving protocols is hard. Oblivious HTTP has several different steps across four different parties, not to mention binary HTTP encoding and details spread across many draft RFCs. We've taken what we've learned operating protocols like Oblivious HTTP at the scale of millions of requests per second, and wrapped it up in a nice, clean CLI tool - that we are open-sourcing today.",
+            "We call it our privacy-client , or pvcli . We’re releasing it under the Apache-2.0 License, and it is open for contributions .",
+            "Here’s a single line of code that executes a full Oblivious HTTP request with a relay, gateway and origin. Don't worry if you don't know what that means, we'll cover it below.",
+            "We’ll explain why we built this tool, and show just how handy it can be.",
+            "Let’s take a closer look at our motivation for creating pvcli."
           ]
         }
       ]
@@ -260,6 +304,26 @@
             "However, recent breakthroughs in quantum computing and cryptanalysis pulled the timelines for upgrading to post-quantum cryptography forward across industry and government and have caused us to shift our attention to deploying post-quantum authentication , to protect against attackers who will soon be able to use quantum computers to break classical credentials and carry out impersonation attacks.",
             "In a previous post, we announced that Cloudflare is targeting 2029 for full post-quantum security, and laid out several milestones to hit along the way."
           ]
+        },
+        {
+          "id": "ec0f381be8628b9f",
+          "title": "The Future of Agentic AI Depends on Openness and Trust. That’s Why Docker Is Joining Nvidia’s Open Secure AI Alliance.",
+          "excerpt": "Docker joins NVIDIA's Open Secure AI Alliance to help build the security, governance, and trust frameworks that agentic AI systems demand.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/docker-joins-nvidia-open-secure-ai-alliance/",
+          "publishedAt": "2026-07-30T19:31:47.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Over the past few months, I’ve noticed something unmistakable in my conversations with customers. We’re no longer talking about what AI agents are capable of and whether they can transform the way we build software. We know the answer. They can. They already are.",
+            "The conversations I’m having now instead revolve around a much more sensitive, much more nuanced question: Can we trust these systems? Can we safely place them at the center of our business? That’s the question that’s already defining the next chapter of Agentic AI.",
+            "The world has been promised a paradigm-changing productivity boost from AI.",
+            "For that to happen, we as technology leaders must empower customers with the solutions they need to build and maintain deterministic control over what agents can and can’t do.",
+            "Developers and businesses alike need to have confidence that AI agents will behave predictably, operate within well-defined boundaries, and remain secure regardless of how quickly the underlying technology evolves."
+          ]
         }
       ]
     },
@@ -324,6 +388,26 @@
             "In this post, we're updating you on changes we've implemented that directly disrupt some of the most common and impactful supply chain attack techniques.",
             "Supply chain attacks chain together several weaknesses, and there is no single security capability that can stop them.",
             "Addressing them takes a holistic approach, prioritizing the mitigations that break the most impactful links in the attack chain."
+          ]
+        },
+        {
+          "id": "265c6a0134aba9b6",
+          "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+          "excerpt": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+          "publishedAt": "2026-07-29T15:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "_A sped-up video of GPT‑5.6 Sol attempting to solve puzzles in the ARC-AGI-3 benchmark, with the official harness (left) and our Responses API harness (right), which retains reasoning and enables compaction.",
+            "On the leaderboard for__this game__, no frontier model solves any level beyond the first.",
+            "With our harness, GPT‑5.6 Sol solves all six._ GPT‑5.6 Sol has solved longstanding open problems in mathematics like the cycle double cover conjecture and beaten games like Pokémon FireRed.",
+            "But on ARC-AGI-3, a benchmark of 2D puzzle games, GPT‑5.6 Sol scored just 7.8%, and GPT‑5.5 could barely play the games at all, scoring a paltry 0.4%.",
+            "Were 2D puzzle games unusually difficult for our models?"
           ]
         }
       ]
