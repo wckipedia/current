@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "generatedAt": "2026-08-02T22:10:38.840Z",
+  "generatedAt": "2026-08-02T23:14:55.950Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -22,11 +22,11 @@
           "category": "AI",
           "scanMinutes": 1,
           "details": [
+            "OpenAI * The results * Responsibility to the mathematical community We want to empower scientists and mathematicians with tools that accelerate discovery.",
             "That is why we recently announced ChatGPT for Academic Researchers⁠, an initiative providing 100,000 scientists and mathematicians with free access to our best ChatGPT models.",
             "We also continue to evaluate our models on open research problems during development.",
             "In May, we shared an AI-generated disproof⁠ of the Erdős unit-distance conjecture, discovered while evaluating an unreleased model.",
-            "This work has already inspired further developments in mathematics and theoretical computer science1.",
-            "Today, we are sharing a selection of ten results to problems that have been open and have seen no progress on the main result for at least a decade, and in most cases much longer."
+            "This work has already inspired further developments in mathematics and theoretical computer science1."
           ]
         },
         {
