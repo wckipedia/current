@@ -1,6 +1,10 @@
 {
-  "week": "2026-W32",
+  "date": "2026-08-04",
   "generatedAt": "2026-08-03T22:18:28.180Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -64,6 +68,26 @@
             "We called it “JavaScript-native RPC” because it made using RPC feel native to the language.",
             "Last year, we made this work between web browsers and servers, and introduced Cap’n Web .",
             "Normally, getting programs written in different languages to talk to each other is complicated: developers usually have to build custom APIs or adopt language-agnostic serialization formats like protobuf , so the two systems can understand each other. The RPC system built into Workers is able to translate across JavaScript and Python without any additional work."
+          ]
+        },
+        {
+          "id": "deec56a13e2b9b57",
+          "title": "How we built a realtime system for responsive voice AI in six months",
+          "excerpt": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+          "publishedAt": "2026-08-03T07:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "For voice AI, knowing when to speak is harder than it sounds.",
+            "Human speakers effortlessly hand off to each other in a fraction of a second, but previous voice AI systems couldn’t keep up with this rhythm.",
+            "Their turn-based architecture relied on tiny models known as turn detectors, which faced an unenviable task: guess too soon, and the user gets cut off; guess too late, and the response feels sluggish.",
+            "Only after the detector made its decision could the much larger LLM get to work.",
+            "GPT‑Live⁠, our third-generation voice system, removes the turn detector from the audio path."
           ]
         }
       ]
@@ -195,6 +219,26 @@
             "The agent gets a clean filesystem, a baseline restricted network, and a clean credentials environment. Then it immediately needs gcloud , Java, Maven, some internal CLI, your package registry credentials, and that one skill where you distilled the tacit knowledge your team accumulated for years.",
             "Kits are the escape hatch from that ritual. A kit lets you describe what the sandbox needs, how it should get it, what it may reach, and which credentials it can use, then apply that description when the sandbox starts."
           ]
+        },
+        {
+          "id": "582a41de0b44954c",
+          "title": "Kubernetes v1.37 Sneak Peek",
+          "excerpt": "As we get closer to the release date for Kubernetes v1.37, the project develops and matures, features may be deprecated, removed, or replaced with better ones for the project's overall health. This blog outlines some of the planned changes for the Kubernetes v1.37 release that the release team feels you…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/",
+          "publishedAt": "2026-07-31T16:00:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "This blog outlines some of the planned changes for the Kubernetes v1.37 release that the release team feels you should be aware of for the continued maintenance of your Kubernetes environment and keeping up to date with the latest changes.",
+            "The information below reflects the current status of the v1.37 release and may change before the actual release date.",
+            "The --filename (or -f ) flag for kubectl run is being deprecated as the generated pod is always built purely from CLI arguments like NAME and --image .",
+            "See kubernetes/kubernetes#138671 for the original issue and discussion.",
+            "Static Pods were never meant to read API resources directly, since they aren't created through the API server - but a bug let them reference Secrets or ConfigMaps via fields like configMapRef or secretRef . That bug is now fixed: as of v1.37 these references are strictly prohibited, and the PreventStaticPodAPIReferences feature gate that previously let you opt out of the restriction has been removed."
+          ]
         }
       ]
     },
@@ -259,6 +303,26 @@
             "We believe responsible AI can help drive Europe’s competitiveness and prosperity.",
             "As the EU AI Act enters its next phase, we’re sharing how we have strengthened our approach to safety, security, transparency and provenance in line with the EU framework-and how we will continue to evolve our practices as AI advances.",
             "Our longstanding commitment to responsible AI Our mission is to ensure that artificial general intelligence benefits all of humanity."
+          ]
+        },
+        {
+          "id": "4bae8ecf85631780",
+          "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
+          "excerpt": "Dependabot keeps your dependencies current, but its defaults can flood your repository with pull requests. Here's how grouping updates, slowing the cadence, and keeping security fixes fast cut the noise on a Microsoft open source project. The post Tame Dependabot: Group your updates, slow the cadence, keep…",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
+          "publishedAt": "2026-07-29T16:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "If you maintain an active repository, you know the feeling. You open your notifications on a Monday morning and there they are: five, 10, sometimes a dozen Dependabot pull requests, each bumping a single dependency by a single patch version. Individually, every one of them is helpful. Collectively, they're noise. And noise is how important updates get ignored.",
+            "We looked at Microsoft's GCToolkit , an open source Java library for analyzing garbage collection logs. As of July 2026, a git log of the repository showed that 92 of its 578 commits, roughly one in six, were Dependabot version bumps , with 61 in the previous 12 months alone, sometimes several in a single day. That's a lot of review, merge, and CI cycles spent on routine maintenance.",
+            "The good news: Dependabot already ships with the features to fix this. In a recent pull request , the project changed its dependabot.yml in three small but meaningful ways, turning a daily drip of single-dependency pull requests into a predictable, grouped, monthly batch per ecosystem. Here's what changed, why it works, and how to apply the same pattern to your own repositories, following the GCToolkit example.",
+            "Here's what GCToolkit's configuration looked like before:",
+            "This is a common starting point, but the daily interval here was a deliberate choice, not a default: schedule.interval is required, and GitHub's suggested starter template uses weekly . Two things make this configuration noisy:"
           ]
         }
       ]
