@@ -1,6 +1,10 @@
 {
-  "week": "2026-W32",
+  "date": "2026-08-05",
   "generatedAt": "2026-08-04T22:30:04.913Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "Because they lack these things, they often struggle to onboard onto software, which limits the growth of agentic commerce.",
             "AI agents often give up on these tasks entirely, kicking registration, payment methods, and API key generation back to humans.",
             "This makes it very difficult for agents to try out and compare many APIs."
+          ]
+        },
+        {
+          "id": "66c525830998ca43",
+          "title": "Run CI/CD for millions of repos — on your platform, on Cloudflare",
+          "excerpt": "Learn how to build customizable, sandboxed CI/CD pipelines natively on Cloudflare using Workflows, Artifacts, and the CI SDK. We walk through replacing complex YAML configurations with TypeScript workflow steps and self-healing AI agents.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/ci-workflows/",
+          "publishedAt": "2026-08-04T13:00:00.000Z",
+          "technologies": [
+            "TypeScript"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "We are moving toward a world in which you can store, build, test, and deploy your code fully on Cloudflare. We built the first piece with Artifacts , versioned code storage that scales to millions of repos.",
+            "We have stitched the store, build, and deploy steps together with the CI SDK , built on Cloudflare Workflows , so that you can run your continuous integration (CI) pipeline on Cloudflare. You can send artifact push events directly to your Workflow, triggering an instance of its execution - a CI job, essentially - through a new events field in your wrangler configuration file.",
+            "Then, directly from the Workflow with @cloudflare/ci installed, you can:",
+            "Automate builds: compile code from your Artifacts repo in a safe, isolated environment",
+            "Run linters and typechecks: enforce code style, catch type errors, and flag any potential issues"
           ]
         }
       ]
