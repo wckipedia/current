@@ -1,6 +1,10 @@
 {
-  "week": "2026-W32",
+  "date": "2026-08-06",
   "generatedAt": "2026-08-05T22:21:49.544Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "Some of these are straightforward: code either runs or it doesn’t. Agents have been using this feedback loop to produce code that “works” for developers over the last couple of years. But what about the rest of us?",
             "Bringing the same leverage to the rest of the organization is a harder problem. Agents need to understand the context of the company and be able to reach the systems people use to do their jobs. They need to turn that context and access into work that moves the organization towards its mission.",
             "That’s why we created Cloudflare OS. It gives every person an agent and workspace built around their company: how it works, what it knows, and the systems it relies on."
+          ]
+        },
+        {
+          "id": "a27f66aabb23881b",
+          "title": "WriteGuard: fine-grained controls for MCP Servers",
+          "excerpt": "At Cloudflare, we knew we could not depend on every employee to configure every agent perfectly or watch every tool call. Before expanding write access across our own internal MCP servers, we built WriteGuard. We are now bringing those controls to Cloudflare MCP server portals through a private beta.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/mcp-portal-writeguard-private-beta/",
+          "publishedAt": "2026-08-05T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Let’s imagine the Case of the Endlessly Closing Tickets.",
+            "The bug tickets start closing at noon. Nobody thinks much of it. Joe moved a few tickets to Done, and Joe is having a productive afternoon. Then the pace picks up. By 4 p.m., thousands of tickets have been closed, all by Joe.",
+            "Joe is a good engineer. Joe is not a thousand-tickets-an-hour engineer.",
+            "We learn that he has several background agents running across three concurrent sessions. It takes half an hour to find the one at fault: a cleanup task with a prompt that was a little too broad.",
+            "Once we’ve stopped the agent, we need to repair the state of the ticketing system. Joe has also been legitimately closing tickets by hand that afternoon. The system records all those changes under Joe regardless of whether it was him or his agent, and the network logs do not distinguish one agent session from another. From the outside, the actions look identical."
           ]
         }
       ]
@@ -173,6 +197,26 @@
             "So when Omdia recently released a report, with Docker among its sponsors, that laid out in detail the extent to which the software supply chain is under siege, I wanted to share some highlights.",
             "Over three-fourths of organizations experienced a software supply chain incident in the preceding 12 months.",
             "AI tech was the top-ranked supply chain risk (40%), ahead of third-party and open-source code (39%), and software dependencies (38%)."
+          ]
+        },
+        {
+          "id": "31505aa3adc0cdab",
+          "title": "Docker AI Governance: Audit Logs, Now Where Your Security Team Already Works",
+          "excerpt": "Now in Docker AI Governance: a single searchable record of every policy decision your agents trigger, streamed to the SIEM your security team already runs, so you can show what your agents did and what your policy stopped. Today, Docker AI Governance now streams every policy decision in your organization…",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/docker-ai-governance-audit-logs-now-where-your-security-team-already-works/",
+          "publishedAt": "2026-08-03T13:00:00.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Today, Docker AI Governance now streams every policy decision in your organization into the SIEM your security team already runs, with a searchable record of all of it in Docker Cloud. You can see what your agents did, and what your policy stopped them from doing.",
+            "When we launched AI Governance in May , our perspective was that controls have to live at the runtime layer where the agent actually executes, not as advisory rules a clever prompt can route around. Audit was one of the three layers we shipped on that principle, and the enforcement point has produced a structured event for every policy evaluation since day one.",
+            "Today, we’re making it easier to view and consume those events.",
+            "Security leads need to answer questions about agent behavior: what did that agent do, was it allowed, and which policy made the call.",
+            "Answering it should not require assembling evidence from machines they don’t administer. It should mean querying a system they already use. Increasingly it also comes first rather than after: security teams want a demonstrable audit record before they approve agent deployment at all."
           ]
         }
       ]
