@@ -1,0 +1,278 @@
+{
+  "week": "2026-W33",
+  "generatedAt": "2026-08-09T21:48:14.571Z",
+  "sections": [
+    {
+      "name": "AI",
+      "articles": [
+        {
+          "id": "4ba778657c38aa67",
+          "title": "Unveiling good and bad behaviors on the Agentic Internet",
+          "excerpt": "Cloudflare is shifting bot mitigation from point-in-time Risk assessment to continuous Trust evaluation. Learn how new good and bad behaviors from bots and agents are assessed by our systems, including BotBase and Precursor — and try out our Precursor Trace simulation to see how your own cursor movements…",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
+          "publishedAt": "2026-08-07T13:01:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "The Internet isn’t a single lane of traffic. For a long time, the rule of thumb in web security was that bots are bad, while humans are good. Of course, we’re far past this generalization. Humans can be fraudulent, and bots can be helpful at different levels. Site owners actively want some automated traffic to interact with our sites to make the Internet functional and discoverable.",
+            "To complicate things further, the line between \"human\" and \"bot\" is blurring more and more. Now, we have a type of “hybrid” traffic where a single session shifts from human to agentic and back again. (Think of a user browsing a store, and then handing off the checkout process to an automated shopping assistant.)",
+            "So, how do website owners manage this kind of complexity? What matters here is assessing behaviors . Is this behavior abusive? Malicious? What’s the risk presented here, and can I trust this visitor based on their actions? Solving this requires moving beyond static, point-in-time checks. It requires analyzing continuous behaviors to evaluate Trust.",
+            "In this post, we’ll share an inside look into the strategy of the Web Integrity & Trust team (covering the bots and fraud problem spaces) around detecting and analyzing good and bad behaviors, providing tools to help site owners tackle emerging challenges in the shifting Agentic Internet.",
+            "We’ll also share findings around agentic traffic since the launch of Precursor , and a simulation where you can see how your own cursor movements would be assessed as human or bot - plus some exciting launch updates to expect in the near future."
+          ]
+        },
+        {
+          "id": "8552fc65505e1988",
+          "title": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
+          "excerpt": "Cloudflare Radar Researcher is a new AI-powered tool that lets you explore global Internet trends and traffic data using plain language. Built entirely on Cloudflare's Developer Platform, it turns natural language queries into real, interactive charts.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/introducing-radar-researcher/",
+          "publishedAt": "2026-08-07T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Since launching in 2020, Cloudflare Radar has provided one-of-a-kind insight into Internet traffic on a global scale. The open data that Radar publishes from our global network is used by a variety of experts in different domains: human rights advocates, journalists, academic researchers, network operators, and more.",
+            "Today, as part of Agents Week , Radar is beta-launching a new tool: Radar Researcher.",
+            "Now, if you want to answer a question with Radar’s data, you can just ask in plain language and get an answer back with real, interactive charts, all built on Cloudflare's developer platform. You no longer need to find the right page, choose the right filters, or read the API documentation to write a query.",
+            "Over the past six years, the Radar team has worked to provide clear, accessible, reliable data visualizations of complex datasets.",
+            "This is not without its challenges: our user base is vast and ranges from curious novices to technical network experts."
+          ]
+        },
+        {
+          "id": "009218646f3e9b54",
+          "title": "Unifying Workers AI and AI Gateway into a single AI control plane",
+          "excerpt": "Cloudflare is unifying AI Gateway and Workers AI into a single control plane, giving developers observability, billing, and dynamic routing across both managed GPUs and external providers. Learn how unified bindings and model-first routing simplify building resilient AI applications.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
+          "publishedAt": "2026-08-07T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "AI Gateway and Workers AI first started as distinct products, but over time, we noticed our users were converging. With AI Gateway, you can proxy requests to any model provider and get built-in observability, logging, access, and security. On Workers AI, we host models on the GPU infrastructure that we manage, exposing an API endpoint you can leverage to access inference-as-a-service.",
+            "The architecture of these products looks different, but to an end user, it achieves the same goal: connecting you to models with a sophisticated control plane. Today, we're excited to share our plans on how these products converge into one unified path, so you can connect to any model provider (including Workers AI), while managing things like observability, billing, security, and logging from a single control plane.",
+            "It’s the next step toward some big plans we have - read on to learn what a unified control plane means for the future of model routing.",
+            "We've been hinting at the fact that these products are becoming more unified through our entrypoints: the Workers binding and the REST API.",
+            "We have an AI binding that you can use to call AI Gateway and Workers AI."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "articles": [
+        {
+          "id": "b42dc3689e555f8f",
+          "title": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
+          "excerpt": "We are launching updated community programs, including Cloudflare Ambassadors and Community Engineers, backed by $1M in open-source funding. Learn how we are supporting maintainers and scaling our developer community.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/community-program-refresh/",
+          "publishedAt": "2026-08-07T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "As a platform for helping build a better Internet, Cloudflare helps turn ideas into real products and experiences around the world. Across communities and backgrounds, developers build with Cloudflare using the tools they love, shaping what comes next for the Internet while inspiring, collaborating with, and teaching others.",
+            "The community is where some of Cloudflare’s best moments happen.",
+            "Students show their friends how to deploy Workers for the first time.",
+            "Discord users answer questions from other developers via working code samples, instead of links to documentation.",
+            "Open-source contributors build novel solutions to solve their own problems, then share them with the world."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "articles": [
+        {
+          "id": "645624c7eeb4c62c",
+          "title": "Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard",
+          "excerpt": "The Kubernetes SIG Network community is thrilled to share the release of Gateway API v1.6.0 , which was released on June 30th of this year! Gateway API has become the standard for modern, role-oriented, and expressive service networking in Kubernetes. In previous releases, Gateway API established a…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/",
+          "publishedAt": "2026-08-03T16:00:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Gateway API has become the standard for modern, role-oriented, and expressive service networking in Kubernetes. In previous releases, Gateway API established a production-grade foundation for HTTP and TLS layer 7 traffic. With version 1.6.0, Gateway API takes a major step forward by expanding standard layer 4 protocol routing and introducing cleaner API boundaries for experimental innovation.",
+            "Here is a quick summary of what's new in Gateway API v1.6.0:",
+            "TCPRoute and UDPRoute Graduate to Standard : Raw L4 TCP and UDP traffic routing reach GA stability in the v1 API version.",
+            "Experimental API Group Separation : Experimental resources transition to a distinct API group ( gateway.networking.x-k8s.io ) with an X prefix to make experimental vs. standard boundaries crystal clear.",
+            "Until now, Gateway API only offered a stable routing model for HTTP and TLS traffic. Workloads that speak a raw protocol over TCP or UDP - databases, DNS, VoIP, gaming, IoT telemetry - had no portable way to plug into a Gateway. Users either fell back to a plain Kubernetes Service, or to an implementation-specific CRD that doesn't travel between Gateway controllers."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "articles": [
+        {
+          "id": "10e8b50a15deeb27",
+          "title": "How we took malware advisories beyond npm",
+          "excerpt": "GitHub malware advisories no longer stop at npm. Here's how we wired OpenSSF's malicious-packages data into the Advisory Database, and why we built the pipeline paranoid. The post How we took malware advisories beyond npm appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
+          "publishedAt": "2026-08-06T16:51:12.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "A compromised package can steal credentials the moment you install it, and until recently, GitHub could only flag those in npm. Not anymore. This is the story of how the supply chain engineering team behind Dependabot expanded malware advisories to eight ecosystems by building on OpenSSF's shared malicious packages data.",
+            "Here's where things stand: earlier this year, Dependabot started flagging malware in your npm dependencies . Great news if you write JavaScript. Now we're bringing that same functionality to PyPI.",
+            "We've enhanced the GitHub Advisory Database to ingest malware reports from OpenSSF's malicious-packages repository , which means malware advisories and the Dependabot alerts they power cover all eight major package ecosystems: npm, PyPI, Maven, RubyGems, NuGet, Go, crates.io, and PHP Composer.",
+            "I lead the Dependabot team in GitHub's supply chain security organization, and in this post, I'll show you how this pipeline works.",
+            "The Advisory Database has imported vulnerability data from external sources for years. RubySec for gems, RustSec for crates, PyPA for Python. Each one is an importer that reads a public advisory repo and maps records into our database. Malware was the odd one out: it flowed through a separate, internal, npm-only path, built around GitHub's own detection of malicious npm packages."
+          ]
+        },
+        {
+          "id": "e66cc71d0943fe40",
+          "title": "Responding to the next frontier of critical cyber capabilities",
+          "excerpt": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+          "publishedAt": "2026-08-07T15:20:00.000Z",
+          "technologies": [
+            "Next.js",
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Cybersecurity is rapidly changing as models become more capable in ways that can both strengthen cyberdefenses and enable attacks at unprecedented speed and scale.",
+            "Our latest internal evaluations of Astra, one of our upcoming models, over the past few days indicate significant advancements in agentic coding and cybersecurity.",
+            "These results, in addition to expert assessments, have led us to conclude last night that we cannot rule out critical cyber capabilities under our Preparedness Framework.",
+            "We are sharing this because we believe it’s important to be transparent with the public and the safety and security communities about this potential shift in capabilities.",
+            "We first published our Preparedness Framework in December 2023, well before models approached biological, chemical, cybersecurity, and AI self-improvement capabilities at this level."
+          ]
+        },
+        {
+          "id": "c99ec862b4e71599",
+          "title": "Third-party cyber evaluations involving OpenAI models",
+          "excerpt": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+          "publishedAt": "2026-08-04T19:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Independent testing plays an important role in helping us validate and further understand risks before deployment.",
+            "Some cyber evaluations intentionally use custom configurations, including lowered safeguards to measure underlying capability-not how models ordinarily behave in publicly available deployments.",
+            "During recent evaluations, two external testing partners identified incidents in which testing configurations and controls combined with the advancing capabilities of the recent models allowed for model activity to extend beyond their intended testing boundaries.",
+            "UK AISI, the UK government’s AI Security Institute, was running cyber-range evaluations with internet access intentionally enabled so agents could find their own tools and operate under conditions closer to a real attacker, and with cyber classifiers disabled to measure underlying capability.You can read their blog here.",
+            "Irregular, one of our external cybersecurity testing partners, was running Capture-the-Flag-style evaluations intended to be isolated from the internet, but a testing-environment misconfiguration allowed models to access the public internet."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Languages",
+      "articles": [
+        {
+          "id": "3cf78d30cb89fa74",
+          "title": "Enabling the next iteration of the borrow checker on nightly",
+          "excerpt": "TL;DR We are enabling the next iteration of the borrow checker (coined Polonius Alpha) on nightly in preparation for stabilization in the next few months. Whaaaaaat? Yes! You heard it right! The next iteration of the Rust borrow checker is coming! Rust's first borrow checker (\"AST borrowck\") was very limited…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nightly/",
+          "publishedAt": "2026-08-04T00:00:00.000Z",
+          "technologies": [
+            "Next.js",
+            "Rust"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "Yes! You heard it right! The next iteration of the Rust borrow checker is coming! Rust's first borrow checker (\"AST borrowck\") was very limited and was phased out in 2019 in favor of NLL , other than a \"migrate mode\" that was used to provide nice error messages. That migrate mode was finally removed in 2022 .",
+            "The Polonius borrow checker spun out of the NLL effort in 2018.",
+            "The initial formulation passed the NLL test suite and accepted (sound) code that NLL did not.",
+            "However, performance was a critically-limiting factor; generally borrow check was slower than NLL, but certain programs were considerably slower than NLL to the extent that using that implementation/formulation of Polonius was a non-starter.",
+            "Attempts were made over the years to implement the Polonius formulation in a performant manner, without much luck in addressing the core issues."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "articles": [
+        {
+          "id": "851b216e37df4ab0",
+          "title": "A guide to slash commands in the GitHub Copilot app",
+          "excerpt": "Go beyond chat in the GitHub Copilot app with these slash commands. They'll help you plan, collaborate, automate, and customize your dev workflow. The post A guide to slash commands in the GitHub Copilot app appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
+          "publishedAt": "2026-08-06T19:49:34.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "If you've used slash commands in the GitHub Copilot CLI, you already know how powerful a quick / can be. In the GitHub Copilot app, slash commands take that idea further, giving you shortcuts for managing sessions, navigating projects, and customizing your Copilot workflow.",
+            "Slash commands are text shortcuts you type directly into the GitHub Copilot app's chat composer. Start by typing / and an autocomplete menu appears, showing the commands available in your current context. It's a small character with a lot of potential, opening the door to shortcuts that help you work with Copilot in new ways.",
+            "If you're coming from the CLI, here's the key difference: CLI slash commands are designed around a terminal-first workflow. Things like adding directories, setting your working directory, and managing terminal access happen through commands. This makes sense, because the CLI lives inside your terminal where there's no visual interface.",
+            "The app, on the other hand, provides a visual interface for managing context. File access commands like /add-dir or /cwd aren't needed since the app manages project context automatically. App slash commands are more about workflows. You can navigate between sessions, manage projects, and control how the agent works.",
+            "Slash commands may look like simple shortcuts, but they can change how you interact with Copilot."
+          ]
+        },
+        {
+          "id": "f66aea27eeabe66a",
+          "title": "The next generation of MCP",
+          "excerpt": "The next version of MCP has a rewritten, stateless core that just works on Workers. We cover upgrades to the protocol, the new feature lifecycle and SDK migration path, and hear from early adopters already running it in production.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/mcp-v2/",
+          "publishedAt": "2026-08-06T13:00:00.000Z",
+          "technologies": [
+            "Next.js"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Over the last year and a half, the Model Context Protocol (MCP) has become the universal standard for how agents interact with external services.",
+            "But one of the main criticisms of MCP was that the protocol required a stateful connection between Client and Server.",
+            "This evolved from MCP’s origins and the first STDIO transport, designed for local applications .",
+            "When MCP Servers went remote, it translated the stateful connection that worked so well locally and transposed it onto web infrastructure.",
+            "Building a well-behaved MCP Server meant managing request routing to sticky sessions, holding open streams, message replay, and generally more overhead and complexity than a traditional web server."
+          ]
+        },
+        {
+          "id": "3763c3e63f841c3b",
+          "title": "From asking to doing: How the world is putting ChatGPT to work",
+          "excerpt": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+          "publishedAt": "2026-08-06T00:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "AI is moving from something people ask to something they put to work.",
+            "For the first time, OpenAI is publishing country-by-country data showing how people around the world use ChatGPT.",
+            "In France and Czechia, their share of messages increased by more than 10 percentage points in the past year.",
+            "Taken together, the data points to a clear shift: AI is no longer just helping people find answers.",
+            "It is helping more people, in more places, get things done."
+          ]
+        }
+      ]
+    }
+  ]
+}
