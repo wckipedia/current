@@ -1,6 +1,6 @@
 {
   "week": "2026-W33",
-  "generatedAt": "2026-08-10T21:58:19.298Z",
+  "generatedAt": "2026-08-10T22:58:51.156Z",
   "sections": [
     {
       "name": "AI",
@@ -58,8 +58,7 @@
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "OpenAI August 10, 2026 Global Affairs Read the letter Loading… OpenAI sent a letter to Texas Governor Greg Abbott outlining our commitment to responsible AI infrastructure development in Texas.",
-            "We look forward to working with state and local leaders, utilities, and communities to ensure AI infrastructure delivers meaningful benefits to Texans."
+            "The letter supports reliable, transparent growth that benefits Texans."
           ]
         }
       ]
@@ -125,11 +124,11 @@
           "category": "Security",
           "scanMinutes": 1,
           "details": [
-            "Skip to main content [](http://openai.com/) * Research * Products * Business * Developers * Company * Foundation Log inTry ChatGPT * Research * Products * Business * Developers * Company * Foundation Try ChatGPTLogin OpenAI *1.@{ 0#/0 1 0-\\ 1-\\1=1.+*==%*\\-[]{/]:/*##]]@ \\> *%[]@>>.+0.",
             "Explore Daybreak The cybersecurity world is rapidly changing-threat actors will increasingly use AI to conduct cyberattacks at unprecedented speed and scale, including in fully autonomous ways.",
             "As these capabilities spread, defenders have a narrowing window to prepare.",
             "Our answer is to put frontier intelligence in the hands of trusted defenders everywhere before attackers deploy offensive AI capabilities at scale.",
-            "We’re expanding OpenAI Daybreak with two access tiers designed to give approved defenders the right capabilities for their work: * **Daybreak Blue** provides access to frontier general-purpose models, including GPT‑5.6 Sol, with safeguards tailored to authorized defensive security work."
+            "We’re expanding OpenAI Daybreak with two access tiers designed to give approved defenders the right capabilities for their work: * **Daybreak Blue** provides access to frontier general-purpose models, including GPT‑5.6 Sol, with safeguards tailored to authorized defensive security work.",
+            "It is the recommended starting point for most defenders, supporting vulnerability discovery, secure code review, malware analysis, incident response, and patch validation. * **Daybreak Red** provides access to our purpose-trained cybersecurity models for authorized vulnerability research, exploit validation, and security testing."
           ]
         },
         {
@@ -204,6 +203,26 @@
           ]
         },
         {
+          "id": "6476741ad7bd8e8e",
+          "title": "How Zapier transformed core marketing processes with ChatGPT Work",
+          "excerpt": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/zapier",
+          "publishedAt": "2026-08-10T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "At Zapier, the enterprise marketing team is using ChatGPT Work to build automated funnel optimization systems, enabling them to deliver more value to their sales team with less manual effort.",
+            "Answering the question required an intensive quality assurance (QA) and quality control (QC) process to figure out where in the funnel these leads were dropping off.",
+            "But with ChatGPT Work, Ferrante could automate a process so labor-intensive that it would have been effectively impossible to accomplish otherwise.",
+            "“It has just transformed how we do work and what we’re able to do,” Ferrante explains.",
+            "Now, the enterprise marketing team can perform automatic QA/QC on thousands of leads every month."
+          ]
+        },
+        {
           "id": "851b216e37df4ab0",
           "title": "A guide to slash commands in the GitHub Copilot app",
           "excerpt": "Go beyond chat in the GitHub Copilot app with these slash commands. They'll help you plan, collaborate, automate, and customize your dev workflow. The post A guide to slash commands in the GitHub Copilot app appeared first on The GitHub Blog .",
@@ -221,26 +240,6 @@
             "If you're coming from the CLI, here's the key difference: CLI slash commands are designed around a terminal-first workflow. Things like adding directories, setting your working directory, and managing terminal access happen through commands. This makes sense, because the CLI lives inside your terminal where there's no visual interface.",
             "The app, on the other hand, provides a visual interface for managing context. File access commands like /add-dir or /cwd aren't needed since the app manages project context automatically. App slash commands are more about workflows. You can navigate between sessions, manage projects, and control how the agent works.",
             "Slash commands may look like simple shortcuts, but they can change how you interact with Copilot."
-          ]
-        },
-        {
-          "id": "f66aea27eeabe66a",
-          "title": "The next generation of MCP",
-          "excerpt": "The next version of MCP has a rewritten, stateless core that just works on Workers. We cover upgrades to the protocol, the new feature lifecycle and SDK migration path, and hear from early adopters already running it in production.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/mcp-v2/",
-          "publishedAt": "2026-08-06T13:00:00.000Z",
-          "technologies": [
-            "Next.js"
-          ],
-          "category": "Developer Tools",
-          "scanMinutes": 1,
-          "details": [
-            "Over the last year and a half, the Model Context Protocol (MCP) has become the universal standard for how agents interact with external services.",
-            "But one of the main criticisms of MCP was that the protocol required a stateful connection between Client and Server.",
-            "This evolved from MCP’s origins and the first STDIO transport, designed for local applications .",
-            "When MCP Servers went remote, it translated the stateful connection that worked so well locally and transposed it onto web infrastructure.",
-            "Building a well-behaved MCP Server meant managing request routing to sticky sessions, holding open streams, message replay, and generally more overhead and complexity than a traditional web server."
           ]
         }
       ]
