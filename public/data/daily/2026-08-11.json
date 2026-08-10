@@ -1,6 +1,10 @@
 {
-  "week": "2026-W33",
+  "date": "2026-08-11",
   "generatedAt": "2026-08-10T21:58:19.298Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -60,6 +64,26 @@
           "details": [
             "OpenAI August 10, 2026 Global Affairs Read the letter Loading… OpenAI sent a letter to Texas Governor Greg Abbott outlining our commitment to responsible AI infrastructure development in Texas.",
             "We look forward to working with state and local leaders, utilities, and communities to ensure AI infrastructure delivers meaningful benefits to Texans."
+          ]
+        },
+        {
+          "id": "95f74aeac90a93bb",
+          "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+          "excerpt": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/model-ml",
+          "publishedAt": "2026-08-10T12:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Before financial analysis can stand up in front of clients or senior decision-makers, teams have to carry it through a demanding last mile: reconciling evidence, building and formatting the file, checking every number, and linking each claim to its source.",
+            "The finished PowerPoint deck or Excel workbook has to be editable and ready for scrutiny.",
+            "Model ML cofounders and brothers Arnie and Chaz Englander saw how much work that required when, after two successful exits, they began investing through a private family office and, as builders do, building software to help themselves.",
+            "Grown out of that software, Model ML’s agents help finance professionals carry a workflow from the initial request through research, analysis, and a finished deck or workbook.",
+            "At the center, a core agent plans the work, selects the right tools, reconciles evidence, and runs calculations, routing each step to the model best suited to it, which is often GPT‑5.6 Sol."
           ]
         }
       ]
@@ -151,6 +175,26 @@
             "AI is changing cybersecurity faster than most organizations can respond.",
             "Attackers can identify vulnerabilities, develop exploits, and move through complex systems with increasing speed and scale."
           ]
+        },
+        {
+          "id": "10e8b50a15deeb27",
+          "title": "How we took malware advisories beyond npm",
+          "excerpt": "GitHub malware advisories no longer stop at npm. Here's how we wired OpenSSF's malicious-packages data into the Advisory Database, and why we built the pipeline paranoid. The post How we took malware advisories beyond npm appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
+          "publishedAt": "2026-08-06T16:51:12.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "A compromised package can steal credentials the moment you install it, and until recently, GitHub could only flag those in npm. Not anymore. This is the story of how the supply chain engineering team behind Dependabot expanded malware advisories to eight ecosystems by building on OpenSSF's shared malicious packages data.",
+            "Here's where things stand: earlier this year, Dependabot started flagging malware in your npm dependencies . Great news if you write JavaScript. Now we're bringing that same functionality to PyPI.",
+            "We've enhanced the GitHub Advisory Database to ingest malware reports from OpenSSF's malicious-packages repository , which means malware advisories and the Dependabot alerts they power cover all eight major package ecosystems: npm, PyPI, Maven, RubyGems, NuGet, Go, crates.io, and PHP Composer.",
+            "I lead the Dependabot team in GitHub's supply chain security organization, and in this post, I'll show you how this pipeline works.",
+            "The Advisory Database has imported vulnerability data from external sources for years. RubySec for gems, RustSec for crates, PyPA for Python. Each one is an importer that reads a public advisory repo and maps records into our database. Malware was the odd one out: it flowed through a separate, internal, npm-only path, built around GitHub's own detection of malicious npm packages."
+          ]
         }
       ]
     },
@@ -241,6 +285,26 @@
             "This evolved from MCP’s origins and the first STDIO transport, designed for local applications .",
             "When MCP Servers went remote, it translated the stateful connection that worked so well locally and transposed it onto web infrastructure.",
             "Building a well-behaved MCP Server meant managing request routing to sticky sessions, holding open streams, message replay, and generally more overhead and complexity than a traditional web server."
+          ]
+        },
+        {
+          "id": "7efa45facc6afd34",
+          "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
+          "excerpt": "Learn how to build tools to simplify how you work—without writing a single line of code. The post How the GitHub legal team used Copilot CLI to streamline their workflows appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
+          "publishedAt": "2026-08-04T19:02:34.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Whether you are just starting out or are not in a technical role at all, you likely already have the skills you need to build your own tools. If you have ever thought \"I'm not technical enough to build that,\" this post is for you.",
+            "Let me introduce the team. We are lawyers, program managers, and business professionals-not engineers. A large part of our work is often repetitive, like reviewing the same kinds of contracts over and over or answering the same legal questions, and our prior guidance is frequently recycled. These are problems AI could help solve, but we lacked confidence in how to build the right tools.",
+            "That is where GitHub Copilot CLI came in. We asked for what we wanted in plain language, plugged into our repos, and saw real changes fast. \"I could never code\" turned into \"I just built something,\" and that habit spread on its own until every one of us was building something.",
+            "What follows are two real accounts of people who did exactly that. Plus, watch the videos for two additional stories.",
+            "The following is a first-person account from Ngandu Kasuku, Principal Product Counsel."
           ]
         }
       ]
