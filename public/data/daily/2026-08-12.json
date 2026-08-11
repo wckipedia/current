@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "generatedAt": "2026-08-11T22:04:57.173Z",
+  "generatedAt": "2026-08-11T23:05:43.892Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -193,11 +193,11 @@
           "category": "Security",
           "scanMinutes": 1,
           "details": [
-            "Skip to main content [](http://openai.com/) * Research * Products * Business * Developers * Company * Foundation Log inTry ChatGPT * Research * Products * Business * Developers * Company * Foundation Try ChatGPTLogin OpenAI *1.@{ 0#/0 1 0-\\ 1-\\1=1.+*==%*\\-[]{/]:/*##]]@ \\> *%[]@>>.+0.",
             "Explore Daybreak The cybersecurity world is rapidly changing-threat actors will increasingly use AI to conduct cyberattacks at unprecedented speed and scale, including in fully autonomous ways.",
             "As these capabilities spread, defenders have a narrowing window to prepare.",
             "Our answer is to put frontier intelligence in the hands of trusted defenders everywhere before attackers deploy offensive AI capabilities at scale.",
-            "We’re expanding OpenAI Daybreak with two access tiers designed to give approved defenders the right capabilities for their work: * **Daybreak Blue** provides access to frontier general-purpose models, including GPT‑5.6 Sol, with safeguards tailored to authorized defensive security work."
+            "We’re expanding OpenAI Daybreak with two access tiers designed to give approved defenders the right capabilities for their work: * **Daybreak Blue** provides access to frontier general-purpose models, including GPT‑5.6 Sol, with safeguards tailored to authorized defensive security work.",
+            "It is the recommended starting point for most defenders, supporting vulnerability discovery, secure code review, malware analysis, incident response, and patch validation. * **Daybreak Red** provides access to our purpose-trained cybersecurity models for authorized vulnerability research, exploit validation, and security testing."
           ]
         },
         {
