@@ -1,6 +1,10 @@
 {
-  "week": "2026-W33",
+  "date": "2026-08-12",
   "generatedAt": "2026-08-11T22:04:57.173Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -64,6 +68,26 @@
             "We’re seeing no impact on consumer trust metrics, low dismissal rates of ads, and ongoing improvements in the relevance of ads as we learn from feedback.",
             "These positive signals support moving into the next phase of our pilot._ _In the coming weeks, we’ll begin expanding beyond the U.S., starting with pilots in Canada, Australia, and New Zealand.",
             "We’ll roll this out thoughtfully in each market, learn from real-world usage, and adjust as we go."
+          ]
+        },
+        {
+          "id": "5367cc95a8fd9817",
+          "title": "What building an AI-native finance function taught me",
+          "excerpt": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/building-an-ai-native-finance-function",
+          "publishedAt": "2026-08-10T17:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "To me, the opportunity is much bigger than closing the books faster or refreshing a forecast more often.",
+            "It is about seeing the business as it changes, helping leaders act sooner, and giving finance teams more time to shape what happens next.",
+            "When I joined OpenAI two years ago, there was only a small finance team supporting a company growing at extraordinary speed.",
+            "We needed to build the function from the ground up and make AI fundamental to how we work, make decisions, and support the business.",
+            "Closing the books and updating forecasts still involved manual, recurring work: finding information, explaining what changed, and assembling the inputs for a decision."
           ]
         }
       ]
@@ -175,6 +199,26 @@
             "Our answer is to put frontier intelligence in the hands of trusted defenders everywhere before attackers deploy offensive AI capabilities at scale.",
             "We’re expanding OpenAI Daybreak with two access tiers designed to give approved defenders the right capabilities for their work: * **Daybreak Blue** provides access to frontier general-purpose models, including GPT‑5.6 Sol, with safeguards tailored to authorized defensive security work."
           ]
+        },
+        {
+          "id": "29b0e61ec6cd1ed3",
+          "title": "Putting frontier cyber models in more trusted hands",
+          "excerpt": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+          "publishedAt": "2026-08-10T10:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "We’re bringing OpenAI’s frontier cyber models to the security partners protecting organizations around the world.",
+            "Together, we’re putting frontier intelligence directly into the products, services, and security operations defenders already depend on.",
+            "More organizations can now find serious vulnerabilities, fix them faster, and stay ahead of threats moving at machine speed. !Image 1: Logos of Daybreak Cyber Partner Program participants on an orange gradient background.",
+            "AI is changing cybersecurity faster than most organizations can respond.",
+            "Attackers can identify vulnerabilities, develop exploits, and move through complex systems with increasing speed and scale."
+          ]
         }
       ]
     },
@@ -239,6 +283,26 @@
             "That is where GitHub Copilot CLI came in. We asked for what we wanted in plain language, plugged into our repos, and saw real changes fast. \"I could never code\" turned into \"I just built something,\" and that habit spread on its own until every one of us was building something.",
             "What follows are two real accounts of people who did exactly that. Plus, watch the videos for two additional stories.",
             "The following is a first-person account from Ngandu Kasuku, Principal Product Counsel."
+          ]
+        },
+        {
+          "id": "c486e857c8e8b077",
+          "title": "Don’t stop early: Case-folding source code at memory speed",
+          "excerpt": "How a branch-free loop and byte-space arithmetic let GitHub case-fold every byte of code search at >45 GiB/s on a single core. The post Don’t stop early: Case-folding source code at memory speed appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/",
+          "publishedAt": "2026-07-31T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Suppose a user searches for caf&eacute; and your corpus contains CAF&Eacute;, or they type stra&szlig;e and you've stored STRASSE.",
+            "To make these count as matches, you need a canonical form that erases case distinctions, so that two strings which differ only in case compare equal.",
+            "That form is case folding, and it shows up wherever text is matched rather than displayed: search engines, regex (?i) flags, case-insensitive usernames and hostnames.",
+            "Blackbird, GitHub's code search engine, indexes over 180 million repositories-more than 480TB of source code.",
+            "Every byte is case-folded before we extract ngrams and build the index, and for every potential query result, another (implicit or explicit) case folding operation is needed to locate matches."
           ]
         }
       ]
