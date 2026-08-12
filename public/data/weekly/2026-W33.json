@@ -1,6 +1,6 @@
 {
   "week": "2026-W33",
-  "generatedAt": "2026-08-12T22:02:43.211Z",
+  "generatedAt": "2026-08-12T23:04:22.069Z",
   "sections": [
     {
       "name": "AI",
@@ -226,6 +226,26 @@
     {
       "name": "Developer Tools",
       "articles": [
+        {
+          "id": "a867b54089923a36",
+          "title": "GitHub availability report: July 2026",
+          "excerpt": "In July, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: July 2026 appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/github-availability-report-july-2026/",
+          "publishedAt": "2026-08-12T22:17:32.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "The GitHub Actions incident on Thursday, August 6, was unacceptable in both its impact and particularity of its duration. Availability continues to be our top priority across all of GitHub. However, with this incident, we have fallen short of our commitments to you. We know how heavily customers rely on actions, and a prolonged outage like this one has a real impact on your productivity and on your trust in us.",
+            "We continue to work through a deeper root cause analysis (RCA) on the incident, as there were many aspects in play that we want to fully understand before calling the investigation complete. We’ll update the public summary when our investigation is complete, and we will include the complete details in our August availability post to be published in September.",
+            "Aside from immediate repair items discovered through our investigation, we are accelerating our architectural roadmap in GitHub Actions, aligned to our ongoing efforts around isolation, resiliency, and scale.",
+            "It’s worth noting that the GitHub Actions service at the core of the aforementioned incident is still fully running in our data centers, a contributing factor to the lack of capacity we experienced.",
+            "While the majority of actions runs on Azure, we hadn’t yet prioritized migrating launch service, the component that bridges the monolith to actions, due to its generally asynchronous nature and ability to queue work in response to issues."
+          ]
+        },
         {
           "id": "6ea2c856f0a4cde5",
           "title": "Using the GitHub Copilot SDK for Java",
