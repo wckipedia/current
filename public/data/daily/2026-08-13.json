@@ -1,6 +1,10 @@
 {
-  "week": "2026-W33",
+  "date": "2026-08-13",
   "generatedAt": "2026-08-12T22:02:43.211Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -64,6 +68,26 @@
             "That changes the developer role. You still write code, sure, but you also design the system: how code is proposed, validated, reviewed, and shipped.",
             "Doing it all in one place makes it easier to track and execute. GitHub Copilot is your control plane for building software that gets wired up. And it helps you better orchestrate your agents.",
             "To create a workflow that fits the way you work, you want to start with familiar repository events and triggers. Add a label to an issue or run a scheduled workflow overnight. Those events can trigger a GitHub Actions workflow that invokes an agent to perform a task that you scoped."
+          ]
+        },
+        {
+          "id": "e063daae6225e156",
+          "title": "From assistance to execution: How enterprises put AI to work",
+          "excerpt": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+          "publishedAt": "2026-08-12T06:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Organizations are expanding both where they use AI and what they ask it to do.",
+            "Enterprise AI is moving from assistance to execution, yet not all firms are making that transition at the same pace.",
+            "Frontier firms-those in the top 10% of AI usage each month-now generate 8.3× as many output tokens per active user as typical firms.",
+            "The measure is a proxy for depth of use, and the widening gap appears alongside greater adoption of capabilities that connect agents to company context, tools, and repeatable workflows.",
+            "Today we are publishing two complementary studies that examine this shift."
           ]
         }
       ]
@@ -219,6 +243,26 @@
             "With Daybreak Access, defenders can use frontier cyber models within their existing AWS environments.",
             "Daybreak Blue and Daybreak Red access levels are both available in AWS: * **Daybreak Blue**provides access to frontier general-purpose models, including GPT‑5.6 Sol, with safeguards tailored to authorized defensive security work. * **Daybreak Red**provides access to our purpose-trained cybersecurity models for authorized vulnerability research, exploit validation, and security testing.",
             "These models help accelerate vulnerability research, detection engineering, and incident response, from initial discovery through a validated fix."
+          ]
+        },
+        {
+          "id": "29b0e61ec6cd1ed3",
+          "title": "Putting frontier cyber models in more trusted hands",
+          "excerpt": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+          "publishedAt": "2026-08-10T10:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "We’re bringing OpenAI’s frontier cyber models to the security partners protecting organizations around the world.",
+            "Together, we’re putting frontier intelligence directly into the products, services, and security operations defenders already depend on.",
+            "More organizations can now find serious vulnerabilities, fix them faster, and stay ahead of threats moving at machine speed. !Image 1: Logos of Daybreak Cyber Partner Program participants on an orange gradient background.",
+            "AI is changing cybersecurity faster than most organizations can respond.",
+            "Attackers can identify vulnerabilities, develop exploits, and move through complex systems with increasing speed and scale."
           ]
         }
       ]
