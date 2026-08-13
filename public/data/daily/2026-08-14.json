@@ -1,6 +1,10 @@
 {
-  "week": "2026-W33",
+  "date": "2026-08-14",
   "generatedAt": "2026-08-13T22:03:00.434Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "A better out-of-the-box experience Since GPT‑5, each model generation has sought to tackle longer-horizon tasks with fewer tokens.",
             "GPT‑5.6 continues that trajectory: stronger agent performance, lower costs, with minimal changes to the underlying harness.",
             "The improvements in top-line cost efficiency are compounded with increased accuracy at lower reasoning efforts."
+          ]
+        },
+        {
+          "id": "6eaab463a55def87",
+          "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+          "excerpt": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+          "publishedAt": "2026-08-13T09:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Dali Rajic will be joining as Chief Revenue Officer, leading OpenAI’s global revenue organization.",
+            "OpenAI brings together research, products, deployment, and infrastructure to make AI more capable, more affordable, and broadly useful.",
+            "Our products now reach more than one billion weekly active users and more than two million businesses-twice as many as a year ago. !Image 1: Portrait of Dali Rajic Denise Dresser helped make that possible.",
+            "During a formative period for both OpenAI and the enterprise AI market, she built the team, strengthened relationships with major customers, and established the commercial foundation that has brought our business to this point.",
+            "Denise will leave OpenAI to pursue other opportunities following a transition period, during which she will work closely with the business team to support our customers."
           ]
         }
       ]
@@ -239,6 +263,26 @@
             "We are also very excited to announce that we are using the new systems we developed for FedRAMP High as the foundation of our commitment to pursuing U.S.",
             "Department of Defense Impact Level 4 (DoD IL4) authorization."
           ]
+        },
+        {
+          "id": "5d3aff0aba5d0b8a",
+          "title": "Daybreak models are now available on AWS",
+          "excerpt": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+          "publishedAt": "2026-08-11T10:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Earlier this year, OpenAI frontier models and Codex became generally available on AWS, giving enterprises a new path to bring advanced AI into production.",
+            "Today, we’re sharing the next step in our work with AWS: making Daybreak capabilities available through Amazon Bedrock.",
+            "With Daybreak Access, defenders can use frontier cyber models within their existing AWS environments.",
+            "Daybreak Blue and Daybreak Red access levels are both available in AWS: * **Daybreak Blue**provides access to frontier general-purpose models, including GPT‑5.6 Sol, with safeguards tailored to authorized defensive security work. * **Daybreak Red**provides access to our purpose-trained cybersecurity models for authorized vulnerability research, exploit validation, and security testing.",
+            "These models help accelerate vulnerability research, detection engineering, and incident response, from initial discovery through a validated fix."
+          ]
         }
       ]
     },
@@ -303,6 +347,26 @@
             "With GPT‑5.6, we’re pushing the frontier on what our models can do and making them more efficient across every layer of our stack.",
             "Those improvements have made advanced intelligence more affordable and more useful to more people.",
             "Until now, getting real-time speed typically meant choosing a smaller or more specialized model."
+          ]
+        },
+        {
+          "id": "6ea2c856f0a4cde5",
+          "title": "Using the GitHub Copilot SDK for Java",
+          "excerpt": "Enterprise Java developers have a new superpower—drive GitHub Copilot from idiomatic Java code with annotations, virtual threads, and more. The post Using the GitHub Copilot SDK for Java appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
+          "publishedAt": "2026-08-10T19:30:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Java developers no longer have to rely on Java framework-specific approaches to drive AI from their enterprise apps.",
+            "While it is true that Langchain4j empowered developers by disintermediating specific AI vendors, you still had a dependency on Langchain4j. And with Spring AI, well, of course you had a dependency on design choices made by Spring, if not on Spring itself.",
+            "Now, GitHub Copilot SDK for Java is the first truly framework agnostic way to drive AI from Java. And with its BYOK support, GitHub Copilot SDK for Java is also AI vendor neutral.",
+            "The GitHub Copilot SDK for Java is a client library that empowers your server-side Java code to create Copilot agent sessions, register tools, send prompts, and receive structured responses-all programmatically.",
+            "It works in server environments, including Jakarta EE and Spring."
           ]
         }
       ]
