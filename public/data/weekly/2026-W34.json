@@ -1,0 +1,311 @@
+{
+  "week": "2026-W34",
+  "generatedAt": "2026-08-16T21:34:41.634Z",
+  "sections": [
+    {
+      "name": "AI",
+      "articles": [
+        {
+          "id": "9c196c1f17dbbac8",
+          "title": "How to bring your software delivery workflow into GitHub with agent apps",
+          "excerpt": "See how four GitHub agent apps can help you scope, secure, roll out, and ship a feature across the SDLC–all without leaving GitHub. The post How to bring your software delivery workflow into GitHub with agent apps appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
+          "publishedAt": "2026-08-14T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "How many tabs do you have open alongside your pull request?",
+            "Imagine picking up a new issue in your product's free-trial onboarding flow: make the \"invite your teammates\" step optional. Support keeps flagging the step as a friction point as signups increase. Quick win, right?",
+            "From scoping to deployment, you need answers to these four questions:",
+            "Each answer lives in a different tool, so working through the pull request means carrying the same context across four places.",
+            "GitHub agent apps bring the tools you need to answer those questions to where you're already working, powered by the same platform and harness as our own Copilot cloud agent . The illustrative walkthrough below shows how you can use services you already depend on, such as Amplitude, Endor Labs, LaunchDarkly, and PagerDuty to answer these questions and complete this request, without ever leaving GitHub."
+          ]
+        },
+        {
+          "id": "8e22b0b0124b585b",
+          "title": "Write your first prompt with the GitHub Copilot app",
+          "excerpt": "Learn how to write your first prompt in the GitHub Copilot app, choose the right context and model, and start your first task with confidence. The post Write your first prompt with the GitHub Copilot app appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
+          "publishedAt": "2026-08-12T19:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Opening a new AI tool can feel a little like staring at a blank page. You know you want help with something, but figuring out exactly what to ask can be its own task.",
+            "The good news is that you don't need to write the perfect prompt to get started. A prompt is simply a description of what you want to accomplish. Start with what you know, give Copilot some context, and refine the request as you go.",
+            "Let's walk through what it looks like to start your first task in the GitHub Copilot app .",
+            "Before you can ask Copilot to make a change, it needs something to work on. Agent sessions can be connected to a GitHub repository or a folder on your local machine, giving Copilot access to the code and files it needs for the task.",
+            "From the GitHub Copilot app home screen, you can select a project you've worked with before or add a new one."
+          ]
+        },
+        {
+          "id": "e7ebe94da85da416",
+          "title": "Your contributors are AI-first now. Is your project?",
+          "excerpt": "AI contributors are already in your queue. AutoGPT maintainer Nicholas Tindle shares the repo instructions, gates, and boundaries that keep maintainers in control. The post Your contributors are AI-first now. Is your project? appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project/",
+          "publishedAt": "2026-08-12T18:00:08.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "The same question keeps coming up in maintainer conversations: what do you do when the pull request queue fills with work written by agents?",
+            "It's something Nicholas Tindle, founding AI engineer at AutoGPT, also deals with every day.",
+            "At the time of the interview, AutoGPT had over 180,000 stars and around 150 open pull requests.",
+            "A big chunk of those pull requests were written by agents, including Copilot, OpenClaw, and AutoGPT's own internal tooling, among others.",
+            "Most maintainers I talk to have the same reaction: close the door."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "articles": [
+        {
+          "id": "99a5478b68b82d07",
+          "title": "Secure all your internal vibe-coded applications — in one click",
+          "excerpt": "Introducing Cloudflare Access for Workers. Attach an Access policy directly to a Worker and it applies everywhere that Worker runs — routes, custom domains, workers.dev, and previews — automatically.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/workers-protected-by-access/",
+          "publishedAt": "2026-08-14T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "AI has enabled employees across every team to build applications faster than ever before.",
+            "But that speed is also what's keeping every CISO up at night: any employee can build an application, deploy it to the public Internet, and accidentally expose internal work or company data.",
+            "Today, we're launching new tools to make it easy to keep your applications hosted on Workers private. You can now apply Cloudflare Access directly to a Worker or to every Worker in your account, so that your applications are behind your company login by default, without relying on each developer to set that up themselves.",
+            "Set a policy at the account level to ensure that all preview and production deployments are behind your company login by default.",
+            "Set a policy on a single application to ensure authentication is enforced on every domain associated with it, no matter how it's deployed."
+          ]
+        },
+        {
+          "id": "d99f99b648a3f461",
+          "title": "Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
+          "excerpt": "Cloudflare's data shows a clear impact on Internet traffic from Iceland to Spain and Portugal, following the path of totality of the total solar eclipse that occurred on August 12, 2026.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal/",
+          "publishedAt": "2026-08-13T19:58:01.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "At a time when looking down at our devices is a ritual in daily life, a natural phenomenon that demands our attention communally upward is a welcome event.",
+            "On Wednesday, August 12, a total solar eclipse swept from the North Atlantic across Europe, moving over Iceland and northern Spain and Portugal, with a deep partial eclipse over the rest of Western Europe, all near local sunset.",
+            "This was the first total solar eclipse to cross mainland Europe in twenty years, and it drew millions outdoors to witness the moon pass between Earth and the sun.",
+            "As we saw during the 2026 World Cup and the last total eclipse in 2024 , online behavior is noticeably affected when an event at this scale takes place. In this blog post, we’ll use data from Cloudflare Radar to examine how Internet traffic shifted alongside the moon and the sun.",
+            "In the figure above, we measured HTTP request volume in five-minute buckets across the affected countries on eclipse day, and compared it to a normal-day baseline. Each row is a country (except for Alaska) and each column is a five-minute slice of August 12, 2025, the day of the eclipse. The countries appear above in the order in which they saw the eclipse."
+          ]
+        },
+        {
+          "id": "5fd06b6421851c8c",
+          "title": "Certificate Transparency Monitoring is now generally available",
+          "excerpt": "Cloudflare's Certificate Transparency Monitoring is now generally available. The biggest change: we no longer email you about certificates Cloudflare issued for your domain, so when an alert lands in your inbox, it's worth a look.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
+          "publishedAt": "2026-08-13T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Today, it's turned on for more than 650,000 customer domains.",
+            "It's an early warning that someone, somewhere, has issued a certificate for a hostname in your zone, giving you a chance to spot a mis-issued certificate early.",
+            "It's a useful signal, but it had a noise problem, and we felt it ourselves.",
+            "Cloudflare issues a large volume of certificates on your behalf: Universal SSL renewals, certificates from Advanced Certificate Manager, and backup certificates.",
+            "All of them are logged to public CT logs by design, because a certificate that isn't logged won't be trusted by major browsers like Google Chrome and Apple's Safari."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "articles": [
+        {
+          "id": "a5ee20ca3c13c195",
+          "title": "Docker VMM Public Beta: A Complete Overhaul, Built for Performance",
+          "excerpt": "Docker VMM is now available in public beta for Mac and Windows. Learn what this means for performance, stability, and governance and how to try it yourself.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/docker-vmm-public-beta/",
+          "publishedAt": "2026-08-12T18:13:20.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Today we’re announcing the public beta of a fully rebuilt Docker VMM: a new first-party virtualization layer underneath Docker Desktop , optimized for containers, and now available on both Mac and Windows starting with Docker Desktop v4.86.",
+            "Part of the magic of Docker Desktop is how it provides a seamless deployment of the Linux-native Docker engine on other platforms, like macOS and Windows. To support that, Desktop automatically creates and manages a VM and all the complicated integration of your local network and filesystem, in a safe and performant way.",
+            "Creating that VM is the job of a virtual machine monitor, the layer that sits between your hardware and the containers Docker runs. Most developers never think about it. But when it’s slow, unstable, or holding onto your machine’s memory it should have released, you notice it constantly.",
+            "Docker Desktop has always relied on a third-party VMM for this. Now it runs on Docker VMM, built by us from the ground up. That means we own the full stack, and we can tune every part of the engine for container workloads specifically. That translates directly to you: an engine that improves continuously, responds to developer feedback, and ships on our own schedule.",
+            "This matters for everyone running Docker Desktop today. Performance, stability, and governance improvements at the virtualization layer enhance the experience across the board, for every workflow, on every team."
+          ]
+        },
+        {
+          "id": "6ae64bcd99a19b4f",
+          "title": "How to Pretty-Print Your Kubernetes YAML as KYAML and Why You'd Want To",
+          "excerpt": "YAML has been the standard way to write Kubernetes manifests for years. Every example, tutorial, and configuration file you come across is written in it. The problem isn't that YAML is a bad format. It's that YAML gives you a lot of choices, and not all of them are equally good for writing Kubernetes…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/",
+          "publishedAt": "2026-08-11T18:00:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "YAML has been the standard way to write Kubernetes manifests for years.",
+            "Every example, tutorial, and configuration file you come across is written in it.",
+            "It's that YAML gives you a lot of choices, and not all of them are equally good for writing Kubernetes manifests.",
+            "Some features make files harder to read, some are easy to misuse and others can lead to surprising behavior.",
+            "The interesting part is that Kubernetes doesn't actually need most of those features. It only relies on a small subset of YAML. This led to a simple question: if Kubernetes only needs a small part of YAML, why not standardize on that part and avoid the rest? Instead of introducing a new configuration language, SIG CLI introduced KYAML , a stricter, more consistent way to write YAML."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "articles": [
+        {
+          "id": "0c3a166931d4b57e",
+          "title": "How Cloudflare detects MCP traffic and helps secure it",
+          "excerpt": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enforce Portal-only access for approved servers, and block direct connections on managed network paths.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/mcp-security-updates/",
+          "publishedAt": "2026-08-14T13:12:12.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Most companies designed their resource permissions with a human user in mind. A senior engineer may be able to deploy to production, query a sensitive database, or revoke another user's access. Those privileges come with risk, but that risk has traditionally been bounded by two assumptions: the engineer will use human judgment, and the engineer can only act at human speed.",
+            "An engineer who sees an unexpected result will usually stop and reconsider their actions.",
+            "Any human being can only click, type, and review so much in a single day.",
+            "Their decisions are nondeterministic, and they can take the same action (or invoke the same tool) indefinitely, without getting tired or stopping for lunch.",
+            "A plausible - but incorrect - decision can become thousands of incorrect actions before a human notices."
+          ]
+        },
+        {
+          "id": "08365977cd80206b",
+          "title": "What 50 open source projects taught us about security in the AI era",
+          "excerpt": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about security in the AI era appeared…",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+          "publishedAt": "2026-08-13T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "AI is changing the pace of open source development and the security challenges that come with it. Maintainers are reviewing unfamiliar contributions, managing new attack surfaces, and responding to vulnerabilities with limited time and resources.",
+            "Session 4 of the GitHub Secure Open Source Fund tested a practical response. The Secure Fund invested more than $500,000 across 50 projects , pairing maintainers with GitHub Security Lab experts, GitHub security tools, AI-assisted workflows, and a peer community.",
+            "One lesson emerged consistently: AI can help maintainers investigate, prioritize, and respond faster. Maintainers still provide the context, judgement, and accountability required to decide what ships.",
+            "OpenClaw was invited to participate in Session 4 because it is GitHub's fastest-growing open source project, and its maintainers wanted to strengthen its security posture.",
+            "By the end of Session 4, OpenClaw developed an incident response plan, expanded its use of GitHub security tooling, audited its GitHub Actions workflows, and strengthened its processes for identifying and responding to security issues."
+          ]
+        },
+        {
+          "id": "105c4d4af3b11d64",
+          "title": "A new security baseline for enterprise agentic adoption",
+          "excerpt": "Agent Baseline is a blueprint for AI adoption that defines six security outcomes for putting enterprise agents to work without giving them unchecked authority. Consider this scenario: a customer-support agent receives a ticket with an attachment. Hidden inside the attachment is an instruction: query the…",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/a-new-security-baseline-for-enterprise-agentic-adoption/",
+          "publishedAt": "2026-08-12T17:25:31.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Consider this scenario: a customer-support agent receives a ticket with an attachment. Hidden inside the attachment is an instruction: query the customer database and send the results to an external address.",
+            "The agent has everything it needs to comply. It can read tickets, query internal systems, call tools, and connect to the internet. The instruction is malicious, but it looks like part of the work.",
+            "What stops the agent before customer data leaves the company?",
+            "That is the practical security problem enterprises face as agents move from experiments into daily operations. The problem is not only whether a model can recognize a malicious instruction. It is whether the systems around the model limit what the agent can reach, what authority it can use, and what actions it can take when the model gets the decision wrong.",
+            "Enterprises already know how to manage identities, isolate workloads, restrict networks, test software, collect logs, and respond to incidents. Those controls remain necessary."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "articles": [
+        {
+          "id": "e364f92c2df61054",
+          "title": "Your guide to GitHub Universe 2026 is here: The schedule just launched!",
+          "excerpt": "The GitHub Universe session catalog is live. Explore interactive workshops, community talks, demos, and panels. Plus, register before August 19 to save $300. The post Your guide to GitHub Universe 2026 is here: The schedule just launched! appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/",
+          "publishedAt": "2026-08-13T19:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "The GitHub Universe 2026 schedule just dropped, and it's full of exciting sessions, demos, and panels covering the potential of AI-powered development.",
+            "If you haven't registered yet, here's what you need to know.",
+            "This two-day event brings together some of the greatest minds in tech, with experts from companies like AMD, Figma, NVIDIA, Coinbase, Anthropic, and OpenAI leading our sessions.",
+            "They're covering everything from delegating real work to Copilot and measuring AI at enterprise scale to fine-grained security for MCP servers.",
+            "You'll also have the chance to chat with the GitHub team one-on-one, get your questions answered, and even pick up some career advice."
+          ]
+        },
+        {
+          "id": "a867b54089923a36",
+          "title": "GitHub availability report: July 2026",
+          "excerpt": "In July, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: July 2026 appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/github-availability-report-july-2026/",
+          "publishedAt": "2026-08-12T22:17:32.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "The GitHub Actions incident on Thursday, August 6, was unacceptable in both its impact and particularity of its duration. Availability continues to be our top priority across all of GitHub. However, with this incident, we have fallen short of our commitments to you. We know how heavily customers rely on actions, and a prolonged outage like this one has a real impact on your productivity and on your trust in us.",
+            "We continue to work through a deeper root cause analysis (RCA) on the incident, as there were many aspects in play that we want to fully understand before calling the investigation complete. We’ll update the public summary when our investigation is complete, and we will include the complete details in our August availability post to be published in September.",
+            "Aside from immediate repair items discovered through our investigation, we are accelerating our architectural roadmap in GitHub Actions, aligned to our ongoing efforts around isolation, resiliency, and scale.",
+            "It’s worth noting that the GitHub Actions service at the core of the aforementioned incident is still fully running in our data centers, a contributing factor to the lack of capacity we experienced.",
+            "While the majority of actions runs on Azure, we hadn’t yet prioritized migrating launch service, the component that bridges the monolith to actions, due to its generally asynchronous nature and ability to queue work in response to issues."
+          ]
+        },
+        {
+          "id": "c0986f6628d189a1",
+          "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+          "excerpt": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/previewing-ultrafast",
+          "publishedAt": "2026-08-13T10:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Today, we’re sharing an early look at Ultrafast, a new service tier that runs GPT‑5.6 Sol up to 14× faster than Standard processing, launching first in the OpenAI API.",
+            "Powered by Cerebras, Ultrafast generates up to 750 output tokens per second, bringing our most intelligent model to products and workflows where every second matters.",
+            "With GPT‑5.6, we’re pushing the frontier on what our models can do and making them more efficient across every layer of our stack.",
+            "Those improvements have made advanced intelligence more affordable and more useful to more people.",
+            "Until now, getting real-time speed typically meant choosing a smaller or more specialized model."
+          ]
+        }
+      ]
+    }
+  ]
+}
