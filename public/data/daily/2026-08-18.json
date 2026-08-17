@@ -1,6 +1,10 @@
 {
-  "week": "2026-W34",
+  "date": "2026-08-18",
   "generatedAt": "2026-08-17T21:41:33.810Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "AI is quickly becoming more capable, with the potential to transform how people learn, create, and participate in the economy.",
             "Its reach is also expanding: ChatGPT is used by 1 billion people around the world, across geographies, income levels, and demographic groups.",
             "Users span every major age group; we have more adult users both under and over the age of 30 than any other frontier lab."
+          ]
+        },
+        {
+          "id": "9c196c1f17dbbac8",
+          "title": "How to bring your software delivery workflow into GitHub with agent apps",
+          "excerpt": "See how four GitHub agent apps can help you scope, secure, roll out, and ship a feature across the SDLC–all without leaving GitHub. The post How to bring your software delivery workflow into GitHub with agent apps appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
+          "publishedAt": "2026-08-14T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "How many tabs do you have open alongside your pull request?",
+            "Imagine picking up a new issue in your product's free-trial onboarding flow: make the \"invite your teammates\" step optional. Support keeps flagging the step as a friction point as signups increase. Quick win, right?",
+            "From scoping to deployment, you need answers to these four questions:",
+            "Each answer lives in a different tool, so working through the pull request means carrying the same context across four places.",
+            "GitHub agent apps bring the tools you need to answer those questions to where you're already working, powered by the same platform and harness as our own Copilot cloud agent . The illustrative walkthrough below shows how you can use services you already depend on, such as Amplitude, Endor Labs, LaunchDarkly, and PagerDuty to answer these questions and complete this request, without ever leaving GitHub."
           ]
         }
       ]
@@ -129,6 +153,26 @@
             "Cloudflare issues a large volume of certificates on your behalf: Universal SSL renewals, certificates from Advanced Certificate Manager, and backup certificates.",
             "All of them are logged to public CT logs by design, because a certificate that isn't logged won't be trusted by major browsers like Google Chrome and Apple's Safari."
           ]
+        },
+        {
+          "id": "60a1caf06fff9370",
+          "title": "Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave",
+          "excerpt": "In the first half of 2026, Cloudflare detected a 519% surge in hyper-volumetric DDos attacks across its network. These attacks were driven heavily by DNS and CLDAP reflection vectors. This report breaks down how major geopolitical conflicts reshaped the global cyber threat landscape.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
+          "publishedAt": "2026-08-11T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Welcome to the 25th edition of Cloudflare's DDoS Threat Report.",
+            "This is the first half-year edition in the series: rather than publishing separate reports for the first and second quarters of 2026, we have combined our coverage of Q1 and Q2 into a single volume covering January through June 2026.",
+            "The analysis is produced by Cloudforce One , Cloudflare’s Threat Intelligence organization, providing a comprehensive analysis of the evolving threat landscape of Distributed Denial of Service (DDoS) attacks based on data from the Cloudflare network .",
+            "The 1 Tbps club grew. Cloudflare mitigated a combined 935 network-layer DDoS attacks exceeding 1 Tbps in the first half of 2026 and a +519% quarter-over-quarter surge between Q1 and Q2.",
+            "The attack-vector center of gravity shifted from botnet floods to reflection and amplification. DNS-based attacks accounted for 34.3% of all network-layer activity in the first half of 2026, with DNS Floods alone climbing from 25.7% to 40.0% of network-layer attacks quarter-over-quarter. CLDAP Floods surged +580% quarter-over-quarter to become the #3 vector in Q2."
+          ]
         }
       ]
     },
@@ -193,6 +237,26 @@
             "Any human being can only click, type, and review so much in a single day.",
             "Their decisions are nondeterministic, and they can take the same action (or invoke the same tool) indefinitely, without getting tired or stopping for lunch.",
             "A plausible - but incorrect - decision can become thousands of incorrect actions before a human notices."
+          ]
+        },
+        {
+          "id": "08365977cd80206b",
+          "title": "What 50 open source projects taught us about security in the AI era",
+          "excerpt": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about security in the AI era appeared…",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+          "publishedAt": "2026-08-13T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "AI is changing the pace of open source development and the security challenges that come with it. Maintainers are reviewing unfamiliar contributions, managing new attack surfaces, and responding to vulnerabilities with limited time and resources.",
+            "Session 4 of the GitHub Secure Open Source Fund tested a practical response. The Secure Fund invested more than $500,000 across 50 projects , pairing maintainers with GitHub Security Lab experts, GitHub security tools, AI-assisted workflows, and a peer community.",
+            "One lesson emerged consistently: AI can help maintainers investigate, prioritize, and respond faster. Maintainers still provide the context, judgement, and accountability required to decide what ships.",
+            "OpenClaw was invited to participate in Session 4 because it is GitHub's fastest-growing open source project, and its maintainers wanted to strengthen its security posture.",
+            "By the end of Session 4, OpenClaw developed an incident response plan, expanded its use of GitHub security tooling, audited its GitHub Actions workflows, and strengthened its processes for identifying and responding to security issues."
           ]
         }
       ]
