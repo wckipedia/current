@@ -1,6 +1,10 @@
 {
-  "week": "2026-W34",
+  "date": "2026-08-19",
   "generatedAt": "2026-08-18T21:38:16.315Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "Right now, there’s a gap between use and understanding.",
             "The vast majority of students today are already using AI, while only 16% of high school leaders say all of their students are learning the technical knowledge to understand it in the classroom.",
             "Students see this gap too: in a survey by CodeAI, 75% of high school students say understanding AI will be more important for their futures than it is now."
+          ]
+        },
+        {
+          "id": "c3b0ed374d416807",
+          "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+          "excerpt": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/chatgpt-for-teens",
+          "publishedAt": "2026-08-18T11:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "We’re introducing ChatGPT for Teens, an experience designed to help teens learn, think critically, deepen understanding, and use AI with confidence.",
+            "It provides stronger built-in safety protections for teens, including features to promote healthy use and additional controls for parents.",
+            "If our system estimates someone is under 18 or they state their age is between 13 and 17,⁠ they are automatically placed into ChatGPT for Teens.",
+            "This launch builds on the foundational work to support teens on our platform including: Introducing Parental Controls, updating our Under-18 Model Spec, creating ourTeen Safety Blueprint, rolling out Age-Prediction and expanding features to support learning and healthy AI use for teens.",
+            "Across that work, we have been guided by four commitments: put teen safety first, encourage real-world support, treat teens like teens, and be transparent about how our systems should behave."
           ]
         }
       ]
@@ -193,6 +217,26 @@
             "Put thirty seconds of human review against each action and you get 147 hours of work. Hugging Face grouped those actions into roughly 6,280 clusters; review only those and you still get more than 52 hours. Either way, manual approval and ordinary alert triage were never plausible primary controls for this workload.",
             "This was not a fundamentally new category of attack. If you have any background in incident response, the sequence is familiar: exploit a reachable service, obtain code execution, collect credentials, escalate privilege, and cross the next trust boundary.",
             "What was different was the rate, persistence, and ability to carry authority and state across short-lived environments."
+          ]
+        },
+        {
+          "id": "1380f7766171a5a6",
+          "title": "The Defender’s Window",
+          "excerpt": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/the-defenders-window",
+          "publishedAt": "2026-08-17T05:30:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "The OpenAI-Hugging Face incident was a watershed moment for cybersecurity because it gave a peek into how the capabilities of a typical threat actor will evolve in upcoming months.",
+            "I’ve spoken with many organizations over the past few weeks, and one theme is clear: they know they need to fundamentally uplevel their cybersecurity practices with unprecedented speed.",
+            "In this post, I’ll share what we’re doing to defend OpenAI, concrete steps other organizations can take today, and why now is the time to act.",
+            "An overview of the moment AI models developed around the world are increasingly able to automate parts of real-world cyberattacks, making longstanding security gaps-from bugs buried deep in human-written software to forgotten permissions-easier to find and exploit.",
+            "The same AI capabilities give defenders new ways to find and fix those weaknesses, but they need to move now."
           ]
         }
       ]
