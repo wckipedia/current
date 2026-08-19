@@ -1,6 +1,10 @@
 {
-  "week": "2026-W34",
+  "date": "2026-08-20",
   "generatedAt": "2026-08-19T21:41:33.310Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "Self-service access through Ads Manager will follow later this summer.",
             "Ads help advance our mission to democratize access to the best AI by supporting free and low-cost access to ChatGPT.",
             "As in our existing markets, ads will be shown only to users on the Free and Go plans."
+          ]
+        },
+        {
+          "id": "539a4e5f39bd505f",
+          "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
+          "excerpt": "Chat is great for intent, but agent work gets lost in the scroll. Here is how I use canvases with my agentic workflows—and why your workflow also deserves a canvas. The post How canvases make agentic workflows visible, steerable, and cost-efficient appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
+          "publishedAt": "2026-08-17T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "When I was in college, I joined the beta for one of the first versions of AI inline completions in VS Code. It felt like a game changer. Since then, GenAI has fundamentally changed software development: hybrid teams where agents and humans work in tandem, with the developer at the center as visionary and orchestrator. We are living in that transition right now.",
+            "As a natural byproduct of how fast innovation in GenAI has moved, we now have tools to help us plan, build, review, and ship code.",
+            "But in the current state, many workflows still feel disjointed.",
+            "Context gets lost across threads and surfaces, and too much time gets spent reviewing agent-generated work.",
+            "Agents can produce changes faster than any human can review them, and most developer tools were not originally designed for multi-agent orchestration."
           ]
         }
       ]
@@ -129,6 +153,26 @@
             "As we saw during the 2026 World Cup and the last total eclipse in 2024 , online behavior is noticeably affected when an event at this scale takes place. In this blog post, we’ll use data from Cloudflare Radar to examine how Internet traffic shifted alongside the moon and the sun.",
             "In the figure above, we measured HTTP request volume in five-minute buckets across the affected countries on eclipse day, and compared it to a normal-day baseline. Each row is a country (except for Alaska) and each column is a five-minute slice of August 12, 2025, the day of the eclipse. The countries appear above in the order in which they saw the eclipse."
           ]
+        },
+        {
+          "id": "5fd06b6421851c8c",
+          "title": "Certificate Transparency Monitoring is now generally available",
+          "excerpt": "Cloudflare's Certificate Transparency Monitoring is now generally available. The biggest change: we no longer email you about certificates Cloudflare issued for your domain, so when an alert lands in your inbox, it's worth a look.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
+          "publishedAt": "2026-08-13T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Today, it's turned on for more than 650,000 customer domains.",
+            "It's an early warning that someone, somewhere, has issued a certificate for a hostname in your zone, giving you a chance to spot a mis-issued certificate early.",
+            "It's a useful signal, but it had a noise problem, and we felt it ourselves.",
+            "Cloudflare issues a large volume of certificates on your behalf: Universal SSL renewals, certificates from Advanced Certificate Manager, and backup certificates.",
+            "All of them are logged to public CT logs by design, because a certificate that isn't logged won't be trusted by major browsers like Google Chrome and Apple's Safari."
+          ]
         }
       ]
     },
@@ -193,6 +237,26 @@
             "Put thirty seconds of human review against each action and you get 147 hours of work. Hugging Face grouped those actions into roughly 6,280 clusters; review only those and you still get more than 52 hours. Either way, manual approval and ordinary alert triage were never plausible primary controls for this workload.",
             "This was not a fundamentally new category of attack. If you have any background in incident response, the sequence is familiar: exploit a reachable service, obtain code execution, collect credentials, escalate privilege, and cross the next trust boundary.",
             "What was different was the rate, persistence, and ability to carry authority and state across short-lived environments."
+          ]
+        },
+        {
+          "id": "ce3728c36de5b4ca",
+          "title": "Make zero CVEs your new default",
+          "excerpt": "Supply-chain attacks have kept escalating while AI writes more of the code you ship. Docker's latest updates bring more software built from source into your images, keep security coverage running past end of life, carry every guarantee through your customized images, and move policy enforcement onto every…",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/make-zero-cves-your-new-default/",
+          "publishedAt": "2026-08-17T13:00:00.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Supply-chain attacks have stopped being isolated incidents somewhere in the past year.",
+            "The compromises now reach the tools the industry trusts to defend itself, with Trivy and KICS among this year’s targets .",
+            "Mark Lechner, Docker’s Chief Information Security Officer, called the latest wave ‘a permanent shift in the threat landscape’ , and the months since have borne that out.",
+            "Over a quarter of production code is now AI-authored , and agents pull in dependencies at machine speed.",
+            "If you run a platform team or a security program, this is the math you are already living with."
           ]
         }
       ]
@@ -259,6 +323,26 @@
             "This two-day event brings together some of the greatest minds in tech, with experts from companies like AMD, Figma, NVIDIA, Coinbase, Anthropic, and OpenAI leading our sessions.",
             "They're covering everything from delegating real work to Copilot and measuring AI at enterprise scale to fine-grained security for MCP servers.",
             "You'll also have the chance to chat with the GitHub team one-on-one, get your questions answered, and even pick up some career advice."
+          ]
+        },
+        {
+          "id": "a867b54089923a36",
+          "title": "GitHub availability report: July 2026",
+          "excerpt": "In July, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: July 2026 appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/github-availability-report-july-2026/",
+          "publishedAt": "2026-08-12T22:17:32.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "The GitHub Actions incident on Thursday, August 6, was unacceptable in both its impact and particularity of its duration. Availability continues to be our top priority across all of GitHub. However, with this incident, we have fallen short of our commitments to you. We know how heavily customers rely on actions, and a prolonged outage like this one has a real impact on your productivity and on your trust in us.",
+            "We continue to work through a deeper root cause analysis (RCA) on the incident, as there were many aspects in play that we want to fully understand before calling the investigation complete. We’ll update the public summary when our investigation is complete, and we will include the complete details in our August availability post to be published in September.",
+            "Aside from immediate repair items discovered through our investigation, we are accelerating our architectural roadmap in GitHub Actions, aligned to our ongoing efforts around isolation, resiliency, and scale.",
+            "It’s worth noting that the GitHub Actions service at the core of the aforementioned incident is still fully running in our data centers, a contributing factor to the lack of capacity we experienced.",
+            "While the majority of actions runs on Azure, we hadn’t yet prioritized migrating launch service, the component that bridges the monolith to actions, due to its generally asynchronous nature and ability to queue work in response to issues."
           ]
         }
       ]
