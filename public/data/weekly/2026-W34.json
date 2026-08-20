@@ -1,6 +1,6 @@
 {
   "week": "2026-W34",
-  "generatedAt": "2026-08-20T21:43:52.206Z",
+  "generatedAt": "2026-08-20T22:47:54.969Z",
   "sections": [
     {
       "name": "AI",
@@ -26,6 +26,26 @@
           ]
         },
         {
+          "id": "ad89fb510e3c78c2",
+          "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+          "excerpt": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/stampli",
+          "publishedAt": "2026-08-20T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Stampli is an intelligent procure-to-pay platform that connects procurement, accounts payable, vendor management, payments, and employee spend.",
+            "Its Deep Finance™ product transforms the data moving through Stampli’s procure-to-pay platform into executive spend intelligence for CFOs, VPs, and other business leaders.",
+            "Launching it meant product development, positioning, design, communications, enablement, and operations all moving in parallel, on a fixed timeline, with design resources and outside contractors already committed to other priorities.",
+            "Stampli’s marketing team used Codex to connect product context, meeting notes, decisions, and messaging guidelines into a shared system.",
+            "With OpenAI tools, they compressed an estimated 243 hours of production work into about 77, while keeping full human review and final approval on everything customer-facing."
+          ]
+        },
+        {
           "id": "df8f12302a5b421a",
           "title": "Offering Zero Data Retention for frontier models",
           "excerpt": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
@@ -43,26 +63,6 @@
             "As models take on longer, more complex tasks, some serious risks may only become visible across multiple interactions.",
             "Existing ZDR-compatible safety systems evaluate each interaction individually.",
             "Today, we’re previewing Private Safety Processing, which is designed to identify patterns across related interactions without giving OpenAI personnel access to the underlying content."
-          ]
-        },
-        {
-          "id": "411d04f48fcfcf46",
-          "title": "BGP Role model: tracking the adoption of RFC 9234",
-          "excerpt": "RFC 9234 lets routers reject route leaks on their own, using BGP Roles and the Only to Customer attribute. We measured who has deployed it, and found two Tier 1 networks unexpectedly stripping OTC.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
-          "publishedAt": "2026-08-18T15:21:32.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": [
-            "Route leaks push traffic down paths it was never meant to take.",
-            "We have written and spoken publicly in the past about route leaks in Border Gateway Protocol (BGP) , depicting these events as impactful incidents that cause misdirection of traffic through unintended network paths.",
-            "BGP routing is driven by the relationships between Autonomous Systems (ASes), i.e., customer-provider and peer-peer.",
-            "Customers pay providers for access to the rest of the Internet, while peers exchange traffic with one another typically under a “settlement-free” arrangement where no money changes hands.",
-            "These relationships help define routing rules that form plausible paths."
           ]
         }
       ]
@@ -292,23 +292,23 @@
           ]
         },
         {
-          "id": "ad89fb510e3c78c2",
-          "title": "How ChatGPT Work helps Stampli move ideas to market",
-          "excerpt": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+          "id": "2f00013902a29bc1",
+          "title": "Replit expands access to software creation with GPT-5.6 Luna",
+          "excerpt": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/stampli",
-          "publishedAt": "2026-08-20T00:00:00.000Z",
+          "url": "https://openai.com/index/replit",
+          "publishedAt": "2026-08-19T07:00:00.000Z",
           "technologies": [
             "Software Engineering"
           ],
           "category": "Developer Tools",
           "scanMinutes": 1,
           "details": [
-            "Stampli is an intelligent procure-to-pay platform that connects procurement, accounts payable, vendor management, payments, and employee spend.",
-            "Its Deep Finance™ product transforms the data moving through Stampli’s procure-to-pay platform into executive spend intelligence for CFOs, VPs, and other business leaders.",
-            "Launching it meant product development, positioning, design, communications, enablement, and operations all moving in parallel, on a fixed timeline, with design resources and outside contractors already committed to other priorities.",
-            "Stampli’s marketing team used Codex to connect product context, meeting notes, decisions, and messaging guidelines into a shared system.",
-            "With OpenAI tools, they compressed an estimated 243 hours of production work into about 77, while keeping full human review and final approval on everything customer-facing."
+            "As models become more capable, their economics are changing just as quickly.",
+            "Better price performance makes advanced intelligence practical across more products, more workflows, and more moments.",
+            "For software creation, that shift is narrowing the distance between having an idea and building something that works.",
+            "Replit and OpenAI have long shared a goal: making software creation accessible to anyone with an idea, regardless of technical background.",
+            "Replit was an early user of GPT‑3, building with OpenAI models as natural-language software development began to take shape."
           ]
         }
       ]

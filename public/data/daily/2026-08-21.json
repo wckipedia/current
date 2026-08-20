@@ -1,6 +1,6 @@
 {
   "date": "2026-08-21",
-  "generatedAt": "2026-08-20T21:43:52.206Z",
+  "generatedAt": "2026-08-20T22:47:54.969Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -27,6 +27,26 @@
             "We are a small team with the collective goal of answering one overarching question: how should free society be restructured to preserve individual rights and agency while accommodating the emergence of transformative AI?",
             "Questions like this are sometimes referred to as _concentration of power_ risks within the broader AI safety and policy community.",
             "Our team is founded on the idea that, in the long run, this category of risk is the largest, most serious, and most conceptually challenging to address."
+          ]
+        },
+        {
+          "id": "ad89fb510e3c78c2",
+          "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+          "excerpt": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/stampli",
+          "publishedAt": "2026-08-20T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Stampli is an intelligent procure-to-pay platform that connects procurement, accounts payable, vendor management, payments, and employee spend.",
+            "Its Deep Finance™ product transforms the data moving through Stampli’s procure-to-pay platform into executive spend intelligence for CFOs, VPs, and other business leaders.",
+            "Launching it meant product development, positioning, design, communications, enablement, and operations all moving in parallel, on a fixed timeline, with design resources and outside contractors already committed to other priorities.",
+            "Stampli’s marketing team used Codex to connect product context, meeting notes, decisions, and messaging guidelines into a shared system.",
+            "With OpenAI tools, they compressed an estimated 243 hours of production work into about 77, while keeping full human review and final approval on everything customer-facing."
           ]
         },
         {
@@ -67,26 +87,6 @@
             "BGP routing is driven by the relationships between Autonomous Systems (ASes), i.e., customer-provider and peer-peer.",
             "Customers pay providers for access to the rest of the Internet, while peers exchange traffic with one another typically under a “settlement-free” arrangement where no money changes hands.",
             "These relationships help define routing rules that form plausible paths."
-          ]
-        },
-        {
-          "id": "8393c843a171d723",
-          "title": "ChatGPT Ads expands across Europe",
-          "excerpt": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-          "publishedAt": "2026-08-18T22:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": [
-            "Next week, ChatGPT Ads will expand to 31 European countries, including Germany, France, Spain, Italy, Sweden, Norway, Denmark, the Netherlands, and Austria.",
-            "Advertisers will initially be able to access ChatGPT Ads through the OpenAI Ads Solutions team, agency partners, and technology partners.",
-            "Self-service access through Ads Manager will follow later this summer.",
-            "Ads help advance our mission to democratize access to the best AI by supporting free and low-cost access to ChatGPT.",
-            "As in our existing markets, ads will be shown only to users on the Free and Go plans."
           ]
         }
       ]
@@ -353,26 +353,6 @@
             "Being able to manage everything from one centralized location is key, and that's exactly why the My work pane exists. Below, we'll cover how you can use it to manage what's currently in flight, what's completed, and what's next.",
             "When you open the My work tab, you'll see three tabs waiting for you. The first is All, which shows all of your pull requests and issues in one place.",
             "This list is automatically filtered based on the projects you've touched inside the Copilot app. It's not every repo you have access to. If there's a repo you'd like to see here, just create a quick session pointing to that repo, and it'll show up."
-          ]
-        },
-        {
-          "id": "ad89fb510e3c78c2",
-          "title": "How ChatGPT Work helps Stampli move ideas to market",
-          "excerpt": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/stampli",
-          "publishedAt": "2026-08-20T00:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Developer Tools",
-          "scanMinutes": 1,
-          "details": [
-            "Stampli is an intelligent procure-to-pay platform that connects procurement, accounts payable, vendor management, payments, and employee spend.",
-            "Its Deep Finance™ product transforms the data moving through Stampli’s procure-to-pay platform into executive spend intelligence for CFOs, VPs, and other business leaders.",
-            "Launching it meant product development, positioning, design, communications, enablement, and operations all moving in parallel, on a fixed timeline, with design resources and outside contractors already committed to other priorities.",
-            "Stampli’s marketing team used Codex to connect product context, meeting notes, decisions, and messaging guidelines into a shared system.",
-            "With OpenAI tools, they compressed an estimated 243 hours of production work into about 77, while keeping full human review and final approval on everything customer-facing."
           ]
         },
         {
