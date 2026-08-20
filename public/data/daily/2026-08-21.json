@@ -1,6 +1,10 @@
 {
-  "week": "2026-W34",
+  "date": "2026-08-21",
   "generatedAt": "2026-08-20T21:43:52.206Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "BGP routing is driven by the relationships between Autonomous Systems (ASes), i.e., customer-provider and peer-peer.",
             "Customers pay providers for access to the rest of the Internet, while peers exchange traffic with one another typically under a “settlement-free” arrangement where no money changes hands.",
             "These relationships help define routing rules that form plausible paths."
+          ]
+        },
+        {
+          "id": "8393c843a171d723",
+          "title": "ChatGPT Ads expands across Europe",
+          "excerpt": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+          "publishedAt": "2026-08-18T22:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Next week, ChatGPT Ads will expand to 31 European countries, including Germany, France, Spain, Italy, Sweden, Norway, Denmark, the Netherlands, and Austria.",
+            "Advertisers will initially be able to access ChatGPT Ads through the OpenAI Ads Solutions team, agency partners, and technology partners.",
+            "Self-service access through Ads Manager will follow later this summer.",
+            "Ads help advance our mission to democratize access to the best AI by supporting free and low-cost access to ChatGPT.",
+            "As in our existing markets, ads will be shown only to users on the Free and Go plans."
           ]
         }
       ]
@@ -128,6 +152,26 @@
             "Today, we're launching new tools to make it easy to keep your applications hosted on Workers private. You can now apply Cloudflare Access directly to a Worker or to every Worker in your account, so that your applications are behind your company login by default, without relying on each developer to set that up themselves.",
             "Set a policy at the account level to ensure that all preview and production deployments are behind your company login by default.",
             "Set a policy on a single application to ensure authentication is enforced on every domain associated with it, no matter how it's deployed."
+          ]
+        },
+        {
+          "id": "d99f99b648a3f461",
+          "title": "Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
+          "excerpt": "Cloudflare's data shows a clear impact on Internet traffic from Iceland to Spain and Portugal, following the path of totality of the total solar eclipse that occurred on August 12, 2026.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal/",
+          "publishedAt": "2026-08-13T19:58:01.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "At a time when looking down at our devices is a ritual in daily life, a natural phenomenon that demands our attention communally upward is a welcome event.",
+            "On Wednesday, August 12, a total solar eclipse swept from the North Atlantic across Europe, moving over Iceland and northern Spain and Portugal, with a deep partial eclipse over the rest of Western Europe, all near local sunset.",
+            "This was the first total solar eclipse to cross mainland Europe in twenty years, and it drew millions outdoors to witness the moon pass between Earth and the sun.",
+            "As we saw during the 2026 World Cup and the last total eclipse in 2024 , online behavior is noticeably affected when an event at this scale takes place. In this blog post, we’ll use data from Cloudflare Radar to examine how Internet traffic shifted alongside the moon and the sun.",
+            "In the figure above, we measured HTTP request volume in five-minute buckets across the affected countries on eclipse day, and compared it to a normal-day baseline. Each row is a country (except for Alaska) and each column is a five-minute slice of August 12, 2025, the day of the eclipse. The countries appear above in the order in which they saw the eclipse."
           ]
         }
       ]
@@ -219,6 +263,26 @@
             "Our standards for monitoring, alignment, and security must stay ahead of those risks.",
             "We wanted to take the time necessary to meet those standards, so we temporarily slowed the pace of scaling."
           ]
+        },
+        {
+          "id": "556c2d244b08bfd9",
+          "title": "17,600 Actions: Agent Security Is a Systems Problem",
+          "excerpt": "The OpenAI/Hugging Face incident exposed a new challenge for AI agent security. 17,600 attacker actions show why AI agent security can’t rely on human review. Explore the controls needed to constrain, observe, and govern agents at speed.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/ai-agent-security-systems-problem/",
+          "publishedAt": "2026-08-18T16:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Everyone has been talking about the OpenAI/Hugging Face incident, and I was initially skeptical that Docker had much to add. After several weeks of customer conversations, I think we do. The useful lesson is not that an AI agent escaped a sandbox. It is what 17,600 actions expose about security systems designed for human tempo.",
+            "Hugging Face reconstructed approximately 17,600 attacker actions across a four-and-a-half-day campaign in July, including roughly two and a half days inside its infrastructure.",
+            "Put thirty seconds of human review against each action and you get 147 hours of work. Hugging Face grouped those actions into roughly 6,280 clusters; review only those and you still get more than 52 hours. Either way, manual approval and ordinary alert triage were never plausible primary controls for this workload.",
+            "This was not a fundamentally new category of attack. If you have any background in incident response, the sequence is familiar: exploit a reachable service, obtain code execution, collect credentials, escalate privilege, and cross the next trust boundary.",
+            "What was different was the rate, persistence, and ability to carry authority and state across short-lived environments."
+          ]
         }
       ]
     },
@@ -309,6 +373,26 @@
             "Launching it meant product development, positioning, design, communications, enablement, and operations all moving in parallel, on a fixed timeline, with design resources and outside contractors already committed to other priorities.",
             "Stampli’s marketing team used Codex to connect product context, meeting notes, decisions, and messaging guidelines into a shared system.",
             "With OpenAI tools, they compressed an estimated 243 hours of production work into about 77, while keeping full human review and final approval on everything customer-facing."
+          ]
+        },
+        {
+          "id": "2f00013902a29bc1",
+          "title": "Replit expands access to software creation with GPT-5.6 Luna",
+          "excerpt": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/replit",
+          "publishedAt": "2026-08-19T07:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "As models become more capable, their economics are changing just as quickly.",
+            "Better price performance makes advanced intelligence practical across more products, more workflows, and more moments.",
+            "For software creation, that shift is narrowing the distance between having an idea and building something that works.",
+            "Replit and OpenAI have long shared a goal: making software creation accessible to anyone with an idea, regardless of technical background.",
+            "Replit was an early user of GPT‑3, building with OpenAI models as natural-language software development began to take shape."
           ]
         }
       ]
