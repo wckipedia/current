@@ -1,6 +1,10 @@
 {
-  "week": "2026-W34",
+  "date": "2026-08-22",
   "generatedAt": "2026-08-21T21:38:59.727Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -64,6 +68,26 @@
             "Launching it meant product development, positioning, design, communications, enablement, and operations all moving in parallel, on a fixed timeline, with design resources and outside contractors already committed to other priorities.",
             "Stampli’s marketing team used Codex to connect product context, meeting notes, decisions, and messaging guidelines into a shared system.",
             "With OpenAI tools, they compressed an estimated 243 hours of production work into about 77, while keeping full human review and final approval on everything customer-facing."
+          ]
+        },
+        {
+          "id": "df8f12302a5b421a",
+          "title": "Offering Zero Data Retention for frontier models",
+          "excerpt": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+          "publishedAt": "2026-08-19T19:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Zero Data Retention gives eligible API customers a clear promise: OpenAI does not retain their prompts or model responses after a request is processed.",
+            "Customer content is not available to OpenAI personnel for review1, and enterprise customer data is not used to train our models unless customers explicitly opt-in.",
+            "As models take on longer, more complex tasks, some serious risks may only become visible across multiple interactions.",
+            "Existing ZDR-compatible safety systems evaluate each interaction individually.",
+            "Today, we’re previewing Private Safety Processing, which is designed to identify patterns across related interactions without giving OpenAI personnel access to the underlying content."
           ]
         }
       ]
@@ -199,6 +223,26 @@
             "As models become more capable, the risks associated with developing and testing them internally also grow.",
             "Our standards for monitoring, alignment, and security must stay ahead of those risks.",
             "We wanted to take the time necessary to meet those standards, so we temporarily slowed the pace of scaling."
+          ]
+        },
+        {
+          "id": "556c2d244b08bfd9",
+          "title": "17,600 Actions: Agent Security Is a Systems Problem",
+          "excerpt": "The OpenAI/Hugging Face incident exposed a new challenge for AI agent security. 17,600 attacker actions show why AI agent security can’t rely on human review. Explore the controls needed to constrain, observe, and govern agents at speed.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/ai-agent-security-systems-problem/",
+          "publishedAt": "2026-08-18T16:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Everyone has been talking about the OpenAI/Hugging Face incident, and I was initially skeptical that Docker had much to add. After several weeks of customer conversations, I think we do. The useful lesson is not that an AI agent escaped a sandbox. It is what 17,600 actions expose about security systems designed for human tempo.",
+            "Hugging Face reconstructed approximately 17,600 attacker actions across a four-and-a-half-day campaign in July, including roughly two and a half days inside its infrastructure.",
+            "Put thirty seconds of human review against each action and you get 147 hours of work. Hugging Face grouped those actions into roughly 6,280 clusters; review only those and you still get more than 52 hours. Either way, manual approval and ordinary alert triage were never plausible primary controls for this workload.",
+            "This was not a fundamentally new category of attack. If you have any background in incident response, the sequence is familiar: exploit a reachable service, obtain code execution, collect credentials, escalate privilege, and cross the next trust boundary.",
+            "What was different was the rate, persistence, and ability to carry authority and state across short-lived environments."
           ]
         }
       ]
