@@ -1,6 +1,10 @@
 {
-  "week": "2026-W34",
+  "date": "2026-08-23",
   "generatedAt": "2026-08-22T21:35:50.814Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -64,6 +68,26 @@
             "We are a small team with the collective goal of answering one overarching question: how should free society be restructured to preserve individual rights and agency while accommodating the emergence of transformative AI?",
             "Questions like this are sometimes referred to as _concentration of power_ risks within the broader AI safety and policy community.",
             "Our team is founded on the idea that, in the long run, this category of risk is the largest, most serious, and most conceptually challenging to address."
+          ]
+        },
+        {
+          "id": "ad89fb510e3c78c2",
+          "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+          "excerpt": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/stampli",
+          "publishedAt": "2026-08-20T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Stampli is an intelligent procure-to-pay platform that connects procurement, accounts payable, vendor management, payments, and employee spend.",
+            "Its Deep Finance™ product transforms the data moving through Stampli’s procure-to-pay platform into executive spend intelligence for CFOs, VPs, and other business leaders.",
+            "Launching it meant product development, positioning, design, communications, enablement, and operations all moving in parallel, on a fixed timeline, with design resources and outside contractors already committed to other priorities.",
+            "Stampli’s marketing team used Codex to connect product context, meeting notes, decisions, and messaging guidelines into a shared system.",
+            "With OpenAI tools, they compressed an estimated 243 hours of production work into about 77, while keeping full human review and final approval on everything customer-facing."
           ]
         }
       ]
@@ -199,6 +223,26 @@
             "As models become more capable, the risks associated with developing and testing them internally also grow.",
             "Our standards for monitoring, alignment, and security must stay ahead of those risks.",
             "We wanted to take the time necessary to meet those standards, so we temporarily slowed the pace of scaling."
+          ]
+        },
+        {
+          "id": "556c2d244b08bfd9",
+          "title": "17,600 Actions: Agent Security Is a Systems Problem",
+          "excerpt": "The OpenAI/Hugging Face incident exposed a new challenge for AI agent security. 17,600 attacker actions show why AI agent security can’t rely on human review. Explore the controls needed to constrain, observe, and govern agents at speed.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/ai-agent-security-systems-problem/",
+          "publishedAt": "2026-08-18T16:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Everyone has been talking about the OpenAI/Hugging Face incident, and I was initially skeptical that Docker had much to add. After several weeks of customer conversations, I think we do. The useful lesson is not that an AI agent escaped a sandbox. It is what 17,600 actions expose about security systems designed for human tempo.",
+            "Hugging Face reconstructed approximately 17,600 attacker actions across a four-and-a-half-day campaign in July, including roughly two and a half days inside its infrastructure.",
+            "Put thirty seconds of human review against each action and you get 147 hours of work. Hugging Face grouped those actions into roughly 6,280 clusters; review only those and you still get more than 52 hours. Either way, manual approval and ordinary alert triage were never plausible primary controls for this workload.",
+            "This was not a fundamentally new category of attack. If you have any background in incident response, the sequence is familiar: exploit a reachable service, obtain code execution, collect credentials, escalate privilege, and cross the next trust boundary.",
+            "What was different was the rate, persistence, and ability to carry authority and state across short-lived environments."
           ]
         }
       ]
