@@ -1,6 +1,10 @@
 {
-  "week": "2026-W35",
+  "date": "2026-08-25",
   "generatedAt": "2026-08-24T21:44:10.626Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -64,6 +68,26 @@
             "Now, with sbx integrated, the boundary for the Agent is a disposable environment with substantial freedom inside and narrow access to everything outside it.",
             "I put together a small example to see what that looks like in practice.",
             "The agent runs on a GitHub-hosted Ubuntu runner, enters a Docker Sandbox (sbx), runs a Java integration test suite with PostgreSQL using Testcontainers, finds an intentionally seeded bug, fixes it, and opens a draft pull request."
+          ]
+        },
+        {
+          "id": "fc1a9abd82b35a9c",
+          "title": "Introducing AI Futures",
+          "excerpt": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-ai-futures",
+          "publishedAt": "2026-08-20T07:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "_“Will it be sufficient… to trust these parchment barriers against the encroaching spirit of power?”_-James Madison, _Federalist No.",
+            "48_ It is our pleasure to launch _AI Futures,_ the blog of OpenAI’s new Strategic Futures team.",
+            "We are a small team with the collective goal of answering one overarching question: how should free society be restructured to preserve individual rights and agency while accommodating the emergence of transformative AI?",
+            "Questions like this are sometimes referred to as _concentration of power_ risks within the broader AI safety and policy community.",
+            "Our team is founded on the idea that, in the long run, this category of risk is the largest, most serious, and most conceptually challenging to address."
           ]
         }
       ]
@@ -331,6 +355,26 @@
             "Being able to manage everything from one centralized location is key, and that's exactly why the My work pane exists. Below, we'll cover how you can use it to manage what's currently in flight, what's completed, and what's next.",
             "When you open the My work tab, you'll see three tabs waiting for you. The first is All, which shows all of your pull requests and issues in one place.",
             "This list is automatically filtered based on the projects you've touched inside the Copilot app. It's not every repo you have access to. If there's a repo you'd like to see here, just create a quick session pointing to that repo, and it'll show up."
+          ]
+        },
+        {
+          "id": "2f00013902a29bc1",
+          "title": "Replit expands access to software creation with GPT-5.6 Luna",
+          "excerpt": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/replit",
+          "publishedAt": "2026-08-19T07:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "As models become more capable, their economics are changing just as quickly.",
+            "Better price performance makes advanced intelligence practical across more products, more workflows, and more moments.",
+            "For software creation, that shift is narrowing the distance between having an idea and building something that works.",
+            "Replit and OpenAI have long shared a goal: making software creation accessible to anyone with an idea, regardless of technical background.",
+            "Replit was an early user of GPT‑3, building with OpenAI models as natural-language software development began to take shape."
           ]
         }
       ]
