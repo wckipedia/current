@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "generatedAt": "2026-08-25T21:44:23.674Z",
+  "generatedAt": "2026-08-25T22:48:06.174Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -159,6 +159,26 @@
     {
       "name": "DevOps",
       "articles": [
+        {
+          "id": "79afb86bcffc5c17",
+          "title": "Moving from Minimus to Docker Hardened Images",
+          "excerpt": "The Minimus registry goes offline on October 22. Here is the migration path, the free help Docker is offering, and where to start.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/moving-from-minimus-to-docker-hardened-images/",
+          "publishedAt": "2026-08-25T22:27:06.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "The hardened-images space gets better when more people are working on the problem, and Minimus has been a valuable part of that work.",
+            "That changed this week, when they announced they are ending operations.",
+            "Though we were competitors, we both believed strongly in the importance of reducing vulnerabilities at the foundation of the software supply chain.",
+            "Their efforts to bring needed awareness to this challenge will be missed, and our thoughts go out to Minimus employees who are impacted by this decision.",
+            "While the human side of this story deserves the most attention, there’s also a practical side: if you’re a customer running Minimus images in production, you’re now facing a migration you didn’t plan for."
+          ]
+        },
         {
           "id": "4900c284a67d71cf",
           "title": "Docker Verified Publisher Applications Are Now Self-Serve",
