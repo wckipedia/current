@@ -1,6 +1,10 @@
 {
-  "week": "2026-W35",
+  "date": "2026-08-26",
   "generatedAt": "2026-08-25T21:44:23.674Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "The results show a significant performance advance: Jalapeño can serve more AI work per unit of power while also returning responses more quickly.",
             "Jalapeño delivers both higher throughput and lower latency with one architecture, where existing hardware systems often have to make a tradeoff between the two.",
             "For customers, that can mean faster responses, more responsive agents, and more reliable access as demand grows."
+          ]
+        },
+        {
+          "id": "62003111f3b592c5",
+          "title": "Disrupting a new covert influence campaign from Russia",
+          "excerpt": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+          "publishedAt": "2026-08-25T00:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Our mission is to ensure that artificial general intelligence benefits all of humanity.",
+            "We advance this mission by deploying our innovations to build AI tools that help people solve hard problems.",
+            "This includes building tools that enable us to detect, investigate, disrupt and expose covert influence operations (IO): deceptive attempts to manipulate public opinion or influence political outcomes without revealing the true identity or intentions of the actors behind them.",
+            "We recently banned a cluster of ChatGPT accounts originating in Russia that were being used to promote the International Burke Institute (IBI), a self-described “expert community” based in Israel.",
+            "What began as an investigation into AI-generated social media posts led us to a much broader influence operation, built around a website containing copied and misattributed academic work, a “sovereignty” index that cast Russia in a favourable light, and efforts to disguise the operators’ Russian origins."
           ]
         }
       ]
