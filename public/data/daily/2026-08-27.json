@@ -1,6 +1,10 @@
 {
-  "week": "2026-W35",
+  "date": "2026-08-27",
   "generatedAt": "2026-08-27T00:48:15.414Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "Teachers divide their attention among dozens of students while also managing administrative work.",
             "Parents and tutors are not always available at the moment a question arises.",
             "Now, AI is changing all of that by making guidance, feedback, and practice available whenever students need them."
+          ]
+        },
+        {
+          "id": "51cfe3db04ed0bd3",
+          "title": "The full stack behind abundant intelligence",
+          "excerpt": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+          "publishedAt": "2026-08-25T07:05:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Progress in AI compounds fastest when the entire system improves together.",
+            "That is how I think about OpenAI’s compute strategy: one integrated system spanning data centers and chips, frontier models, our developer platform, consumer and enterprise products, and AI-native devices, with each layer strengthening the next.",
+            "Hardware designed for our workloads improves speed and efficiency.",
+            "More capable models unlock better products, which generate more demand, usage, and learning.",
+            "Those signals flow back through the system and help us improve it again."
           ]
         }
       ]
@@ -329,6 +353,26 @@
             "While automated tooling reliably flags missing alt text, it isn't as good at fixing poorly written alt text.",
             "Most alt text checkers test whether an accessible name for an image exists, not whether the provided alt text says anything useful about the associated image, and that's a deliberate design choice: a quality-oriented rule with false positives is a rule teams switch off.",
             "So does the same alt=\"3/5 stars\" on five different star-shaped icons."
+          ]
+        },
+        {
+          "id": "02ed539fac86d3e4",
+          "title": "The August 17 outage, and the work ahead",
+          "excerpt": "An update on the August 17 outage and the steps we're taking to improve reliability. The post The August 17 outage, and the work ahead appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+          "publishedAt": "2026-08-20T18:36:11.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "On August 17, GitHub experienced an outage that lasted 7 hours and 47 minutes. It disrupted github.com, authentication, GitHub Actions, APIs, pull requests, issues, and Copilot, affecting developers and organizations around the world. If you were trying to ship software that day, we let you down.",
+            "This was our second significant incident in August, following an actions failure on August 6 . In March and April , I shared the work underway to improve GitHub's reliability. We have made progress, but these incidents make clear that we must accelerate this work.",
+            "Our investigation found that the outage began when traffic reached a new peak, and a critical infrastructure component in our Central US data center failed to scale with it. The resulting capacity pressure spread through our systems, causing authentication failures and disrupting multiple GitHub services.",
+            "Teams rerouted traffic, isolated affected infrastructure, and restored services in stages.",
+            "Most GitHub services recovered earlier that day, but some Copilot services took longer."
           ]
         }
       ]
