@@ -1,6 +1,10 @@
 {
-  "week": "2026-W35",
+  "date": "2026-08-28",
   "generatedAt": "2026-08-28T05:24:47.320Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "But as a system moves closer to production, the evaluation problem changes.",
             "Real inputs are often ambiguous. Labels may be inconsistent. Important context may be missing or truncated. The evaluation set may not reflect the production distribution. Edge cases that rarely appear in benchmarks can become common sources of failure. Even when offline metrics improve, those results may not translate cleanly into production behavior.",
             "We encountered these challenges while evaluating an LLM-based system designed to reduce false positives in GitHub secret scanning."
+          ]
+        },
+        {
+          "id": "fa2791fbc9af008f",
+          "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+          "excerpt": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+          "publishedAt": "2026-08-26T10:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "When we introduced ChatGPT for Teachers in 2025 to nearly 150,000 teachers and staff, our goal was to give educators a secure place to explore AI, understand where it is useful, and help shape how it should be used in education.",
+            "Today, we are expanding this work to 55 additional school systems across 20 states, bringing ChatGPT for Teachers to over 100,000 more educators and staff.",
+            "The new cohort of district partnerships includes 1 in 5 of America’s 20 largest public school districts and some of the country’s most diverse school systems.",
+            "With this new cohort, OpenAI is now working with more than 100 K-12 organizations across 30 states to provide free access and training to over 300,000 educators and staff.",
+            "Alongside this, we’re also announcing a data privacy agreement spanning 16 states, a first for the industry, that provides a common framework for districts to evaluate ChatGPT for Teachers against their student data privacy requirements, helping make responsible AI adoption simpler and more consistent across school systems."
           ]
         }
       ]
@@ -193,6 +217,26 @@
             "Though we were competitors, we both believed strongly in the importance of reducing vulnerabilities at the foundation of the software supply chain.",
             "Their efforts to bring needed awareness to this challenge will be missed, and our thoughts go out to Minimus employees who are impacted by this decision.",
             "While the human side of this story deserves the most attention, there’s also a practical side: if you’re a customer running Minimus images in production, you’re now facing a migration you didn’t plan for."
+          ]
+        },
+        {
+          "id": "aae5d1325345bdd2",
+          "title": "MinIO End of Life: How to Stay Patched and Audit-Ready with Docker ELS",
+          "excerpt": "MinIO reached end of life in February 2026. Docker Extended Lifecycle Support (ELS) keeps end-of-life software like it patched, compliant, and audit-ready for up to five years, covering versions upstream no longer supports all the way up to entire projects.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/minio-end-of-life-how-to-stay-patched-and-audit-ready-with-docker-els/",
+          "publishedAt": "2026-08-24T13:00:00.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "On February 13, 2026, the MinIO open-source project was archived upstream. A project with more than a billion Docker pulls stopped shipping releases, bug fixes, and security patches overnight. From that day forward, every environment running MinIO is exposed. New CVEs in MinIO and its Go dependency tree now arrive with no upstream patch behind them, and an audit reads that as unsupported software in production.",
+            "And MinIO is only the newest instance of a wider problem.",
+            "Black Duck’s 2026 Open Source Security and Risk Analysis report found that 93% of commercial codebases carry components with no development activity in at least two years.",
+            "Node 18, Python 3.8, and older Airflow releases still run in production long after upstream support ended, and frameworks like FedRAMP, DORA, and the Cyber Resilience Act treat unpatched end-of-life software as an audit finding.",
+            "The migration deadline ends up set by the audit calendar instead of the roadmap."
           ]
         }
       ]
@@ -333,6 +377,26 @@
             "While automated tooling reliably flags missing alt text, it isn't as good at fixing poorly written alt text.",
             "Most alt text checkers test whether an accessible name for an image exists, not whether the provided alt text says anything useful about the associated image, and that's a deliberate design choice: a quality-oriented rule with false positives is a rule teams switch off.",
             "So does the same alt=\"3/5 stars\" on five different star-shaped icons."
+          ]
+        },
+        {
+          "id": "02ed539fac86d3e4",
+          "title": "The August 17 outage, and the work ahead",
+          "excerpt": "An update on the August 17 outage and the steps we're taking to improve reliability. The post The August 17 outage, and the work ahead appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+          "publishedAt": "2026-08-20T18:36:11.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "On August 17, GitHub experienced an outage that lasted 7 hours and 47 minutes. It disrupted github.com, authentication, GitHub Actions, APIs, pull requests, issues, and Copilot, affecting developers and organizations around the world. If you were trying to ship software that day, we let you down.",
+            "This was our second significant incident in August, following an actions failure on August 6 . In March and April , I shared the work underway to improve GitHub's reliability. We have made progress, but these incidents make clear that we must accelerate this work.",
+            "Our investigation found that the outage began when traffic reached a new peak, and a critical infrastructure component in our Central US data center failed to scale with it. The resulting capacity pressure spread through our systems, causing authentication failures and disrupting multiple GitHub services.",
+            "Teams rerouted traffic, isolated affected infrastructure, and restored services in stages.",
+            "Most GitHub services recovered earlier that day, but some Copilot services took longer."
           ]
         }
       ]
