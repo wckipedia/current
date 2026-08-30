@@ -1,0 +1,322 @@
+{
+  "week": "2026-W36",
+  "generatedAt": "2026-08-30T23:30:25.915Z",
+  "sections": [
+    {
+      "name": "AI",
+      "articles": [
+        {
+          "id": "aceed5f29630c723",
+          "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
+          "excerpt": "Bot operators now have a home in the Cloudflare dashboard to manage submissions. This update adds submission status tracking, submission editing, and a behavior model so operators can accurately declare how their bots use content.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/botbase-for-operators/",
+          "publishedAt": "2026-08-28T12:59:44.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Last month, on our second Content Independence Day, we announced a couple of features designed to give website owners more visibility and control over automated traffic: BotBase added a searchable directory of known bots to the Cloudflare dashboard, while Business Insights helped owners understand how crawlers interact with their content.",
+            "We know that the ecosystem of bots is vast, making it all the more important for site owners to be able to manage bot traffic sustainably.",
+            "But this ecosystem goes both ways. While website owners need to decide which automated traffic they allow, bot operators need a clear way to identify themselves, explain what their bots do, and keep that information current. BotBase works best when both sides can participate.",
+            "When we launched BotBase, we said we would build tools to bring bot operators into this ecosystem.",
+            "Until now, their experience largely ended at submission."
+          ]
+        },
+        {
+          "id": "b42ac281ecaf56c0",
+          "title": "Our decision on Cursor following its acquisition by SpaceX",
+          "excerpt": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+          "publishedAt": "2026-08-28T06:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Today, we notified SpaceX that we intend to wind down our contract providing OpenAI models to Cursor, with a proposed shutoff date of November 12, 2026.",
+            "To maximize the time that developers can retain access to our models through Cursor, we are giving the maximum notice provided by our contract.",
+            "This decision was incredibly tough, as we care deeply about our models being broadly available for developers.",
+            "We are making this choice because we cannot be confident that SpaceX will use our technology within our terms of service, based on our experience with Elon Musk's companies violating contracts.",
+            "To work with a large partner like SpaceX, we typically rely on custom contracts to ensure compliance with our terms of service and that the integration provides for safety at scale."
+          ]
+        },
+        {
+          "id": "cb1db0d5c74b6e9e",
+          "title": "Supporting Thailand’s next generation of AI startups",
+          "excerpt": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+          "publishedAt": "2026-08-28T02:00:00.000Z",
+          "technologies": [
+            "Next.js",
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Today in Bangkok, OpenAI and Thailand’s Ministry of Higher Education, Science, Research and Innovation (MHESI) announced a new accelerator to help Thai startups turn promising prototypes into products ready for real-world use and growth.",
+            "The OpenAI x MHESI AI Accelerator brings together ten startups working across health, wellness, and education.",
+            "It marks OpenAI’s first public-private partnership with the Thai government focused on supporting local startups, and is being delivered with partners including the National Innovation Agency (NIA), Mahidol University, and Techsauce.",
+            "Building a product that people can rely on is much harder.",
+            "It takes careful testing, feedback from real users, strong safeguards, and a business model that can support the product as it grows."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "articles": [
+        {
+          "id": "029dcd6193e52a6b",
+          "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
+          "excerpt": "Five Rust-level memory optimizations to the DNS cache layout of Big Pineapple cut per-entry memory by 56%, freeing approximately 100 TB of memory across Cloudflare's fleet.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+          "publishedAt": "2026-08-27T17:02:35.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Big Pineapple , the platform behind 1.1.1.1 , Gateway DNS , DNS Firewall , AS112 , and several other Cloudflare DNS services, stores over 250 billion DNS cache entries at any given time. At that scale, wasting a single byte per entry costs more than 250 gigabytes of memory across our fleet.",
+            "Five successive changes to how cache entries are stored in memory cut the per-entry footprint by over 50%. Across our fleet, these changes freed up roughly 100 terabytes of memory, equivalent to the amount of RAM in 130 of our Gen 13 servers . The cache also got faster. Insert throughput rose 43% and lookup latency dropped 19%, as fewer allocations and better memory locality meant we did not trade speed for space.",
+            "On cold start, Big Pineapple starts out with an empty cache. As DNS queries arrive, the cache fills until it hits its maximum entry count, at which point we evict older or less popular items to make room.",
+            "The exact cache size varies by data center. When EDNS Client Subnet (ECS) is in use, authoritative servers return different answers depending on the client's network, so we cache multiple versions of the same query. This increases both the number of entries and the memory each one consumes, making the optimizations in this post especially impactful for ECS-heavy locations.",
+            "Each item in the cache is a key-value pair. The key identifies what was queried:"
+          ]
+        },
+        {
+          "id": "6ac773523d338846",
+          "title": "The Cloudflare Blog – Brought to you by EmDash",
+          "excerpt": "We migrated the Cloudflare Blog to EmDash to prove our stack at massive scale. Here is how we stress-tested performance, safely routed production traffic, and redesigned the frontend experience.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash/",
+          "publishedAt": "2026-08-24T19:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "You likely noticed the recent redesign of the Cloudflare Blog. We added dark mode, modernized the look and feel, and made a lot of other small improvements along the way.",
+            "What you might not have noticed - well, except for those who are more terminally online - is that the redesign was part of a much bigger migration project. On Wednesday, August 12, we moved the blog to EmDash , a content management system (CMS) built especially to work on Astro and with Cloudflare.",
+            "We’ll take you into the migration story - what we learned and how EmDash got better - as well as into the benefits we’re already seeing from a new platform.",
+            "At Cloudflare, Cloudflare itself is Customer Zero. This means that we use our products. And - in use - we make them better for ourselves and our customers.",
+            "This is a very real cultural value at Cloudflare. The burden of proof is on you if you want to use an external vendor. Why can’t that team support you, what gaps are there, why can’t those gaps be filled, and are those “gaps” true requirements?"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "articles": [
+        {
+          "id": "29c56b0eccaaddb0",
+          "title": "Kubernetes v1.37: Pod Certificates and Cluster Trust Bundles",
+          "excerpt": "Pod Certificate / Cluster Trust Bundles Blog Post Kubernetes brings a wealth of features that make it easy to run your production workloads securely and reliably. While aspects like scheduling, health checks and resource limits are probably at the front of your mind, one other important feature of Kubernetes…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/",
+          "publishedAt": "2026-08-28T18:30:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Kubernetes brings a wealth of features that make it easy to run your production workloads securely and reliably. While aspects like scheduling, health checks and resource limits are probably at the front of your mind, one other important feature of Kubernetes is production identity - how your workload can authenticate to other systems in order to do its job.",
+            "Up until now, the primary production identity mechanism built into Kubernetes has been service account JWTs (JSON Web Tokens). These are cryptographically-signed tokens, issued by the control plane of your cluster, that let anyone in the world understand who is calling when your workload uses them.",
+            "In Kubernetes 1.37, the foundations of a new built-in production identity technology have gone GA. Pod Certificates (and the closely-associated Cluster Trust Bundles) build X.509 certificate issuance for TLS and mTLS directly into core Kubernetes.",
+            "They are built directly into Kubelet, and work pretty magically. They are written to your workload container’s filesystem before your workload starts up, and automatically kept up to date.",
+            "The issuance system follows least-privilege principles; the node restriction admission plugin ensures that tokens can only be requested by the Kubelet that is actually currently running your pod."
+          ]
+        },
+        {
+          "id": "548fd4bfd4c0c2bd",
+          "title": "Kubernetes v1.37: Metrics API graduates to stable",
+          "excerpt": "Kubernetes v1.37 promotes the metrics.k8s.io API to stable ( v1 ). This API provides CPU and memory usage for nodes and Pods, and is the API behind commands such as kubectl top and resource-metrics-based autoscaling. For cluster operators and application developers, this graduation means that the API now has…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/",
+          "publishedAt": "2026-08-27T18:30:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "For cluster operators and application developers, this graduation means that the API now has the stability guarantees associated with a Kubernetes stable API. The v1 API has the same resource types and fields as v1beta1 ; this is an API-version graduation, not a change to the metrics that are collected or returned.",
+            "The resource Metrics API was introduced as alpha in Kubernetes v1.6 and became beta in v1.8. It has remained unchanged and has been used in production for years by clients including the HorizontalPodAutoscaler (HPA) and kubectl top . Kubernetes v1.37 formally graduates that proven API to metrics.k8s.io/v1 .",
+            "PodMetrics , for CPU and memory usage for a Pod, with a per-container breakdown in its containers field.",
+            "The API remains intentionally small. It provides the resource metrics needed for autoscaling and basic inspection; it is not a replacement for a full monitoring pipeline or the custom metrics ( custom.metrics.k8s.io ) API.",
+            "The v1 API surface is identical to v1beta1 , except for the API version. There are no renamed fields, new fields, or changes to the meaning of the returned CPU and memory values."
+          ]
+        },
+        {
+          "id": "ec0d23ad72dbbbdd",
+          "title": "Kubernetes v1.37: Garhwal",
+          "excerpt": "Editors: Arsh Sharma, Christopher Tineo, Kirti Goyal, Sophia Ugochukwu, Swathi Rao, Troy Connor Similar to previous releases, the release of Kubernetes v1.37 introduces new Stable, Beta, and Alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/",
+          "publishedAt": "2026-08-26T00:00:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Similar to previous releases, the release of Kubernetes v1.37 introduces new Stable, Beta, and Alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and the vibrant support from our community.",
+            "This release consists of 67 enhancements. Of those enhancements, 16 have graduated to Stable, 23 have graduated to Beta, 27 are entering Alpha, and 1 is a deprecation/removal.",
+            "The theme for Kubernetes v1.37 is Garhwal (गढ़वाल, pronounced gaṛhvāl ), a Himalayan region of Uttarakhand, India. The snow-capped peaks of the Garhwal Himalaya, deodar forests, terraced fields, rivers and streams, and mountain paths shape both the region and the logo. Together, these elements reflect a community in which every layer, route, and contribution is connected.",
+            "The logo is imagined as a window into Garhwal's landscape. 1 Inside, terraced fields climb towards the snowy peaks, each level supported by the one below, much as every Kubernetes release depends on work carried forward. A river winds through the valley and gathers mountain streams, reflecting contributions from many SIGs and communities flowing into one project.",
+            "The deodar forest represents the wider Kubernetes ecosystem, where distinct projects share common ground and grow side by side. Stonework and woodcraft shape the path and mountain house, placing people at the centre and evoking shared foundations maintained for those who follow. Above the river, colourful flags catch the wind and bring the scene to life."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "articles": [
+        {
+          "id": "34e62ff4c7cf4def",
+          "title": "The Hugging Face incident and the road ahead",
+          "excerpt": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+          "publishedAt": "2026-08-26T00:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "The incident occurred during cybersecurity evaluations of several OpenAI models, and was primarily driven by a highly capable, internal-only research model comparable in scale to GPT‑5.6 Sol.",
+            "The models, operating under reduced safeguards, took actions that were misaligned with the goals of their assigned tasks-they communicated through unauthorized channels, exploited vulnerabilities in shared infrastructure, gained internet access, and accessed third-party systems.",
+            "We conducted an extensive investigation into this incident and worked closely with external advisors, including CrowdStrike, to validate our understanding.",
+            "Today we are publishing our full technical incident report to explain what happened, what we learned, and how we are responding.",
+            "This blog post summarizes our key findings and their impact on safety and alignment."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Languages",
+      "articles": [
+        {
+          "id": "022e3b878893feb1",
+          "title": "Announcing our first Maintainers in Residence",
+          "excerpt": "We are very happy to announce the Rust Project's first round of Maintainers in Residence: Gen Li ( @rami3l ), Chris Denton ( @ChrisDenton ), Alejandra González ( @blyxyas ), León Liehr ( @fmease ), and Maintainer Grant recipients: Jason Newcomb ( @Jarcho ) and Jonas Böttiger ( @joboet ). These contributors…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/",
+          "publishedAt": "2026-08-26T00:00:00.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "The funding of the Maintainer in Residence (MiR) and Maintainer Grantee roles is possible thanks to generous donations to the Rust Foundation Maintainers Fund (RFMF) from Google, AWS, OpenAI, the Rust Project Leadership Council and also individual sponsors.",
+            "We also want to thank the people who advocated for maintainer funding within their companies; Tyler Mandry from Google, Niko Matsakis and Jess Izen from AWS and Predrag Gruevski from OpenAI, and also the whole Rust Leadership Council and our funding advisors .",
+            "If you would like to help us support even more Rust contributors, consider donating to RFMF.",
+            "The Rust Foundation has published a press release and a blog post , where you can learn more about the sponsors and the supported contributors.",
+            "Read more below to learn about the MiR program, how we chose the funded contributors, and of course who they are !"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Open Source",
+      "articles": [
+        {
+          "id": "82080db91ac8d733",
+          "title": "OpenClaw went viral. Meet the maintainers building and securing it.",
+          "excerpt": "OpenClaw is the fastest-growing project in GitHub history. Peter Steinberger and several maintainers share what they learned in the project's first six months. The post OpenClaw went viral. Meet the maintainers building and securing it. appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
+          "publishedAt": "2026-08-27T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Open Source",
+          "scanMinutes": 1,
+          "details": [
+            "What began as a personal experiment quickly became a global open source project with extraordinary momentum.",
+            "OpenClaw is a personal AI assistant that runs on users' devices and connects with the messaging channels they already use. Started by Peter Steinberger as a weekend project in November 2025, its GitHub repository has grown to approximately 388,000 stars, 81,000 forks, and more than 80,000 commits by August 26, 2026.",
+            "In this video interview, filmed just six months into the project, creator Peter Steinberger and several OpenClaw maintainers discuss managing a surge of pull requests, rethinking contributor trust and code review, addressing software supply chain risks, and balancing powerful agent capabilities with security.",
+            "They also share security lessons from the GitHub Secure Open Source Fund and the value of connecting with maintainers facing similar challenges.",
+            "Watch the full video above, then explore the key lessons below."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "articles": [
+        {
+          "id": "8ba46bf8dae5cc6e",
+          "title": "GitHub Copilot app for Beginners: Automate Dependabot pull request triage",
+          "excerpt": "Managing library updates can be tedious at times. Learn how the GitHub Copilot app can handle this type of repetitive task. The post GitHub Copilot app for Beginners: Automate Dependabot pull request triage appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/",
+          "publishedAt": "2026-08-26T20:12:53.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "I might be biased, but I think Dependabot is pretty amazing. It helps keep my projects up to date, ensuring I'm always using secure libraries. But because there're frequently new vulnerabilities, there're frequently new pull requests from Dependabot.",
+            "Sometimes it's a minor version bump. Sometimes it's a major version upgrade. Sometimes everything will work just fine. And sometimes... well, every single developer has been caught by a breaking change.",
+            "How can we best triage these pull requests? The work isn't particularly difficult per se, but it certainly is repetitive.",
+            "It's the perfect task to offload to Copilot! With GitHub Copilot app automations , you can hand off that first round of review. Instead of manually inspecting every Dependabot pull request, you can create an automation that reviews open pull requests, groups them by risk, verifies CI status, and delivers a summary before your day begins.",
+            "Follow the steps below to build a daily Dependabot triage automation."
+          ]
+        },
+        {
+          "id": "76c95cd852987031",
+          "title": "How loveholidays is making everyone a builder with Codex",
+          "excerpt": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/loveholidays",
+          "publishedAt": "2026-08-26T00:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "loveholidays is a leading online travel agent operating across eight European markets, using its technology to process 60 trillion package combinations every day to help millions of people find their perfect holiday.",
+            "Behind that scale is a technology platform the company has spent years building to make finding and booking a holiday faster and more flexible.",
+            "Product managers, designers, and commercial teams are increasingly contributing directly to loveholidays’ codebases.",
+            "Teams can prototype customer experiences, make data and infrastructure changes, and turn ideas into working software without every request first having to enter an engineering queue.",
+            "“Everybody is a builder,” says Dmitri Lerko, Head of Engineering at loveholidays."
+          ]
+        },
+        {
+          "id": "d813f28c163e5f55",
+          "title": "Your alt text passes automated checks. That doesn’t mean it’s any good.",
+          "excerpt": "We built a plugin for the GitHub Accessibility Scanner to make sure your alt text is actually accessible. Here's how it works. The post Your alt text passes automated checks. That doesn’t mean it’s any good. appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/",
+          "publishedAt": "2026-08-24T20:56:32.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "More than one in four images on the web's most popular home pages have alt text that's missing, vague, or copied from adjacent images.",
+            "That's from WebAIM's 2026 WebAIM Million report, which found that alt text,an HTML attribute containing text describing the content of an image, was missing on 16.2% of images across the top million home pages. Among the images that did have alt text, another 10.8% provided an undescriptive attribute, such as alt=\"image\" , a raw filename, or a description duplicated from a neighbor.",
+            "While automated tooling reliably flags missing alt text, it isn't as good at fixing poorly written alt text.",
+            "Most alt text checkers test whether an accessible name for an image exists, not whether the provided alt text says anything useful about the associated image, and that's a deliberate design choice: a quality-oriented rule with false positives is a rule teams switch off.",
+            "So does the same alt=\"3/5 stars\" on five different star-shaped icons."
+          ]
+        }
+      ]
+    }
+  ]
+}
