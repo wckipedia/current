@@ -1,6 +1,10 @@
 {
-  "week": "2026-W36",
+  "date": "2026-09-02",
   "generatedAt": "2026-09-01T23:18:43.311Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -64,6 +68,26 @@
             "To expand civic participation, Polimill first needed to make government work itself more efficient.",
             "The company started building a generative AI platform for public-sector workflows and released QommonsAI in October 2024.",
             "Today, QommonsAI provides specialized AI across areas such as assembly response, public services, social welfare, and legal search."
+          ]
+        },
+        {
+          "id": "8a7cdd78fd483859",
+          "title": "A milestone in expanding access to AI",
+          "excerpt": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+          "publishedAt": "2026-08-31T04:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "In less than 200 days after launch, ChatGPT Ads has reached $1 billion in annualized revenue run rate.",
+            "The platform is now used by tens of thousands of advertisers and continues to expand globally.",
+            "Starting later today, advertisers can purchase ChatGPT ads directly via Ads Manager across India, Europe, the Middle East, and North Africa.",
+            "Advertising is one pillar of OpenAI’s diversified business model, alongside consumer subscriptions, enterprise offerings, and usage-based APIs.",
+            "Together, these offerings give people, developers, and businesses choice in how they access OpenAI products, including an advertising-supported free tier that helps keep ChatGPT available to more than 1 billion weekly active users."
           ]
         }
       ]
@@ -194,6 +218,26 @@
             "PodMetrics , for CPU and memory usage for a Pod, with a per-container breakdown in its containers field.",
             "The API remains intentionally small. It provides the resource metrics needed for autoscaling and basic inspection; it is not a replacement for a full monitoring pipeline or the custom metrics ( custom.metrics.k8s.io ) API.",
             "The v1 API surface is identical to v1beta1 , except for the API version. There are no renamed fields, new fields, or changes to the meaning of the returned CPU and memory values."
+          ]
+        },
+        {
+          "id": "ec0d23ad72dbbbdd",
+          "title": "Kubernetes v1.37: Garhwal",
+          "excerpt": "Editors: Arsh Sharma, Christopher Tineo, Kirti Goyal, Sophia Ugochukwu, Swathi Rao, Troy Connor Similar to previous releases, the release of Kubernetes v1.37 introduces new Stable, Beta, and Alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/",
+          "publishedAt": "2026-08-26T00:00:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Similar to previous releases, the release of Kubernetes v1.37 introduces new Stable, Beta, and Alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and the vibrant support from our community.",
+            "This release consists of 67 enhancements. Of those enhancements, 16 have graduated to Stable, 23 have graduated to Beta, 27 are entering Alpha, and 1 is a deprecation/removal.",
+            "The theme for Kubernetes v1.37 is Garhwal (गढ़वाल, pronounced gaṛhvāl ), a Himalayan region of Uttarakhand, India. The snow-capped peaks of the Garhwal Himalaya, deodar forests, terraced fields, rivers and streams, and mountain paths shape both the region and the logo. Together, these elements reflect a community in which every layer, route, and contribution is connected.",
+            "The logo is imagined as a window into Garhwal's landscape. 1 Inside, terraced fields climb towards the snowy peaks, each level supported by the one below, much as every Kubernetes release depends on work carried forward. A river winds through the valley and gathers mountain streams, reflecting contributions from many SIGs and communities flowing into one project.",
+            "The deodar forest represents the wider Kubernetes ecosystem, where distinct projects share common ground and grow side by side. Stonework and woodcraft shape the path and mountain house, placing people at the centre and evoking shared foundations maintained for those who follow. Above the river, colourful flags catch the wind and bring the scene to life."
           ]
         }
       ]
