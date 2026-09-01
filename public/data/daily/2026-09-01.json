@@ -1,6 +1,10 @@
 {
-  "week": "2026-W36",
+  "date": "2026-09-01",
   "generatedAt": "2026-09-01T00:37:41.245Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -64,6 +68,26 @@
             "Also, everything they make is going out under your name.",
             "If it were a human, they’d spend the first week asking where things live and who maintains what.",
             "It treats everything it finds as trustworthy, so everything it builds carries that unexamined trust forward."
+          ]
+        },
+        {
+          "id": "aceed5f29630c723",
+          "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
+          "excerpt": "Bot operators now have a home in the Cloudflare dashboard to manage submissions. This update adds submission status tracking, submission editing, and a behavior model so operators can accurately declare how their bots use content.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/botbase-for-operators/",
+          "publishedAt": "2026-08-28T12:59:44.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Last month, on our second Content Independence Day, we announced a couple of features designed to give website owners more visibility and control over automated traffic: BotBase added a searchable directory of known bots to the Cloudflare dashboard, while Business Insights helped owners understand how crawlers interact with their content.",
+            "We know that the ecosystem of bots is vast, making it all the more important for site owners to be able to manage bot traffic sustainably.",
+            "But this ecosystem goes both ways. While website owners need to decide which automated traffic they allow, bot operators need a clear way to identify themselves, explain what their bots do, and keep that information current. BotBase works best when both sides can participate.",
+            "When we launched BotBase, we said we would build tools to bring bot operators into this ecosystem.",
+            "Until now, their experience largely ended at submission."
           ]
         }
       ]
@@ -195,6 +219,26 @@
             "The API remains intentionally small. It provides the resource metrics needed for autoscaling and basic inspection; it is not a replacement for a full monitoring pipeline or the custom metrics ( custom.metrics.k8s.io ) API.",
             "The v1 API surface is identical to v1beta1 , except for the API version. There are no renamed fields, new fields, or changes to the meaning of the returned CPU and memory values."
           ]
+        },
+        {
+          "id": "ec0d23ad72dbbbdd",
+          "title": "Kubernetes v1.37: Garhwal",
+          "excerpt": "Editors: Arsh Sharma, Christopher Tineo, Kirti Goyal, Sophia Ugochukwu, Swathi Rao, Troy Connor Similar to previous releases, the release of Kubernetes v1.37 introduces new Stable, Beta, and Alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/",
+          "publishedAt": "2026-08-26T00:00:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Similar to previous releases, the release of Kubernetes v1.37 introduces new Stable, Beta, and Alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and the vibrant support from our community.",
+            "This release consists of 67 enhancements. Of those enhancements, 16 have graduated to Stable, 23 have graduated to Beta, 27 are entering Alpha, and 1 is a deprecation/removal.",
+            "The theme for Kubernetes v1.37 is Garhwal (गढ़वाल, pronounced gaṛhvāl ), a Himalayan region of Uttarakhand, India. The snow-capped peaks of the Garhwal Himalaya, deodar forests, terraced fields, rivers and streams, and mountain paths shape both the region and the logo. Together, these elements reflect a community in which every layer, route, and contribution is connected.",
+            "The logo is imagined as a window into Garhwal's landscape. 1 Inside, terraced fields climb towards the snowy peaks, each level supported by the one below, much as every Kubernetes release depends on work carried forward. A river winds through the valley and gathers mountain streams, reflecting contributions from many SIGs and communities flowing into one project.",
+            "The deodar forest represents the wider Kubernetes ecosystem, where distinct projects share common ground and grow side by side. Stonework and woodcraft shape the path and mountain house, placing people at the centre and evoking shared foundations maintained for those who follow. Above the river, colourful flags catch the wind and bring the scene to life."
+          ]
         }
       ]
     },
@@ -309,6 +353,27 @@
             "Our investigation found that the outage began when traffic reached a new peak, and a critical infrastructure component in our Central US data center failed to scale with it. The resulting capacity pressure spread through our systems, causing authentication failures and disrupting multiple GitHub services.",
             "Teams rerouted traffic, isolated affected infrastructure, and restored services in stages.",
             "Most GitHub services recovered earlier that day, but some Copilot services took longer."
+          ]
+        },
+        {
+          "id": "36e7375455b74f9e",
+          "title": "GitHub Copilot app for Beginners: Managing your work",
+          "excerpt": "If you’re juggling multiple Copilot sessions, use the My work pane to track what's in flight, what's done, and what's next. The post GitHub Copilot app for Beginners: Managing your work appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
+          "publishedAt": "2026-08-19T17:50:23.000Z",
+          "technologies": [
+            "Next.js",
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "This is the third post in our GitHub Copilot app for Beginners series. If you're just joining us, check out, GitHub Copilot app for beginners: Getting started , where we introduced the app and how it helps you work across multiple agent sessions. Our second post goes deeper on working within a session. Here, we'll look at how to keep all of the requests and work being done on a project organized in one place.",
+            "If you've been following along in this series, you know that real development is rarely a straight line. You fix a bug here, review a pull request there, and chase down a new idea somewhere in between. As you continue to assign tasks to Copilot and create new pull requests, you'll quickly find yourself with several proverbial balls in the air.",
+            "Being able to manage everything from one centralized location is key, and that's exactly why the My work pane exists. Below, we'll cover how you can use it to manage what's currently in flight, what's completed, and what's next.",
+            "When you open the My work tab, you'll see three tabs waiting for you. The first is All, which shows all of your pull requests and issues in one place.",
+            "This list is automatically filtered based on the projects you've touched inside the Copilot app. It's not every repo you have access to. If there's a repo you'd like to see here, just create a quick session pointing to that repo, and it'll show up."
           ]
         }
       ]
