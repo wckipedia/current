@@ -1,6 +1,10 @@
 {
-  "week": "2026-W36",
+  "date": "2026-09-03",
   "generatedAt": "2026-09-02T23:20:40.936Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "ATV Big Air Tour packs nearly 26 tour dates across the United States into a short season running May to November.",
             "Co-founders Larissa Guetter and Derek Guetter are literally racing from one community to the next, coordinating travel, riders, equipment, merchandise, marketing, and family life before the next crowd arrives.",
             "As their business was scaling up, they needed help to handle the workload and accelerate growth."
+          ]
+        },
+        {
+          "id": "b0cbef382238cdd5",
+          "title": "How AI-native companies turn workflows into operating capability",
+          "excerpt": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/ai-native-company-workflows",
+          "publishedAt": "2026-09-01T17:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "OpenAI’s latest Enterprise Signals shows enterprise AI moving from assistance to execution at sharply different speeds.",
+            "Frontier firms (those with the top 10% of AI usage) now generate 8.3× as many output tokens per active user as typical firms, up from 2.6× in January.",
+            "The widening gap points to a deeper operating shift: leading firms connect agents to company context and tools, delegate more substantive work, and make successful workflows easier to repeat.",
+            "For leaders, the challenge is to turn that depth into work people can trust, measure, and improve.",
+            "Leaders should also leave room for experimentation, including use cases whose value is not obvious on the first try."
           ]
         }
       ]
@@ -193,6 +217,26 @@
             "In Kubernetes 1.37, the foundations of a new built-in production identity technology have gone GA. Pod Certificates (and the closely-associated Cluster Trust Bundles) build X.509 certificate issuance for TLS and mTLS directly into core Kubernetes.",
             "They are built directly into Kubelet, and work pretty magically. They are written to your workload container’s filesystem before your workload starts up, and automatically kept up to date.",
             "The issuance system follows least-privilege principles; the node restriction admission plugin ensures that tokens can only be requested by the Kubelet that is actually currently running your pod."
+          ]
+        },
+        {
+          "id": "548fd4bfd4c0c2bd",
+          "title": "Kubernetes v1.37: Metrics API graduates to stable",
+          "excerpt": "Kubernetes v1.37 promotes the metrics.k8s.io API to stable ( v1 ). This API provides CPU and memory usage for nodes and Pods, and is the API behind commands such as kubectl top and resource-metrics-based autoscaling. For cluster operators and application developers, this graduation means that the API now has…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/",
+          "publishedAt": "2026-08-27T18:30:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "For cluster operators and application developers, this graduation means that the API now has the stability guarantees associated with a Kubernetes stable API. The v1 API has the same resource types and fields as v1beta1 ; this is an API-version graduation, not a change to the metrics that are collected or returned.",
+            "The resource Metrics API was introduced as alpha in Kubernetes v1.6 and became beta in v1.8. It has remained unchanged and has been used in production for years by clients including the HorizontalPodAutoscaler (HPA) and kubectl top . Kubernetes v1.37 formally graduates that proven API to metrics.k8s.io/v1 .",
+            "PodMetrics , for CPU and memory usage for a Pod, with a per-container breakdown in its containers field.",
+            "The API remains intentionally small. It provides the resource metrics needed for autoscaling and basic inspection; it is not a replacement for a full monitoring pipeline or the custom metrics ( custom.metrics.k8s.io ) API.",
+            "The v1 API surface is identical to v1beta1 , except for the API version. There are no renamed fields, new fields, or changes to the meaning of the returned CPU and memory values."
           ]
         }
       ]
