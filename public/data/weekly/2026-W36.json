@@ -1,6 +1,6 @@
 {
   "week": "2026-W36",
-  "generatedAt": "2026-09-01T23:18:43.311Z",
+  "generatedAt": "2026-09-02T00:17:58.589Z",
   "sections": [
     {
       "name": "AI",
@@ -264,26 +264,6 @@
             "Concurrency in certain rustup operations has been improved: When running rustup update , rustup will first check for possible updates in parallel. pr#4752",
             "When running rustup component add with multiple components, they will be installed concurrently. pr#4790",
             "Implicit installation of the active toolchain in rustup-init and rustup invocations has been deprecated where deemed unnecessary and will now produce a warning. pr#4840 Please see our blog post for more details regarding this change."
-          ]
-        },
-        {
-          "id": "022e3b878893feb1",
-          "title": "Announcing our first Maintainers in Residence",
-          "excerpt": "We are very happy to announce the Rust Project's first round of Maintainers in Residence: Gen Li ( @rami3l ), Chris Denton ( @ChrisDenton ), Alejandra González ( @blyxyas ), León Liehr ( @fmease ), and Maintainer Grant recipients: Jason Newcomb ( @Jarcho ) and Jonas Böttiger ( @joboet ). These contributors…",
-          "source": "Rust Blog",
-          "url": "https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/",
-          "publishedAt": "2026-08-26T00:00:00.000Z",
-          "technologies": [
-            "Rust"
-          ],
-          "category": "Languages",
-          "scanMinutes": 1,
-          "details": [
-            "The funding of the Maintainer in Residence (MiR) and Maintainer Grantee roles is possible thanks to generous donations to the Rust Foundation Maintainers Fund (RFMF) from Google, AWS, OpenAI, the Rust Project Leadership Council and also individual sponsors.",
-            "We also want to thank the people who advocated for maintainer funding within their companies; Tyler Mandry from Google, Niko Matsakis and Jess Izen from AWS and Predrag Gruevski from OpenAI, and also the whole Rust Leadership Council and our funding advisors .",
-            "If you would like to help us support even more Rust contributors, consider donating to RFMF.",
-            "The Rust Foundation has published a press release and a blog post , where you can learn more about the sponsors and the supported contributors.",
-            "Read more below to learn about the MiR program, how we chose the funded contributors, and of course who they are !"
           ]
         }
       ]

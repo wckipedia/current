@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "generatedAt": "2026-09-01T23:18:43.311Z",
+  "generatedAt": "2026-09-02T00:17:58.589Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -219,26 +219,6 @@
             "The API remains intentionally small. It provides the resource metrics needed for autoscaling and basic inspection; it is not a replacement for a full monitoring pipeline or the custom metrics ( custom.metrics.k8s.io ) API.",
             "The v1 API surface is identical to v1beta1 , except for the API version. There are no renamed fields, new fields, or changes to the meaning of the returned CPU and memory values."
           ]
-        },
-        {
-          "id": "ec0d23ad72dbbbdd",
-          "title": "Kubernetes v1.37: Garhwal",
-          "excerpt": "Editors: Arsh Sharma, Christopher Tineo, Kirti Goyal, Sophia Ugochukwu, Swathi Rao, Troy Connor Similar to previous releases, the release of Kubernetes v1.37 introduces new Stable, Beta, and Alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and…",
-          "source": "Kubernetes Blog",
-          "url": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/",
-          "publishedAt": "2026-08-26T00:00:00.000Z",
-          "technologies": [
-            "Kubernetes"
-          ],
-          "category": "DevOps",
-          "scanMinutes": 1,
-          "details": [
-            "Similar to previous releases, the release of Kubernetes v1.37 introduces new Stable, Beta, and Alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and the vibrant support from our community.",
-            "This release consists of 67 enhancements. Of those enhancements, 16 have graduated to Stable, 23 have graduated to Beta, 27 are entering Alpha, and 1 is a deprecation/removal.",
-            "The theme for Kubernetes v1.37 is Garhwal (गढ़वाल, pronounced gaṛhvāl ), a Himalayan region of Uttarakhand, India. The snow-capped peaks of the Garhwal Himalaya, deodar forests, terraced fields, rivers and streams, and mountain paths shape both the region and the logo. Together, these elements reflect a community in which every layer, route, and contribution is connected.",
-            "The logo is imagined as a window into Garhwal's landscape. 1 Inside, terraced fields climb towards the snowy peaks, each level supported by the one below, much as every Kubernetes release depends on work carried forward. A river winds through the valley and gathers mountain streams, reflecting contributions from many SIGs and communities flowing into one project.",
-            "The deodar forest represents the wider Kubernetes ecosystem, where distinct projects share common ground and grow side by side. Stonework and woodcraft shape the path and mountain house, placing people at the centre and evoking shared foundations maintained for those who follow. Above the river, colourful flags catch the wind and bring the scene to life."
-          ]
         }
       ]
     },
@@ -308,26 +288,6 @@
             "Concurrency in certain rustup operations has been improved: When running rustup update , rustup will first check for possible updates in parallel. pr#4752",
             "When running rustup component add with multiple components, they will be installed concurrently. pr#4790",
             "Implicit installation of the active toolchain in rustup-init and rustup invocations has been deprecated where deemed unnecessary and will now produce a warning. pr#4840 Please see our blog post for more details regarding this change."
-          ]
-        },
-        {
-          "id": "022e3b878893feb1",
-          "title": "Announcing our first Maintainers in Residence",
-          "excerpt": "We are very happy to announce the Rust Project's first round of Maintainers in Residence: Gen Li ( @rami3l ), Chris Denton ( @ChrisDenton ), Alejandra González ( @blyxyas ), León Liehr ( @fmease ), and Maintainer Grant recipients: Jason Newcomb ( @Jarcho ) and Jonas Böttiger ( @joboet ). These contributors…",
-          "source": "Rust Blog",
-          "url": "https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/",
-          "publishedAt": "2026-08-26T00:00:00.000Z",
-          "technologies": [
-            "Rust"
-          ],
-          "category": "Languages",
-          "scanMinutes": 1,
-          "details": [
-            "The funding of the Maintainer in Residence (MiR) and Maintainer Grantee roles is possible thanks to generous donations to the Rust Foundation Maintainers Fund (RFMF) from Google, AWS, OpenAI, the Rust Project Leadership Council and also individual sponsors.",
-            "We also want to thank the people who advocated for maintainer funding within their companies; Tyler Mandry from Google, Niko Matsakis and Jess Izen from AWS and Predrag Gruevski from OpenAI, and also the whole Rust Leadership Council and our funding advisors .",
-            "If you would like to help us support even more Rust contributors, consider donating to RFMF.",
-            "The Rust Foundation has published a press release and a blog post , where you can learn more about the sponsors and the supported contributors.",
-            "Read more below to learn about the MiR program, how we chose the funded contributors, and of course who they are !"
           ]
         }
       ]
@@ -418,6 +378,27 @@
             "Our investigation found that the outage began when traffic reached a new peak, and a critical infrastructure component in our Central US data center failed to scale with it. The resulting capacity pressure spread through our systems, causing authentication failures and disrupting multiple GitHub services.",
             "Teams rerouted traffic, isolated affected infrastructure, and restored services in stages.",
             "Most GitHub services recovered earlier that day, but some Copilot services took longer."
+          ]
+        },
+        {
+          "id": "36e7375455b74f9e",
+          "title": "GitHub Copilot app for Beginners: Managing your work",
+          "excerpt": "If you’re juggling multiple Copilot sessions, use the My work pane to track what's in flight, what's done, and what's next. The post GitHub Copilot app for Beginners: Managing your work appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
+          "publishedAt": "2026-08-19T17:50:23.000Z",
+          "technologies": [
+            "Next.js",
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "This is the third post in our GitHub Copilot app for Beginners series. If you're just joining us, check out, GitHub Copilot app for beginners: Getting started , where we introduced the app and how it helps you work across multiple agent sessions. Our second post goes deeper on working within a session. Here, we'll look at how to keep all of the requests and work being done on a project organized in one place.",
+            "If you've been following along in this series, you know that real development is rarely a straight line. You fix a bug here, review a pull request there, and chase down a new idea somewhere in between. As you continue to assign tasks to Copilot and create new pull requests, you'll quickly find yourself with several proverbial balls in the air.",
+            "Being able to manage everything from one centralized location is key, and that's exactly why the My work pane exists. Below, we'll cover how you can use it to manage what's currently in flight, what's completed, and what's next.",
+            "When you open the My work tab, you'll see three tabs waiting for you. The first is All, which shows all of your pull requests and issues in one place.",
+            "This list is automatically filtered based on the projects you've touched inside the Copilot app. It's not every repo you have access to. If there's a repo you'd like to see here, just create a quick session pointing to that repo, and it'll show up."
           ]
         }
       ]
