@@ -1,6 +1,10 @@
 {
-  "week": "2026-W36",
+  "date": "2026-09-04",
   "generatedAt": "2026-09-03T23:22:49.733Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "That's why we want to optimize for the outcome rather than the tool call. This post examines four changes in GitHub Copilot that put that principle into practice:",
             "Preserve useful context while reducing repetitive output.",
             "Deliver completed background work without an extra retrieval step."
+          ]
+        },
+        {
+          "id": "fc40ddafdd41e0cc",
+          "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+          "excerpt": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+          "publishedAt": "2026-09-03T13:15:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "_**Today OpenAI is introducing Daybreak for Frontline Defenders, a new global initiative to help frontline defenders use frontier AI cyber capabilities to protect essential services in the United States and around the world.",
+            "Many operate with limited staff and budgets, while defending complex and aging systems.",
+            "In the coming months, AI-enabled cyber attacks will become far more widespread and sophisticated as models around the world become increasingly capable.",
+            "Defenders need to act now: test systems, find weaknesses, and strengthen defenses before attackers do.",
+            "We have a **defender’s window**: a narrowing opportunity to use AI to close security gaps before attackers seize them."
           ]
         }
       ]
@@ -173,6 +197,26 @@
             "But a page bounded by key count has no awareness of object size, so a page of large objects can still be very large.",
             "That makes memory usage hard to predict, and a bad combination of object size and concurrent reads can be enough to trigger an OOM. etcd's unary Range assembles each page in full before sending it, and the API server holds it while decoding, so the same payload sits in memory on both sides at once.",
             "Most of that cost lands on etcd, which is also where streaming helps most."
+          ]
+        },
+        {
+          "id": "56d533531e70b4ee",
+          "title": "Kubernetes v1.37: Storage Version Migration Enabled by Default",
+          "excerpt": "I am excited that storage version migration (SVM) has graduated to General Availability (GA) in Kubernetes v1.37! After a number of releases of work and testing, the built-in StorageVersionMigration API ( storagemigration.k8s.io/v1 ) and control plane controller are now fully stable and enabled by default…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga/",
+          "publishedAt": "2026-08-31T18:30:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "After a number of releases of work and testing, the built-in StorageVersionMigration API ( storagemigration.k8s.io/v1 ) and control plane controller are now fully stable and enabled by default across all v1.37 Kubernetes clusters.",
+            "In Kubernetes, stored API resources are written using a specific storage version (schema representation). The way Kubernetes interacts with object storage fundamentally requires mutation of a resource in order to ensure that the latest storage version is used for all resources. This creates problems when you want to change the storage version of a resource.",
+            "One example of a scenario where you may want to change the storage version of a resource is when you are promoting a CRD to drop an older API version (such as v1alpha1 ) to a newer version (leaving just v1beta1 and v1 ). It's a problem to drop the older API version whilst there are still resources stored with the old alpha version.",
+            "To avoid problems, you designate v1 as the new storage version; but, on it's own, that's not enough.",
+            "While new writes are stored as v1 , any existing resource could remain stored as v1alpha1 or v1beta1 in storage."
           ]
         }
       ]
