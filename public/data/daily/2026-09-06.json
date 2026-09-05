@@ -1,6 +1,10 @@
 {
-  "week": "2026-W36",
+  "date": "2026-09-06",
   "generatedAt": "2026-09-05T22:55:09.485Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "In our latest episode of the GitHub Podcast , Marlene Mhangami, GPS, and I talked through some of the AI terms developers are learning right now: loop engineering, Ralph loops, squads, harness engineering, hill climbing, forward deployed engineers, closed models, open weights, and open source models.",
             "If you're a reader instead of a listener, here's a guide to what those terms mean, why they matter, and how to think about them.",
             "Loop engineering is the practice of designing repeatable systems around agents, instead of manually prompting them for one task at a time."
+          ]
+        },
+        {
+          "id": "1738353f28d07e4a",
+          "title": "How we make AI coding more cost efficient without sacrificing task quality",
+          "excerpt": "Why shorter outputs can cost more, and how GitHub Copilot reduces wasted work across the complete coding task. The post How we make AI coding more cost efficient without sacrificing task quality appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+          "publishedAt": "2026-09-02T18:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Output quality is important when working with AI coding agents, but true efficiency comes from getting work done quickly, efficiently, and with the right context.",
+            "That's why token count of individual interactions alone isn't a meaningful measure of efficiency. The goal shouldn't be to use fewer tokens, but to tap into the right amount of context to move a task forward. A concise tool response can sometimes require additional calls or work if it leaves out information the agent needs, ultimately making the task slower and more expensive.",
+            "That's why we want to optimize for the outcome rather than the tool call. This post examines four changes in GitHub Copilot that put that principle into practice:",
+            "Preserve useful context while reducing repetitive output.",
+            "Deliver completed background work without an extra retrieval step."
           ]
         }
       ]
@@ -176,6 +200,26 @@
             "Kubernetes Services do not buffer requests while no Pods are ready, so HTTP and other request-driven workloads need a separate buffering layer.",
             "The HPA commonly scales on CPU or memory usage. Both metrics come from running Pods. Once the replica count reaches zero, there are no Pods left to measure and no signal that can tell the HPA to scale back up."
           ]
+        },
+        {
+          "id": "4db85808102385e4",
+          "title": "Kubernetes v1.37: etcd RangeStream Cuts Memory Use on Large List Reads",
+          "excerpt": "I am excited to announce that etcd RangeStream is graduating to beta in Kubernetes v1.37. Paired with etcd v3.7, it reduces the memory the API server and etcd need to read a large collection, and makes peak usage more predictable. The cost of large reads The API server serves most list and watch requests…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/09/01/kubernetes-v1-37-etcd-range-stream/",
+          "publishedAt": "2026-09-01T18:30:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "The API server serves most list and watch requests from its in-memory watch cache. Populating that cache requires reading a resource's full state from etcd, at startup and on every re-initialization. For a resource with many objects, or large ones, such as Pods, that read is expensive.",
+            "The API server already paginated these reads, asking etcd for a fixed number of keys at a time rather than the whole collection at once.",
+            "But a page bounded by key count has no awareness of object size, so a page of large objects can still be very large.",
+            "That makes memory usage hard to predict, and a bad combination of object size and concurrent reads can be enough to trigger an OOM. etcd's unary Range assembles each page in full before sending it, and the API server holds it while decoding, so the same payload sits in memory on both sides at once.",
+            "Most of that cost lands on etcd, which is also where streaming helps most."
+          ]
         }
       ]
     },
@@ -240,6 +284,26 @@
             "The most important things to know about the safety of this launch are as follows: 1. **GPT‑6 Astra is a significant step up in cyber capabilities and meets our Critical threshold.**This means that, with the right tools and access, GPT‑6 Astra can find previously unknown security flaws and develop new ways to exploit them across many well-protected systems without a person guiding each step.",
             "Accordingly, we significantly strengthened our protections against the model taking harmful cyber actions, whether that’s due to misuse or misalignment.",
             "We also took steps to secure our internal development and deployment of Astra and similar models, including stricter isolation, checkpoint encryption, universal monitoring of full trajectories including chains of thought (CoT), and a blocking alignment evaluation process before internal use."
+          ]
+        },
+        {
+          "id": "f2694bfa96c49e91",
+          "title": "Path to Astra: critical capabilities and frontier safeguards",
+          "excerpt": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/path-to-astra",
+          "publishedAt": "2026-09-01T13:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Since our earlier assessment that Astra might reach a critical level of cybersecurity capability, we have gathered more evidence and run additional evaluations to assess the model’s capabilities.",
+            "We now believe Astra meets the Critical cybersecurity capability threshold under our Preparedness Framework, meaning that with the right tools and access, it can find previously unknown security flaws and develop ways to exploit them across many well-protected systems without a person guiding each step.",
+            "It is the first model we are designating at this level, and requires stronger safeguards during development and before release.",
+            "Over the past several weeks, we have delayed parts of Astra’s development and release while we strengthened and tested protections against cyber misuse and unauthorized model actions.",
+            "Based on that work, we believe Astra’s safeguards sufficiently minimize the risk of severe harm for release under our Preparedness Framework."
           ]
         }
       ]
