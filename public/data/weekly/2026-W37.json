@@ -1,6 +1,6 @@
 {
   "week": "2026-W37",
-  "generatedAt": "2026-09-06T22:53:44.467Z",
+  "generatedAt": "2026-09-06T23:59:41.739Z",
   "sections": [
     {
       "name": "AI",
@@ -214,13 +214,7 @@
           ],
           "category": "Security",
           "scanMinutes": 1,
-          "details": [
-            "A new generation of intelligence We’re introducing GPT‑6 Astra, the world’s most intelligent and aligned model.",
-            "GPT‑6 Astra brings together years of research and big bets across pre-training, reinforcement learning, and alignment.",
-            "Astra is state-of-the-art on computer use, browsing, software engineering, cybersecurity, science, and professional work.",
-            "Astra saturates FrontierMath Tier 4 with a 98% score, having already helped solve long-standing open problems⁠ in mathematics.",
-            "Astra also saturates ARC-AGI-3 with a 99.9% score and ExploitBench with a 100% score."
-          ]
+          "details": []
         },
         {
           "id": "39210f987919e80e",
