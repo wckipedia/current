@@ -1,6 +1,10 @@
 {
-  "week": "2026-W37",
+  "date": "2026-09-08",
   "generatedAt": "2026-09-07T23:31:09.782Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "People everywhere need to understand the likely future trajectory of frontier AI, so they can have a meaningful voice in how it develops.",
             "Transparency about specific risks, incidents and safeguards is necessary, but not sufficient.",
             "We believe the public also needs to understand how the most capable systems are developing, and how they are driving research progress, inside of frontier labs."
+          ]
+        },
+        {
+          "id": "f811cada5ee199e3",
+          "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
+          "excerpt": "In controlled offline evaluations, HydraFusion’s selective coding workflows matched or exceeded the evaluated Opus 5 baseline while reducing estimated workflow cost. Now available as a research preview in GitHub Copilot. The post Project HydraFusion: Frontier quality via multi-model orchestration appeared…",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+          "publishedAt": "2026-09-04T16:04:14.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Providing developers the best model for the task at hand has always been our goal. Earlier this year, we made that easier by launching Auto model selection, which reviews your task and matches it to the best-suited model for that task.",
+            "Today, we're introducing Project HydraFusion, a research preview that delivers frontier intelligence through runtime orchestration. It creates a full execution plan, choosing from models across multiple providers to draft, critique and revise, or cascade to more powerful models to complete your task.",
+            "HydraFusion fills a key role in our overall strategy to deliver automated semantic routing between local, cloud, and compound models. For developers, that complexity stays behind the scenes: you select HydraFusion like any other model, and it chooses a workflow that balances performance, cost, and latency for each task.",
+            "HydraFusion is available to users on all GitHub Copilot plans through /experimental in GitHub Copilot CLI . Usage is based on the tokens consumed by the models HydraFusion uses, priced at each model's standard rate .",
+            "Run /model , then select HydraFusion (Research Preview)"
           ]
         }
       ]
@@ -175,6 +199,26 @@
             "The trade-off is cold-start time: the HPA must observe the metric, schedule a Pod, and start the application. This works well when work can wait in a durable queue.",
             "Kubernetes Services do not buffer requests while no Pods are ready, so HTTP and other request-driven workloads need a separate buffering layer.",
             "The HPA commonly scales on CPU or memory usage. Both metrics come from running Pods. Once the replica count reaches zero, there are no Pods left to measure and no signal that can tell the HPA to scale back up."
+          ]
+        },
+        {
+          "id": "4db85808102385e4",
+          "title": "Kubernetes v1.37: etcd RangeStream Cuts Memory Use on Large List Reads",
+          "excerpt": "I am excited to announce that etcd RangeStream is graduating to beta in Kubernetes v1.37. Paired with etcd v3.7, it reduces the memory the API server and etcd need to read a large collection, and makes peak usage more predictable. The cost of large reads The API server serves most list and watch requests…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/09/01/kubernetes-v1-37-etcd-range-stream/",
+          "publishedAt": "2026-09-01T18:30:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "The API server serves most list and watch requests from its in-memory watch cache. Populating that cache requires reading a resource's full state from etcd, at startup and on every re-initialization. For a resource with many objects, or large ones, such as Pods, that read is expensive.",
+            "The API server already paginated these reads, asking etcd for a fixed number of keys at a time rather than the whole collection at once.",
+            "But a page bounded by key count has no awareness of object size, so a page of large objects can still be very large.",
+            "That makes memory usage hard to predict, and a bad combination of object size and concurrent reads can be enough to trigger an OOM. etcd's unary Range assembles each page in full before sending it, and the API server holds it while decoding, so the same payload sits in memory on both sides at once.",
+            "Most of that cost lands on etcd, which is also where streaming helps most."
           ]
         }
       ]
