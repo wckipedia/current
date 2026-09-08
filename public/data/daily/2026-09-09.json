@@ -1,6 +1,10 @@
 {
-  "week": "2026-W37",
+  "date": "2026-09-09",
   "generatedAt": "2026-09-08T23:24:17.835Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -64,6 +68,26 @@
             "That opens the door to breakthroughs in human achievement, to new businesses, new markets, and new possibilities.",
             "It is the world’s most intelligent and aligned model, and is state-of-the-art in areas such as computer use, browsing, software engineering, cybersecurity, science, and professional work.",
             "OpenAI is built to turn this research progress into broad benefit for people and organizations around the world."
+          ]
+        },
+        {
+          "id": "2c827cba158d2f26",
+          "title": "On the Navier–Stokes Millennium Prize Problem",
+          "excerpt": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/navier-stokes-solution",
+          "publishedAt": "2026-09-08T10:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "We’re sharing a solution to the Navier-Stokes existence and smoothness problem, one of the Millennium Prize Problems.",
+            "This proof, produced by an internal OpenAI system, shows that the dynamics of the Navier-Stokes equations for fluid motion can develop a singularity in finite time.",
+            "We’re sharing both a writeup of the proof and a formalization in Lean.",
+            "The Millennium Prize Problems represent some of the deepest questions at the frontier of mathematics.",
+            "The question of whether smooth three-dimensional fluid motion can break down has remained unresolved for roughly 90 years."
           ]
         }
       ]
@@ -176,6 +200,26 @@
             "It's been on a steady path since KEP acceptance in 1.34. Alpha landed in 1.35, Beta in 1.36, and now it's Stable. For cluster operators, this is what makes DRA adoption gradual. Existing workloads written against extended resources keep working unmodified while the backend allocation logic moves over to DRA.",
             "ResourceClaims status with possible standardized network interface data adds a devices field to ResourceClaim .status , letting DRA drivers report per-device status, including, for network devices, the interface name, MAC address, and IP addresses.",
             "This gives users and controllers visibility into device state that was previously invisible once a device was configured in a Pod, and makes it possible to build things like network services that rely on a device's reported IPs."
+          ]
+        },
+        {
+          "id": "70479d5f705bda65",
+          "title": "Kubernetes v1.37: Scale Workloads to Zero with HorizontalPodAutoscaler",
+          "excerpt": "Kubernetes v1.37 includes API support for horizontal autoscaling of workloads down to zero replicas. This feature is now Beta and enabled by default. A HorizontalPodAutoscaler (HPA) that uses a suitable object metric or external metric can now scale a workload to zero replicas, then bring it back when the…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/",
+          "publishedAt": "2026-09-02T18:30:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Before v1.37, you needed an add-on or external component, or you had to enable the Alpha feature gate, to scale from zero. It is now part of core Kubernetes.",
+            "Scaling to zero removes the last idle Pod from workloads such as queue consumers and batch processors. The savings are largest when each Pod reserves expensive resources, including dedicated CPUs or GPUs.",
+            "The trade-off is cold-start time: the HPA must observe the metric, schedule a Pod, and start the application. This works well when work can wait in a durable queue.",
+            "Kubernetes Services do not buffer requests while no Pods are ready, so HTTP and other request-driven workloads need a separate buffering layer.",
+            "The HPA commonly scales on CPU or memory usage. Both metrics come from running Pods. Once the replica count reaches zero, there are no Pods left to measure and no signal that can tell the HPA to scale back up."
           ]
         }
       ]
