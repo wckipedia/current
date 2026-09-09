@@ -1,6 +1,10 @@
 {
-  "week": "2026-W37",
+  "date": "2026-09-10",
   "generatedAt": "2026-09-09T23:15:57.770Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -65,6 +69,26 @@
             "Unlike conventional processors, quantum processors are built with quantum bits, or qubits.",
             "Preparing and running qubit experiments can take months and require hundreds to thousands of preliminary measurements-work that AI is poised to help with.",
             "Beatriz Yankelevich, a graduate student in MIT’s Engineering Quantum Systems Group (EQuS), used GPT‑5.6 Sol, harnessed to Codex, to explore whether AI could streamline her experimental workflow."
+          ]
+        },
+        {
+          "id": "a00fc889a2dd293b",
+          "title": "The Work Now Within Reach",
+          "excerpt": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/the-work-now-within-reach",
+          "publishedAt": "2026-09-08T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "AI is expanding what people and businesses can achieve.",
+            "Ideas once held back by time, cost, or access to expertise are becoming practical to pursue.",
+            "That opens the door to breakthroughs in human achievement, to new businesses, new markets, and new possibilities.",
+            "It is the world’s most intelligent and aligned model, and is state-of-the-art in areas such as computer use, browsing, software engineering, cybersecurity, science, and professional work.",
+            "OpenAI is built to turn this research progress into broad benefit for people and organizations around the world."
           ]
         }
       ]
