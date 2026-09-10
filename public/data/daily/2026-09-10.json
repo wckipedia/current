@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "generatedAt": "2026-09-09T23:15:57.770Z",
+  "generatedAt": "2026-09-10T00:18:32.471Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -9,6 +9,26 @@
     {
       "name": "AI",
       "articles": [
+        {
+          "id": "a7c183de5112de47",
+          "title": "The AI policy window is open. We need to act.",
+          "excerpt": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/ai-policy-window",
+          "publishedAt": "2026-09-09T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "_We’ve reached a new chapter in AI capabilities, and that demands a new chapter for AI policy.",
+            "No company, industry, or government can meet this challenge alone.",
+            "But technical work inside individual labs will not be enough.",
+            "We also need shared standards, including regarding when development should slow or stop.",
+            "Advanced AI could accelerate the development of new medicines⁠, strengthen critical infrastructure⁠, expand economic opportunity⁠, and help solve scientific problems⁠ that have resisted generations of human effort."
+          ]
+        },
         {
           "id": "333ccaae81484d3a",
           "title": "GPT-6 Astra: The next generation in intelligence for work",
@@ -69,26 +89,6 @@
             "Unlike conventional processors, quantum processors are built with quantum bits, or qubits.",
             "Preparing and running qubit experiments can take months and require hundreds to thousands of preliminary measurements-work that AI is poised to help with.",
             "Beatriz Yankelevich, a graduate student in MIT’s Engineering Quantum Systems Group (EQuS), used GPT‑5.6 Sol, harnessed to Codex, to explore whether AI could streamline her experimental workflow."
-          ]
-        },
-        {
-          "id": "a00fc889a2dd293b",
-          "title": "The Work Now Within Reach",
-          "excerpt": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/the-work-now-within-reach",
-          "publishedAt": "2026-09-08T13:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": [
-            "AI is expanding what people and businesses can achieve.",
-            "Ideas once held back by time, cost, or access to expertise are becoming practical to pursue.",
-            "That opens the door to breakthroughs in human achievement, to new businesses, new markets, and new possibilities.",
-            "It is the world’s most intelligent and aligned model, and is state-of-the-art in areas such as computer use, browsing, software engineering, cybersecurity, science, and professional work.",
-            "OpenAI is built to turn this research progress into broad benefit for people and organizations around the world."
           ]
         }
       ]
@@ -272,26 +272,6 @@
             "We also asked respondents if they currently use or have used debuggers in Rust. Over 46% said they currently do, with the remaining responses split between \"have in the past\" and \"never have\". That means that over half of respondents do not currently use a debugger for Rust!",
             "Categorized by expertise, the responses reveal that roughly half of \"beginners\" have never used debuggers in Rust! On the other hand, nearly half of \"advanced users\" currently do use debuggers in Rust:"
           ]
-        },
-        {
-          "id": "d9328b4fe4f09bc5",
-          "title": "Announcing Rust 1.98.1",
-          "excerpt": "The Rust team has published a new point release of Rust, 1.98.1. Rust is a programming language that is empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup, getting Rust 1.98.1 is as easy as: rustup update stable If you don't have it…",
-          "source": "Rust Blog",
-          "url": "https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/",
-          "publishedAt": "2026-09-03T00:00:00.000Z",
-          "technologies": [
-            "Rust"
-          ],
-          "category": "Languages",
-          "scanMinutes": 1,
-          "details": [
-            "If you have a previous version of Rust installed via rustup, getting Rust 1.98.1 is as easy as:",
-            "If you don't have it already, you can get rustup from the appropriate page on our website.",
-            "Rust 1.98.1 fixes a miscompilation in vtable generation .",
-            "In Rust 1.98.0, in some circumstances, rustc would incorrectly generate a trait object vtable with a null pointer where a function pointer should be. This leads to undefined behavior in the emitted code. In some cases this may 'just' cause segfaults due to the null pointer being loaded, but it is possible for it to be justification for arbitrary effects (as is typical for UB).",
-            "If you'd like to help us out by testing future releases, you might consider using the beta ( rustup default beta ) and nightly ( rustup default nightly ) channels locally and in your CI. Please report any bugs you might come across!"
-          ]
         }
       ]
     },
@@ -361,6 +341,26 @@
             "How can we best triage these pull requests? The work isn't particularly difficult per se, but it certainly is repetitive.",
             "It's the perfect task to offload to Copilot! With GitHub Copilot app automations , you can hand off that first round of review. Instead of manually inspecting every Dependabot pull request, you can create an automation that reviews open pull requests, groups them by risk, verifies CI status, and delivers a summary before your day begins.",
             "Follow the steps below to build a daily Dependabot triage automation."
+          ]
+        },
+        {
+          "id": "d813f28c163e5f55",
+          "title": "Your alt text passes automated checks. That doesn’t mean it’s any good.",
+          "excerpt": "We built a plugin for the GitHub Accessibility Scanner to make sure your alt text is actually accessible. Here's how it works. The post Your alt text passes automated checks. That doesn’t mean it’s any good. appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/",
+          "publishedAt": "2026-08-24T20:56:32.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "More than one in four images on the web's most popular home pages have alt text that's missing, vague, or copied from adjacent images.",
+            "That's from WebAIM's 2026 WebAIM Million report, which found that alt text,an HTML attribute containing text describing the content of an image, was missing on 16.2% of images across the top million home pages. Among the images that did have alt text, another 10.8% provided an undescriptive attribute, such as alt=\"image\" , a raw filename, or a description duplicated from a neighbor.",
+            "While automated tooling reliably flags missing alt text, it isn't as good at fixing poorly written alt text.",
+            "Most alt text checkers test whether an accessible name for an image exists, not whether the provided alt text says anything useful about the associated image, and that's a deliberate design choice: a quality-oriented rule with false positives is a rule teams switch off.",
+            "So does the same alt=\"3/5 stars\" on five different star-shaped icons."
           ]
         }
       ]
