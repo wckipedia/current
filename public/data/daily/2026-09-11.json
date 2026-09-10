@@ -1,6 +1,10 @@
 {
-  "week": "2026-W37",
+  "date": "2026-09-11",
   "generatedAt": "2026-09-10T23:11:35.133Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "We’re introducing a new Data agent in ChatGPT Work to help more people answer those questions themselves.",
             "It connects to your company data, investigates what changed, and builds interactive dashboards you can share.",
             "Direct and refine the analysis in one conversation, without writing queries or learning a new analytics tool."
+          ]
+        },
+        {
+          "id": "0bb946f0c4215389",
+          "title": "Introducing ChatGPT for Financial Services",
+          "excerpt": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+          "publishedAt": "2026-09-10T07:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "This product has been shaped by our design partnership with Morgan Stanley and Evercore.",
+            "The collaboration has enabled us to pinpoint where OpenAI can solve the biggest challenges for financial institutions and has guided us on the solutions that will help every banker in their day-to-day work.",
+            "Built-in premium data from providers like Daloopa, PitchBook, LSEG News, and Crunchbase remove the challenges with MCP connectors and access to data.",
+            "This data is indexed and hosted by OpenAI to enable higher accuracy and new features like granular citations so that bankers can trace figures and claims back to their sources, and check the evidence as their analysis develops.",
+            "The product also offers state of the art frontier intelligence, including GPT‑6 Astra, natively and will continue to have newer models available out of the box as they are released."
           ]
         }
       ]
