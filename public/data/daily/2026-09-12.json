@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "generatedAt": "2026-09-11T23:16:20.433Z",
+  "generatedAt": "2026-09-12T00:21:17.901Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -9,6 +9,26 @@
     {
       "name": "AI",
       "articles": [
+        {
+          "id": "968c32634dc2a1cb",
+          "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+          "excerpt": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+          "publishedAt": "2026-09-14T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Company size: Startup Region: North America Industry: Technology Products: API As an AI-powered answer engine, Perplexity is deeply focused on search and accuracy.",
+            "Its ability to process large amounts of information is critically important.",
+            "Johnny Ho, Cofounder and Chief Strategy Officer, observes that every time the model gets better at writing code, Perplexity’s search engine improves too.",
+            "It becomes able to write better programs that search the web and internal information and summarize it very concisely.",
+            "But the real challenge, according to Johnny, is taking those informational aspects and applying them to real-world systems."
+          ]
+        },
         {
           "id": "53dc2a824ef94f8a",
           "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
@@ -30,6 +50,26 @@
           ]
         },
         {
+          "id": "4aeb82da9975e2f5",
+          "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+          "excerpt": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+          "publishedAt": "2026-09-11T16:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Cognition is the company behind Devin, an autonomous software engineer used by businesses around the world, from big banks to tech-native startups.",
+            "As Cognition’s engineering teams write more code, reviewing that work has become a challenge.",
+            "Cognition sees GPT‑6 Astra’s ability to test its work and show the results as a way to make code review more efficient. > “One of the big pieces that Astra improves on is its ability to test and prove that its work actually functions the way you expect.” Walden Yan, Co-founder, Cognition Testing software and showing the results Cognition is applying GPT‑6 Astra across its product lineup.",
+            "“We’ve been using it to make improvements across our product, including the core cloud agent that is Devin, but also our CLI and desktop products,” says Yan.",
+            "In one example, Devin uses Astra to test _Otter Run_, an iPhone game, and returns a recording of the game running in a simulator, alongside a report identifying checks that passed and areas left untested."
+          ]
+        },
+        {
           "id": "39842fa0b34b37cb",
           "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
           "excerpt": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
@@ -47,46 +87,6 @@
             "It can take years to find molecules with the potential to become antimicrobials.",
             "Researchers are using AI to accelerate this early stage of discovery.",
             "“Antimicrobial resistance is one of the greatest existential threats to humanity in my opinion,” said César de la Fuente, a bioengineer whose cross-disciplinary lab searches for antimicrobial candidates."
-          ]
-        },
-        {
-          "id": "6a886414536a09e3",
-          "title": "Now everyone can put data to work",
-          "excerpt": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/put-data-to-work",
-          "publishedAt": "2026-09-10T15:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": [
-            "Which issues threaten renewals in our largest accounts, and what should we fix first?",
-            "Getting those answers often means waiting for a report or asking someone else to run the analysis.",
-            "We’re introducing a new Data agent in ChatGPT Work to help more people answer those questions themselves.",
-            "It connects to your company data, investigates what changed, and builds interactive dashboards you can share.",
-            "Direct and refine the analysis in one conversation, without writing queries or learning a new analytics tool."
-          ]
-        },
-        {
-          "id": "0bb946f0c4215389",
-          "title": "Introducing ChatGPT for Financial Services",
-          "excerpt": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-          "publishedAt": "2026-09-10T07:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": [
-            "This product has been shaped by our design partnership with Morgan Stanley and Evercore.",
-            "The collaboration has enabled us to pinpoint where OpenAI can solve the biggest challenges for financial institutions and has guided us on the solutions that will help every banker in their day-to-day work.",
-            "Built-in premium data from providers like Daloopa, PitchBook, LSEG News, and Crunchbase remove the challenges with MCP connectors and access to data.",
-            "This data is indexed and hosted by OpenAI to enable higher accuracy and new features like granular citations so that bankers can trace figures and claims back to their sources, and check the evidence as their analysis develops.",
-            "The product also offers state of the art frontier intelligence, including GPT‑6 Astra, natively and will continue to have newer models available out of the box as they are released."
           ]
         }
       ]
