@@ -1,6 +1,10 @@
 {
-  "week": "2026-W37",
+  "date": "2026-09-13",
   "generatedAt": "2026-09-12T23:03:56.906Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "Cognition sees GPT‑6 Astra’s ability to test its work and show the results as a way to make code review more efficient. > “One of the big pieces that Astra improves on is its ability to test and prove that its work actually functions the way you expect.” Walden Yan, Co-founder, Cognition Testing software and showing the results Cognition is applying GPT‑6 Astra across its product lineup.",
             "“We’ve been using it to make improvements across our product, including the core cloud agent that is Devin, but also our CLI and desktop products,” says Yan.",
             "In one example, Devin uses Astra to test _Otter Run_, an iPhone game, and returns a recording of the game running in a simulator, alongside a report identifying checks that passed and areas left untested."
+          ]
+        },
+        {
+          "id": "39842fa0b34b37cb",
+          "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+          "excerpt": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+          "publishedAt": "2026-09-10T16:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Drug-resistant microbes including bacteria, fungi, parasites, and viruses are a growing global threat.",
+            "About five million deaths in 2021 were associated01867-1/fulltext) with bacterial antimicrobial resistance-an annual toll projected to roughly double by 2050.",
+            "It can take years to find molecules with the potential to become antimicrobials.",
+            "Researchers are using AI to accelerate this early stage of discovery.",
+            "“Antimicrobial resistance is one of the greatest existential threats to humanity in my opinion,” said César de la Fuente, a bioengineer whose cross-disciplinary lab searches for antimicrobial candidates."
           ]
         }
       ]
@@ -194,6 +218,26 @@
             "Like other Node conditions, each lifecycle condition uses status to report whether the observation is active:",
             "Unknown : Kubernetes cannot determine whether the lifecycle state is active.",
             "The reason provides a stable, machine-readable cause for the current status, and message can provide additional human-readable detail."
+          ]
+        },
+        {
+          "id": "1b9c15c4e0114485",
+          "title": "6 Benefits of Sandbox Environments (and How Docker Sandboxes Delivers Them)",
+          "excerpt": "Learn about the key benefits of sandbox environments with Docker including isolation, definable controls, secrets credential handling, and more.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/benefits-of-sandbox-environments/",
+          "publishedAt": "2026-09-08T23:05:55.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "In our State of Agentic AI report , 60% of organizations reported having AI agents running in production.",
+            "Those agents install packages, run scripts, and call external services on their own, and much of that work now happens on developer laptops, with developer credentials .",
+            "Running untrusted or experimental code directly on your machine has always carried risk, and handing that same machine to an autonomous agent raises the stakes .",
+            "A sandbox environment gives code a separate, controlled space to run in, with limited access to the machine underneath and external systems. How strictly it holds that line depends on how the sandbox is built, which is where the differences between them start to matter.",
+            "The benefits of sandbox environments are worth understanding on their own, and they compound when the thing running inside is an agent working unattended with permissions auto-approved . Below are six, from isolation and credential handling to the policy you enforce at runtime, and how Docker Sandboxes delivers each one."
           ]
         }
       ]
