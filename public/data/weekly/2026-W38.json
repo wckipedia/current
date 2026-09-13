@@ -1,0 +1,338 @@
+{
+  "week": "2026-W38",
+  "generatedAt": "2026-09-13T23:10:40.062Z",
+  "sections": [
+    {
+      "name": "AI",
+      "articles": [
+        {
+          "id": "968c32634dc2a1cb",
+          "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+          "excerpt": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+          "publishedAt": "2026-09-14T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Company size: Startup Region: North America Industry: Technology Products: API As an AI-powered answer engine, Perplexity is deeply focused on search and accuracy.",
+            "Its ability to process large amounts of information is critically important.",
+            "Johnny Ho, Cofounder and Chief Strategy Officer, observes that every time the model gets better at writing code, Perplexity’s search engine improves too.",
+            "It becomes able to write better programs that search the web and internal information and summarize it very concisely.",
+            "But the real challenge, according to Johnny, is taking those informational aspects and applying them to real-world systems."
+          ]
+        },
+        {
+          "id": "53dc2a824ef94f8a",
+          "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
+          "excerpt": "Checking agent-generated code usually means hopping between tabs. Learn how to view diffs, run terminal commands, and preview web apps side by side in the GitHub Copilot app. The post GitHub Copilot app for Beginners: Using the diff, terminal, and browser appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
+          "publishedAt": "2026-09-10T21:31:19.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "When an agent makes a change to your code, you want to review it, run it, and see what changed. Great news: now you can do all three without having to leave the GitHub Copilot app .",
+            "Before, doing those three jobs would mean having to bounce between your editor, terminal window, and web browser. But when these steps live side by side as built-in panels in the Copilot app, checking your agent's work is simple.",
+            "Let's walk through each of the panels in the app and how we'll use them to complete the AI coding loop.",
+            "The diff panel (a diff is a before and after comparison) shows exactly what lines were added, removed, or changed, with additions highlighted in green and deletions in red.",
+            "This gives you complete clarity, so you can choose what happens. You can accept changes, leave comments, or ask Copilot to make changes. You're in complete control and make the final decisions."
+          ]
+        },
+        {
+          "id": "4aeb82da9975e2f5",
+          "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+          "excerpt": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+          "publishedAt": "2026-09-11T16:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Cognition is the company behind Devin, an autonomous software engineer used by businesses around the world, from big banks to tech-native startups.",
+            "As Cognition’s engineering teams write more code, reviewing that work has become a challenge.",
+            "Cognition sees GPT‑6 Astra’s ability to test its work and show the results as a way to make code review more efficient. > “One of the big pieces that Astra improves on is its ability to test and prove that its work actually functions the way you expect.” Walden Yan, Co-founder, Cognition Testing software and showing the results Cognition is applying GPT‑6 Astra across its product lineup.",
+            "“We’ve been using it to make improvements across our product, including the core cloud agent that is Devin, but also our CLI and desktop products,” says Yan.",
+            "In one example, Devin uses Astra to test _Otter Run_, an iPhone game, and returns a recording of the game running in a simulator, alongside a report identifying checks that passed and areas left untested."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "articles": [
+        {
+          "id": "e42d17814d459c86",
+          "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
+          "excerpt": "1.1.1.1 now validates DNSSEC signatures using NIST’s post-quantum ML-DSA-44 algorithm. Here is how we manage 2,420-byte signatures and downgrade risks at scale.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
+          "publishedAt": "2026-09-10T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "1.1.1.1 now validates DNSSEC signatures made with ML-DSA-44 , a post-quantum signature algorithm standardized by the National Institute of Standards and Technology (NIST) . This is a first step toward preparing DNSSEC for a future in which today’s signature algorithms are no longer secure.",
+            "Cloudflare plans to achieve full post-quantum security by 2029 . Much of the work so far has focused on TLS, but public-key cryptography is used in many other systems, including DNSSEC.",
+            "While we began experimenting with post-quantum key agreement in TLS in 2019 and enabled support for all customers in 2022, post-quantum signatures have not yet received comparable testing in DNSSEC.",
+            "Widespread client adoption of post-quantum TLS took years, partly because larger messages exposed assumptions and bugs in existing network software.",
+            "That experience showed why early large-scale testing matters."
+          ]
+        },
+        {
+          "id": "77061a8dc6004697",
+          "title": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
+          "excerpt": "Workers now enables Node.js compatibility by default, supports applications up to 64 mebibytes, and adds a URL-based module registry with import.meta, lazy compilation, shared code caches, and clearer errors.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/workers-module-registry-nodejs/",
+          "publishedAt": "2026-09-09T13:00:00.000Z",
+          "technologies": [
+            "Node.js"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "We’ve rewritten the module registry in workerd , the core open-source component of the Workers runtime, to be faster, more standards-compliant, and more closely aligned with Node.js' module registry.",
+            "Over the past few years, we’ve been adding support for more and more Node.js runtime APIs. The Workers runtime now supports every stable API from Node.js that you might want to use in a serverless context, and these APIs are now enabled by default , letting you deploy even larger Node.js apps to Cloudflare (now up to 64 MiB on all plans - we’ve removed the limit on compressed bundle size).",
+            "But API compatibility alone is not enough: Node.js applications also depend on how the runtime resolves, loads, and caches modules . ESM, CommonJS, and WebAssembly are each types of modules that you can import in your Worker’s code. The system within the runtime that handles all of this is called the module registry.",
+            "You can start using it today by enabling the new_module_registry compatibility flag in your Worker.",
+            "When you enable the new_module_registry compatibility flag:"
+          ]
+        },
+        {
+          "id": "7b627cb99b71d01f",
+          "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
+          "excerpt": "Automatic Key Exchange probes TLS 1.3-capable customer origins to learn which key agreement algorithms they support. We then lead with the most secure algorithm when connecting to the origin, preferring post-quantum connections wherever the origin supports it.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
+          "publishedAt": "2026-09-08T13:10:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Every time Cloudflare opens a new TLS 1.3 connection to an origin server, we have to make a guess: the protocol requires us to commit to a key agreement algorithm in the very first packet we send, before the origin has told us anything about itself or what it can support.",
+            "If we guess right, the handshake completes in one round trip.",
+            "Guess wrong, and the origin replies with a HelloRetryRequest , we start over, and the connection costs two round trips.",
+            "For years, our guess was the same for every origin on the Internet: X25519 . Widely supported, but as it turns out, suboptimal for roughly 30% of the origin connections we've since measured.",
+            "Today we're announcing Automatic Key Exchange , an extension of Automatic SSL/TLS that replaces the guess with a measurement. We probe each origin to learn which key agreement algorithms it supports and prefers, then lead with that algorithm on the first try, preferring the post-quantum hybrid X25519MLKEM768 wherever the origin can speak it."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "articles": [
+        {
+          "id": "96fc811601db05f9",
+          "title": "Kubernetes v1.37: Native Histograms Graduates to Beta",
+          "excerpt": "I'm excited to announce that native histogram support for Kubernetes metrics is graduating to Beta and is enabled by default in Kubernetes v1.37! Native histograms (previously introduced as Alpha in Kubernetes v1.36 under KEP-5808 ) bring high-resolution, low-cardinality observability to Kubernetes metrics.…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta/",
+          "publishedAt": "2026-09-11T18:30:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Native histograms (previously introduced as Alpha in Kubernetes v1.36 under KEP-5808 ) bring high-resolution, low-cardinality observability to Kubernetes metrics. By adopting Prometheus Native Histograms , Kubernetes components now expose latency and duration metrics with far greater accuracy while significantly reducing telemetry storage and scraping overhead.",
+            "Since the early days of Kubernetes observability, duration and latency metrics (such as API server request latencies or scheduling durations) have relied on classic Prometheus histograms .",
+            "Classic histograms require metric authors to define a static list of cumulative bucket boundaries ( le labels), such as 0.005, 0.01, 0.025, 0.05, 0.1, 0.25, 0.5, 1, 2.5, 5, 10 . While familiar, this approach introduces three major challenges:",
+            "The Bucket Guessing Game : If a workload's latency profile changes, for example, shifting into microsecond ranges or experiencing long-tail tail latencies beyond the highest bucket, the histogram loses visibility. Specifying bucket boundaries upfront requires knowing the distribution before observing it",
+            "High Cardinality & Storage Cost : With classic histograms, each bucket boundary is exported as a separate time series ( _bucket{le=\"...\"} ). A histogram with 10 buckets across multiple labels multiplies the number of time series by 10, increasing memory consumption in Prometheus and inflating time series database (TSDB) storage costs"
+          ]
+        },
+        {
+          "id": "ba7190af76453d75",
+          "title": "Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)",
+          "excerpt": "In Kubernetes, resource allocation has historically been a static decision made during a Pod's initial scheduling and placement. With the graduation of the core in-Place Pod resize feature to General Availability in v1.35, application developers and cluster operators gained the powerful ability to…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/",
+          "publishedAt": "2026-09-10T18:30:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "With the graduation of the core in-Place Pod resize feature to General Availability in v1.35, application developers and cluster operators gained the powerful ability to dynamically adjust CPU and memory allocations of running containers without incurring disruptive restarts or application downtime.",
+            "However, in-place resizing introduced a unique resource scheduling gap: if a running Pod requested a resource scale-up that exceeded the host node's allocatable headroom, the Kubelet was forced to mark the request as Deferred . The Pod would remain parked in this state indefinitely, waiting for resources on the node to naturally free up.",
+            "To bridge this scheduling gap, Kubernetes v1.37 introduces scheduler preemption for in-place Pod resize (Alpha), behind the InPlacePodVerticalScalingSchedulerPreemption feature gate. This feature allows the Kubernetes scheduler to actively free up capacity on a fully-utilized node by preempting lower-priority workloads, enabling the pending in-place resizes of critical, higher-priority applications to succeed.",
+            "To understand why this preemption mechanism is needed, it is helpful to look at how Kubernetes handles running Pod resizing. When a user or controller (such as the Vertical Pod Autoscaler ) updates the resource requests of an active container, the Kubelet evaluates whether the underlying node has enough spare allocatable capacity to fulfill the increase.",
+            "If the node's resources are fully utilized and cannot satisfy the new limits, the Kubelet sets the container's resizeStatus (reported in the Pod's status.containerStatuses[] ) to Deferred ."
+          ]
+        },
+        {
+          "id": "1bf01c3c33d621ca",
+          "title": "Kubernetes v1.37: Introducing Node Lifecycle Conditions",
+          "excerpt": "Kubernetes has many ways to describe what is happening on a Node. Readiness, taints, Pod state, labels, annotations, and provider-specific APIs each expose part of the picture. What has been missing is a shared, Kubernetes-owned way to say that a Node is draining , undergoing maintenance, or undergoing…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/09/09/kubernetes-v1-37-node-lifecycle-conditions/",
+          "publishedAt": "2026-09-09T18:30:00.000Z",
+          "technologies": [
+            "Kubernetes",
+            "Node.js"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Kubernetes v1.37 introduces five well-known Node conditions that provide that description:",
+            "Maintenance can include hardware or software rollout, remediation, decommissioning, or debugging. Whether maintenance requires a drain depends on its impact. A Kubernetes upgrade usually should follow a drain, while a kernel live patch might not need one.",
+            "Like other Node conditions, each lifecycle condition uses status to report whether the observation is active:",
+            "Unknown : Kubernetes cannot determine whether the lifecycle state is active.",
+            "The reason provides a stable, machine-readable cause for the current status, and message can provide additional human-readable detail."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "articles": [
+        {
+          "id": "ef76bf51526ce152",
+          "title": "Introducing automatic remediation policies with Cloudflare CASB",
+          "excerpt": "Cloudflare CASB policies introduce a native automation engine built directly on the Cloudflare developer platform to remediate SaaS risks automatically. Security teams can now design event-driven logic to revoke risky file shares and send webhooks without manual intervention.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/casb-policies/",
+          "publishedAt": "2026-09-11T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Today, we’re making Cloudflare CASB more powerful than ever by introducing automatic remediation policies. This means security teams can now design event-driven logic to revoke risky file shares and dispatch custom webhooks, without manual intervention.",
+            "When we launched Cloudflare CASB , a cloud access security broker, we wanted to provide security teams complete visibility into the posture of their SaaS applications before misconfigurations became incidents. With a quick, clientless integration, CASB surfaces risks like overshared files, dormant admin keys and tokens, OAuth apps with excessive permissions - continuously, across users in the organization.",
+            "For years, SaaS Security Posture Management (SSPM) tools such as Cloudflare CASB have functioned as a passive alarm system.",
+            "Most SSPM tools tell you what’s wrong but do not help you fix the issue, placing the burden on administrators to manage an ever-growing to-do list.",
+            "A single misconfigured file-sharing policy across a Google Workspace tenant can generate thousands of findings in seconds, and even a disciplined team faces a window between detection and remediation measured in hours or days - more than enough time for a sensitive file to be downloaded, forwarded, or indexed."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Languages",
+      "articles": [
+        {
+          "id": "46fcf5bb7b99520f",
+          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+          "excerpt": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+          "publishedAt": "2026-09-11T10:00:00.000Z",
+          "technologies": [
+            "Python",
+            "OpenAI"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "Every OpenAI product depends on fast, reliable access to data, whether someone is logging in, checking their Codex settings, or starting a new conversation in ChatGPT.",
+            "Each of those actions may require many separate data lookups before the product can respond.",
+            "If those requests fail, the product stops working entirely.",
+            "Habitat is the online storage platform we built so OpenAI products can quickly and reliably access needed information.",
+            "Habitat now handles more than 70 million requests every second, supporting products used by over 1 billion people each week, across almost 40 geographic regions."
+          ]
+        },
+        {
+          "id": "dc58b9f2dbda3a46",
+          "title": "Rust debugging survey 2026 results",
+          "excerpt": "One of the biggest challenges Rust developers report in our annual surveys is a subpar debugging experience. So, back in February, we ran our first Rust Debugging Survey , in the hopes of identifying how Rust developers are using debuggers and what problems they are facing when doing so. We received over…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/",
+          "publishedAt": "2026-09-07T00:00:00.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "In this report, we'll go over some of the results of the survey. If you'd like, you can also check out the complete results of the survey .",
+            "If you'd like to skip ahead to any particular section, you can do so with this index:",
+            "The first step to making sense of the survey results is understanding who took the survey. We asked respondents to rate their Rust expertise, from \"Never used it\" to \"Advanced\". Over 80% reported themselves as \"Advanced\" or \"Intermediate\", split roughly evenly between the two:",
+            "We also asked respondents if they currently use or have used debuggers in Rust. Over 46% said they currently do, with the remaining responses split between \"have in the past\" and \"never have\". That means that over half of respondents do not currently use a debugger for Rust!",
+            "Categorized by expertise, the responses reveal that roughly half of \"beginners\" have never used debuggers in Rust! On the other hand, nearly half of \"advanced users\" currently do use debuggers in Rust:"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "articles": [
+        {
+          "id": "c493987b897c3716",
+          "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
+          "excerpt": "If you can write down how you do your work, you can automate it. Here's what I did to support GitHub's APAC marketing team. The post Marketing ops as code: Automating events from planning to follow-up on GitHub appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
+          "publishedAt": "2026-09-11T18:26:10.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "I run marketing for GitHub in Japan and Korea, and events are the heartbeat of it: a recurring webinar series for enterprise developers, community meetups in Tokyo, invite-only executive sessions in Seoul. What does a developer in this market actually need right now? Which topics are worth an hour of their time, and who should be in the room? I'd happily spend all day on those questions.",
+            "What follows the decisions is another matter. Once an event is greenlit, a fixed sequence begins:",
+            "Generate a set of UTM-tagged links: one for each channel, each formatted just so.",
+            "Draft the invitation email and file a request with the team that sends it.",
+            "Every morning until the event: download the registrant list, clean it up, post a status update for stakeholders."
+          ]
+        },
+        {
+          "id": "13745abf28fa2ee3",
+          "title": "GitHub availability report: August 2026",
+          "excerpt": "In August, we experienced five incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: August 2026 appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
+          "publishedAt": "2026-09-10T02:05:17.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "While we continue to make progress, August proved to be a challenging month for availability.",
+            "You can read more about these incidents in a blog post we published last month.",
+            "We are aggressively investing in both architectural improvements and moving to Azure, which will give us more capacity.",
+            "Meanwhile, we continue to see significant growth on our platform.",
+            "We are prioritizing the most impactful work while minimizing risk, but as these incidents in August show, we cannot completely eliminate risk."
+          ]
+        },
+        {
+          "id": "b8a75fb67d817922",
+          "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+          "excerpt": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+          "publishedAt": "2026-09-10T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "We’re launching GPT‑Live‑1 in the API, giving developers a powerful, natural voice model for building voice-enabled apps and business workflows.",
+            "First introduced in ChatGPT, GPT‑Live‑1 is capable of listening and speaking at the same time, and, as seen with Codex and ChatGPT Work, can delegate deeper reasoning and actions to the models and tools it is paired with.",
+            "For the API release of GPT‑Live‑1, we’ve focused on new capabilities that let developers steer and customize voice experiences around their users, workflows, and goals.",
+            "A core GPT‑Live‑1 strength, smooth interruption handling, is already delivering business impact: in early evaluations, Speak found that GPT‑Live‑1 gave learners more time to think before the language tutor responded, cutting interruptions by almost 80% versus previous turn-based systems.",
+            "Interrupt, laugh, change your mind - try it at home or in a loud space like a coffee shop or city street."
+          ]
+        }
+      ]
+    }
+  ]
+}
