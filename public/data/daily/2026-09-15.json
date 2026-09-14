@@ -1,6 +1,10 @@
 {
-  "week": "2026-W38",
+  "date": "2026-09-15",
   "generatedAt": "2026-09-14T23:53:30.203Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "Let's walk through each of the panels in the app and how we'll use them to complete the AI coding loop.",
             "The diff panel (a diff is a before and after comparison) shows exactly what lines were added, removed, or changed, with additions highlighted in green and deletions in red.",
             "This gives you complete clarity, so you can choose what happens. You can accept changes, leave comments, or ask Copilot to make changes. You're in complete control and make the final decisions."
+          ]
+        },
+        {
+          "id": "4aeb82da9975e2f5",
+          "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+          "excerpt": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+          "publishedAt": "2026-09-11T16:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Cognition is the company behind Devin, an autonomous software engineer used by businesses around the world, from big banks to tech-native startups.",
+            "As Cognition’s engineering teams write more code, reviewing that work has become a challenge.",
+            "Cognition sees GPT‑6 Astra’s ability to test its work and show the results as a way to make code review more efficient. > “One of the big pieces that Astra improves on is its ability to test and prove that its work actually functions the way you expect.” Walden Yan, Co-founder, Cognition Testing software and showing the results Cognition is applying GPT‑6 Astra across its product lineup.",
+            "“We’ve been using it to make improvements across our product, including the core cloud agent that is Devin, but also our CLI and desktop products,” says Yan.",
+            "In one example, Devin uses Astra to test _Otter Run_, an iPhone game, and returns a recording of the game running in a simulator, alongside a report identifying checks that passed and areas left untested."
           ]
         }
       ]
@@ -194,6 +218,26 @@
             "Classic histograms require metric authors to define a static list of cumulative bucket boundaries ( le labels), such as 0.005, 0.01, 0.025, 0.05, 0.1, 0.25, 0.5, 1, 2.5, 5, 10 . While familiar, this approach introduces three major challenges:",
             "The Bucket Guessing Game : If a workload's latency profile changes, for example, shifting into microsecond ranges or experiencing long-tail tail latencies beyond the highest bucket, the histogram loses visibility. Specifying bucket boundaries upfront requires knowing the distribution before observing it",
             "High Cardinality & Storage Cost : With classic histograms, each bucket boundary is exported as a separate time series ( _bucket{le=\"...\"} ). A histogram with 10 buckets across multiple labels multiplies the number of time series by 10, increasing memory consumption in Prometheus and inflating time series database (TSDB) storage costs"
+          ]
+        },
+        {
+          "id": "ba7190af76453d75",
+          "title": "Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)",
+          "excerpt": "In Kubernetes, resource allocation has historically been a static decision made during a Pod's initial scheduling and placement. With the graduation of the core in-Place Pod resize feature to General Availability in v1.35, application developers and cluster operators gained the powerful ability to…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/",
+          "publishedAt": "2026-09-10T18:30:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "With the graduation of the core in-Place Pod resize feature to General Availability in v1.35, application developers and cluster operators gained the powerful ability to dynamically adjust CPU and memory allocations of running containers without incurring disruptive restarts or application downtime.",
+            "However, in-place resizing introduced a unique resource scheduling gap: if a running Pod requested a resource scale-up that exceeded the host node's allocatable headroom, the Kubelet was forced to mark the request as Deferred . The Pod would remain parked in this state indefinitely, waiting for resources on the node to naturally free up.",
+            "To bridge this scheduling gap, Kubernetes v1.37 introduces scheduler preemption for in-place Pod resize (Alpha), behind the InPlacePodVerticalScalingSchedulerPreemption feature gate. This feature allows the Kubernetes scheduler to actively free up capacity on a fully-utilized node by preempting lower-priority workloads, enabling the pending in-place resizes of critical, higher-priority applications to succeed.",
+            "To understand why this preemption mechanism is needed, it is helpful to look at how Kubernetes handles running Pod resizing. When a user or controller (such as the Vertical Pod Autoscaler ) updates the resource requests of an active container, the Kubelet evaluates whether the underlying node has enough spare allocatable capacity to fulfill the increase.",
+            "If the node's resources are fully utilized and cannot satisfy the new limits, the Kubelet sets the container's resizeStatus (reported in the Pod's status.containerStatuses[] ) to Deferred ."
           ]
         }
       ]
