@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "generatedAt": "2026-09-13T23:10:40.062Z",
+  "generatedAt": "2026-09-14T00:15:26.081Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -289,26 +289,6 @@
             "If those requests fail, the product stops working entirely.",
             "Habitat is the online storage platform we built so OpenAI products can quickly and reliably access needed information.",
             "Habitat now handles more than 70 million requests every second, supporting products used by over 1 billion people each week, across almost 40 geographic regions."
-          ]
-        },
-        {
-          "id": "dc58b9f2dbda3a46",
-          "title": "Rust debugging survey 2026 results",
-          "excerpt": "One of the biggest challenges Rust developers report in our annual surveys is a subpar debugging experience. So, back in February, we ran our first Rust Debugging Survey , in the hopes of identifying how Rust developers are using debuggers and what problems they are facing when doing so. We received over…",
-          "source": "Rust Blog",
-          "url": "https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/",
-          "publishedAt": "2026-09-07T00:00:00.000Z",
-          "technologies": [
-            "Rust"
-          ],
-          "category": "Languages",
-          "scanMinutes": 1,
-          "details": [
-            "In this report, we'll go over some of the results of the survey. If you'd like, you can also check out the complete results of the survey .",
-            "If you'd like to skip ahead to any particular section, you can do so with this index:",
-            "The first step to making sense of the survey results is understanding who took the survey. We asked respondents to rate their Rust expertise, from \"Never used it\" to \"Advanced\". Over 80% reported themselves as \"Advanced\" or \"Intermediate\", split roughly evenly between the two:",
-            "We also asked respondents if they currently use or have used debuggers in Rust. Over 46% said they currently do, with the remaining responses split between \"have in the past\" and \"never have\". That means that over half of respondents do not currently use a debugger for Rust!",
-            "Categorized by expertise, the responses reveal that roughly half of \"beginners\" have never used debuggers in Rust! On the other hand, nearly half of \"advanced users\" currently do use debuggers in Rust:"
           ]
         }
       ]
