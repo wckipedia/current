@@ -1,6 +1,10 @@
 {
-  "week": "2026-W38",
+  "date": "2026-09-16",
   "generatedAt": "2026-09-15T23:32:46.224Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "Fyxer built an AI executive assistant that follows the thread as work moves across tools.",
             "It combines the latest OpenAI models with more than 500,000 hours of executive assistant workflows, dividing the work among dozens of specialized models that improve through real user feedback.",
             "Email is one of the clearest places to see it in action."
+          ]
+        },
+        {
+          "id": "968c32634dc2a1cb",
+          "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+          "excerpt": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+          "publishedAt": "2026-09-14T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Company size: Startup Region: North America Industry: Technology Products: API As an AI-powered answer engine, Perplexity is deeply focused on search and accuracy.",
+            "Its ability to process large amounts of information is critically important.",
+            "Johnny Ho, Cofounder and Chief Strategy Officer, observes that every time the model gets better at writing code, Perplexity’s search engine improves too.",
+            "It becomes able to write better programs that search the web and internal information and summarize it very concisely.",
+            "But the real challenge, according to Johnny, is taking those informational aspects and applying them to real-world systems."
           ]
         }
       ]
@@ -194,6 +218,26 @@
             "Classic histograms require metric authors to define a static list of cumulative bucket boundaries ( le labels), such as 0.005, 0.01, 0.025, 0.05, 0.1, 0.25, 0.5, 1, 2.5, 5, 10 . While familiar, this approach introduces three major challenges:",
             "The Bucket Guessing Game : If a workload's latency profile changes, for example, shifting into microsecond ranges or experiencing long-tail tail latencies beyond the highest bucket, the histogram loses visibility. Specifying bucket boundaries upfront requires knowing the distribution before observing it",
             "High Cardinality & Storage Cost : With classic histograms, each bucket boundary is exported as a separate time series ( _bucket{le=\"...\"} ). A histogram with 10 buckets across multiple labels multiplies the number of time series by 10, increasing memory consumption in Prometheus and inflating time series database (TSDB) storage costs"
+          ]
+        },
+        {
+          "id": "ba7190af76453d75",
+          "title": "Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)",
+          "excerpt": "In Kubernetes, resource allocation has historically been a static decision made during a Pod's initial scheduling and placement. With the graduation of the core in-Place Pod resize feature to General Availability in v1.35, application developers and cluster operators gained the powerful ability to…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/",
+          "publishedAt": "2026-09-10T18:30:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "With the graduation of the core in-Place Pod resize feature to General Availability in v1.35, application developers and cluster operators gained the powerful ability to dynamically adjust CPU and memory allocations of running containers without incurring disruptive restarts or application downtime.",
+            "However, in-place resizing introduced a unique resource scheduling gap: if a running Pod requested a resource scale-up that exceeded the host node's allocatable headroom, the Kubelet was forced to mark the request as Deferred . The Pod would remain parked in this state indefinitely, waiting for resources on the node to naturally free up.",
+            "To bridge this scheduling gap, Kubernetes v1.37 introduces scheduler preemption for in-place Pod resize (Alpha), behind the InPlacePodVerticalScalingSchedulerPreemption feature gate. This feature allows the Kubernetes scheduler to actively free up capacity on a fully-utilized node by preempting lower-priority workloads, enabling the pending in-place resizes of critical, higher-priority applications to succeed.",
+            "To understand why this preemption mechanism is needed, it is helpful to look at how Kubernetes handles running Pod resizing. When a user or controller (such as the Vertical Pod Autoscaler ) updates the resource requests of an active container, the Kubelet evaluates whether the underlying node has enough spare allocatable capacity to fulfill the increase.",
+            "If the node's resources are fully utilized and cannot satisfy the new limits, the Kubelet sets the container's resizeStatus (reported in the Pod's status.containerStatuses[] ) to Deferred ."
           ]
         }
       ]
