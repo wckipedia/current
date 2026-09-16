@@ -1,6 +1,10 @@
 {
-  "week": "2026-W38",
+  "date": "2026-09-17",
   "generatedAt": "2026-09-16T23:40:11.430Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "Mixed-use crawlers were the hard part of the training question.",
             "A site-wide yes or no is too blunt: how much of your content appears in a summary matters as much as whether it appears at all.",
             "An opt-out for AI summaries is already one of the requirements we've set for mixed-use crawler operators."
+          ]
+        },
+        {
+          "id": "cb8e031cc9ea866c",
+          "title": "Give every teammate and agent the right level of access to your Workers",
+          "excerpt": "You can now scope access to individual Workers and assign narrower Developer Platform roles, so teammates, CI tokens, and agents get only the access they need to debug, deploy, or monitor safely.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/workers-granular-authorization/",
+          "publishedAt": "2026-09-15T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "As more teams - and now agents - build applications on Cloudflare's Developer Platform, having the right access controls is crucial to allow you to ship safely. After all, the last thing you want is for an agent to make a change in production, just because it was granted more access than it needs.",
+            "Now, you can give a teammate or agent access to a specific Worker, so that they can only make changes to that application and no other resources in your account. Moreover, we’re giving you four new roles, so you can limit exactly what they can do:",
+            "The new roles are available today, for all customers. You can assign them to a specific user, so when they log into the dashboard, they will only see the Worker you have given them access to. Or, you can create an API token with the scoped access, which you can give to your agent to ensure they only have access to that one application.",
+            "Here’s an example of how to create an API token with permissions per Worker:",
+            "When defining these roles, we wanted to strike the right balance."
           ]
         }
       ]
@@ -174,6 +198,26 @@
             "You can opt into specific behaviors through kubelet configuration fields:",
             "Set memoryThrottlingFactor (for example, 0.9 ) to enable memory.high throttling on Burstable and BestEffort containers. The default is null , which means no throttling.",
             "Set memoryReservationPolicy to TieredReservation to enable tiered memory protection via memory.min and memory.low . The default is None , which means no memory reservation."
+          ]
+        },
+        {
+          "id": "96fc811601db05f9",
+          "title": "Kubernetes v1.37: Native Histograms Graduates to Beta",
+          "excerpt": "I'm excited to announce that native histogram support for Kubernetes metrics is graduating to Beta and is enabled by default in Kubernetes v1.37! Native histograms (previously introduced as Alpha in Kubernetes v1.36 under KEP-5808 ) bring high-resolution, low-cardinality observability to Kubernetes metrics.…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta/",
+          "publishedAt": "2026-09-11T18:30:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Native histograms (previously introduced as Alpha in Kubernetes v1.36 under KEP-5808 ) bring high-resolution, low-cardinality observability to Kubernetes metrics. By adopting Prometheus Native Histograms , Kubernetes components now expose latency and duration metrics with far greater accuracy while significantly reducing telemetry storage and scraping overhead.",
+            "Since the early days of Kubernetes observability, duration and latency metrics (such as API server request latencies or scheduling durations) have relied on classic Prometheus histograms .",
+            "Classic histograms require metric authors to define a static list of cumulative bucket boundaries ( le labels), such as 0.005, 0.01, 0.025, 0.05, 0.1, 0.25, 0.5, 1, 2.5, 5, 10 . While familiar, this approach introduces three major challenges:",
+            "The Bucket Guessing Game : If a workload's latency profile changes, for example, shifting into microsecond ranges or experiencing long-tail tail latencies beyond the highest bucket, the histogram loses visibility. Specifying bucket boundaries upfront requires knowing the distribution before observing it",
+            "High Cardinality & Storage Cost : With classic histograms, each bucket boundary is exported as a separate time series ( _bucket{le=\"...\"} ). A histogram with 10 buckets across multiple labels multiplies the number of time series by 10, increasing memory consumption in Prometheus and inflating time series database (TSDB) storage costs"
           ]
         }
       ]
