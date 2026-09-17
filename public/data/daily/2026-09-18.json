@@ -1,6 +1,10 @@
 {
-  "week": "2026-W38",
+  "date": "2026-09-18",
   "generatedAt": "2026-09-17T23:33:58.022Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -64,6 +68,26 @@
             "Today, OpenAI Academy, in collaboration with Older Adults Technology Services (OATS) from AARP is hosting the Older Adults AI Skills Jam: a free, in-person learning experience designed to help older adults use ChatGPT confidently and safely.",
             "The Jam is part of a multi-year effort OpenAI launched with OATS to help older adults build practical AI skills and stay safe online through its flagship program, Senior Planet.",
             "Data shows that older adults are increasingly using ChatGPT for practical guidance, finding information, and writing."
+          ]
+        },
+        {
+          "id": "a7565059b22e4fb4",
+          "title": "Have it both ways: stay discoverable in search while disallowing AI training",
+          "excerpt": "Cloudflare is giving site owners a way to stay discoverable while disallowing AI training. New controls and an Accountable designation establish a shared model with Apple, Google, and Microsoft.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+          "publishedAt": "2026-09-15T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Without proper controls, website owners have long faced a difficult tradeoff: allow your content to be used for AI training, or risk losing discoverability in search. That tradeoff exists because some of the largest organizations on the Internet use mixed-use crawlers: a single crawler serving both search and AI training. Refuse one, and you refuse the other.",
+            "Today, Cloudflare is announcing a new Disallow AI Training setting that lets you easily stay indexed for search while refusing to let that same crawler train on your content. Apple, Google, and Microsoft honor or have committed (in a specified time frame) to honor this setting.",
+            "Mixed-use crawlers were the hard part of the training question.",
+            "A site-wide yes or no is too blunt: how much of your content appears in a summary matters as much as whether it appears at all.",
+            "An opt-out for AI summaries is already one of the requirements we've set for mixed-use crawler operators."
           ]
         }
       ]
@@ -156,6 +180,26 @@
             "Set memoryThrottlingFactor (for example, 0.9 ) to enable memory.high throttling on Burstable and BestEffort containers. The default is null , which means no throttling.",
             "Set memoryReservationPolicy to TieredReservation to enable tiered memory protection via memory.min and memory.low . The default is None , which means no memory reservation."
           ]
+        },
+        {
+          "id": "96fc811601db05f9",
+          "title": "Kubernetes v1.37: Native Histograms Graduates to Beta",
+          "excerpt": "I'm excited to announce that native histogram support for Kubernetes metrics is graduating to Beta and is enabled by default in Kubernetes v1.37! Native histograms (previously introduced as Alpha in Kubernetes v1.36 under KEP-5808 ) bring high-resolution, low-cardinality observability to Kubernetes metrics.…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta/",
+          "publishedAt": "2026-09-11T18:30:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Native histograms (previously introduced as Alpha in Kubernetes v1.36 under KEP-5808 ) bring high-resolution, low-cardinality observability to Kubernetes metrics. By adopting Prometheus Native Histograms , Kubernetes components now expose latency and duration metrics with far greater accuracy while significantly reducing telemetry storage and scraping overhead.",
+            "Since the early days of Kubernetes observability, duration and latency metrics (such as API server request latencies or scheduling durations) have relied on classic Prometheus histograms .",
+            "Classic histograms require metric authors to define a static list of cumulative bucket boundaries ( le labels), such as 0.005, 0.01, 0.025, 0.05, 0.1, 0.25, 0.5, 1, 2.5, 5, 10 . While familiar, this approach introduces three major challenges:",
+            "The Bucket Guessing Game : If a workload's latency profile changes, for example, shifting into microsecond ranges or experiencing long-tail tail latencies beyond the highest bucket, the histogram loses visibility. Specifying bucket boundaries upfront requires knowing the distribution before observing it",
+            "High Cardinality & Storage Cost : With classic histograms, each bucket boundary is exported as a separate time series ( _bucket{le=\"...\"} ). A histogram with 10 buckets across multiple labels multiplies the number of time series by 10, increasing memory consumption in Prometheus and inflating time series database (TSDB) storage costs"
+          ]
         }
       ]
     },
@@ -220,6 +264,26 @@
             "noexec : Do not permit direct execution of any binaries on the mounted filesystem.",
             "nosuid : Do not allow set-user-identifier or set-group-identifier bits to take effect.",
             "nodev : Do not interpret character or block special devices on the file system."
+          ]
+        },
+        {
+          "id": "ef76bf51526ce152",
+          "title": "Introducing automatic remediation policies with Cloudflare CASB",
+          "excerpt": "Cloudflare CASB policies introduce a native automation engine built directly on the Cloudflare developer platform to remediate SaaS risks automatically. Security teams can now design event-driven logic to revoke risky file shares and send webhooks without manual intervention.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/casb-policies/",
+          "publishedAt": "2026-09-11T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Today, we’re making Cloudflare CASB more powerful than ever by introducing automatic remediation policies. This means security teams can now design event-driven logic to revoke risky file shares and dispatch custom webhooks, without manual intervention.",
+            "When we launched Cloudflare CASB , a cloud access security broker, we wanted to provide security teams complete visibility into the posture of their SaaS applications before misconfigurations became incidents. With a quick, clientless integration, CASB surfaces risks like overshared files, dormant admin keys and tokens, OAuth apps with excessive permissions - continuously, across users in the organization.",
+            "For years, SaaS Security Posture Management (SSPM) tools such as Cloudflare CASB have functioned as a passive alarm system.",
+            "Most SSPM tools tell you what’s wrong but do not help you fix the issue, placing the burden on administrators to manage an ever-growing to-do list.",
+            "A single misconfigured file-sharing policy across a Google Workspace tenant can generate thousands of findings in seconds, and even a disciplined team faces a window between detection and remediation measured in hours or days - more than enough time for a sensitive file to be downloaded, forwarded, or indexed."
           ]
         }
       ]
