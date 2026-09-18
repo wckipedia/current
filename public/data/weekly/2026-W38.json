@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "generatedAt": "2026-09-17T23:33:58.022Z",
+  "generatedAt": "2026-09-18T00:23:47.079Z",
   "sections": [
     {
       "name": "AI",
@@ -27,6 +27,26 @@
           ]
         },
         {
+          "id": "d22acfa5d0cc1d09",
+          "title": "How Cooley is accelerating IPO work with ChatGPT",
+          "excerpt": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/cooley-gopublic",
+          "publishedAt": "2026-09-17T12:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Cooley is an international law firm with a reputation for helping companies navigate capital markets and initial public offerings (IPOs).",
+            "In 2025, the firm advised on 180 deals globally, totaling more than $51.5 billion in deal volume.",
+            "Cooley has a decade-long track record at the top of the US issuer-side IPO market and has advised on more venture-backed IPOs than any other firm over the past 20-plus years.",
+            "Capital markets involve huge amounts of information that need to be synthesized and analyzed.",
+            "“For our lawyers, it’s always very busy,” explains David Wang, Chief Innovation Officer at Cooley."
+          ]
+        },
+        {
           "id": "f3899afd4d6a0a2d",
           "title": "Our framework for reporting model misalignment",
           "excerpt": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
@@ -44,26 +64,6 @@
             "But without a systematic approach to reporting these findings, our disclosures have been ad hoc and less frequent than ideal: we’ve often waited until we could collate several instances into one report, or added them to system cards for newly released models.",
             "This new framework is intended to expedite publishing misalignment reports following observation, even when we haven’t fully explained or mitigated the behavior we’re reporting.",
             "As AI systems grow more advanced and more widely deployed, we need to build a broader and better-informed consensus on the progress of alignment research."
-          ]
-        },
-        {
-          "id": "b0366f9850a9d166",
-          "title": "Helping older adults use AI in everyday life",
-          "excerpt": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-          "publishedAt": "2026-09-16T16:00:00.000Z",
-          "technologies": [
-            "OpenAI"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": [
-            "That means making sure people of every age have the support they need to use these tools to help make everyday life easier.",
-            "For older adults, that can mean getting help planning a trip, understanding a confusing letter or bill, spotting a possible scam, pursuing a new hobby, or staying connected with family and loved ones.",
-            "Today, OpenAI Academy, in collaboration with Older Adults Technology Services (OATS) from AARP is hosting the Older Adults AI Skills Jam: a free, in-person learning experience designed to help older adults use ChatGPT confidently and safely.",
-            "The Jam is part of a multi-year effort OpenAI launched with OATS to help older adults build practical AI skills and stay safe online through its flagship program, Senior Planet.",
-            "Data shows that older adults are increasingly using ChatGPT for practical guidance, finding information, and writing."
           ]
         }
       ]

@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "generatedAt": "2026-09-17T23:33:58.022Z",
+  "generatedAt": "2026-09-18T00:23:47.079Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -28,6 +28,26 @@
             "AI agents wrote most of the code, spanning 128 pull requests that landed in main and shipped incrementally rather than waiting for a single cutover at the end.",
             "The few inevitable regressions were discovered and fixed quickly along the way, while the performance of the runtime improved by orders of magnitude.",
             "A project that would have taken a whole team of developers a year or two before agents was now completed primarily by a single developer, in only a few months, all while the rest of the team continued to greatly expand the runtime's capabilities and reach."
+          ]
+        },
+        {
+          "id": "d22acfa5d0cc1d09",
+          "title": "How Cooley is accelerating IPO work with ChatGPT",
+          "excerpt": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/cooley-gopublic",
+          "publishedAt": "2026-09-17T12:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Cooley is an international law firm with a reputation for helping companies navigate capital markets and initial public offerings (IPOs).",
+            "In 2025, the firm advised on 180 deals globally, totaling more than $51.5 billion in deal volume.",
+            "Cooley has a decade-long track record at the top of the US issuer-side IPO market and has advised on more venture-backed IPOs than any other firm over the past 20-plus years.",
+            "Capital markets involve huge amounts of information that need to be synthesized and analyzed.",
+            "“For our lawyers, it’s always very busy,” explains David Wang, Chief Innovation Officer at Cooley."
           ]
         },
         {
@@ -68,26 +88,6 @@
             "Today, OpenAI Academy, in collaboration with Older Adults Technology Services (OATS) from AARP is hosting the Older Adults AI Skills Jam: a free, in-person learning experience designed to help older adults use ChatGPT confidently and safely.",
             "The Jam is part of a multi-year effort OpenAI launched with OATS to help older adults build practical AI skills and stay safe online through its flagship program, Senior Planet.",
             "Data shows that older adults are increasingly using ChatGPT for practical guidance, finding information, and writing."
-          ]
-        },
-        {
-          "id": "a7565059b22e4fb4",
-          "title": "Have it both ways: stay discoverable in search while disallowing AI training",
-          "excerpt": "Cloudflare is giving site owners a way to stay discoverable while disallowing AI training. New controls and an Accountable designation establish a shared model with Apple, Google, and Microsoft.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
-          "publishedAt": "2026-09-15T13:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": [
-            "Without proper controls, website owners have long faced a difficult tradeoff: allow your content to be used for AI training, or risk losing discoverability in search. That tradeoff exists because some of the largest organizations on the Internet use mixed-use crawlers: a single crawler serving both search and AI training. Refuse one, and you refuse the other.",
-            "Today, Cloudflare is announcing a new Disallow AI Training setting that lets you easily stay indexed for search while refusing to let that same crawler train on your content. Apple, Google, and Microsoft honor or have committed (in a specified time frame) to honor this setting.",
-            "Mixed-use crawlers were the hard part of the training question.",
-            "A site-wide yes or no is too blunt: how much of your content appears in a summary matters as much as whether it appears at all.",
-            "An opt-out for AI summaries is already one of the requirements we've set for mixed-use crawler operators."
           ]
         }
       ]
