@@ -1,6 +1,10 @@
 {
-  "week": "2026-W38",
+  "date": "2026-09-20",
   "generatedAt": "2026-09-19T23:05:24.981Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -64,6 +68,26 @@
             "AI agents wrote most of the code, spanning 128 pull requests that landed in main and shipped incrementally rather than waiting for a single cutover at the end.",
             "The few inevitable regressions were discovered and fixed quickly along the way, while the performance of the runtime improved by orders of magnitude.",
             "A project that would have taken a whole team of developers a year or two before agents was now completed primarily by a single developer, in only a few months, all while the rest of the team continued to greatly expand the runtime's capabilities and reach."
+          ]
+        },
+        {
+          "id": "d22acfa5d0cc1d09",
+          "title": "How Cooley is accelerating IPO work with ChatGPT",
+          "excerpt": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/cooley-gopublic",
+          "publishedAt": "2026-09-17T12:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Cooley is an international law firm with a reputation for helping companies navigate capital markets and initial public offerings (IPOs).",
+            "In 2025, the firm advised on 180 deals globally, totaling more than $51.5 billion in deal volume.",
+            "Cooley has a decade-long track record at the top of the US issuer-side IPO market and has advised on more venture-backed IPOs than any other firm over the past 20-plus years.",
+            "Capital markets involve huge amounts of information that need to be synthesized and analyzed.",
+            "“For our lawyers, it’s always very busy,” explains David Wang, Chief Innovation Officer at Cooley."
           ]
         }
       ]
