@@ -1,0 +1,293 @@
+{
+  "week": "2026-W39",
+  "generatedAt": "2026-09-20T23:17:05.807Z",
+  "sections": [
+    {
+      "name": "AI",
+      "articles": [
+        {
+          "id": "18bdedfb0c5ed6fd",
+          "title": "Should you read the code, is RAG dead, and did Skills kill MCP?",
+          "excerpt": "We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast. The post Should you read the code, is RAG dead, and did Skills kill MCP? appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
+          "publishedAt": "2026-09-18T15:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Hot takes turn complicated topics into one confident sentence. That makes them great for engagement, but not necessarily for understanding.",
+            "At the surface level, they do not matter much. You agree, disagree, repost, argue for a few minutes, and move on. Sometimes the take is directionally right. Sometimes it is complete nonsense.",
+            "The value of hot takes is in what happens when you stop reacting and start pulling them apart. Under what conditions is this true? What context is missing? What assumptions does it make? What changes when you apply it to real work?",
+            "That is where the depth is. A good hot take gives you something sharp enough to question. The questions are where you find the useful ideas.",
+            "We explore all this and more in the latest episode of the GitHub Podcast !"
+          ]
+        },
+        {
+          "id": "a00923bf4ddda715",
+          "title": "Introducing the Australian Youth Safety Blueprint",
+          "excerpt": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/australian-youth-safety-blueprint",
+          "publishedAt": "2026-09-18T12:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "We are introducing the **Australian Youth Safety Blueprint**, a roadmap for protecting young people as they use AI and a practical contribution to the Australian policy landscape.",
+            "Young Australians deserve tools that expand their opportunities to learn, create, and build skills while protecting their wellbeing.",
+            "The Blueprint sets out six pillars, from AI literacy and age-appropriate safeguards to privacy-protective age assurance, connections to real-world crisis support, and accessible parental controls.",
+            "Together, they help define how responsible AI should work for teens, and how companies should be held accountable for identifying and addressing risks to young people.",
+            "We are continuing to strengthen safeguards in our products, informed by these principles."
+          ]
+        },
+        {
+          "id": "02ea023ead6b345e",
+          "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+          "excerpt": "A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took. The post Migrating the GitHub Copilot runtime to Rust, using Copilot appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+          "publishedAt": "2026-09-17T00:26:43.000Z",
+          "technologies": [
+            "Rust",
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "The GitHub Copilot CLI , GitHub Copilot app , and GitHub Copilot SDK are all backed by the Copilot agent runtime, an agentic harness that can be embedded into applications and services. It was originally written in TypeScript on Node.js and the V8 JavaScript engine for what is now the GitHub Copilot cloud agent (CCA), and the runtime stayed on that stack as the runtime and its capabilities grew rapidly.",
+            "Using the GitHub Copilot app and the Copilot CLI, we completely rewrote the runtime into more than 800,000 lines of production Rust.",
+            "AI agents wrote most of the code, spanning 128 pull requests that landed in main and shipped incrementally rather than waiting for a single cutover at the end.",
+            "The few inevitable regressions were discovered and fixed quickly along the way, while the performance of the runtime improved by orders of magnitude.",
+            "A project that would have taken a whole team of developers a year or two before agents was now completed primarily by a single developer, in only a few months, all while the rest of the team continued to greatly expand the runtime's capabilities and reach."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "articles": [
+        {
+          "id": "eb5e0e2da34b5b55",
+          "title": "Saving another 100TB of RAM with math (and Rust)",
+          "excerpt": "Cloudflare's global network is immense but not limitless. As we look for small ways to trim our resource usage, we sometimes get lucky and we can cut significantly more. Here’s how we reduced one of our Pingora-based service's RAM usage with statistics.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
+          "publishedAt": "2026-09-18T17:23:58.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Cloudflare operates at a scale so big that even after working here for years, it doesn’t seem real. We have thousands of servers all over the world with petabytes of RAM and millions of CPU cores, and all of it is pushed to the max. As vast as those resources feel, they are still finite, and when you need every service to run on every node, it doesn’t leave room for wasted space.",
+            "At this scale, small improvements are greatly magnified, so even 1%-at-a-time improvements are worth celebrating.",
+            "And some tweaks add up to a lot more: in this post, we’ll look at how small changes to a single algorithm reduced the memory footprint of one of our Pingora-based services significantly.",
+            "That allowed us to reclaim more than 100TB of RAM globally, on top of the 100TB of memory the DNS team was able to shed last month .",
+            "Maintaining equitable resource sharing between teams is not easy, especially in large organizations. One of the ways Cloudflare ensures the balance is kept is through the tireless efforts of the wonderful Performance team."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "articles": [
+        {
+          "id": "6916be41936b06cd",
+          "title": "Kubernetes v1.37: Pod-Level Resource Managers graduated to Beta",
+          "excerpt": "With the release of Kubernetes v1.37, the Pod-Level Resource Managers feature has graduated to Beta status (disabled by default)! First introduced as an Alpha feature in Kubernetes v1.36 , this enhancement builds on Pod-Level Resources by equipping Kubelet's Topology Manager, CPU Manager, and Memory Manager…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/",
+          "publishedAt": "2026-09-15T18:30:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "First introduced as an Alpha feature in Kubernetes v1.36 , this enhancement builds on Pod-Level Resources by equipping Kubelet's Topology Manager, CPU Manager, and Memory Manager to use Pod-level resource declarations ( .spec.resources ) directly when making hardware placement decisions.",
+            "Before this feature, obtaining exclusive NUMA-aligned CPU cores or memory for latency-critical applications forced cluster operators into an all-or-nothing choice: assign integer resource requests to every container in the Pod, or forfeit exclusive NUMA alignment entirely.",
+            "For modern workloads running lightweight sidecars (such as logging agents or telemetry exporters), allocating dedicated physical cores to auxiliary containers was wasteful.",
+            "Pod-Level Resource Managers solves this challenge by enabling hybrid allocation models.",
+            "The Kubelet can reserve exclusive NUMA-aligned resources for primary application containers while placing non-Guaranteed sidecars into a pod-isolated shared pool."
+          ]
+        },
+        {
+          "id": "c0074c24996b0581",
+          "title": "Kubernetes Changed Block Tracking API - Beta Differences",
+          "excerpt": "Changed Block Tracking (CBT) support for CSI drivers shipped as Alpha in September 2025. With the March 2026 v1.0.0 release of the external-snapshot-metadata project, the feature moved to Beta . If you aren't yet familiar with changed block tracking for storage in Kubernetes, the Alpha announcement covers…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/09/14/csi-changed-block-tracking-beta/",
+          "publishedAt": "2026-09-14T18:30:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "If you aren't yet familiar with changed block tracking for storage in Kubernetes, the Alpha announcement covers the motivation, the three primary components (the CSI SnapshotMetadata gRPC service, the SnapshotMetadataService CRD, and the external-snapshot-metadata sidecar), and a walkthrough of how to use the API.",
+            "CBT currently applies to block volumes; file-volume and network file-share changed-list tracking is not covered by this feature.",
+            "The main change in that release was the promotion of the SnapshotMetadataService CRD from v1alpha1 to v1beta1 . The CRD used to advertise a driver's metadata service now serves cbt.storage.k8s.io/v1beta1 . The schema itself is unchanged, but this release removed v1alpha1 (rather than serving it alongside the new version). If you are upgrading from Alpha, you need to:",
+            "Update SnapshotMetadataService manifests to use apiVersion: cbt.storage.k8s.io/v1beta1 .",
+            "Update any client or controller code that talks to the CRD."
+          ]
+        },
+        {
+          "id": "3de19e2c537ba9f2",
+          "title": "Kubernetes v1.37: Memory QoS Graduates to Beta",
+          "excerpt": "Memory QoS has graduated to Beta in Kubernetes v1.37 and is now enabled by default. On Linux nodes running cgroup v2, the feature uses the memory controller to give the kernel better guidance on how to treat container memory. It was first introduced as Alpha in v1.22, and expanded in v1.36 with tiered memory…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/09/14/kubernetes-v1-37-memory-qos-graduates-to-beta/",
+          "publishedAt": "2026-09-14T18:30:00.000Z",
+          "technologies": [
+            "Kubernetes",
+            "Linux"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "This post covers what changed in v1.37, what the Beta promotion means for cluster operators, and how to configure the feature.",
+            "The MemoryQoS feature gate is now Beta in v1.37. This means every v1.37 kubelet has the feature gate turned on without any configuration change. Turning on the feature by default is safe because the default kubelet configuration does not enable memory throttling or memory reservation. No memory.high , memory.min , or memory.low values are written to cgroups unless you explicitly configure them.",
+            "You can opt into specific behaviors through kubelet configuration fields:",
+            "Set memoryThrottlingFactor (for example, 0.9 ) to enable memory.high throttling on Burstable and BestEffort containers. The default is null , which means no throttling.",
+            "Set memoryReservationPolicy to TieredReservation to enable tiered memory protection via memory.min and memory.low . The default is None , which means no memory reservation."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "articles": [
+        {
+          "id": "896933b41785afa3",
+          "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
+          "excerpt": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/",
+          "publishedAt": "2026-09-16T20:06:17.000Z",
+          "technologies": [
+            "JavaScript"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "A modern storefront can look perfectly healthy while malicious JavaScript works underneath: siphoning affiliate revenue, hijacking searches and clicks, tampering with analytics, or asking a remote server what to execute next. Pages load, products appear, and checkout works - yet the browser may be quietly doing something the site owner never authorized.",
+            "That is the blind spot our Client-Side Security machine learning (ML) model is built to expose. This post follows four operations, spanning eight payloads, that our Page Shield ML uncovered in the wild.",
+            "The detection of these malicious payloads was automated; humans verified each finding only after the system had flagged it. When we afterward reviewed the campaigns using security scanning tools, seven of the eight payloads were entirely absent from VirusTotal, and URLScan returned no malicious verdict for any of them. Page Shield ML , meanwhile, caught all eight in live traffic.",
+            "For instance, while security research documented the broader Lnkr family years earlier, one specific payload version sat indexed by URLScan for nearly two and a half years with “No classification,” including during a direct scan in January 2024.",
+            "Only in this case had VirusTotal ingested the payload earlier: while it currently flags the script as malicious, public history does not reveal when that verdict was first assigned."
+          ]
+        },
+        {
+          "id": "b43ceb7ae2955b0b",
+          "title": "Be alert: targeted attacks on prominent Rustaceans",
+          "excerpt": "We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order to use them to publish malware. What we've seen A video call is set up for something positive — maybe for a job, maybe for a project, maybe for…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/09/17/targeted-attacks/",
+          "publishedAt": "2026-09-17T00:00:00.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "A video call is set up for something positive - maybe for a job, maybe for a project, maybe for a contract opportunity - and then that's used as a vector to either get the target to install something on their computer (such as a purportedly missing audio codec) or execute another command (for example, via putting a command on the clipboard).",
+            "These attackers are setting up new but legitimate seeming company profiles, including plausible LinkedIn presences, in order to pass cursory inspection.",
+            "A previous attack of this form targeted many prominent Rust developers in June, and, last month, the arrayref crate was briefly compromised through similar attacks . At this moment we do not know if these are all a part of the same campaign.",
+            "This attack style is known to be used by the DPRK , and has been seen outside of the Rust community as well .",
+            "Please take extra care in the near term. Be appropriately suspicious of cold outreaches, and ensure that any calls you have with new people are on platforms you trust - ideally, try to be the one who sets up the call on a platform you already use."
+          ]
+        },
+        {
+          "id": "b402f515f974f7c9",
+          "title": "Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions",
+          "excerpt": "Kubernetes v1.37 brings important storage security features: emptyDir permission modes and bind mount options. They help application programmers and security professionals implement rigorous security policies, for example, prohibiting deletion of files across containers or execution of arbitrary binaries…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/",
+          "publishedAt": "2026-09-16T18:30:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Before diving into the new Kubernetes features, let us briefly review the low-level Linux security mechanisms that make them possible.",
+            "When Linux mounts or remounts a directory, Virtual File System (VFS) flags control what actions are permitted on that filesystem:",
+            "noexec : Do not permit direct execution of any binaries on the mounted filesystem.",
+            "nosuid : Do not allow set-user-identifier or set-group-identifier bits to take effect.",
+            "nodev : Do not interpret character or block special devices on the file system."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "articles": [
+        {
+          "id": "192794312f979cbd",
+          "title": "Introducing Astra for Law",
+          "excerpt": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/astra-for-law",
+          "publishedAt": "2026-09-17T00:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "It combines GPT‑6 Astra, our latest and most powerful model, with settings, tools, and context tailored for professional legal work.",
+            "API customers including Harvey and Legora will be able to build on Astra for Law, bringing this intelligence into their own products and workflows.",
+            "As our frontier models advance, we’ll bring these legal capabilities to our latest models.",
+            "We are also expanding our work on privacy and governance to give law firms specific controls for confidential client work.",
+            "Firms can also customize Astra for Law using our 26 new ecosystem plugins that connect ChatGPT to the specialist tools firms already use, like Relativity and Clio."
+          ]
+        },
+        {
+          "id": "c493987b897c3716",
+          "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
+          "excerpt": "If you can write down how you do your work, you can automate it. Here's what I did to support GitHub's APAC marketing team. The post Marketing ops as code: Automating events from planning to follow-up on GitHub appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
+          "publishedAt": "2026-09-11T18:26:10.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "I run marketing for GitHub in Japan and Korea, and events are the heartbeat of it: a recurring webinar series for enterprise developers, community meetups in Tokyo, invite-only executive sessions in Seoul. What does a developer in this market actually need right now? Which topics are worth an hour of their time, and who should be in the room? I'd happily spend all day on those questions.",
+            "What follows the decisions is another matter. Once an event is greenlit, a fixed sequence begins:",
+            "Generate a set of UTM-tagged links: one for each channel, each formatted just so.",
+            "Draft the invitation email and file a request with the team that sends it.",
+            "Every morning until the event: download the registrant list, clean it up, post a status update for stakeholders."
+          ]
+        },
+        {
+          "id": "13745abf28fa2ee3",
+          "title": "GitHub availability report: August 2026",
+          "excerpt": "In August, we experienced five incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: August 2026 appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
+          "publishedAt": "2026-09-10T02:05:17.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "While we continue to make progress, August proved to be a challenging month for availability.",
+            "You can read more about these incidents in a blog post we published last month.",
+            "We are aggressively investing in both architectural improvements and moving to Azure, which will give us more capacity.",
+            "Meanwhile, we continue to see significant growth on our platform.",
+            "We are prioritizing the most impactful work while minimizing risk, but as these incidents in August show, we cannot completely eliminate risk."
+          ]
+        }
+      ]
+    }
+  ]
+}
