@@ -1,6 +1,10 @@
 {
-  "week": "2026-W39",
+  "date": "2026-09-23",
   "generatedAt": "2026-09-22T23:36:27.242Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "In this spotlight, we sit down with two of the three SIG Apps chairs Janet Kuo and Maciej Szulik to discuss the evolution of Kubernetes workload management, the challenges of balancing application reliability with operational simplicity, and the future of application lifecycle management within one of Kubernetes’ most influential Special Interest Groups.",
             "Natalie Fisher: Can you introduce yourself, your role, and how you got involved in SIG Apps?",
             "Janet Kuo: I'm a Senior Staff Software Engineer at Google and have been a Kubernetes maintainer since 2015, joining the community just as we were racing toward the 1.0 launch."
+          ]
+        },
+        {
+          "id": "73461b3e97af0d93",
+          "title": "Introducing GPT-6 Sol and Luna",
+          "excerpt": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+          "publishedAt": "2026-09-22T18:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Earlier this month, we introduced GPT‑6 Astra, the most intelligent and aligned model in the world.",
+            "While the most demanding and important projects still call for Astra’s full depth, work happens at different scales, rhythms, and budgets.",
+            "That’s why we’re expanding the GPT‑6 universe with **GPT‑6 Sol** and **GPT‑6 Luna.**GPT‑6 Astra introduced a new generation of intelligence-these models help distribute the benefits of that intelligence by advancing the frontier on cost efficiency.",
+            "We trained GPT‑6 Sol and Luna with similar methods as GPT‑6 Astra, bringing the advances behind Astra’s state-of-the-art performance in professional work, factuality, coding, computer use, and alignment to faster, more affordable models.",
+            "The GPT‑6 models lead across the cost-intelligence curve, combining exceptional capabilities at every tier with infrastructure that delivers them efficiently at scale."
           ]
         }
       ]
@@ -199,6 +223,26 @@
             "The detection of these malicious payloads was automated; humans verified each finding only after the system had flagged it. When we afterward reviewed the campaigns using security scanning tools, seven of the eight payloads were entirely absent from VirusTotal, and URLScan returned no malicious verdict for any of them. Page Shield ML , meanwhile, caught all eight in live traffic.",
             "For instance, while security research documented the broader Lnkr family years earlier, one specific payload version sat indexed by URLScan for nearly two and a half years with “No classification,” including during a direct scan in January 2024.",
             "Only in this case had VirusTotal ingested the payload earlier: while it currently flags the script as malicious, public history does not reveal when that verdict was first assigned."
+          ]
+        },
+        {
+          "id": "b43ceb7ae2955b0b",
+          "title": "Be alert: targeted attacks on prominent Rustaceans",
+          "excerpt": "We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order to use them to publish malware. What we've seen A video call is set up for something positive — maybe for a job, maybe for a project, maybe for…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/09/17/targeted-attacks/",
+          "publishedAt": "2026-09-17T00:00:00.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "A video call is set up for something positive - maybe for a job, maybe for a project, maybe for a contract opportunity - and then that's used as a vector to either get the target to install something on their computer (such as a purportedly missing audio codec) or execute another command (for example, via putting a command on the clipboard).",
+            "These attackers are setting up new but legitimate seeming company profiles, including plausible LinkedIn presences, in order to pass cursory inspection.",
+            "A previous attack of this form targeted many prominent Rust developers in June, and, last month, the arrayref crate was briefly compromised through similar attacks . At this moment we do not know if these are all a part of the same campaign.",
+            "This attack style is known to be used by the DPRK , and has been seen outside of the Rust community as well .",
+            "Please take extra care in the near term. Be appropriately suspicious of cold outreaches, and ensure that any calls you have with new people are on platforms you trust - ideally, try to be the one who sets up the call on a platform you already use."
           ]
         }
       ]
