@@ -1,6 +1,10 @@
 {
-  "week": "2026-W39",
+  "date": "2026-09-24",
   "generatedAt": "2026-09-23T23:42:26.394Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "The announcement was made on the sidelines of the UN General Assembly by Dmytro Kushneruk, the Consul General of Ukraine in San Francisco, and Sasha Baker, Head of National Security Policy at OpenAI.",
             "Ukrainian defenders face persistent cyber attacks from Russia, alongside physical attacks on the country’s infrastructure.",
             "Ukraine’s national cyber incident response team, CERT-UA, handled nearly 6,000 cyber incidents in 2025."
+          ]
+        },
+        {
+          "id": "52b80abd4e046c04",
+          "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+          "excerpt": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+          "publishedAt": "2026-09-23T12:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Harvey helps law firms and in-house legal teams securely deploy AI across complex legal workflows, from litigation to mergers.",
+            "Its customers use Harvey to turn vast amounts of information into complex legal documents.",
+            "Compared with other models, Harvey has seen substantial improvements in document formatting and context awareness with GPT‑6 Astra, helping customers get more complete documents that better reflect the material behind them.",
+            "Bringing lawyers’ preferences into the drafting process Harvey’s memory panel brings individual preferences directly into the drafting workflow.",
+            "A lawyer can encode preferences such as using numbered lists, prioritizing EDGAR as a source, or color coding issues by priority."
           ]
         }
       ]
@@ -200,6 +224,26 @@
             "GitHub sometimes hides overwritten commits in its UI, making this kind of attack harder to detect. CI run logs and overwritten commits are also deleted after a few months.",
             "When cargo miri is invoked, Miri needs to retain build-relevant environment variables between runs 1 . The current code to do so achieves this by storing all environment variables to target/ . This, of course, persists when target/ is cached."
           ]
+        },
+        {
+          "id": "896933b41785afa3",
+          "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
+          "excerpt": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/",
+          "publishedAt": "2026-09-16T20:06:17.000Z",
+          "technologies": [
+            "JavaScript"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "A modern storefront can look perfectly healthy while malicious JavaScript works underneath: siphoning affiliate revenue, hijacking searches and clicks, tampering with analytics, or asking a remote server what to execute next. Pages load, products appear, and checkout works - yet the browser may be quietly doing something the site owner never authorized.",
+            "That is the blind spot our Client-Side Security machine learning (ML) model is built to expose. This post follows four operations, spanning eight payloads, that our Page Shield ML uncovered in the wild.",
+            "The detection of these malicious payloads was automated; humans verified each finding only after the system had flagged it. When we afterward reviewed the campaigns using security scanning tools, seven of the eight payloads were entirely absent from VirusTotal, and URLScan returned no malicious verdict for any of them. Page Shield ML , meanwhile, caught all eight in live traffic.",
+            "For instance, while security research documented the broader Lnkr family years earlier, one specific payload version sat indexed by URLScan for nearly two and a half years with “No classification,” including during a direct scan in January 2024.",
+            "Only in this case had VirusTotal ingested the payload earlier: while it currently flags the script as malicious, public history does not reveal when that verdict was first assigned."
+          ]
         }
       ]
     },
@@ -289,6 +333,26 @@
             "Invideo is an agentic video editor designed to handle that work while keeping the human editor in control.",
             "Sanket says GPT‑6 Astra can plan these operations in fewer reasoning steps than the models it previously tested: “Astra is using far fewer reasoning sets and thus output tokens to complete complex work.” Invideo also observed that Astra can carry out several instructions without losing the editor’s original objective as the task grows longer and more complex.",
             "Choosing the right approach and adapting to change GPT‑6 Astra is especially effective when it comes to color work, where the agent must choose from overlapping approaches such as correction, grading, regeneration, LUTs, and isolation."
+          ]
+        },
+        {
+          "id": "c493987b897c3716",
+          "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
+          "excerpt": "If you can write down how you do your work, you can automate it. Here's what I did to support GitHub's APAC marketing team. The post Marketing ops as code: Automating events from planning to follow-up on GitHub appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
+          "publishedAt": "2026-09-11T18:26:10.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "I run marketing for GitHub in Japan and Korea, and events are the heartbeat of it: a recurring webinar series for enterprise developers, community meetups in Tokyo, invite-only executive sessions in Seoul. What does a developer in this market actually need right now? Which topics are worth an hour of their time, and who should be in the room? I'd happily spend all day on those questions.",
+            "What follows the decisions is another matter. Once an event is greenlit, a fixed sequence begins:",
+            "Generate a set of UTM-tagged links: one for each channel, each formatted just so.",
+            "Draft the invitation email and file a request with the team that sends it.",
+            "Every morning until the event: download the registrant list, clean it up, post a status update for stakeholders."
           ]
         }
       ]
