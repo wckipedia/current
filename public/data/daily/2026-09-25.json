@@ -1,6 +1,10 @@
 {
-  "week": "2026-W39",
+  "date": "2026-09-25",
   "generatedAt": "2026-09-24T23:53:19.623Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "Docker donated its image format and the Runc runtime to the Linux Foundation, and the Open Container Initiative (OCI) formed around them.",
             "The format is the backbone of the cloud native ecosystem and a de facto standard.",
             "Now, we see a similar problem forming around agents. There is no shared format for what an agent is allowed to do. We are proposing the same kind of answer: one artifact, built on OCI, governed in the open."
+          ]
+        },
+        {
+          "id": "41035ed035766add",
+          "title": "Introducing Cloud Sandboxes: Start on Your Laptop, Finish in the Cloud",
+          "excerpt": "Run agents on your laptop, in the cloud, and move between them with one command, all safely. Earlier this year we launched Docker Sandboxes: microVM environments where coding agents can work autonomously in a safe way.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/introducing-cloud-sandboxes-start-on-your-laptop-finish-in-the-cloud/",
+          "publishedAt": "2026-09-24T16:00:00.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Since then, agents have started taking on long-horizon work: tasks that run for hours, not minutes. Agents need a new place to work. Today, we’re introducing Cloud Sandboxes: the same microVM-based sandbox, running on Docker-managed compute, with one command to move between them.",
+            "The most important change in coding agents over the past year is that they can work for much longer. Tasks that used to need a developer checking in every few minutes (a large refactor, a dependency migration, a test suite that takes an hour) you can now hand off and review when they finish.",
+            "When agents worked in short bursts, the question was whether the model could hold a task together. Now that they work in hours, the question is where those hours happen. A laptop is built around a person. It sleeps when the lid closes, slows down on battery, and disconnects when you move. None of that matters for a task that takes thirty seconds. All of it matters for a task that takes all night.",
+            "We built Docker Sandboxes to answer the first question about agents: is it safe to run unattended? In Docker Sandboxes, agents run in a microVM with its own kernel and Docker daemon, isolated from your machine, so they can work autonomously while your files, network, and secrets are protected if an agent steps out of line.",
+            "Today, we’re introducing Cloud Sandboxes to answer the second question: how do I run a dozen agents at once, for five, ten, or 21 hours each, without watching any of them? Cloud Sandboxes is the same microVM, running on Docker-managed compute. The isolation model is identical. The CLI is identical. What changes is that the machines underneath are always on, and there are as many of them as you need."
           ]
         }
       ]
@@ -179,6 +203,26 @@
             "We have been talking about artificial intelligence for years, but it feels different in recent weeks and months.",
             "Rapid model progress has made the timeline feel more compressed, the upside more tangible, but also the stakes and the risks more immediate."
           ]
+        },
+        {
+          "id": "98a070b858369077",
+          "title": "Meet the Ecosystem: Partners and Customers at WeAreDevelopers with Docker",
+          "excerpt": "Meet the partners and customers bringing practical AI, security, and development sessions to the Docker Pavilion at WeAreDevelopers. The post explains why a strong ecosystem matters to developers, announces the sessions and speakers, and invites attendees to connect with the teams building and using these…",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/wearedevelopers-partner-customer-sessions-2026/",
+          "publishedAt": "2026-09-22T15:06:15.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "As teams put AI agents to work, they need to move quickly without losing control of what they deploy. They’re combining models, tools, and infrastructure from across a fast-changing ecosystem. Making those pieces work together and keeping them accountable as the stack evolves is becoming a core part of building AI applications.",
+            "Docker’s approach to this challenge is providing a trusted, common foundation for containment, curation, and control of agent workloads at its core, while pairing those capabilities with an open ecosystem of partners and tools.",
+            "That ecosystem spans model providers, MCP tools and gateways, enterprise applications, data and memory platforms, identity, security, observability, and code quality. It also includes the cloud providers, systems integrators, and channel partners that help organizations bring these capabilities into production.",
+            "Integrating this ecosystem gives teams the freedom to choose the models, platforms, and clouds that fit their needs while maintaining a consistent foundation for governance. Developers remain in the lead: choosing what agents can access, directing their work, and verifying the outcomes. The goal is to give them the tools and guardrails to build with confidence as models, frameworks, and requirements change.",
+            "At WeAreDevelopers World Congress North America , September 23-25 in San Jose, partners and customers are bringing that ecosystem to life at the Docker Pavilion."
+          ]
         }
       ]
     },
@@ -268,6 +312,26 @@
             "Eight in 10 respondents said they were interested in tools that help them write more energy-efficient code.",
             "Nearly as many wanted best practices for reducing software's environmental footprint, and almost 75% wanted ways to measure the impact of their software or development process.",
             "There is an opportunity to turn that interest into normal engineering work: identify unnecessary compute, propose a change, test it, and let maintainers decide what ships."
+          ]
+        },
+        {
+          "id": "f2ff7f7605612041",
+          "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+          "excerpt": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+          "publishedAt": "2026-09-23T12:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Editing videos is one creative and technical decision after another.",
+            "Editors have to shape the story, place sound effects, build transitions, adjust color, and more.",
+            "Invideo is an agentic video editor designed to handle that work while keeping the human editor in control.",
+            "Sanket says GPT‑6 Astra can plan these operations in fewer reasoning steps than the models it previously tested: “Astra is using far fewer reasoning sets and thus output tokens to complete complex work.” Invideo also observed that Astra can carry out several instructions without losing the editor’s original objective as the task grows longer and more complex.",
+            "Choosing the right approach and adapting to change GPT‑6 Astra is especially effective when it comes to color work, where the agent must choose from overlapping approaches such as correction, grading, regeneration, LUTs, and isolation."
           ]
         }
       ]
