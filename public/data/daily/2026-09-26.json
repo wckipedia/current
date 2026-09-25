@@ -1,6 +1,10 @@
 {
-  "week": "2026-W39",
+  "date": "2026-09-26",
   "generatedAt": "2026-09-25T23:58:01.071Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "In 30 minutes, Mark demonstrates what happens when an agent pushes beyond a container’s limits and how Docker Sandboxes create a stronger boundary. He then connects that foundation to Kits, cloud capacity for work that needs to continue beyond the laptop, and new partnerships helping developers put agents to work safely.",
             "Containers were built to isolate applications. Agents do more. They make decisions and act on the systems around them, so the boundary needs to extend to the environment they can reach.",
             "Mark’s onstage demo makes that clear. The container worked as designed. What the agent needed was containment around its full environment. Docker Sandboxes provide that containment. Each agent gets its own isolated microVM and kernel, separate from the developer’s host environment."
+          ]
+        },
+        {
+          "id": "8074e974e47744f6",
+          "title": "From Dockerfile to Kit: the Docker Sandboxes Kit Specification",
+          "excerpt": "Docker's Sandbox Kit Specification v3 packages an AI agent's network rules, credentials, and volumes as an ordinary, pinnable OCI image.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/docker-sandbox-kit-spec/",
+          "publishedAt": "2026-09-24T16:00:00.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Agents need containment, and a sandbox is only half of it. Something still has to say which agent runs there, what it gets, and what it may touch. That is a Kit: an ordinary OCI image, so the answer travels with the agent and means the same thing on any conforming runtime. Today we published the Docker Sandbox Kit Specification v3, open source under Apache 2.0 at docker/sandbox-kit-spec . Here is why I wrote it.",
+            "They write code, run tests, install dependencies, call APIs, and work on infrastructure while I do something else.",
+            "None of it happens without access, so I grant it one piece at a time: a bind mount, a token with broader scope than the task needs, a firewall rule that was quicker to open than to narrow.",
+            "Together they take back the isolation I was relying on, and none needed an exploit.",
+            "The holes are configuration, added on purpose, usually by me."
           ]
         }
       ]
@@ -179,6 +203,26 @@
             "The researchers demonstrated that a customer with a Workers Paid account could recover residual disk blocks previously used by Containers on the same host.",
             "The technique could not target a particular customer, workload, host, or data, and residual data was not guaranteed to be present."
           ]
+        },
+        {
+          "id": "347b65ce144a221e",
+          "title": "Sam Altman’s remarks at the United Nations Security Council",
+          "excerpt": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+          "publishedAt": "2026-09-23T12:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Today, OpenAI CEO Sam Altman addressed the United Nations Security Council on artificial intelligence.",
+            "He discussed AI’s potential to expand opportunity, the importance of keeping powerful systems under human control, and the need for international cooperation on AI safety.",
+            "I’m honored to be here and to be able to speak with you all at this important time.",
+            "We have been talking about artificial intelligence for years, but it feels different in recent weeks and months.",
+            "Rapid model progress has made the timeline feel more compressed, the upside more tangible, but also the stakes and the risks more immediate."
+          ]
         }
       ]
     },
@@ -243,6 +287,22 @@
             "Eight in 10 respondents said they were interested in tools that help them write more energy-efficient code.",
             "Nearly as many wanted best practices for reducing software's environmental footprint, and almost 75% wanted ways to measure the impact of their software or development process.",
             "There is an opportunity to turn that interest into normal engineering work: identify unnecessary compute, propose a change, test it, and let maintainers decide what ships."
+          ]
+        },
+        {
+          "id": "f2ff7f7605612041",
+          "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+          "excerpt": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+          "publishedAt": "2026-09-23T12:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page."
           ]
         }
       ]
