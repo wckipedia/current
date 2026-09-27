@@ -1,0 +1,315 @@
+{
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-27T23:49:06.580Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
+  "sections": [
+    {
+      "name": "AI",
+      "articles": [
+        {
+          "id": "41d291c6d16ea2a8",
+          "title": "Cloudflare’s 2026 Annual Founders’ Letter",
+          "excerpt": "The Internet is changing more today than at any point since Cloudflare launched back on September 27, 2010. As automated traffic surpasses human activity, we reflect on the rise of AI agents, new creators, and how we can help build a fair, sustainable future for the web.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter/",
+          "publishedAt": "2026-09-27T17:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Like many 16-year-olds, we find ourselves looking around at the world we grew up in and feeling caught between the past and future.",
+            "Also like many 16-year-olds, we look at all the change in the world and sometimes see risk.",
+            "But, on balance, we come out incredibly optimistic for what lies ahead.",
+            "What drives our optimism and fear is a recognition that change involves disruption.",
+            "One significant change is the rate of growth of the web itself. From 2012 through 2025, the web plateaued and by some measures even shrank. That changed in mid-2025 when there was an explosion of new websites. The popular narrative is that growth has been driven by AI \"slop.\" And, while there is some of that, that's not the majority of what we see."
+          ]
+        },
+        {
+          "id": "a2908e03cf24041e",
+          "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+          "excerpt": "Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work done. The post GitHub Copilot app for Beginners: How to build custom workflows with canvases appeared first on The GitHub…",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+          "publishedAt": "2026-09-25T18:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Most tools give you a fixed set of screens and ask you to fit your work into them. But what if you could start with the workflow you want instead and have the interface take shape around it?",
+            "That's the idea behind canvases in the GitHub Copilot app . A canvas, also called a canvas extension, is a customizable interface that you and the agent share. It can be a kanban board, an issue triage board, a release checklist, a dashboard, a form, or even a spreadsheet: a UI shaped to how you work.",
+            "Because the canvas is bidirectional, the agent can update it as it works, and you can use buttons, cards, filters, and other controls to make changes too. Just like using a live shared whiteboard.",
+            "To create a canvas, you don't have to do any coding or design by hand. Just open an agent session, enter the /create-canvas skill , and describe what you want in plain English.",
+            "Then, the agent will build the interface and open it in the right-side panel without you having to write files or mess with the layout. One description becomes a custom tool that's ready to use."
+          ]
+        },
+        {
+          "id": "9de028fbe46cac8b",
+          "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+          "excerpt": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/proaction",
+          "publishedAt": "2026-09-25T19:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Proaction builds software for businesses that manage fleets of vehicles, from cars and trucks to construction machinery.",
+            "Because every fleet operates differently, showing prospects how Proaction’s platform fits their business is an essential part of selling it.",
+            "But personalized demos required engineering time the team couldn’t spare.",
+            "The founders had to rely on conversations and slide decks to explain what was possible.",
+            "“As a non-technical person, I used to have to loop engineers in if I wanted a demo,” says Colin Knudsen, co-founder and COO of Proaction."
+          ]
+        },
+        {
+          "id": "9b601fd01d9bba71",
+          "title": "Manufacturing Trust for AI Agents | Docker’s WeAreDevelopers Keynote",
+          "excerpt": "Docker's WeAreDevelopers keynote shows how Sandboxes, Kits, and Cloud Sandboxes give AI agents strong isolation and reproducible authority.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/manufacturing-trust-for-ai-agents-keynote/",
+          "publishedAt": "2026-09-24T17:15:00.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Coding agents do more than write code. Agents can install dependencies, access networks, use credentials, and keep working after we’ve moved on to something else. Agents need access to get real work done. But the more access they have, the bigger the impact of a mistake. The challenge is building enough trust into the system to give agents more freedom without giving them access to everything.",
+            "At WeAreDevelopers North America, Docker President Mark Cavage laid out Docker’s answer: give every agent a strong boundary, make its environment and authority reproducible, and let the work run where it makes sense, from a developer’s laptop to the cloud.",
+            "In 30 minutes, Mark demonstrates what happens when an agent pushes beyond a container’s limits and how Docker Sandboxes create a stronger boundary. He then connects that foundation to Kits, cloud capacity for work that needs to continue beyond the laptop, and new partnerships helping developers put agents to work safely.",
+            "Containers were built to isolate applications. Agents do more. They make decisions and act on the systems around them, so the boundary needs to extend to the environment they can reach.",
+            "Mark’s onstage demo makes that clear. The container worked as designed. What the agent needed was containment around its full environment. Docker Sandboxes provide that containment. Each agent gets its own isolated microVM and kernel, separate from the developer’s host environment."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Web",
+      "articles": [
+        {
+          "id": "c6ab1f25135f39c7",
+          "title": "Improving site performance by shipping more CSS",
+          "excerpt": "How we fully migrated github.com away from CSS-in-JS. The post Improving site performance by shipping more CSS appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+          "publishedAt": "2026-09-25T15:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Web",
+          "scanMinutes": 1,
+          "details": [
+            "The Primer Design System powers many of the experiences you see on GitHub today. From buttons to banners to breadcrumbs, these foundational components are required to be accessible, flexible, and performant across a wide variety of scenarios.",
+            "Back in 2023, the number of components on certain pages began to explode. This led to several performance-related challenges with our existing CSS-in-JS solution:",
+            "Initial page loads took longer due to styles being initialized on the client",
+            "Server-side rendering performance declined as style collection shifted from the client",
+            "Updates to styles grew out of control as component count grew on a page"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "articles": [
+        {
+          "id": "6a96baabbc49e6fb",
+          "title": "We just shipped support for the ugliest part of HTTP: Vary",
+          "excerpt": "Vary support is now available in Cache Rules on every plan. You can normalize known negotiation headers, pass exact values through to the origin when those small differences matter, or bypass cache when the variation is too unpredictable.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/vary-support/",
+          "publishedAt": "2026-09-22T14:04:31.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "The response header, Vary , has been called “ the ugliest part of HTTP that we haven't yet improved. ” The same post describes it as a “horrible, kludgy mechanism” with “pretty abysmal interoperability” across intermediaries. That is usually where sensible engineers back away slowly with their hands raised.",
+            "That’s not exactly an endorsement of Vary , but ugly doesn’t mean useless.",
+            "A server might, for example, deliver different image formats to different browsers.",
+            "If a cache ignores Vary , it risks serving the wrong bytes to a request.",
+            "But if it treats every raw header value as distinct, a handful of similar requests can spread into thousands of barely reusable cache entries."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "articles": [
+        {
+          "id": "25e1a4781366d77d",
+          "title": "Agents can now set up your website’s security with Turnstile Spin",
+          "excerpt": "Misconfiguring Turnstile by skipping backend validation leaves sites exposed to bots. Turnstile Spin fixes incomplete setups by using your preferred AI coding agent to wire up server-side verification.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/turnstile-spin/",
+          "publishedAt": "2026-09-25T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "In 2023, Cloudflare declared itself free from CAPTCHAs with the launch of Turnstile, our privacy-first client-side challenge. Turnstile is free to use, works on any site (no need to proxy traffic through Cloudflare), and never asks a visitor to solve a puzzle. Now, we are launching Turnstile Spin, an agent-mediated end-to-end implementation of Turnstile.",
+            "Initially built with developers in mind, Turnstile requires a basic two-step implementation and understanding of frontend and backend development.",
+            "First, you modify your frontend code to render the Turnstile widget; this allows Cloudflare to run the client-side challenges and issue a token.",
+            "Second, you POST the token to our Siteverify API, which verifies the token and returns metadata about whether the visitor passed or failed the challenge.",
+            "You can then act on this decision, like gating the login button until the visitor successfully solves a Turnstile challenge."
+          ]
+        },
+        {
+          "id": "4431c738b4b1e8a1",
+          "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+          "excerpt": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
+          "publishedAt": "2026-09-24T18:26:12.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "If you're new to fuzzing and want to learn the fundamentals first, check out our Fuzzing 101 course at gh.io/fuzzing101 .",
+            "Continuous fuzzing is not a magic solution that solves all your problems . Even projects that have been enrolled in OSS-Fuzz for years can still hide critical bugs, and the reason is almost always the same: someone needs to keep an eye on coverage, write new harnesses for the code that nobody is reaching, and triage the crashes that come out the other end. In other words, fuzzing still needs a human in the loop.",
+            "So the natural question I kept asking myself was: how much of that human work can we actually hand over to an LLM agent?",
+            "That is what led me to build the Fuzzing Taskflow, an autonomous fuzzing pipeline for C/C++ projects.",
+            "You only need to point it at a GitHub repository, and it does the rest: it identifies the suitable entrypoints, analyzes the build system, writes the harnesses, runs AFL++, reads the coverage reports, improves the harnesses, triages every crash, and writes a vulnerability report for each unique bug, all without a human babysitting it."
+          ]
+        },
+        {
+          "id": "277105ae8fc14d7a",
+          "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
+          "excerpt": "External security researchers at Accomplish identified a vulnerability in Cloudflare Containers that could expose residual disk data from previous workloads. We explain how the issue worked, how we investigated it, and the steps we took to remediate it.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/containers-cross-tenant-vulnerability/",
+          "publishedAt": "2026-09-24T15:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "On September 4, 2026, Oren Yomtov, a security researcher from Accomplish , responsibly reported a vulnerability affecting Cloudflare Containers and Cloudflare Sandboxes (which is built on Containers), through Cloudflare’s bug bounty program . Cloudflare has fully remediated the vulnerability, and we have no evidence that customer data has been compromised.",
+            "This post was prepared in collaboration with Oren Yomtov and the Accomplish security research team, whose detailed report and controlled testing helped us validate the issue and respond quickly.",
+            "Cloudflare Containers run workloads on multi-tenant infrastructure and automatically assign them to eligible servers; customers cannot select the underlying host.",
+            "The researchers demonstrated that a customer with a Workers Paid account could recover residual disk blocks previously used by Containers on the same host.",
+            "The technique could not target a particular customer, workload, host, or data, and residual data was not guaranteed to be present."
+          ]
+        },
+        {
+          "id": "347b65ce144a221e",
+          "title": "Sam Altman’s remarks at the United Nations Security Council",
+          "excerpt": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+          "publishedAt": "2026-09-23T12:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Today, OpenAI CEO Sam Altman addressed the United Nations Security Council on artificial intelligence.",
+            "He discussed AI’s potential to expand opportunity, the importance of keeping powerful systems under human control, and the need for international cooperation on AI safety.",
+            "I’m honored to be here and to be able to speak with you all at this important time.",
+            "We have been talking about artificial intelligence for years, but it feels different in recent weeks and months.",
+            "Rapid model progress has made the timeline feel more compressed, the upside more tangible, but also the stakes and the risks more immediate."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "articles": [
+        {
+          "id": "3d14844898469c56",
+          "title": "When chat is the wrong UI",
+          "excerpt": "What is a developer to do when they need something more tangible than a chat box? Enter canvases. The post When chat is the wrong UI appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+          "publishedAt": "2026-09-24T20:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Sometimes I remember things that happened last year, but it feels like it was so long ago. Did that really happen to me, or was it something that happened to my dad and he just told me about it when I was a kid?",
+            "Anyway... we're three years into this AI experiment and the primary interaction surface we have with LLMs is still chat. I'm pretty sure it was @pmarca who first argued for a textarea component in the HTML spec. And I'm pretty sure of that fact because I asked AI about it. In a textarea.",
+            "But I would like to propose to you that perhaps, just maybe, chat is the wrong UI. Well, at least most of the time.",
+            "It's kind of a shame that the first large-scale implementation of AI was kind of a gimmick-a first-person chatbot. But there is tremendous promise for AI if it is task oriented.",
+            "And if an academic says it and then I write it down as a quote in a blog post, then you know it's true."
+          ]
+        },
+        {
+          "id": "0f1a07da5479caba",
+          "title": "Rendering huge pull requests in the GitHub Copilot app",
+          "excerpt": "How we rebuilt the diff surface in the GitHub Copilot app to open a million-line pull request with hundreds of inline review comments. The post Rendering huge pull requests in the GitHub Copilot app appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
+          "publishedAt": "2026-09-23T18:29:49.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Broad refactors and migrations often have to land as one change.",
+            "Stacked pull requests are a great way to split work into smaller changes, which makes reviews easier and helps teams ship with less risk. But some changes, like this one, can't be split cleanly. That leaves you with a single pull request that can get very large, and the review conversation causes it to grow.",
+            "The review experience needs to remain fast and smooth even when the diff and its conversation are enormous. In the GitHub Copilot app , we rebuilt the pull request view with that requirement in mind.",
+            "To see how far that goes, we opened the biggest pull request we could find: an open source one with 2,200 files, over a million changed lines, and more than 400 inline review comments. Here's how we made even this extreme pull request performant.",
+            "Rendering a large diff at speed is well-understood: virtualize the rows, keep the mounted DOM small, and lean on the fact that every row is a line of code at a known height."
+          ]
+        },
+        {
+          "id": "8aa9c39b3a9624b8",
+          "title": "Developers want more efficient software. Here’s what over 1,000 GitHub users told us they need.",
+          "excerpt": "New research from GitHub and Yale Program on Climate Change Communication finds strong demand for tools, measurement, and practical guidance that can help developers reduce wasted compute. The post Developers want more efficient software. Here’s what over 1,000 GitHub users told us they need. appeared first…",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/research/developers-want-more-efficient-software-heres-what-over-1000-github-users-told-us-they-need/",
+          "publishedAt": "2026-09-23T13:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Developers know efficient software matters, but many lack a clear way to find waste, measure an improvement, and make the case for fixing it.",
+            "That is the central finding from a new survey of 1,039 GitHub users conducted by GitHub and the Yale Program on Climate Change Communication.",
+            "Eight in 10 respondents said they were interested in tools that help them write more energy-efficient code.",
+            "Nearly as many wanted best practices for reducing software's environmental footprint, and almost 75% wanted ways to measure the impact of their software or development process.",
+            "There is an opportunity to turn that interest into normal engineering work: identify unnecessary compute, propose a change, test it, and let maintainers decide what ships."
+          ]
+        },
+        {
+          "id": "f2ff7f7605612041",
+          "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+          "excerpt": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+          "publishedAt": "2026-09-23T12:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Editing videos is one creative and technical decision after another.",
+            "Editors have to shape the story, place sound effects, build transitions, adjust color, and more.",
+            "Invideo is an agentic video editor designed to handle that work while keeping the human editor in control.",
+            "Sanket says GPT‑6 Astra can plan these operations in fewer reasoning steps than the models it previously tested: “Astra is using far fewer reasoning sets and thus output tokens to complete complex work.” Invideo also observed that Astra can carry out several instructions without losing the editor’s original objective as the task grows longer and more complex.",
+            "Choosing the right approach and adapting to change GPT‑6 Astra is especially effective when it comes to color work, where the agent must choose from overlapping approaches such as correction, grading, regeneration, LUTs, and isolation."
+          ]
+        }
+      ]
+    }
+  ]
+}
