@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "generatedAt": "2026-09-26T23:38:25.124Z",
+  "generatedAt": "2026-09-27T00:40:52.758Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -302,11 +302,7 @@
           "category": "Developer Tools",
           "scanMinutes": 1,
           "details": [
-            "Editing videos is one creative and technical decision after another.",
-            "Editors have to shape the story, place sound effects, build transitions, adjust color, and more.",
-            "Invideo is an agentic video editor designed to handle that work while keeping the human editor in control.",
-            "Sanket says GPT‑6 Astra can plan these operations in fewer reasoning steps than the models it previously tested: “Astra is using far fewer reasoning sets and thus output tokens to complete complex work.” Invideo also observed that Astra can carry out several instructions without losing the editor’s original objective as the task grows longer and more complex.",
-            "Choosing the right approach and adapting to change GPT‑6 Astra is especially effective when it comes to color work, where the agent must choose from overlapping approaches such as correction, grading, regeneration, LUTs, and isolation."
+            "Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page."
           ]
         }
       ]
