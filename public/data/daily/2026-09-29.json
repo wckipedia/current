@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "generatedAt": "2026-09-29T00:59:59.803Z",
+  "generatedAt": "2026-09-29T02:01:32.380Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -256,6 +256,26 @@
       "name": "Developer Tools",
       "articles": [
         {
+          "id": "50d71cd52400f551",
+          "title": "How we will do better for Australia",
+          "excerpt": "OpenAI apologizes for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+          "publishedAt": "2026-09-29T01:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "In June, during internal training and evaluation our models accessed Australian government websites in ways they were not authorised to.",
+            "In this post, we are setting out what we know, what we have changed, and what we will do to rebuild trust with the Australian people.",
+            "This is a new kind of cyber incident which represents an emerging global challenge.",
+            "One of the ways we intend to take accountability for the situation is to be intentional in working with Australia to help develop practical approaches to how AI developers and governments identify, disclose, and respond to AI cyber behaviour, whether malicious or unintentional.",
+            "When we became aware and how we responded to this incident After the Hugging Face incident in July, we began reviewing earlier training and evaluation activity to identify other affected organisations."
+          ]
+        },
+        {
           "id": "eb674100bb687fff",
           "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
           "excerpt": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
@@ -313,26 +333,6 @@
             "The review experience needs to remain fast and smooth even when the diff and its conversation are enormous. In the GitHub Copilot app , we rebuilt the pull request view with that requirement in mind.",
             "To see how far that goes, we opened the biggest pull request we could find: an open source one with 2,200 files, over a million changed lines, and more than 400 inline review comments. Here's how we made even this extreme pull request performant.",
             "Rendering a large diff at speed is well-understood: virtualize the rows, keep the mounted DOM small, and lean on the fact that every row is a line of code at a known height."
-          ]
-        },
-        {
-          "id": "8aa9c39b3a9624b8",
-          "title": "Developers want more efficient software. Here’s what over 1,000 GitHub users told us they need.",
-          "excerpt": "New research from GitHub and Yale Program on Climate Change Communication finds strong demand for tools, measurement, and practical guidance that can help developers reduce wasted compute. The post Developers want more efficient software. Here’s what over 1,000 GitHub users told us they need. appeared first…",
-          "source": "GitHub Blog",
-          "url": "https://github.blog/news-insights/research/developers-want-more-efficient-software-heres-what-over-1000-github-users-told-us-they-need/",
-          "publishedAt": "2026-09-23T13:00:00.000Z",
-          "technologies": [
-            "GitHub"
-          ],
-          "category": "Developer Tools",
-          "scanMinutes": 1,
-          "details": [
-            "Developers know efficient software matters, but many lack a clear way to find waste, measure an improvement, and make the case for fixing it.",
-            "That is the central finding from a new survey of 1,039 GitHub users conducted by GitHub and the Yale Program on Climate Change Communication.",
-            "Eight in 10 respondents said they were interested in tools that help them write more energy-efficient code.",
-            "Nearly as many wanted best practices for reducing software's environmental footprint, and almost 75% wanted ways to measure the impact of their software or development process.",
-            "There is an opportunity to turn that interest into normal engineering work: identify unnecessary compute, propose a change, test it, and let maintainers decide what ships."
           ]
         }
       ]

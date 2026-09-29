@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "generatedAt": "2026-09-29T00:59:59.803Z",
+  "generatedAt": "2026-09-29T02:01:32.380Z",
   "sections": [
     {
       "name": "AI",
@@ -232,6 +232,26 @@
       "name": "Developer Tools",
       "articles": [
         {
+          "id": "50d71cd52400f551",
+          "title": "How we will do better for Australia",
+          "excerpt": "OpenAI apologizes for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+          "publishedAt": "2026-09-29T01:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "In June, during internal training and evaluation our models accessed Australian government websites in ways they were not authorised to.",
+            "In this post, we are setting out what we know, what we have changed, and what we will do to rebuild trust with the Australian people.",
+            "This is a new kind of cyber incident which represents an emerging global challenge.",
+            "One of the ways we intend to take accountability for the situation is to be intentional in working with Australia to help develop practical approaches to how AI developers and governments identify, disclose, and respond to AI cyber behaviour, whether malicious or unintentional.",
+            "When we became aware and how we responded to this incident After the Hugging Face incident in July, we began reviewing earlier training and evaluation activity to identify other affected organisations."
+          ]
+        },
+        {
           "id": "eb674100bb687fff",
           "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
           "excerpt": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
@@ -269,26 +289,6 @@
             "But I would like to propose to you that perhaps, just maybe, chat is the wrong UI. Well, at least most of the time.",
             "It's kind of a shame that the first large-scale implementation of AI was kind of a gimmick-a first-person chatbot. But there is tremendous promise for AI if it is task oriented.",
             "And if an academic says it and then I write it down as a quote in a blog post, then you know it's true."
-          ]
-        },
-        {
-          "id": "0f1a07da5479caba",
-          "title": "Rendering huge pull requests in the GitHub Copilot app",
-          "excerpt": "How we rebuilt the diff surface in the GitHub Copilot app to open a million-line pull request with hundreds of inline review comments. The post Rendering huge pull requests in the GitHub Copilot app appeared first on The GitHub Blog .",
-          "source": "GitHub Blog",
-          "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
-          "publishedAt": "2026-09-23T18:29:49.000Z",
-          "technologies": [
-            "GitHub"
-          ],
-          "category": "Developer Tools",
-          "scanMinutes": 1,
-          "details": [
-            "Broad refactors and migrations often have to land as one change.",
-            "Stacked pull requests are a great way to split work into smaller changes, which makes reviews easier and helps teams ship with less risk. But some changes, like this one, can't be split cleanly. That leaves you with a single pull request that can get very large, and the review conversation causes it to grow.",
-            "The review experience needs to remain fast and smooth even when the diff and its conversation are enormous. In the GitHub Copilot app , we rebuilt the pull request view with that requirement in mind.",
-            "To see how far that goes, we opened the biggest pull request we could find: an open source one with 2,200 files, over a million changed lines, and more than 400 inline review comments. Here's how we made even this extreme pull request performant.",
-            "Rendering a large diff at speed is well-understood: virtualize the rows, keep the mounted DOM small, and lean on the fact that every row is a line of code at a known height."
           ]
         }
       ]
