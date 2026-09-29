@@ -1,6 +1,10 @@
 {
-  "week": "2026-W40",
+  "date": "2026-09-29",
   "generatedAt": "2026-09-29T00:59:59.803Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -64,6 +68,26 @@
             "Oxc React Compiler , released in August, compiles React.js apps 10x faster",
             "Vitest 5 , released in September, is up to 50% faster than Vitest 4",
             "tsgolint is now stable, and is up to 18x faster than ESLint in large codebases"
+          ]
+        },
+        {
+          "id": "c41aee02ece9671f",
+          "title": "The road to the agentic browser: A Kitesurf update",
+          "excerpt": "We’ve updated Kitesurf, our Workers-based browser for AI agents, with WebMCP support, improved DOM performance, and terminal-based rendering. With over 730,000 Web Platform subtests passing, agents can now navigate complex sites faster.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/kitesurf-update/",
+          "publishedAt": "2026-09-28T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "In August, we introduced Kitesurf, a browser for the agentic age that runs entirely on Cloudflare Workers. We built it around what agents need from the web, rather than carrying all the features and bloat of a browser designed for humans. If this is the first you’re hearing about it, we highly recommend you read the blog post where we introduced Kitesurf , for all the juicy technical details of how we did it.",
+            "Since then, we’ve put Kitesurf through increasingly realistic tasks and used internal and external feedback from customers to make it more capable and more efficient. Here’s what has changed, how you can try it today, and where we’re going next.",
+            "Websites were not built for agents to use. Browsing today is a messy process of clicking pixels and hoping the right element loads. In a programmatic world this is slow and fragile. WebMCP helps by allowing developers to expose site functionality directly to agents, where they can call functions like searchFlights() instead of simulating clicks.",
+            "Cloudflare has been supporting WebMCP since its early days; just a few weeks ago we announced that site owners can now turn on WebMCP with one switch , so browser agents can discover and use tools on their sites without changing the site’s code, and Browser Run has been supporting WebMCP when using Chrome beta for some time now.",
+            "Today we are announcing that Kitesurf now supports WebMCP."
           ]
         }
       ]
@@ -289,6 +313,26 @@
             "The review experience needs to remain fast and smooth even when the diff and its conversation are enormous. In the GitHub Copilot app , we rebuilt the pull request view with that requirement in mind.",
             "To see how far that goes, we opened the biggest pull request we could find: an open source one with 2,200 files, over a million changed lines, and more than 400 inline review comments. Here's how we made even this extreme pull request performant.",
             "Rendering a large diff at speed is well-understood: virtualize the rows, keep the mounted DOM small, and lean on the fact that every row is a line of code at a known height."
+          ]
+        },
+        {
+          "id": "8aa9c39b3a9624b8",
+          "title": "Developers want more efficient software. Here’s what over 1,000 GitHub users told us they need.",
+          "excerpt": "New research from GitHub and Yale Program on Climate Change Communication finds strong demand for tools, measurement, and practical guidance that can help developers reduce wasted compute. The post Developers want more efficient software. Here’s what over 1,000 GitHub users told us they need. appeared first…",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/research/developers-want-more-efficient-software-heres-what-over-1000-github-users-told-us-they-need/",
+          "publishedAt": "2026-09-23T13:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Developers know efficient software matters, but many lack a clear way to find waste, measure an improvement, and make the case for fixing it.",
+            "That is the central finding from a new survey of 1,039 GitHub users conducted by GitHub and the Yale Program on Climate Change Communication.",
+            "Eight in 10 respondents said they were interested in tools that help them write more energy-efficient code.",
+            "Nearly as many wanted best practices for reducing software's environmental footprint, and almost 75% wanted ways to measure the impact of their software or development process.",
+            "There is an opportunity to turn that interest into normal engineering work: identify unnecessary compute, propose a change, test it, and let maintainers decide what ships."
           ]
         }
       ]
