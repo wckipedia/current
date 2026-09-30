@@ -1,6 +1,10 @@
 {
-  "week": "2026-W40",
+  "date": "2026-09-30",
   "generatedAt": "2026-09-30T00:27:49.946Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "The harder work has always been unstructured reporting: turning a research post into indicators your tools can use, without losing the context that explains why they matter.",
             "A skill is a set of rich, detailed instructions that captures how an experienced analyst handles one part of the job, and it runs the same way on every report.",
             "Threat Signals puts that process into practice at scale. It’s launching today, and we made it available to every Cloudflare account."
+          ]
+        },
+        {
+          "id": "dec620cb7225d243",
+          "title": "Introducing dots",
+          "excerpt": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-dots",
+          "publishedAt": "2026-09-29T00:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "**Dots are remarkably capable, always-on agents built to handle everything.**They’re a whole new way to work with AI-one that gets to know what matters to you, is always working on your behalf, and takes important work off your plate so you get more of your time and attention back.",
+            "Powered by GPT‑6 Astra, they have their own cloud computer, learn from feedback over time, and can work towards your goals 24/7.",
+            "Through our ecosystem of plugins, they can readily connect to over 4,000 apps, giving them the tools to help wherever you need them.",
+            "Your dot is always within reach, whether it is through ChatGPT, Slack, or Teams.",
+            "You can ask questions, explore ideas, and give feedback along the way; or you can simply hop on a voice call when you need to talk something out."
           ]
         }
       ]
@@ -199,6 +223,26 @@
             "Large language models (LLMs) allow even non-technical people to launch attacks with a single prompt.",
             "LLMs can generate malicious payloads, test known techniques, and probe applications autonomously by mutating their tactics based on the feedback from the application or the Web Application Firewall (WAF)."
           ]
+        },
+        {
+          "id": "0baeacde9feacfd4",
+          "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
+          "excerpt": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+          "publishedAt": "2026-09-28T19:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "With the rise of AI in the security space, our team created the GitHub Security Lab Taskflow Agent as a way for security researchers to easily automate, package, and share the AI prompts and workflows that they find effective for their work. In this blog post, I'll share how I created auditing taskflows to find vulnerabilities in Android applications.",
+            "While new models are getting better at understanding code, custom taskflow prompts let security researchers guide them-splitting research into incremental steps to help the LLM find complex vulnerabilities faster, or that it would have missed entirely.",
+            "Using these taskflows, I've reported more than 20 vulnerabilities in Android applications. You can check out our advisories page to see when new vulnerabilities are disclosed. Otherwise, keep reading for a few concrete examples of high-impact vulnerabilities that these taskflows found.",
+            "Want to get started right away? The taskflows are open source and easy to run yourself. Please note: A GitHub Copilot license is required, and the prompts will use premium model requests. Running the taskflows can result in many tool calls, which can easily consume a large amount of tokens.",
+            "Go to the seclab-taskflows repository and start a codespace."
+          ]
         }
       ]
     },
@@ -308,6 +352,26 @@
             "Troyanovsky says that also makes the model more efficient in its use of tokens.",
             "Matching reasoning effort to the task Basis also has GPT‑6 Astra adjust how much reasoning it uses as a task progresses, dialing up computation when a step is difficult, and using less when a step is easier.",
             "The model can make these adjustments while keeping its cache intact."
+          ]
+        },
+        {
+          "id": "3d14844898469c56",
+          "title": "When chat is the wrong UI",
+          "excerpt": "What is a developer to do when they need something more tangible than a chat box? Enter canvases. The post When chat is the wrong UI appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+          "publishedAt": "2026-09-24T20:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Sometimes I remember things that happened last year, but it feels like it was so long ago. Did that really happen to me, or was it something that happened to my dad and he just told me about it when I was a kid?",
+            "Anyway... we're three years into this AI experiment and the primary interaction surface we have with LLMs is still chat. I'm pretty sure it was @pmarca who first argued for a textarea component in the HTML spec. And I'm pretty sure of that fact because I asked AI about it. In a textarea.",
+            "But I would like to propose to you that perhaps, just maybe, chat is the wrong UI. Well, at least most of the time.",
+            "It's kind of a shame that the first large-scale implementation of AI was kind of a gimmick-a first-person chatbot. But there is tremendous promise for AI if it is task oriented.",
+            "And if an academic says it and then I write it down as a quote in a blog post, then you know it's true."
           ]
         }
       ]
