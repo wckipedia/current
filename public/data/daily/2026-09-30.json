@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "generatedAt": "2026-09-30T00:27:49.946Z",
+  "generatedAt": "2026-09-30T01:19:22.405Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -72,7 +72,7 @@
         {
           "id": "dec620cb7225d243",
           "title": "Introducing dots",
-          "excerpt": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+          "excerpt": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
           "source": "OpenAI News",
           "url": "https://openai.com/index/introducing-dots",
           "publishedAt": "2026-09-29T00:00:00.000Z",
