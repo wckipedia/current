@@ -1,6 +1,10 @@
 {
-  "week": "2026-W40",
+  "date": "2026-10-01",
   "generatedAt": "2026-10-01T00:33:36.409Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "You’re just a few minutes into building your next idea, and it doesn’t feel fun anymore.",
             "Launched a decade ago , Cloudflare Registrar has always taken a simpler approach. Domains at cost, transparent pricing, and no unnecessary upsells. But simplicity shouldn’t begin at checkout. It should begin the moment you start looking for the right domain.",
             "Today, we’re bringing that same simplicity to the entire experience of finding and buying a domain. Our new domain search shows every extension we support , responds as quickly as you type, and makes hundreds of possibilities easier to explore through sorting, filtering, and transparent pricing."
+          ]
+        },
+        {
+          "id": "4433159357da7dd5",
+          "title": "Monetization Gateway beta: charge AI agents for consumption with HTTP 402",
+          "excerpt": "Cloudflare’s AI Gateway, Ceramic.ai, Stocktwits, and more are using the Cloudflare Monetization Gateway today to charge agents for access to tokens, APIs, and MCP tools. U.S.-based sellers can now apply for access to the closed beta.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/monetization-gateway-beta/",
+          "publishedAt": "2026-09-30T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Today, we’re making the Cloudflare Monetization Gateway available as part of a closed beta, and showcasing four customer use cases that are in production today. Since we announced the plan three months ago, we have been working closely with our customers to make the Gateway fast, flexible, and easy to use.",
+            "With just a few clicks, the Monetization Gateway allows domain owners to charge agents for access to their website, APIs, MCP tools, or datasets. Request access today in the Cloudflare Dashboard .",
+            "Today, most software businesses sell their products through subscriptions or prepaid credits. These business models require buyers to make a considerable upfront economic investment, so buyers limit themselves to a few subscriptions that fit into their budget. But this business model doesn’t align itself with how the predominant source of traffic on the Internet - agents - operates.",
+            "Agents seek outcomes, whether that’s sourced from a direct question or an implicit elicitation.",
+            "To achieve an outcome, an agent may visit new sites, call MCP tools, or ingest data feeds."
           ]
         }
       ]
@@ -288,6 +312,26 @@
             "But I would like to propose to you that perhaps, just maybe, chat is the wrong UI. Well, at least most of the time.",
             "It's kind of a shame that the first large-scale implementation of AI was kind of a gimmick-a first-person chatbot. But there is tremendous promise for AI if it is task oriented.",
             "And if an academic says it and then I write it down as a quote in a blog post, then you know it's true."
+          ]
+        },
+        {
+          "id": "0f1a07da5479caba",
+          "title": "Rendering huge pull requests in the GitHub Copilot app",
+          "excerpt": "How we rebuilt the diff surface in the GitHub Copilot app to open a million-line pull request with hundreds of inline review comments. The post Rendering huge pull requests in the GitHub Copilot app appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
+          "publishedAt": "2026-09-23T18:29:49.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Broad refactors and migrations often have to land as one change.",
+            "Stacked pull requests are a great way to split work into smaller changes, which makes reviews easier and helps teams ship with less risk. But some changes, like this one, can't be split cleanly. That leaves you with a single pull request that can get very large, and the review conversation causes it to grow.",
+            "The review experience needs to remain fast and smooth even when the diff and its conversation are enormous. In the GitHub Copilot app , we rebuilt the pull request view with that requirement in mind.",
+            "To see how far that goes, we opened the biggest pull request we could find: an open source one with 2,200 files, over a million changed lines, and more than 400 inline review comments. Here's how we made even this extreme pull request performant.",
+            "Rendering a large diff at speed is well-understood: virtualize the rows, keep the mounted DOM small, and lean on the fact that every row is a line of code at a known height."
           ]
         }
       ]
