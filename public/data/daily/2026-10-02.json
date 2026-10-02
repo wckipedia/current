@@ -1,6 +1,10 @@
 {
-  "week": "2026-W40",
+  "date": "2026-10-02",
   "generatedAt": "2026-10-02T00:48:21.279Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "Last month, we announced Cloudflare OS and shared the open source repository . Since then, thousands of organizations have started using it to work with company data, produce docs and slides, build tools for their teams, and automate work with agents.",
             "With a few clicks in the Cloudflare dashboard, you’ll be able to launch your organization’s own agent workspace. Just tell us what custom domain you want to use, what Cloudflare Access policies apply, and which AI Gateway to connect. We’ll handle the rest.",
             "Every company has its own terminology, procedures, systems, and requirements. We made Cloudflare OS open source so you can customize it around how your company works."
+          ]
+        },
+        {
+          "id": "37a106d7f924ad98",
+          "title": "We want you to build the next Git platform on Cloudflare",
+          "excerpt": "Cloudflare is hosting a competition to see who will build the next Git platform for an era of AI agents. Artifacts is in open beta, with Workers bindings, data jurisdiction controls, and event subscriptions for repository changes.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+          "publishedAt": "2026-10-01T13:00:00.000Z",
+          "technologies": [
+            "Next.js"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "GitHub was built for a world where humans write code, organize it into repositories, and collaborate through branches, commits, issues, and pull requests.",
+            "But the next generation of software is going to be built differently because it is going to be built by a different kind of developer: agents.",
+            "Agents are already writing more code than ever before - they’re fixing bugs, building features, writing tests, reviewing changes, updating dependencies, and doing the routine maintenance required to keep an application running.",
+            "So in this new world where you have hundreds, or even thousands, of agents working on the same codebase at the same time, what does the foundation look like?",
+            "How do agents know what other agents are working on? What happens when they make conflicting changes? How do you review everything they produce? How do you keep track of not just what changed, but why a change was made?"
           ]
         }
       ]
