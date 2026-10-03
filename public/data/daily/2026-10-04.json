@@ -1,6 +1,10 @@
 {
-  "week": "2026-W40",
+  "date": "2026-10-04",
   "generatedAt": "2026-10-03T23:49:14.267Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "TL;DR * **Run effectively in production.** Use caching and compaction to manage context and cost.",
             "Set clear boundaries for when the model should ask for input.",
             "Run effectively in production Prepare your workflow for production Before deploying, there are several checks and best practices you’ll want to put into place. * Keep efficiency in mind.Cut context the task doesn’t need while keeping the evidence it does."
+          ]
+        },
+        {
+          "id": "a0c03d16e7252ace",
+          "title": "10 technical talks I’m excited about at GitHub Universe 2026",
+          "excerpt": "From verifying AI-written code to securing npm dependencies, these are the sessions I’m building my Universe agenda around. The post 10 technical talks I’m excited about at GitHub Universe 2026 appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/",
+          "publishedAt": "2026-10-01T15:07:16.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "I'm looking for ideas I can take back to my own work, from verifying agent-written code and securing dependencies to building software that works where internet access is unreliable.",
+            "There are more sessions at GitHub Universe than I can fit into two days. To narrow the list, I built my agenda around questions I'm working through right now:",
+            "What are we trusting every time we install a dependency?",
+            "That puts agent memory, evaluations, and permissions high on my list. I'm also making room for JavaScript tooling and building software where internet access is unreliable. Here are my 10 picks.",
+            "Most of us use npm, but the truth is that many of us rarely stop to think about the people, permissions, and release processes behind the packages it pulls in. Karen Li and Leo Balter from GitHub will trace those dependencies through the systems that publish and protect them. I'm interested in what npm audit can't catch, and where package provenance and OpenID Connect fit into the picture."
           ]
         }
       ]
@@ -218,6 +242,26 @@
             "That command starts a Quick Tunnel . cloudflared , Cloudflare's lightweight connector, publishes your local service at a random trycloudflare.com URL. No account, no domain, no cost. Agents now use Quick Tunnels for the same reason people do: they are the shortest path from a local port to a URL.",
             "The catch has always been the same. Anyone with the link can open it.",
             "Starting with cloudflared 2026.9.3, you can add --allowed-mail to the command, and your Quick Tunnel only lets in the email addresses and domains you choose. Visitors prove they own one of those addresses with a one-time PIN from Cloudflare Access . Nobody, on either side, needs a Cloudflare account."
+          ]
+        },
+        {
+          "id": "0baeacde9feacfd4",
+          "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
+          "excerpt": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+          "publishedAt": "2026-09-28T19:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "With the rise of AI in the security space, our team created the GitHub Security Lab Taskflow Agent as a way for security researchers to easily automate, package, and share the AI prompts and workflows that they find effective for their work. In this blog post, I'll share how I created auditing taskflows to find vulnerabilities in Android applications.",
+            "While new models are getting better at understanding code, custom taskflow prompts let security researchers guide them-splitting research into incremental steps to help the LLM find complex vulnerabilities faster, or that it would have missed entirely.",
+            "Using these taskflows, I've reported more than 20 vulnerabilities in Android applications. You can check out our advisories page to see when new vulnerabilities are disclosed. Otherwise, keep reading for a few concrete examples of high-impact vulnerabilities that these taskflows found.",
+            "Want to get started right away? The taskflows are open source and easy to run yourself. Please note: A GitHub Copilot license is required, and the prompts will use premium model requests. Running the taskflows can result in many tool calls, which can easily consume a large amount of tokens.",
+            "Go to the seclab-taskflows repository and start a codespace."
           ]
         }
       ]
