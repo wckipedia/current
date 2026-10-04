@@ -1,0 +1,405 @@
+{
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-04T23:59:10.418Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
+  "sections": [
+    {
+      "name": "AI",
+      "articles": [
+        {
+          "id": "afd517ff06180871",
+          "title": "AI is changing developer work. Here are three skills to strengthen.",
+          "excerpt": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow. The post AI is changing developer work. Here are three skills to strengthen. appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
+          "publishedAt": "2026-10-02T15:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "AI is changing how developers work and apply their skills. Writing code is still essential, but developers increasingly need to know how to direct AI, evaluate its output, communicate tradeoffs, and make sound technical decisions.",
+            "The good news? You can start preparing today. Here's where to focus:",
+            "AI is changing what execution looks like. Increasingly, great execution means defining the problem clearly, providing the right context, evaluating AI-generated code, and deciding what's ready to ship. As AI agents take on more of the implementation, these skills become even more valuable.",
+            "For example, imagine you're asked to add a new authentication flow.",
+            "As AI tools become more capable and more deeply integrated into day-to-day workflows, those same skills can help you coordinate multiple AI agents. Your workflow might look more like this:"
+          ]
+        },
+        {
+          "id": "172a27cefb08cdf8",
+          "title": "Introducing Web Search API via AI Gateway",
+          "excerpt": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs, or Workers bindings.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/introducing-web-search-api/",
+          "publishedAt": "2026-10-02T13:28:10.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Fun fact: when you use an agent and it needs to fetch a live web page, the agent usually just guesses the URL of the page and then makes a tool call to curl it. This is why you’ll sometimes see web fetches come back with a 404 Not Found, which happens if the agent incorrectly guesses the URL of that information. As you can imagine, it’s not super efficient to randomly guess URLs all the time.",
+            "There is a better way. What if your agent can actually browse the Internet, just like how humans start with a search engine query when we’re looking for information? This is what web search is designed to do - it enables agents to search for relevant data on the Internet and grounds an agent’s responses based on live information.",
+            "Today, we’re announcing Cloudflare’s partnership with web search providers to bring you grounded intelligence via AI Gateway. We’re kicking off this launch with our partners from Ceramic.ai, Exa, and Linkup.",
+            "AI models are only as good as the context you feed them. Models are typically trained and then frozen at a point in time, operating only on information that existed before their knowledge cut off date. This makes it quite hard to engage with models about recent events, changing APIs, or fast-evolving news.",
+            "Integrating Web Search API directly into your inference pipeline equips your agents with a dynamic context layer. Your applications get fresh, structured snippets from the web injected straight into context, which gives your models access to live information."
+          ]
+        },
+        {
+          "id": "c38af6e5cae43e23",
+          "title": "A model guide for the GPT-6 family",
+          "excerpt": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/practical-guide-building-gpt-6",
+          "publishedAt": "2026-10-02T16:15:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "GPT‑6 isour most advanced suite of models yet, and offers you a choice of models for different kinds of work.",
+            "Whether you’re turning an idea into a working prototype, building and testing a feature, or orchestrating multi-step workflows across code repositories, databases, and external APIs, this guide explains how to choose a GPT‑6 model, give it effective instructions, manage long-running work, and prepare for production.",
+            "TL;DR * **Run effectively in production.** Use caching and compaction to manage context and cost.",
+            "Set clear boundaries for when the model should ask for input.",
+            "Run effectively in production Prepare your workflow for production Before deploying, there are several checks and best practices you’ll want to put into place. * Keep efficiency in mind.Cut context the task doesn’t need while keeping the evidence it does."
+          ]
+        },
+        {
+          "id": "a0c03d16e7252ace",
+          "title": "10 technical talks I’m excited about at GitHub Universe 2026",
+          "excerpt": "From verifying AI-written code to securing npm dependencies, these are the sessions I’m building my Universe agenda around. The post 10 technical talks I’m excited about at GitHub Universe 2026 appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/",
+          "publishedAt": "2026-10-01T15:07:16.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "I'm looking for ideas I can take back to my own work, from verifying agent-written code and securing dependencies to building software that works where internet access is unreliable.",
+            "There are more sessions at GitHub Universe than I can fit into two days. To narrow the list, I built my agenda around questions I'm working through right now:",
+            "What are we trusting every time we install a dependency?",
+            "That puts agent memory, evaluations, and permissions high on my list. I'm also making room for JavaScript tooling and building software where internet access is unreliable. Here are my 10 picks.",
+            "Most of us use npm, but the truth is that many of us rarely stop to think about the people, permissions, and release processes behind the packages it pulls in. Karen Li and Leo Balter from GitHub will trace those dependencies through the systems that publish and protect them. I'm interested in what npm audit can't catch, and where package provenance and OpenID Connect fit into the picture."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "articles": [
+        {
+          "id": "6055c182a46aa561",
+          "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
+          "excerpt": "A year after pledging to eliminate two-tier product access, Cloudflare has expanded Logpush, multi-account governance, and higher platform limits to all accounts. Here is an update on our progress, how we dogfood these tools internally, and what is coming next.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/enterprise-for-all-update/",
+          "publishedAt": "2026-10-02T13:00:00.000Z",
+          "technologies": [
+            "Next.js"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "A year ago, Cloudflare CTO Dane Knecht announced our intention to make every Cloudflare feature available to everyone .",
+            "Cloudflare launched an Enterprise tier years ago when larger customers came to us looking for procurement options beyond a credit card, like invoices, custom contracts, and dedicated support.",
+            "Those offerings met a customer need but over time, a two-tier system developed where some of our most advanced and powerful features were only available to Enterprise customers.",
+            "Today, teams of every size use Cloudflare, from Fortune 100 enterprises to small businesses, open-source projects, and individuals. Across the platform, we’re committed to ensuring that every user or team can make use of all of Cloudflare’s capabilities in a way that helps their organization thrive.",
+            "The underlying philosophy is that Cloudflare should offer products suitable for our most demanding customers - and make those capabilities available to everyone. Large or small, every customer would prefer not to have to call support. Building products that are easy to buy, configure, and consume means more of our products in use and a step closer to a better Internet for everybody."
+          ]
+        },
+        {
+          "id": "dca4102c0cfdbd9d",
+          "title": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
+          "excerpt": "We’re announcing the closed beta of a self-serve Cloudflare OHTTP Gateway. We’re also renaming our Privacy Gateway to Cloudflare OHTTP Relay to better distinguish the two products.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
+          "publishedAt": "2026-10-02T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Today, end users carry too much of the burden of online privacy.",
+            "Meanwhile, some app developers end up knowing more about their users than they’d care to: a typical client-server exchange creates a trail of user data, like the client’s IP address or TLS fingerprint.",
+            "That’s why Cloudflare builds infrastructure that helps developers bake privacy into their apps. Oblivious HTTP (OHTTP) is an IETF standard designed to enable app backends to receive HTTP requests without seeing user IP addresses.",
+            "This fall, we’re launching the Cloudflare OHTTP Gateway. Customers will be able to enable our new OHTTP Gateway as a paid add-on to their zone and start receiving OHTTP traffic with just a few clicks. Register through our form to join our waitlist. Read on to learn more.",
+            "With OHTTP, requests travel through two independently-operated hops: a relay and a gateway."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "articles": [
+        {
+          "id": "cd838e82df4db660",
+          "title": "8 major updates to Cloudflare Observability",
+          "excerpt": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/one-observability-platform/",
+          "publishedAt": "2026-10-02T18:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Today, we’re launching eight major updates that bring your logs, traces, analytics, alerts, dashboards, and exporting into one observability platform , with simpler and more predictable pricing.",
+            "End-to-end tracing from Cloudflare's edge to your origin",
+            "One pricing model for observability data ingested and stored across Cloudflare",
+            "All analytics for your domain in one place, with 30 days of data retention",
+            "Export your data with Logpush -- now available on self-serve plans"
+          ]
+        },
+        {
+          "id": "f947e9010dad4080",
+          "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
+          "excerpt": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/streamline/",
+          "publishedAt": "2026-10-02T16:13:45.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Cloudflare Stream is a powerful broadcasting platform that, for many of our customers, just works. But what if you wanted to render dynamic annotations on a livestream or create an alternate version of a hosted video with burned-in subtitles? You would need to run a custom video pipeline.",
+            "Today, we’re releasing a new developer playground, Streamline, that demonstrates how you can build a system to deliver these bespoke video experiences on Cloudflare’s Developer Platform.",
+            "We’ll walk you through how Streamline leverages Workers, Containers, and several media protocols to modify video - and immediately publish that output as livestream or new hosted video.",
+            "You’ll also have the opportunity to try it for your projects.",
+            "A processing pipeline needs a durable, long-running environment that can run specialized, compiled code with predictable memory and CPU capacity."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "articles": [
+        {
+          "id": "67a3a49e3f584ae7",
+          "title": "Introducing Cloudflare Traces: follow requests through our entire platform",
+          "excerpt": "Cloudflare Traces shows how a request moves through security rules, transformations, cache, routing, Workers, and your origin, then follows it across services running anywhere in your stack.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/cloudflare-tracing/",
+          "publishedAt": "2026-10-02T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Today, we’re introducing Cloudflare Traces in open beta, extending automatic tracing beyond Workers to the rest of the request path.",
+            "In one trace, you can see supported security rules, transformations, cache decisions, routing, Worker execution, and origin handling, then continue that trace through services running on Cloudflare, at your origin, or elsewhere in your stack.",
+            "This is a long-term investment in OpenTelemetry and in making Cloudflare the most observable part of your stack.",
+            "Automatically trace requests across Cloudflare : Capture supported platform operations in one request-level timeline, no additional set up required.",
+            "Control which requests are traced : Set a baseline sampling rate, then use Trace Rules to override it for matching traffic."
+          ]
+        },
+        {
+          "id": "c59c9381120f201a",
+          "title": "Follow the thread: a new dashboard to investigate account abuse",
+          "excerpt": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block account abuse.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/account-abuse-protection-dashboard/",
+          "publishedAt": "2026-10-02T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Traditionally, preventing online fraud relied on point-in-time proof of identity: enter the correct password, complete a biometric verification, or pass a liveness check, and gain access.",
+            "To defeat these controls, fraudsters had to steal credentials and other identity evidence from a real user, which was difficult to execute and scale.",
+            "Today, widespread access to AI enables fraudsters to fabricate or imitate legitimate identities by combining exposed credentials with synthetic media designed to evade identity verification.",
+            "Consequently, identity checks are no longer sufficient as they capture a moment in time.",
+            "Even when someone passes a check, it does not mean the account itself can be trusted."
+          ]
+        },
+        {
+          "id": "5685295cd7d17a2f",
+          "title": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
+          "excerpt": "Quick Tunnels now support email authentication. Add --allowed-mail to one cloudflared command, and only the addresses or domains you list can reach your local app. No Cloudflare account required on either side.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/protected-quick-tunnels/",
+          "publishedAt": "2026-10-02T13:00:00.000Z",
+          "technologies": [
+            "Next.js"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "We launched Quick Tunnels in 2021 to give developers an easy way to share their latest service, application, or project running in their local development environment. A lot has changed since then, but the core use case remains the same.",
+            "Your coding agent has just finished the feature. The dev server is up on localhost:5173 , and before you ask, the agent offers to let you try it on your phone. It runs one command and hands you a link:",
+            "That command starts a Quick Tunnel . cloudflared , Cloudflare's lightweight connector, publishes your local service at a random trycloudflare.com URL. No account, no domain, no cost. Agents now use Quick Tunnels for the same reason people do: they are the shortest path from a local port to a URL.",
+            "The catch has always been the same. Anyone with the link can open it.",
+            "Starting with cloudflared 2026.9.3, you can add --allowed-mail to the command, and your Quick Tunnel only lets in the email addresses and domains you choose. Visitors prove they own one of those addresses with a one-time PIN from Cloudflare Access . Nobody, on either side, needs a Cloudflare account."
+          ]
+        },
+        {
+          "id": "0baeacde9feacfd4",
+          "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
+          "excerpt": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+          "publishedAt": "2026-09-28T19:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "With the rise of AI in the security space, our team created the GitHub Security Lab Taskflow Agent as a way for security researchers to easily automate, package, and share the AI prompts and workflows that they find effective for their work. In this blog post, I'll share how I created auditing taskflows to find vulnerabilities in Android applications.",
+            "While new models are getting better at understanding code, custom taskflow prompts let security researchers guide them-splitting research into incremental steps to help the LLM find complex vulnerabilities faster, or that it would have missed entirely.",
+            "Using these taskflows, I've reported more than 20 vulnerabilities in Android applications. You can check out our advisories page to see when new vulnerabilities are disclosed. Otherwise, keep reading for a few concrete examples of high-impact vulnerabilities that these taskflows found.",
+            "Want to get started right away? The taskflows are open source and easy to run yourself. Please note: A GitHub Copilot license is required, and the prompts will use premium model requests. Running the taskflows can result in many tool calls, which can easily consume a large amount of tokens.",
+            "Go to the seclab-taskflows repository and start a codespace."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Languages",
+      "articles": [
+        {
+          "id": "a7e386f76a6b0bd8",
+          "title": "Demoting i686 Windows targets to std-only",
+          "excerpt": "With Rust 1.100.0, the following changes to 32-bit Windows targets will happen: i686-pc-windows-msvc Tier 1 with host tools target will be demoted to Tier 1 without host tools. i686-pc-windows-gnu Tier 2 with host tools target will be demoted to Tier 2 without host tools. Builds of the standard library will…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/10/02/demoting-i686-windows-targets-to-std-only/",
+          "publishedAt": "2026-10-02T00:00:00.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "With Rust 1.100.0, the following changes to 32-bit Windows targets will happen:",
+            "i686-pc-windows-msvc Tier 1 with host tools target will be demoted to Tier 1 without host tools.",
+            "i686-pc-windows-gnu Tier 2 with host tools target will be demoted to Tier 2 without host tools.",
+            "Builds of the standard library will continue to be distributed, but host tools such as the compiler will be no longer available. i686-pc-windows-msvc as a Tier 1 target still undergoes CI testing.",
+            "To build 32-bit Windows binaries, cross-compiling from a still-supported host toolchain (such as a 64-bit Windows ones) will be required from now on."
+          ]
+        },
+        {
+          "id": "10d972e9f6db1153",
+          "title": "Announcing Rust 1.99.0",
+          "excerpt": "The Rust team is happy to announce a new version of Rust, 1.99.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.99.0 with: $ rustup update stable If you don't have it already, you can…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/",
+          "publishedAt": "2026-10-01T00:00:00.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "If you have a previous version of Rust installed via rustup , you can get 1.99.0 with:",
+            "If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.99.0 .",
+            "If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default nightly ). Please report any bugs you might come across!",
+            "Rust 1.99.0 stabilizes defining C-ABI variadic functions with \"C\" and \"C-unwind\" ABIs. Variadic functions defined this way use a variable argument list ( ... ) and accept an arbitrary number of arguments. Rust could already call externally-defined variadic functions (e.g., libc::printf ). With Rust 1.99, these functions can now be written in Rust itself:",
+            "The type of ... is VaList , which is ABI-compatible with the C va_list type across targets. What types can be read from a VaList is guarded by the VaArgSafe trait."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Open Source",
+      "articles": [
+        {
+          "id": "85a2ee1ccabf9baf",
+          "title": "Developer policy update: Transparency, state policy, and what’s ahead",
+          "excerpt": "Explore GitHub’s latest transparency data and learn more about policy updates affecting developers and open source. The post Developer policy update: Transparency, state policy, and what’s ahead appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead/",
+          "publishedAt": "2026-09-29T15:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Open Source",
+          "scanMinutes": 1,
+          "details": [
+            "Policy decisions increasingly shape how developers build, collaborate, and participate in open source. That makes it important not only to be transparent about how GitHub responds to government requests, but also to help developers understand policy proposals that could affect their work and create opportunities for the open source community to engage.",
+            "With that in mind, we're sharing our latest Transparency Center data , looking back at an unusually active 2026 state legislative session, and highlighting a few policy conversations we'll be following in the months ahead.",
+            "One notable change in our H1 2026 Transparency Center data is a sharp increase in government takedown requests received, from 98 requests in all of 2025 to 708 requests in the first half of 2026 alone. This increase largely reflects changes to our reporting methodology rather than a change in our moderation practices.",
+            "As we noted in our H1 2025 update , we expanded our reporting to include all government takedown requests received, regardless of whether they reference local law, a Terms of Service violation, or simply request the removal of content. We also updated our internal tracking to count all requests received, including duplicate requests concerning the same content.",
+            "As a result, the higher number reflects the volume of government reporting activity GitHub receives, not a corresponding increase in content removals. Takedowns processed under local law or for Terms of Service violations remain relatively rare, and requests involving content deemed unlawful in a particular jurisdiction continue to be published in our government takedowns repository ."
+          ]
+        },
+        {
+          "id": "b50539d473adb522",
+          "title": "Highlights from Git 2.56",
+          "excerpt": "The open source Git project just released Git 2.56. Here is GitHub's look at some of the most interesting features and changes introduced since last time. The post Highlights from Git 2.56 appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/git/highlights-from-git-2-56/",
+          "publishedAt": "2026-09-28T17:23:33.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Open Source",
+          "scanMinutes": 1,
+          "details": [
+            "The open source Git project just released Git 2.56.0 with features and bug fixes from over 104 contributors, 39 of them new. We last caught up with you on the latest in Git back when 2.55 was released .",
+            "To celebrate this most recent release, here is GitHub's look at some of the most interesting features and changes introduced since last time.",
+            "Resolving a merge conflict has two distinct parts. First, you edit the working tree until each conflicted path contains the result you want. Then, you stage those paths to tell Git that the conflict is resolved.",
+            "Suppose a merge conflicts in recipe.txt , while notes.txt contains an unrelated local edit.",
+            "The second step sounds simple, but existing commands make it easy to stage more than you intended. git add -u updates every modified tracked path. During a merge, that may include local changes that are unrelated to the conflict. It can also stage a file that still contains conflict markers if you overlooked one."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "articles": [
+        {
+          "id": "882596cbc7639eb4",
+          "title": "Chatham scales its capital markets expertise with OpenAI",
+          "excerpt": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/chatham-financial",
+          "publishedAt": "2026-10-02T00:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Chatham Financial advises clients on complex capital markets decisions, where accuracy and auditability are paramount.",
+            "As AI capabilities advanced, the firm saw an opportunity to turn proven processes into governed, repeatable workflows and software, reducing the time spent on routine execution, so its experts can focus more on client needs.",
+            "Today, Chatham uses Codex to build internal and client-facing tools and GPT‑5.6 to power AI features.",
+            "This work spans employee-built applications, its next-generation capital markets operating system Chatham Onyx, and its reengineering consulting service Process Zero, which accelerated trade validation from 30 minutes to under 4. > “We are not approaching AI simply as a faster way to run every process.",
+            "With OpenAI, we can start with the outcome we want, identify where judgment matters, and design the best way to deliver it using the capabilities now available.” -Matt Henry, Chief Executive Officer, Chatham Financial Reengineering trade validation with Codex Through Process Zero, Chatham reengineers workflows around outcomes."
+          ]
+        },
+        {
+          "id": "637d3dfa247fa816",
+          "title": "How Albertsons Companies is reimagining retail from the inside out",
+          "excerpt": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/albertsons-reimagining-retail",
+          "publishedAt": "2026-10-01T16:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Retail runs on small decisions made at enormous scale: which products to promote, how to help an associate, what a developer should build next-and, closer to home, what’s for dinner.",
+            "Grocery shopping is one of the most ordinary ways we take care of ourselves and the people around us.",
+            "At Albertsons Cos., these decisions play out across more than 2,200 stores, including Albertsons®, Safeway®, Vons®, Jewel-Osco®, Shaw’s®, ACME® and Tom Thumb®, serving over 36 million customers each week.",
+            "OpenAI is working with Albertsons Cos. as the retailer continues to bring AI into everyday workflows, including ChatGPT Enterprise, as well as custom AI-powered experiences for its customers, data-driven recommendations and promotional insights built with the OpenAI API.",
+            "The new Safeway experience in ChatGPT brings that innovation to millions of shoppers, helping them move from a dinner idea to checkout all in ChatGPT."
+          ]
+        }
+      ]
+    }
+  ]
+}
