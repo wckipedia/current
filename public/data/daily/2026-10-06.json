@@ -1,6 +1,10 @@
 {
-  "week": "2026-W41",
+  "date": "2026-10-06",
   "generatedAt": "2026-10-06T01:46:53.951Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -65,6 +69,26 @@
             "Today, we’re sharing our approach to text watermarking in response to the EU AI Act, and how it fits into our broader work.",
             "The EU AI Act requires generative AI providers to make generated text identifiable in a machine-readable way.",
             "Text watermarking and detection remain early technologies with significant limitations, and views about their benefits and responsible uses are still developing."
+          ]
+        },
+        {
+          "id": "2d8e70fb45cef747",
+          "title": "Building advertising for the way people use AI",
+          "excerpt": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+          "publishedAt": "2026-10-05T10:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "We’re introducing a new visual ad format in ChatGPT, expanding our measurement tools and partnerships, and developing new ways to understand brand suitability.",
+            "ChatGPT reaches 1.2 billion people each week, making it the world’s largest AI-native consumer platform.",
+            "Advertising helps us bring the benefits of AI to more people.",
+            "That broad access is central to our mission, and a strength of our business.",
+            "It allows us to serve a much larger market than subscriptions alone, while giving businesses a new way to reach people as they explore ideas, make decisions and discover products and services relevant to what they’re trying to accomplish."
           ]
         }
       ]
