@@ -1,6 +1,10 @@
 {
-  "week": "2026-W41",
+  "date": "2026-10-07",
   "generatedAt": "2026-10-07T00:43:10.616Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "That makes it important to understand how reviewers actually compare: what different systems catch, what they miss, and the tradeoffs they make.",
             "A good code review benchmark should reflect the diversity of real pull requests, capture a broad set of review findings, and support meaningful breakdowns by severity, category, and precision-recall preferences.",
             "For teams building code review agents, the benchmark should also provide an offline signal that reliably tracks whether changes are likely to improve the experience in production."
+          ]
+        },
+        {
+          "id": "ebb413cc5359756b",
+          "title": "How Jump Trading is scaling quant research with ChatGPT",
+          "excerpt": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/jump-trading",
+          "publishedAt": "2026-10-06T12:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "As a quantitative trading firm, Jump Trading creates predictive models that use market data, news and events, and a range of alternative data sources to make the best possible predictions about asset prices.",
+            "Because markets are complex, noisy, and changing over time, it is rarely possible to anticipate exactly what will happen.",
+            "But according to Lucas Baker, Head of LLM R&D at Jump, predicting even slightly better than a coin flip at scale is enough to result in a successful strategy.",
+            "Baker leads agentic research and development, and he’s focused on building the agents, harnesses, and infrastructure that let quantitative researchers explore their ideas in greater breadth and depth.",
+            "Adding GPT‑6 Astra has dramatically expanded the scale and complexity of workflows that can be handed off to agents, from day-to-day coding to advanced quantitative studies to validate new hypotheses. > “With the GPT-6 series, especially GPT-6 Astra, OpenAI has unlocked a new tier of autonomy for long-horizon tasks that require flexible agent coordination and extreme persistence on complex workflows."
           ]
         }
       ]
