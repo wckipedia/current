@@ -1,6 +1,10 @@
 {
-  "week": "2026-W41",
+  "date": "2026-10-08",
   "generatedAt": "2026-10-08T01:01:13.884Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "The Radisson Hotels ChatGPT plugin helps travelers compare hotels and explore travel options through an interactive experience, and early results show booking conversion approximately 1.5 times that of Radisson’s organic search.",
             "Alongside the plugin, Radisson is among the hospitality pioneers running sponsored advertising in ChatGPT, bringing its branded plugin and paid advertising together as part of an integrated discovery strategy.",
             "A new front door for hotel discovery Radisson Hotel Group brings together ten distinctive hotel brands across EMEA and APAC, with more than 1,640 hotels in operation and under development."
+          ]
+        },
+        {
+          "id": "a097ef0d441a7216",
+          "title": "GPT-6 and Intelligent UI for everyone",
+          "excerpt": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/gpt-6-for-everyone",
+          "publishedAt": "2026-10-07T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Last month we introduced the first GPT‑6 models for paid customers and today we're bringing that next generation of intelligence to more people with a new GPT‑6 model built for more than 1.2 billion people who use ChatGPT each week.",
+            "GPT‑6 in ChatGPT introduces Intelligent UI, a new capability that allows ChatGPT to answer quickly with fully interactive user interfaces that make everyday answers more visual, make learning complex topics easier and that can quickly create a tool to solve a task right in the moment.",
+            "Introducing Intelligent UI We’ve trained GPT‑6 to compose responses using text, visuals and interactive elements, choosing how they fit together based on your question.",
+            "With Intelligent UI, responses can include graphics, tappable buttons, forms, charts, and interactive experiences you can use directly in your conversation.",
+            "An explanation might be easier to understand through an interactive diagram."
           ]
         }
       ]
@@ -194,6 +218,26 @@
             "A year in, and our interns are shipping to our internal teams and to millions of customers.",
             "If you’re reading this on the Cloudflare Blog, you’re already using some of their work. The blog runs on EmDash , and EmDash’s second maintainer started at Cloudflare as an intern this past summer.",
             "We’re still working toward 1,111. So far, we’ve hosted 750 internships across 48 teams in nine offices: Austin, San Francisco, London, Lisbon, New York, Singapore, Bengaluru, Washington DC, and Sydney. And we’re still hiring."
+          ]
+        },
+        {
+          "id": "67a3a49e3f584ae7",
+          "title": "Introducing Cloudflare Traces: follow requests through our entire platform",
+          "excerpt": "Cloudflare Traces shows how a request moves through security rules, transformations, cache, routing, Workers, and your origin, then follows it across services running anywhere in your stack.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/cloudflare-tracing/",
+          "publishedAt": "2026-10-02T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Today, we’re introducing Cloudflare Traces in open beta, extending automatic tracing beyond Workers to the rest of the request path.",
+            "In one trace, you can see supported security rules, transformations, cache decisions, routing, Worker execution, and origin handling, then continue that trace through services running on Cloudflare, at your origin, or elsewhere in your stack.",
+            "This is a long-term investment in OpenTelemetry and in making Cloudflare the most observable part of your stack.",
+            "Automatically trace requests across Cloudflare : Capture supported platform operations in one request-level timeline, no additional set up required.",
+            "Control which requests are traced : Set a baseline sampling rate, then use Trace Rules to override it for matching traffic."
           ]
         }
       ]
