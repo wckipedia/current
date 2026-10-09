@@ -1,6 +1,10 @@
 {
-  "week": "2026-W41",
+  "date": "2026-10-09",
   "generatedAt": "2026-10-09T01:13:45.078Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "Its goal is AI-driven management that improves the quality and speed of business decision-making.",
             "This approach extends beyond its products to making the organization itself AI-native.",
             "The company integrated Codex into its development process and expanded adoption across the organization through day-to-day use."
+          ]
+        },
+        {
+          "id": "d9e485b409fe8517",
+          "title": "Disrupting AI-enabled “false front” operations",
+          "excerpt": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+          "publishedAt": "2026-10-08T00:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Over the past two and a half years, we’ve reportedonmanyofthewaysinwhichthreatactors tried to use our models to conduct cyber attacks, covert influence operations (IO), scams, and other violations of our Usage Policies.",
+            "We publish these reports to inform regulators, our industry peers, and wider society of how we see threat actors trying to leverage AI, and to shine a light on the vulnerabilities they try to exploit.",
+            "We recently banned two IO-one from Russia and one from Iran-that used our models in combination with more traditional techniques and technologies to support sophisticated “false front” entities.",
+            "They used those entities to launder geopolitical, conflict-related messaging into their target audiences.",
+            "The Iranian operation included a stable of seven “journalist” personas which it used to pitch long-form articles to small and medium online outlets around the world; the Russian operation appears to have co-opted unwitting people in Latin America to run a “think tank” on the ground."
           ]
         }
       ]
@@ -219,6 +243,26 @@
             "Each day of Birthday Week explored a different way we are helping to build the future of the Internet.",
             "We began on Monday by strengthening our commitment to open source.",
             "Tuesday focused on application security and the post-quantum transition."
+          ]
+        },
+        {
+          "id": "9a1667b7b376f49f",
+          "title": "One year later: the power of 1.1.1.1 interns",
+          "excerpt": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
+          "publishedAt": "2026-10-05T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "A year ago, many companies were cutting intern and new-graduate hiring . We went the other way. We announced a goal to hire as many as 1,111 interns in 2026, a number that’s a nod to 1.1.1.1, our public DNS resolver.",
+            "The bet was that AI makes early-career talent more valuable and able to make an impact faster. The best AI tools help people learn a system faster, try more ideas, and take on harder problems. They don’t supply the energy, curiosity and fresh eyes a new person brings to a team.",
+            "A year in, and our interns are shipping to our internal teams and to millions of customers.",
+            "If you’re reading this on the Cloudflare Blog, you’re already using some of their work. The blog runs on EmDash , and EmDash’s second maintainer started at Cloudflare as an intern this past summer.",
+            "We’re still working toward 1,111. So far, we’ve hosted 750 internships across 48 teams in nine offices: Austin, San Francisco, London, Lisbon, New York, Singapore, Bengaluru, Washington DC, and Sydney. And we’re still hiring."
           ]
         }
       ]
