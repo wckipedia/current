@@ -1,6 +1,10 @@
 {
-  "week": "2026-W41",
+  "date": "2026-10-10",
   "generatedAt": "2026-10-10T00:51:24.894Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
   "sections": [
     {
       "name": "AI",
@@ -63,6 +67,26 @@
             "Using StackAI, customers can build workflows that navigate websites, fill out forms, and gather information without writing code.",
             "At Asana’s scale, small inefficiencies in these workflows add up.",
             "Asana’s StackAI CTO, Frank Hidalgo, PhD, set out to make the browser agent faster and cheaper to run."
+          ]
+        },
+        {
+          "id": "db7b9e6fe248e314",
+          "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+          "excerpt": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/oracle",
+          "publishedAt": "2026-10-08T16:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Over a hundred thousand employees across Oracle are using ChatGPT Work and Codex, from talent acquisition to Oracle Applications Lab to the IT organization.",
+            "In each case, work that used to rely on specialists and take days can now be done by anyone and is complete in minutes.",
+            "The tool arms the recruiter with valuable information that they need going into a conversation with the hiring manager, information that previously took 2-4 days to compile.",
+            "“We’ve gone from zero to a hundred,” says Jan Ackerman, Senior Vice President and Global Head of Talent Acquisition at Oracle.",
+            "“Now we’re able to sit down and prep for about 15 to 20 minutes using the tool that we’ve built using [ChatGPT] Work.” Not only is the process faster, but it’s also more consistent."
           ]
         }
       ]
@@ -219,6 +243,26 @@
             "Each day of Birthday Week explored a different way we are helping to build the future of the Internet.",
             "We began on Monday by strengthening our commitment to open source.",
             "Tuesday focused on application security and the post-quantum transition."
+          ]
+        },
+        {
+          "id": "9a1667b7b376f49f",
+          "title": "One year later: the power of 1.1.1.1 interns",
+          "excerpt": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
+          "publishedAt": "2026-10-05T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "A year ago, many companies were cutting intern and new-graduate hiring . We went the other way. We announced a goal to hire as many as 1,111 interns in 2026, a number that’s a nod to 1.1.1.1, our public DNS resolver.",
+            "The bet was that AI makes early-career talent more valuable and able to make an impact faster. The best AI tools help people learn a system faster, try more ideas, and take on harder problems. They don’t supply the energy, curiosity and fresh eyes a new person brings to a team.",
+            "A year in, and our interns are shipping to our internal teams and to millions of customers.",
+            "If you’re reading this on the Cloudflare Blog, you’re already using some of their work. The blog runs on EmDash , and EmDash’s second maintainer started at Cloudflare as an intern this past summer.",
+            "We’re still working toward 1,111. So far, we’ve hosted 750 internships across 48 teams in nine offices: Austin, San Francisco, London, Lisbon, New York, Singapore, Bengaluru, Washington DC, and Sydney. And we’re still hiring."
           ]
         }
       ]
