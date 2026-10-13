@@ -1,10 +1,30 @@
 {
   "week": "2026-W42",
-  "generatedAt": "2026-10-12T01:22:18.193Z",
+  "generatedAt": "2026-10-13T02:34:49.175Z",
   "sections": [
     {
       "name": "AI",
       "articles": [
+        {
+          "id": "23216cfbe10c8c92",
+          "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+          "excerpt": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+          "publishedAt": "2026-10-12T17:43:59.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Context matters when you're working with AI. Every codebase has its own house rules: how components are structured, which scripts to run, and which conventions apply to different frameworks and file types.",
+            "Copilot can help you make changes across a project, but it works best when it knows those rules, too. Much of that knowledge can live inside the repository, so Copilot can pick it up automatically instead of requiring you to explain the same standards, scripts, and workflows every time you start a new task.",
+            "In this installment of our GitHub Copilot app for Beginners series, we'll look at four ways to tailor how Copilot works with your project:",
+            "Custom instructions communicate the conventions Copilot should follow.",
+            "Custom agents bring specialized guidance to larger tasks."
+          ]
+        },
         {
           "id": "4a9f5b72faa10f5c",
           "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
@@ -44,25 +64,30 @@
             "Sophos is one of the companies standing in their way, protecting more than 625,000 organisations across sectors and regions.",
             "“We see a huge variety of different attacks,” says John Peterson, the company’s Chief Technology Officer."
           ]
-        },
+        }
+      ]
+    },
+    {
+      "name": "Web",
+      "articles": [
         {
-          "id": "9bf93d58cc35db99",
-          "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-          "excerpt": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/asana-browser-agent",
-          "publishedAt": "2026-10-09T07:00:00.000Z",
+          "id": "c58e3e9aa5eafea2",
+          "title": "What's New in WebGPU (Chrome 155-156)",
+          "excerpt": "WGSL fragment_depth extension, texture compression unaligned, srgb-linear and display-p3-linear color spaces, snorm10-10-10-2 vertex format, and more.",
+          "source": "Chrome for Developers",
+          "url": "https://developer.chrome.com/blog/new-in-webgpu-155-156?hl=en",
+          "publishedAt": "2026-10-07T07:00:00.000Z",
           "technologies": [
-            "Software Engineering"
+            "Chrome"
           ],
-          "category": "AI",
+          "category": "Web",
           "scanMinutes": 1,
           "details": [
-            "With GPT‑6 Astra in Codex running experiments, Asana optimized its browser agent’s workflow on GPT‑6.1 Sol to run 76x cheaper and 5x faster.",
-            "Asana helps customers automate work across business applications through StackAI, a platform it acquired.",
-            "Using StackAI, customers can build workflows that navigate websites, fill out forms, and gather information without writing code.",
-            "At Asana’s scale, small inefficiencies in these workflows add up.",
-            "Asana’s StackAI CTO, Frank Hidalgo, PhD, set out to make the browser agent faster and cheaper to run."
+            "WGSL fragment_depth extension In geometry-intensive render passes, early-Z optimizations are developers' best friend.",
+            "They provide a massive performance boost by letting the GPU discard hidden pixels before running expensive fragment shaders.",
+            "If a rasterized depth fails the depth test, the GPU skips the fragment shader entirely, provided the shader doesn't have other side effects.",
+            "If you want to read into how hardware handles this, MJP has an excellent write-up on When Does Early-Z Have to be Disabled?.",
+            "While custom depth manipulation is useful, doing it in your fragment shader comes with a hidden tax."
           ]
         }
       ]
@@ -70,6 +95,26 @@
     {
       "name": "Cloud",
       "articles": [
+        {
+          "id": "80f26b2bd8fbb1d1",
+          "title": "Filter, reshape, and redact logs before export with Transformers",
+          "excerpt": "Logpush now supports Transformers, allowing teams to filter, redact, and reshape log streams using SQL before export. Powered by Apache DataFusion and Apache Arrow, Transformers apply those changes directly to log data before it reaches the destination.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/transformers-on-logpush/",
+          "publishedAt": "2026-10-12T14:44:59.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Logpush delivers logs in batches as quickly as possible, enabling Cloudflare to provide information almost in real time. During our recent Birthday Week , we made Logpush available on all self-serve plans and Transformers generally available.",
+            "Those changes were among eight major updates to Cloudflare Observability and reflect our commitment to make every Cloudflare feature available to everyone .",
+            "This post takes a deeper look at how Transformers work inside Logpush's export pipeline.",
+            "Observability teams use Logpush to export Cloudflare logs to security information and event management systems (SIEMs), analytics platforms, and object storage.",
+            "Before those logs reach their destination, teams may need to remove health checks, omit sensitive fields, or reshape records for dashboards and investigations."
+          ]
+        },
         {
           "id": "38bfcb4310c98b8d",
           "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
@@ -109,26 +154,6 @@
             "Node.js was an exploration of what a purely asynchronous programming model could enable.",
             "Async I/O was already known to be important for fast servers, but it was difficult to wield."
           ]
-        },
-        {
-          "id": "399e9316859634eb",
-          "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
-          "excerpt": "We redesigned Cloudflare Radar to make real-time global traffic and outage data accessible to a wider audience — including journalists, less technical researchers, and everyday users. By introducing an interactive map and standardized components, we simplified navigation while preserving technical depth.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/radar-redesign/",
-          "publishedAt": "2026-10-08T13:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Cloud",
-          "scanMinutes": 1,
-          "details": [
-            "Radar provides a real-time view into global Internet trends, powered by Cloudflare’s global network.",
-            "We support Cloudflare’s mission to help build a better Internet by making web data visible, clear, and actionable for everyone.",
-            "Since launching in 2020 , Radar has found a natural audience amongst expert users with technical backgrounds, such as network operators and academic researchers who rely on Radar data to observe industry trends and global events.",
-            "But Radar also has the potential to be a more regular, self-serve resource for journalists, human rights advocates and policymakers, and everyday users. Making Radar accessible to a wider audience is a core part of our vision, so we knew it was time to reevaluate the user experience: How could we make Radar more approachable to broader audiences, while preserving the depth and rigor that we currently have?",
-            "In this blog post, we’ll introduce the redesigned Radar, share our design process, and outline our broader vision for the platform’s future."
-          ]
         }
       ]
     },
@@ -161,6 +186,26 @@
     {
       "name": "Security",
       "articles": [
+        {
+          "id": "66d0519712f927e0",
+          "title": "Docker Hub security advisory: personal access tokens transferred during account-to-organization conversions",
+          "excerpt": "CVE-2026-105445: Docker Hub account conversion could re-assign personal access tokens to a new owner. Read what happened, who was affected, and the fix.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/docker-hub-security-advisory-cve-2026-105445/",
+          "publishedAt": "2026-10-12T16:00:00.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "On September 30, 2026, security researchers reported a vulnerability in Docker Hub’s identity and access management through our Vulnerability Disclosure Program.",
+            "We confirmed the report and deployed a fix to production the same afternoon, less than four hours after receiving it.",
+            "We then reviewed every account conversion back to the date the flaw was introduced, and on October 2, notified every user and organization owner whose account could have been impacted by this vulnerability.",
+            "This post explains what the vulnerability was, what it could and could not do, what we found, and what we have changed.",
+            "We want to thank Peter Molnar and Krisztian Hozak of mptrdev.com for finding the issue, reporting it responsibly, and coordinating disclosure with us. Their technical write-up is available at ghostpat.com . This issue is tracked as CVE-2026-105445."
+          ]
+        },
         {
           "id": "400f93c3a2faae18",
           "title": "How one bug bounty researcher chooses the features they investigate",
@@ -199,26 +244,6 @@
             "To further analyze context, we make use of the OpenAI Daybreak Defense Network and our partnership with Anthropic.",
             "Cloudflare uses approved OpenAI Daybreak and Anthropic models, including GPT-5.6 Cyber and Mythos, for deeper model-backed analysis.",
             "Initial analysis and scoring is done with Clef , Cloudflare’s open-source decision model."
-          ]
-        },
-        {
-          "id": "44b03140de4a0c7b",
-          "title": "Everything we launched during Birthday Week 2026",
-          "excerpt": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
-          "publishedAt": "2026-10-05T13:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Security",
-          "scanMinutes": 1,
-          "details": [
-            "We celebrated our 16th birthday last week by sharing how we’re building a better Internet for today’s world. As Matthew and Michelle reflected in this year’s Founders’ Letter , this year saw some of the most consequential changes in the history of the Internet.",
-            "For the first time, automated traffic surpassed human activity. AI is empowering people to build like never before, leading the Internet to grow massively in scale and unlocking more ambition and creativity. As we witnessed the influence that agent-driven recommendations have on consumer choices, we identified the need for a new approach that creates space for new businesses to succeed.",
-            "Each day of Birthday Week explored a different way we are helping to build the future of the Internet.",
-            "We began on Monday by strengthening our commitment to open source.",
-            "Tuesday focused on application security and the post-quantum transition."
           ]
         }
       ]
