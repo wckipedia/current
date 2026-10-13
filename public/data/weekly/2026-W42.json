@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "generatedAt": "2026-10-13T02:34:49.175Z",
+  "generatedAt": "2026-10-13T03:04:04.753Z",
   "sections": [
     {
       "name": "AI",
@@ -83,7 +83,7 @@
           "category": "Web",
           "scanMinutes": 1,
           "details": [
-            "WGSL fragment_depth extension In geometry-intensive render passes, early-Z optimizations are developers' best friend.",
+            "Published Time: Wed, 07 Oct 2026 07:00:00 GMT WGSL fragment_ depth extension In geometry-intensive render passes, early-Z optimizations are developers' best friend.",
             "They provide a massive performance boost by letting the GPU discard hidden pixels before running expensive fragment shaders.",
             "If a rasterized depth fails the depth test, the GPU skips the fragment shader entirely, provided the shader doesn't have other side effects.",
             "If you want to read into how hardware handles this, MJP has an excellent write-up on When Does Early-Z Have to be Disabled?.",
