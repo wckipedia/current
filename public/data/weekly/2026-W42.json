@@ -1,10 +1,30 @@
 {
   "week": "2026-W42",
-  "generatedAt": "2026-10-13T03:04:04.753Z",
+  "generatedAt": "2026-10-14T00:18:43.957Z",
   "sections": [
     {
       "name": "AI",
       "articles": [
+        {
+          "id": "7a679d710e8c186b",
+          "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+          "excerpt": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%. The post GitHub’s model for secret detection: Finding more secrets with less noise appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+          "publishedAt": "2026-10-13T17:56:33.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "JavaScript draws the arrows connecting these cards. OUR PIPELINE VS. THE PREVIOUS LLM PIPELINE Smarter secret scanning, at a fraction of the cost 11.5% higher acceptance Owner-weighted alert precision 86% lower median scan execution time Post-push scanning 98% lower serving cost Compact model vs. remote LLM calls",
+            "Secret scanning works best when developers are confident in the findings. Catch too little, and real credentials can remain in a repository. Alert too often, and developers may spend time investigating strings that aren't secrets.",
+            "Generic secrets make that balance especially difficult. The same string could be a real credential or a documentation placeholder, so detecting it requires understanding the surrounding code and text.",
+            "To address this challenge, we trained a secret classifier specifically for GitHub's product needs: distinguishing real credentials from lookalikes while meeting the speed and efficiency requirements of scanning at scale.",
+            "In our companion post, Secret protection must scale with software , we explained why secret protection must keep pace with AI-accelerated development. Here, we go behind the scenes of the context-aware classifier powering that effort: how we designed, trained, and evaluated it to find more real secrets with less noise."
+          ]
+        },
         {
           "id": "23216cfbe10c8c92",
           "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
@@ -26,43 +46,23 @@
           ]
         },
         {
-          "id": "4a9f5b72faa10f5c",
-          "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
-          "excerpt": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline. We’ve also lowered Clef-flash pricing and boosted Clef inference speeds by up to 2.0x.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
-          "publishedAt": "2026-10-09T18:27:34.000Z",
+          "id": "8d45898e533e591d",
+          "title": "Higgsfield takes AI video from 1 minute to over 10",
+          "excerpt": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+          "publishedAt": "2026-10-13T12:00:00.000Z",
           "technologies": [
             "Software Engineering"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Following last week’s release of Clef and Clef-flash , Cloudflare’s open-weight decision models, we decided to bring forth more gifts. Today, we’re releasing Clef-omni, which takes in audio and video input alongside text and image. We also cut the price of Clef-flash so it is now cheaper than Jev, and we made Clef faster.",
-            "Although the model game is still early for Cloudflare, innovation and iteration is in our DNA, and we apply these principles to everything we do.",
-            "In fact, the story of Clef came together over the course of less than a week.",
-            "We decided we wanted to do something in the decision model space on a Friday evening, trained the model over the weekend, and launched it on Thursday.",
-            "Even with such a short timeline, we were able to ship performant, high-quality, open-weight models for the community - imagine what more we can do in the future."
-          ]
-        },
-        {
-          "id": "570fe3204556675e",
-          "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-          "excerpt": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/sophos",
-          "publishedAt": "2026-10-09T07:00:00.000Z",
-          "technologies": [
-            "OpenAI"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": [
-            "Staying ahead as the defender’s window narrows Frontier AI is changing cybersecurity on both sides.",
-            "Advanced models can help defenders find and investigate threats faster.",
-            "But those capabilities are also spreading to open-weight models, giving attackers new ways to discover vulnerabilities and accelerate exploitation.",
-            "Sophos is one of the companies standing in their way, protecting more than 625,000 organisations across sectors and regions.",
-            "“We see a huge variety of different attacks,” says John Peterson, the company’s Chief Technology Officer."
+            "Higgsfield AI is on a mission to make professional video and image creation accessible to anyone with an idea.",
+            "Before GPT‑6 Astra, those videos topped out at around one minute.",
+            "Now, says CEO and co-founder Alex Mashrabov, users can create videos over 10 minutes long.",
+            "Longer videos are just one way Higgsfield AI helps smaller creative teams take on more ambitious work.",
+            "With GPT‑6 Astra, those agents can also call external tools to handle complex, manual work in 3D modeling."
           ]
         }
       ]
@@ -83,7 +83,7 @@
           "category": "Web",
           "scanMinutes": 1,
           "details": [
-            "Published Time: Wed, 07 Oct 2026 07:00:00 GMT WGSL fragment_ depth extension In geometry-intensive render passes, early-Z optimizations are developers' best friend.",
+            "WGSL fragment_depth extension In geometry-intensive render passes, early-Z optimizations are developers' best friend.",
             "They provide a massive performance boost by letting the GPU discard hidden pixels before running expensive fragment shaders.",
             "If a rasterized depth fails the depth test, the GPU skips the fragment shader entirely, provided the shader doesn't have other side effects.",
             "If you want to read into how hardware handles this, MJP has an excellent write-up on When Does Early-Z Have to be Disabled?.",
@@ -95,6 +95,46 @@
     {
       "name": "Cloud",
       "articles": [
+        {
+          "id": "c883d0dbfead6cfe",
+          "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
+          "excerpt": "A deep dive into how D1 architected its control plane to scale and manage millions of databases, while keeping data plane query operations at the edge. We share guiding principles on how to build on the Developer Platform effectively.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/d1-control-plane/",
+          "publishedAt": "2026-10-13T16:20:18.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Traditional database architecture assumes you have one or two big database clusters per application, usually accompanied by a connection pooling solution. AI-assisted development and vibe coding platforms turn this model inside out and are driving applications toward many small databases: one per user, application, preview environment, or tenant.",
+            "That model fits D1 particularly well. D1 is Cloudflare's managed, serverless database based on SQLite. It allows you to create millions of databases and only pay for what you use.",
+            "The question becomes: how do you scale the control plane for millions of databases without making every query slower by sending it through centralized bottlenecks?",
+            "We made a lot of architectural changes to scale out D1 to support platforms with millions of created databases, hundreds of thousands of which are active at any point.",
+            "This post is a behind-the-scenes deep dive into how the D1 control plane works. Many of the architectural patterns we will describe can be used by anyone building on top of Cloudflare’s Developer Platform. The post also gives a glimpse into how we build our own control planes."
+          ]
+        },
+        {
+          "id": "c58b4d7a7dc3e17d",
+          "title": "Rewinding the exponential: How we keep hardware usage down",
+          "excerpt": "Our strategies to optimize our data pipeline throughput without compromising data quality.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/rewinding-the-exponential/",
+          "publishedAt": "2026-10-13T15:51:41.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "More than 20% of the web sits behind Cloudflare’s network, and our team, the Data team, owns the data pipeline responsible for plumbing that data (and more) from our global network to applicable central data centers.",
+            "The Cloudflare network is a globally distributed system supporting tens of thousands of servers.",
+            "Data that power Cloudflare Logs , SQL API , observability , internal analytics, and more flow through this network and use our data pipeline to serve customers.",
+            "In May of this year, we were providing data delivery at roughly two billion events per second.",
+            "This includes customer traffic as well as data sent from internal teams."
+          ]
+        },
         {
           "id": "80f26b2bd8fbb1d1",
           "title": "Filter, reshape, and redact logs before export with Transformers",
@@ -113,72 +153,6 @@
             "This post takes a deeper look at how Transformers work inside Logpush's export pipeline.",
             "Observability teams use Logpush to export Cloudflare logs to security information and event management systems (SIEMs), analytics platforms, and object storage.",
             "Before those logs reach their destination, teams may need to remove health checks, omit sensitive fields, or reshape records for dashboards and investigations."
-          ]
-        },
-        {
-          "id": "38bfcb4310c98b8d",
-          "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
-          "excerpt": "On-demand CPU and memory profiling for Cloudflare Workers and Durable Objects is now available. Now you can generate interactive flamegraphs directly in production to quickly track down memory leaks and performance bottlenecks.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/workers-on-demand-profiling/",
-          "publishedAt": "2026-10-09T13:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Cloud",
-          "scanMinutes": 1,
-          "details": [
-            "Understanding why an application is using more resources than expected, whether that is CPU or memory, can be challenging. Logs and aggregate metrics can only get you so far. Thankfully there is a better way: CPU or memory profiling can show you the exact function where your application is using CPU or allocating memory.",
-            "Today we are happy to announce support for CPU and memory profiling of Workers and Durable Objects. From the Workers Observability page, you can now request an on-demand CPU or memory profile of an active Worker, inspect it as an interactive flamegraph, and download the profile file for further analysis.",
-            "This method of profiling gives you a useful perspective into what your code is doing and how you can improve it in a real-world setting. That’s because the best way to understand your application is to profile it in production.",
-            "To try this on one of your Workers, you have a choice of using the CLI or the Cloudflare Dashboard.",
-            "To use the CLI, make sure you have the cf package installed , then simply run:"
-          ]
-        },
-        {
-          "id": "3854715ee3f870a4",
-          "title": "Deno is joining Cloudflare",
-          "excerpt": "The Deno team is joining Cloudflare to radically simplify self-hosting Workers and Durable Objects, so developers can use the same primitives in more places.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/deno-joins-cloudflare/",
-          "publishedAt": "2026-10-09T12:50:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Cloud",
-          "scanMinutes": 1,
-          "details": [
-            "For what this means and how it came about, here’s the story from Ryan Dahl and Kenton Varda. !Image 5 Ryan Dahl Deno (and now Cloudflare) The Deno team is joining Cloudflare, and we're merging workerd and celld!",
-            "For more on what's happening to the Deno runtime and our various efforts, see my post on the Deno blog.",
-            "Long ago, I stood in a Berlin warehouse and introduced Node.js with a 500-line JavaScript IRC server and live audience participation.",
-            "Node.js was an exploration of what a purely asynchronous programming model could enable.",
-            "Async I/O was already known to be important for fast servers, but it was difficult to wield."
-          ]
-        }
-      ]
-    },
-    {
-      "name": "DevOps",
-      "articles": [
-        {
-          "id": "a5ffcf8d373c7351",
-          "title": "The Shift to cgroup v2 in Kubernetes: What You Need to Know",
-          "excerpt": "In Linux, cgroups (control groups) are a kernel feature used for managing system resources. Kubernetes uses cgroups to allocate resources like CPU and memory to containers, ensuring that applications run smoothly without interfering with each other. With the release of Kubernetes v1.31, support for v1 cgroup…",
-          "source": "Kubernetes Blog",
-          "url": "https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/",
-          "publishedAt": "2026-10-06T18:00:00.000Z",
-          "technologies": [
-            "Kubernetes",
-            "Linux"
-          ],
-          "category": "DevOps",
-          "scanMinutes": 1,
-          "details": [
-            "Kubernetes uses cgroups to allocate resources like CPU and memory to containers, ensuring that applications run smoothly without interfering with each other.",
-            "With the release of Kubernetes v1.31, support for v1 cgroup management moved into maintenance mode .",
-            "Support for v2 cgroup management has been stable since Kubernetes v1.25.",
-            "Compared with cgroup v1, cgroup v2 provides a single unified hierarchy, a more consistent interface, and a stronger foundation for resource isolation and modern resource-management features.",
-            "Kubernetes has deprecated cgroup v1 . Starting with Kubernetes v1.35, failCgroupV1 defaults to true , so the kubelet does not start on a cgroup v1 node by default. Administrators can temporarily set failCgroupV1: false in the kubelet configuration file , but removal will follow the Kubernetes deprecation policy . Further removal work is tracked in KEP-5573: Remove cgroup v1 support ."
           ]
         }
       ]
@@ -244,31 +218,6 @@
             "To further analyze context, we make use of the OpenAI Daybreak Defense Network and our partnership with Anthropic.",
             "Cloudflare uses approved OpenAI Daybreak and Anthropic models, including GPT-5.6 Cyber and Mythos, for deeper model-backed analysis.",
             "Initial analysis and scoring is done with Clef , Cloudflare’s open-source decision model."
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Languages",
-      "articles": [
-        {
-          "id": "3d9c7800b1392d74",
-          "title": "The keys to the Internet change on October 11. Are you ready?",
-          "excerpt": "On October 11, 2026, the DNS root switches to a new key-signing key (KSK-2024). Learn what this means for you, and how RFC 8509 trust anchor sentinels allow you to test whether your DNS resolver is ready for the rollover.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
-          "publishedAt": "2026-10-06T17:50:11.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Languages",
-          "scanMinutes": 1,
-          "details": [
-            "On October 11, 2026, the DNS root is scheduled to change its key-signing key (KSK) for only the second time ever. This key anchors DNSSEC’s chain of trust, which lets DNS resolvers authenticate answers using cryptographic signatures. The change is called a KSK rollover. Validating resolvers need to trust the new key before the switch, as otherwise healthy websites could become unreachable.",
-            "When we wrote about the first root KSK rollover in 2018 , we had seen resolvers lose their learned trust in the new key during software upgrades or moves between machines. Publishing the key well in advance was only part of the job. We also needed to know whether resolvers had retained it, and we couldn’t give users a practical way to check.",
-            "Most website operators do not need to make any changes for this rollover. If you run a DNSSEC-validating resolver, check that it trusts the new root key, KSK-2024, and follow your software vendor’s instructions to update its trust anchors if the key is missing. If you use Cloudflare for your domain's DNS or rely on 1.1.1.1 and Gateway DNS, you do not need to take any action - our systems already trust KSK-2024.",
-            "To check ahead of time, visit our rollover readiness test . It asks the resolver your browser uses whether it trusts the new key. The test uses RFC 8509: A Root Key Trust Anchor Sentinel for DNSSEC , which we’ve implemented in 1.1.1.1 ahead of the rollover.",
-            "A DNS resolver looks up the addresses of websites and other services for your device. DNSSEC lets it check digital signatures on DNS records to verify that they are authentic and have not been changed. The resolver also needs to check that the public keys used to verify those signatures belong to the right domains."
           ]
         }
       ]
