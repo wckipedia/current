@@ -1,0 +1,330 @@
+{
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-14T23:55:07.204Z",
+  "sourceHealth": {
+    "healthy": 7,
+    "attempted": 8
+  },
+  "sections": [
+    {
+      "name": "AI",
+      "articles": [
+        {
+          "id": "7a679d710e8c186b",
+          "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+          "excerpt": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%. The post GitHub’s model for secret detection: Finding more secrets with less noise appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+          "publishedAt": "2026-10-13T17:56:33.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "JavaScript draws the arrows connecting these cards. OUR PIPELINE VS. THE PREVIOUS LLM PIPELINE Smarter secret scanning, at a fraction of the cost 11.5% higher acceptance Owner-weighted alert precision 86% lower median scan execution time Post-push scanning 98% lower serving cost Compact model vs. remote LLM calls",
+            "Secret scanning works best when developers are confident in the findings. Catch too little, and real credentials can remain in a repository. Alert too often, and developers may spend time investigating strings that aren't secrets.",
+            "Generic secrets make that balance especially difficult. The same string could be a real credential or a documentation placeholder, so detecting it requires understanding the surrounding code and text.",
+            "To address this challenge, we trained a secret classifier specifically for GitHub's product needs: distinguishing real credentials from lookalikes while meeting the speed and efficiency requirements of scanning at scale.",
+            "In our companion post, Secret protection must scale with software , we explained why secret protection must keep pace with AI-accelerated development. Here, we go behind the scenes of the context-aware classifier powering that effort: how we designed, trained, and evaluated it to find more real secrets with less noise."
+          ]
+        },
+        {
+          "id": "57c3309db5bedcde",
+          "title": "Amp puts AI agents to work beyond code with OpenAI models",
+          "excerpt": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/amp-beyond-coding",
+          "publishedAt": "2026-10-14T12:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Amp is building a frontier AI agent that helps developers turn ambitious ideas into working software.",
+            "For Quinn Slack, Amp’s CEO, each improvement in the models is an opportunity to expand what the agent can do, from helping developers decide what to build to writing code and designing pages.",
+            "Amp chooses and recommends models based on what works best for its users, and OpenAI models account for the majority of tokens used in Amp.",
+            "Quinn shares, “OpenAI is very transparent, and when there are safeguards applied, users know and they understand.",
+            "You can do all of your work in Amp with OpenAI models and be really happy.” > “Our users really appreciate the consistency with which OpenAI models have been getting better and better.” -Quinn Slack, CEO and member of technical staff, Amp Lowering the cost of building with Sign in with ChatGPT As builders give agents more work, token costs can become a constraint."
+          ]
+        },
+        {
+          "id": "200a5d3dd39c6bfb",
+          "title": "The EU’s next chapter in AI is agentic",
+          "excerpt": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+          "publishedAt": "2026-10-14T00:00:00.000Z",
+          "technologies": [
+            "Next.js"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Across the EU, businesses are expanding how they use AI through agentic tools.",
+            "People are moving beyond asking questions to using agents to carry out tasks from planning through completion.",
+            "Our latest report from OpenAI Economic Research examines how agentic use is growing across enterprises and small businesses, focusing on differences in usage intensity and the kinds of work people do with ChatGPT.",
+            "We have found that, among ChatGPT Enterprise customers, agentic use already represents a substantial share of activity⁠.",
+            "In our EU sample, Codex and ChatGPT Work now account for more than half of output tokens."
+          ]
+        },
+        {
+          "id": "34fa8c607574192c",
+          "title": "Harbor + Docker Sandboxes: Run Safe, Reproducible Agent Evals",
+          "excerpt": "Harbor can now run every eval task in Docker Sandboxes Docker Sandboxes are MicroVM environments to run agents like Claude Code, Codex, Cursor, and more safely With Sandboxes, define custom network policies for fair, reproducible evals Run your evals locally or in the cloud: starting for free on Docker…",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/harbor-docker-sandboxes-run-safe-reproducible-agent-evals/",
+          "publishedAt": "2026-10-14T21:45:27.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Docker Sandboxes are MicroVM environments to run agents like Claude Code, Codex, Cursor, and more safely",
+            "With Sandboxes, define custom network policies for fair, reproducible evals",
+            "Run your evals locally or in the cloud: starting for free on Docker Sandboxes on local surfaces and scaling to Cloud Sandboxes",
+            "To evaluate an agent, you give it a real task, let it work, and check the result. Along the way, the agent installs packages, edits files, and runs commands. That’s untrusted, AI-written code, and a benchmark runs it thousands of times.",
+            "And agents don’t always play fair. An agent can sometimes earn a passing score on an eval by gaming the check instead of doing the work, for example by tampering with tests or overwriting the file that records its score. This is called reward hacking, and it’s a growing concern across the eval community."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "articles": [
+        {
+          "id": "049f752dea89d9de",
+          "title": "Yandex outage: Data shows that instead of going dark, malicious bots went on the move",
+          "excerpt": "When strikes hit Yandex data centers, many assumed Russian bot operations went dark. Cloudflare data reveals that while search crawling stopped, malicious bots simply migrated to other networks.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/yandex-outage/",
+          "publishedAt": "2026-10-14T20:24:19.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Following reported strikes on Yandex data centers, claims circulated on the Internet that Russian bot farms and influence operations had been knocked offline.",
+            "HTTP traffic charts showed steep drops, fueling speculation that the infrastructure damage had stopped these malicious actors.",
+            "There are two autonomous system numbers ( ASNs ) associated with Yandex: AS13238 is used by Yandex’s search engine, while AS200350 runs its cloud services.",
+            "Using Cloudflare Radar and Bot Management data, we analyzed how these two ASNs were affected - and while both saw drops in traffic, they saw differing impact.",
+            "Yandex Search (AS13238) : The drop in traffic consisted almost entirely of verified search crawlers indexing web pages, images, and site resources."
+          ]
+        },
+        {
+          "id": "f919ddb4bb1767a4",
+          "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
+          "excerpt": "Our new repo star history API now provides trends without returning individual identities or requiring unbounded database work. These are the engineering tradeoffs we made. The post From 2,500 requests to 24: Rebuilding star history without the stargazers appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/",
+          "publishedAt": "2026-10-14T19:11:33.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Maintainers look at star history to answer a practical question: did a launch, release, or event change a project's trajectory? To reconstruct that curve from the GitHub API, tools had to request pages of stargazer records (each person who currently stars the repository and when they starred it), keep the timestamps, and throw the identities away.",
+            "Over time, that design created problems at both ends. Identities were available for bulk collection, so bad actors started scraping public stargazer lists for spam and phishing campaigns. For highly starred repositories, the endpoint could also make the database process many thousands of entries to return a single page.",
+            "The fix seemed clear: return counts instead of people. But returning less data didn't actually make the query any cheaper.",
+            "Now maintainers have a direct way to get the curve: we built an endpoint that returns up to 30 weeks of daily star counts in a single request, with no identities attached. Keeping that cheap to serve meant reducing how much data the database processed, not just how much it returned, and the endpoint does that by filtering stars by time before it counts anything .",
+            "We first addressed the immediate risks to developers and to our database by restricting stargazer and watcher lists to repository administrators and collaborators . After the access change, callers without the required permission could receive an empty response or a 403 Forbidden response."
+          ]
+        },
+        {
+          "id": "c883d0dbfead6cfe",
+          "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
+          "excerpt": "A deep dive into how D1 architected its control plane to scale and manage millions of databases, while keeping data plane query operations at the edge. We share guiding principles on how to build on the Developer Platform effectively.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/d1-control-plane/",
+          "publishedAt": "2026-10-13T16:20:18.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Traditional database architecture assumes you have one or two big database clusters per application, usually accompanied by a connection pooling solution. AI-assisted development and vibe coding platforms turn this model inside out and are driving applications toward many small databases: one per user, application, preview environment, or tenant.",
+            "That model fits D1 particularly well. D1 is Cloudflare's managed, serverless database based on SQLite. It allows you to create millions of databases and only pay for what you use.",
+            "The question becomes: how do you scale the control plane for millions of databases without making every query slower by sending it through centralized bottlenecks?",
+            "We made a lot of architectural changes to scale out D1 to support platforms with millions of created databases, hundreds of thousands of which are active at any point.",
+            "This post is a behind-the-scenes deep dive into how the D1 control plane works. Many of the architectural patterns we will describe can be used by anyone building on top of Cloudflare’s Developer Platform. The post also gives a glimpse into how we build our own control planes."
+          ]
+        },
+        {
+          "id": "c58b4d7a7dc3e17d",
+          "title": "Rewinding the exponential: How we keep hardware usage down",
+          "excerpt": "Our strategies to optimize our data pipeline throughput without compromising data quality.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/rewinding-the-exponential/",
+          "publishedAt": "2026-10-13T15:51:41.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "More than 20% of the web sits behind Cloudflare’s network, and our team, the Data team, owns the data pipeline responsible for plumbing that data (and more) from our global network to applicable central data centers.",
+            "The Cloudflare network is a globally distributed system supporting tens of thousands of servers.",
+            "Data that power Cloudflare Logs , SQL API , observability , internal analytics, and more flow through this network and use our data pipeline to serve customers.",
+            "In May of this year, we were providing data delivery at roughly two billion events per second.",
+            "This includes customer traffic as well as data sent from internal teams."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "articles": [
+        {
+          "id": "004cd593adabcd24",
+          "title": "SentinelOne cuts malware analysis from weeks to hours",
+          "excerpt": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/sentinelone",
+          "publishedAt": "2026-10-14T12:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Reverse engineering a sophisticated piece of malware can take a top security researcher four to six weeks.",
+            "It’s painstaking work where researchers pull apart software to understand how it behaves, often retracing their steps as they uncover new information.",
+            "Gregor Stewart, Chief AI Officer at SentinelOne, says OpenAI Daybreak can now produce human-level reverse-engineering output in roughly eight hours.",
+            "By reducing the time needed for deep analysis, OpenAI gives SentinelOne’s researchers room to investigate more malware and connect findings across samples.",
+            "That wider view often reveals relationships that isolated investigations might miss."
+          ]
+        },
+        {
+          "id": "a8b8c31de898145e",
+          "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+          "excerpt": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/third-moment-research",
+          "publishedAt": "2026-10-14T07:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Every company has its own workflows, tools, edge cases, and definitions of success.Third Moment Research believes the best agents should be really good at that specific work and should improve their capabilities the more they’re used.",
+            "The company is building a self-improving AI system around that idea, using OpenAI’s latest models to understand agent behavior, identify recurring weaknesses, and automatically create thousands of synthetic scenarios around those problems.",
+            "The team uses those scenarios to improve agents, repeating the process as new issues emerge.",
+            "Codex, GPT‑6 Astra, GPT‑6 Sol, and GPT‑6.1 Sol support the system’s research and computational work, enabling Third Moment to run 10,000 agents at once on investigations lasting 36-48 hours.",
+            "This domain provides a concrete setting to study how agents work and where they struggle."
+          ]
+        },
+        {
+          "id": "94ee28b93f9d2d83",
+          "title": "How Block is building AI-powered security with OpenAI technology",
+          "excerpt": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/block-ai-powered-security",
+          "publishedAt": "2026-10-14T07:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "At Block, the company behind Square, Cash App, and Afterpay, the security team leverages the OpenAI Defense Factory: where AI handles vulnerability discovery, detection, and response at a scale that no human team could keep up with.",
+            "With AI systems including OpenAI Daybreak, Block is taking just hours to do work that used to take weeks. > “AI is compressing the time from human intent to action.",
+            "For a while, it was assumed that there was an attacker advantage since they’re faster and more nimble.",
+            "But with things like Daybreak and the advancements in OpenAI’s tooling, defenders are able to fight fire with fire and keep up with the rapid pace of AI adoption.” -James Nettesheim, Chief Information Security Officer, Block Block’s security team has been focused on responsibly adopting AI across workflows, whether that’s code generation or security operations.",
+            "“What it’s really centered on is having a new teammate that you can scale with,” James Nettesheim, Chief Information Security Officer, says."
+          ]
+        },
+        {
+          "id": "bfe368aa3eb6ae96",
+          "title": "AI Agent Security Risks: What Can Go Wrong When Agents Act on Their Own",
+          "excerpt": "Learn the top AI agent security risks, from prompt injection to excessive autonomy and credential exposure, and how to contain them.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/ai-agent-security-risks/",
+          "publishedAt": "2026-10-14T22:08:33.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "The thing that makes an AI agent useful, its freedom to act, is also what can introduce risk.",
+            "An agent doesn’t just answer a question, it browses, runs code, and calls tools on its own, so a single bad or manipulated instruction can turn into real damage instead of just a wrong answer.",
+            "That’s the shift traditional application security wasn’t built for, and it’s why trust has to be built into the system around the agent , not assumed.",
+            "An agent decides its own path, picking tools at runtime, chaining actions together, and usually running with the credentials of whoever launched it. That autonomy is the source of most agent-specific risk, and it points to the two-part answer that runs through this post: contain what an agent can reach, and oversee what it does.",
+            "AI agents introduce risks traditional app security wasn’t built for: they choose tools, chain actions, and often run with your credentials."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "articles": [
+        {
+          "id": "3cbafd4338038f81",
+          "title": "GitHub availability report: September 2026",
+          "excerpt": "In September, we experienced two incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: September 2026 appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/github-availability-report-september-2026/",
+          "publishedAt": "2026-10-14T20:01:35.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Our last update covered content through August. We did not publish another in September while other public content addressed the August 17 outage. This edition covers progress over the past two months.",
+            "The short version of August and September : we reduced shared-database pressure, added overload controls, created headroom for GitHub Actions, expanded failure containment for pull requests, and moved more production workloads to Azure. Significant incidents, a capacity pause, and a missed migration target show that the work is not complete.",
+            "By October 7, 120 of 160 production services were deployed in Central US, and 13 of 51 primary MySQL databases had moved. Azure also handled 65.4% of read traffic for GitHub's core application, 48.3% of Git read traffic, and 80.2% of stream-processing traffic. These percentages measure different workloads and should not be added.",
+            "We paused Central US deployments and traffic increases on September 11 because capacity was uneven across availability zones.",
+            "Permanent ramps resumed September 18 after temporary relief, but durable capacity work continues, with a goal of unlocking all available capacity by the end of October."
+          ]
+        },
+        {
+          "id": "9d49354fa5a46a35",
+          "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
+          "excerpt": "While adding MySQL support to Hyperdrive, we found a subtle protocol bug when caching query results. Here is how we tracked down a 0.001% rate error and made Hyperdrive MySQL generally available.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/hyperdrive-mysql/",
+          "publishedAt": "2026-10-14T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Hyperdrive support for MySQL is now generally available (GA). Hyperdrive , Cloudflare’s database connection pooler for Workers, initially only supported Postgres. Since we announced the beta for MySQL protocol support last year, we have been working on making our MySQL handling as reliable as our Postgres support.",
+            "We’ve learned some things from building and running a MySQL connection pooler on Cloudflare’s network. It turns out that the difference between beta and GA is just 20 bug fixes in a trenchcoat.",
+            "During the beta, our goal was to validate that real-world customer usage hit our production availability target of 99.99%.",
+            "We knew there were gaps in our reliability since we track how often client connections from a Worker end in an error related to Hyperdrive.",
+            "In addition, we had feedback from customers in the beta that led to the discovery of a rare and subtle bug in our production environment."
+          ]
+        },
+        {
+          "id": "85c11fca4aa44ff1",
+          "title": "Hack the World: Why hackathons are still the best place to learn to build",
+          "excerpt": "The barriers to building software have collapsed. Today, anyone can build. Hackathons are a great place to start learning. The post Hack the World: Why hackathons are still the best place to learn to build appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build/",
+          "publishedAt": "2026-10-09T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Someone bursts through the door and announces, \"There's pizza!\" Nearby, a team has duct tape and cardboard holding its prototype together. Another is debugging a model that won't detect their movements.",
+            "This is a common scene during hackathons, and for a lot of people they're the place to learn to build.",
+            "During several recent hackathons, we followed dozens of participants from the badge line to final demos and asked them what keeps them coming back.",
+            "Teams come up with ideas for robots, apps, websites, hardware, and more, then try to get prototypes working before time runs out.",
+            "These aren't small things, these are big endeavors, and they're going to try to do it in basically two days."
+          ]
+        }
+      ]
+    }
+  ]
+}
