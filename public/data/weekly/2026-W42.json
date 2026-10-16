@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "generatedAt": "2026-10-16T00:27:25.533Z",
+  "generatedAt": "2026-10-16T23:35:57.539Z",
   "sections": [
     {
       "name": "AI",
@@ -27,6 +27,26 @@
           ]
         },
         {
+          "id": "9732b2763df5a67a",
+          "title": "How Itaú is building generative AI for its entire customer base",
+          "excerpt": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/itau-generative-ai",
+          "publishedAt": "2026-10-16T19:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "The challenge is to make the technology disappear Creating a close, personalized experience for millions of customers in a country like Brazil is, first and foremost, a question of simplicity rather than of models.",
+            "“Much of it is about making something simple, direct, and useful, delivering a direct benefit to the customer, and making the technology almost unnoticeable,” says Carlos Eduardo Mazzei, CTO of Itaú.",
+            "The standard he describes is demanding: the solution must solve a real everyday problem and be direct, simple, and memorable.",
+            "Technology serves as the means, never as the centerpiece of the experience.",
+            "This breadth was precisely what guided the choice of models."
+          ]
+        },
+        {
           "id": "d05f789212e75b03",
           "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
           "excerpt": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike.",
@@ -44,26 +64,6 @@
             "As more people turn to AI for help, you want those systems to find your work, represent it accurately, and send interested people your way.",
             "Cloudflare and OpenAI launched a research pilot in July 2026 with those interests in mind. We wanted to find out whether signals from Cloudflare’s network could help ChatGPT users discover new content more efficiently.",
             "Today, we’re sharing early results. So far, the answer is a resounding yes: the pilot has brought previously unknown pages into OpenAI’s search index, giving ChatGPT more sources to draw on to help people find relevant, timely information. Along the way, we’ve learned more about what makes a page worth discovering and how AI systems use the web."
-          ]
-        },
-        {
-          "id": "32165ee6af8945a5",
-          "title": "Bringing GPT-Rosalind to academic research labs",
-          "excerpt": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-          "publishedAt": "2026-10-15T19:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": [
-            "We’re introducing the Rosalind Academic Plan to help more academic scientists access GPT‑Rosalind⁠, our dedicated life sciences model, which combines frontier reasoning with Rosalind workbench that enables specialized tool orchestration across medicinal chemistry, genomics, wet-lab assistance, and other scientific applications.",
-            "Eligible labs can receive up to 30 Business Standard seats at no cost for up to 12 months, with access to GPT‑Rosalind subject to trusted-access approval.",
-            "Academic research creates knowledge that entire fields build on.",
-            "Work that begins with a fundamental question about biology can eventually change how we diagnose disease, develop medicines, or grow food.",
-            "But those advances depend on scientists having the resources to explore ideas, test them, and share what they learn."
           ]
         }
       ]
@@ -200,26 +200,6 @@
             "Codex, GPT‑6 Astra, GPT‑6 Sol, and GPT‑6.1 Sol support the system’s research and computational work, enabling Third Moment to run 10,000 agents at once on investigations lasting 36-48 hours.",
             "This domain provides a concrete setting to study how agents work and where they struggle."
           ]
-        },
-        {
-          "id": "94ee28b93f9d2d83",
-          "title": "How Block is building AI-powered security with OpenAI technology",
-          "excerpt": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/block-ai-powered-security",
-          "publishedAt": "2026-10-14T07:00:00.000Z",
-          "technologies": [
-            "OpenAI"
-          ],
-          "category": "Security",
-          "scanMinutes": 1,
-          "details": [
-            "At Block, the company behind Square, Cash App, and Afterpay, the security team leverages the OpenAI Defense Factory: where AI handles vulnerability discovery, detection, and response at a scale that no human team could keep up with.",
-            "With AI systems including OpenAI Daybreak, Block is taking just hours to do work that used to take weeks. > “AI is compressing the time from human intent to action.",
-            "For a while, it was assumed that there was an attacker advantage since they’re faster and more nimble.",
-            "But with things like Daybreak and the advancements in OpenAI’s tooling, defenders are able to fight fire with fire and keep up with the rapid pace of AI adoption.” -James Nettesheim, Chief Information Security Officer, Block Block’s security team has been focused on responsibly adopting AI across workflows, whether that’s code generation or security operations.",
-            "“What it’s really centered on is having a new teammate that you can scale with,” James Nettesheim, Chief Information Security Officer, says."
-          ]
         }
       ]
     },
@@ -251,6 +231,26 @@
     {
       "name": "Developer Tools",
       "articles": [
+        {
+          "id": "1beb66d0b231d0b1",
+          "title": "Continuous accountability for Verified bots",
+          "excerpt": "Identity alone doesn't guarantee a bot will behave responsibly. We are introducing a system to continuously evaluate whether Verified bots honor site preferences, like robots.txt and HTTP 429s, ensuring they remain accountable over time.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/verified-bots-accountability/",
+          "publishedAt": "2026-10-16T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "A driver’s license tells you who someone is and that they passed a driving test, not whether they’ll drive responsibly in the future. The same is true for bots: verifying who operates it creates accountability, but trust depends on what it does next. A known bot can still ignore website preferences, overwhelm origins, or evade controls. It’s not always malicious - often it’s just a misconfiguration or a bug.",
+            "As we described in a previous blog post on bot behavior, we strive to verify two questions: “Are you who you say you are?” and “Can we trust you?” To be a Cloudflare Verified Bot, you broadly need to meet three criteria:",
+            "Bots use Web Bot Auth to sign requests that establish their identity, which BotBase then catalogues in an open format. With identification addressed, our focus shifts to the second cardinal rule of Verified bots: thou shalt do no harm .",
+            "Today we introduce a system to evaluate and report when Verified bot behavior starts to deviate from this rule, ensuring that the answer to “Can we trust you?” remains “Yes.”",
+            "This is where the distinction between risk and trust becomes important:"
+          ]
+        },
         {
           "id": "377b59f097432230",
           "title": "Staying Evergreen: How we automated secure access and repo hygiene in a shared org",
@@ -289,26 +289,6 @@
             "By October 7, 120 of 160 production services were deployed in Central US, and 13 of 51 primary MySQL databases had moved. Azure also handled 65.4% of read traffic for GitHub's core application, 48.3% of Git read traffic, and 80.2% of stream-processing traffic. These percentages measure different workloads and should not be added.",
             "We paused Central US deployments and traffic increases on September 11 because capacity was uneven across availability zones.",
             "Permanent ramps resumed September 18 after temporary relief, but durable capacity work continues, with a goal of unlocking all available capacity by the end of October."
-          ]
-        },
-        {
-          "id": "9d49354fa5a46a35",
-          "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
-          "excerpt": "While adding MySQL support to Hyperdrive, we found a subtle protocol bug when caching query results. Here is how we tracked down a 0.001% rate error and made Hyperdrive MySQL generally available.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/hyperdrive-mysql/",
-          "publishedAt": "2026-10-14T13:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Developer Tools",
-          "scanMinutes": 1,
-          "details": [
-            "Hyperdrive support for MySQL is now generally available (GA). Hyperdrive , Cloudflare’s database connection pooler for Workers, initially only supported Postgres. Since we announced the beta for MySQL protocol support last year, we have been working on making our MySQL handling as reliable as our Postgres support.",
-            "We’ve learned some things from building and running a MySQL connection pooler on Cloudflare’s network. It turns out that the difference between beta and GA is just 20 bug fixes in a trenchcoat.",
-            "During the beta, our goal was to validate that real-world customer usage hit our production availability target of 99.99%.",
-            "We knew there were gaps in our reliability since we track how often client connections from a Worker end in an error related to Hyperdrive.",
-            "In addition, we had feedback from customers in the beta that led to the discovery of a rare and subtle bug in our production environment."
           ]
         }
       ]
