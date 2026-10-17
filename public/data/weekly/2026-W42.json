@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "generatedAt": "2026-10-17T00:32:35.950Z",
+  "generatedAt": "2026-10-17T23:08:21.800Z",
   "sections": [
     {
       "name": "AI",
@@ -38,13 +38,7 @@
           ],
           "category": "AI",
           "scanMinutes": 1,
-          "details": [
-            "The challenge is to make the technology disappear Creating a close, personalized experience for millions of customers in a country like Brazil is, first and foremost, a question of simplicity rather than of models.",
-            "“Much of it is about making something simple, direct, and useful, delivering a direct benefit to the customer, and making the technology almost unnoticeable,” says Carlos Eduardo Mazzei, CTO of Itaú.",
-            "The standard he describes is demanding: the solution must solve a real everyday problem and be direct, simple, and memorable.",
-            "Technology serves as the means, never as the centerpiece of the experience.",
-            "This breadth was precisely what guided the choice of models."
-          ]
+          "details": []
         },
         {
           "id": "d05f789212e75b03",
@@ -173,33 +167,7 @@
           ],
           "category": "Security",
           "scanMinutes": 1,
-          "details": [
-            "Reverse engineering a sophisticated piece of malware can take a top security researcher four to six weeks.",
-            "It’s painstaking work where researchers pull apart software to understand how it behaves, often retracing their steps as they uncover new information.",
-            "Gregor Stewart, Chief AI Officer at SentinelOne, says OpenAI Daybreak can now produce human-level reverse-engineering output in roughly eight hours.",
-            "By reducing the time needed for deep analysis, OpenAI gives SentinelOne’s researchers room to investigate more malware and connect findings across samples.",
-            "That wider view often reveals relationships that isolated investigations might miss."
-          ]
-        },
-        {
-          "id": "a8b8c31de898145e",
-          "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-          "excerpt": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/third-moment-research",
-          "publishedAt": "2026-10-14T07:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Security",
-          "scanMinutes": 1,
-          "details": [
-            "Every company has its own workflows, tools, edge cases, and definitions of success.Third Moment Research believes the best agents should be really good at that specific work and should improve their capabilities the more they’re used.",
-            "The company is building a self-improving AI system around that idea, using OpenAI’s latest models to understand agent behavior, identify recurring weaknesses, and automatically create thousands of synthetic scenarios around those problems.",
-            "The team uses those scenarios to improve agents, repeating the process as new issues emerge.",
-            "Codex, GPT‑6 Astra, GPT‑6 Sol, and GPT‑6.1 Sol support the system’s research and computational work, enabling Third Moment to run 10,000 agents at once on investigations lasting 36-48 hours.",
-            "This domain provides a concrete setting to study how agents work and where they struggle."
-          ]
+          "details": []
         }
       ]
     },
