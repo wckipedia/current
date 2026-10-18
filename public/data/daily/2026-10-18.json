@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "generatedAt": "2026-10-17T23:08:21.800Z",
+  "generatedAt": "2026-10-18T00:05:04.021Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -42,7 +42,13 @@
           ],
           "category": "AI",
           "scanMinutes": 1,
-          "details": []
+          "details": [
+            "The challenge is to make the technology disappear Creating a close, personalized experience for millions of customers in a country like Brazil is, first and foremost, a question of simplicity rather than of models.",
+            "“Much of it is about making something simple, direct, and useful, delivering a direct benefit to the customer, and making the technology almost unnoticeable,” says Carlos Eduardo Mazzei, CTO of Itaú.",
+            "The standard he describes is demanding: the solution must solve a real everyday problem and be direct, simple, and memorable.",
+            "Technology serves as the means, never as the centerpiece of the experience.",
+            "This breadth was precisely what guided the choice of models."
+          ]
         },
         {
           "id": "d05f789212e75b03",
@@ -76,7 +82,13 @@
           ],
           "category": "AI",
           "scanMinutes": 1,
-          "details": []
+          "details": [
+            "At Benefit Street Partners, a credit-focused investment manager, answering an investment committee’s follow-up questions used to take days or weeks.",
+            "Portfolio manager Anant Kumar says analysts can now turn a round of comments in a day with Codex, and often answer questions during the meeting itself.",
+            "BSP is using these tools to add more review capacity and rigor to underwriting within the same timeframe, rather than to do more deals. > “I’ve gone from being just an analyst and a portfolio manager to being a developer as well now.",
+            "I can build things.” -Anant Kumar, Portfolio Manager, Benefit Street Partners Building his own dashboards To create a dashboard he could share with colleagues, Kumar used to need someone with software expertise to build a website and pull in the data.",
+            "Now he builds his own tools, using AI to draft code and review it for errors."
+          ]
         }
       ]
     },
@@ -205,7 +217,13 @@
           ],
           "category": "Security",
           "scanMinutes": 1,
-          "details": []
+          "details": [
+            "Reverse engineering a sophisticated piece of malware can take a top security researcher four to six weeks.",
+            "It’s painstaking work where researchers pull apart software to understand how it behaves, often retracing their steps as they uncover new information.",
+            "Gregor Stewart, Chief AI Officer at SentinelOne, says OpenAI Daybreak can now produce human-level reverse-engineering output in roughly eight hours.",
+            "By reducing the time needed for deep analysis, OpenAI gives SentinelOne’s researchers room to investigate more malware and connect findings across samples.",
+            "That wider view often reveals relationships that isolated investigations might miss."
+          ]
         }
       ]
     },

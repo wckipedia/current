@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "generatedAt": "2026-10-17T23:08:21.800Z",
+  "generatedAt": "2026-10-18T00:05:04.021Z",
   "sections": [
     {
       "name": "AI",
@@ -38,7 +38,13 @@
           ],
           "category": "AI",
           "scanMinutes": 1,
-          "details": []
+          "details": [
+            "The challenge is to make the technology disappear Creating a close, personalized experience for millions of customers in a country like Brazil is, first and foremost, a question of simplicity rather than of models.",
+            "“Much of it is about making something simple, direct, and useful, delivering a direct benefit to the customer, and making the technology almost unnoticeable,” says Carlos Eduardo Mazzei, CTO of Itaú.",
+            "The standard he describes is demanding: the solution must solve a real everyday problem and be direct, simple, and memorable.",
+            "Technology serves as the means, never as the centerpiece of the experience.",
+            "This breadth was precisely what guided the choice of models."
+          ]
         },
         {
           "id": "d05f789212e75b03",
@@ -167,7 +173,13 @@
           ],
           "category": "Security",
           "scanMinutes": 1,
-          "details": []
+          "details": [
+            "Reverse engineering a sophisticated piece of malware can take a top security researcher four to six weeks.",
+            "It’s painstaking work where researchers pull apart software to understand how it behaves, often retracing their steps as they uncover new information.",
+            "Gregor Stewart, Chief AI Officer at SentinelOne, says OpenAI Daybreak can now produce human-level reverse-engineering output in roughly eight hours.",
+            "By reducing the time needed for deep analysis, OpenAI gives SentinelOne’s researchers room to investigate more malware and connect findings across samples.",
+            "That wider view often reveals relationships that isolated investigations might miss."
+          ]
         }
       ]
     },
