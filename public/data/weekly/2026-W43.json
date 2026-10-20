@@ -1,69 +1,68 @@
 {
   "week": "2026-W43",
-  "generatedAt": "2026-10-19T00:15:08.021Z",
+  "generatedAt": "2026-10-20T00:20:11.645Z",
   "sections": [
     {
       "name": "AI",
       "articles": [
         {
-          "id": "a47e85dd89b9a253",
-          "title": "The next developer interface is ambient intelligence",
-          "excerpt": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog .",
-          "source": "GitHub Blog",
-          "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
-          "publishedAt": "2026-10-15T19:39:27.000Z",
-          "technologies": [
-            "Next.js",
-            "GitHub"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": [
-            "For most of my career, building software started with the same setup: keyboard, mouse, editor, terminal, browser, and an impressive number of tabs I was definitely going to look at later. The tools changed, but the relationship did not. Like most developers, I learned commands, memorized shortcuts, and adapted my thinking to the machine.",
-            "AI is changing that relationship and not because I can prompt my way to some workable code. It's more because the system behind it can understand a repository, choose the right model, plan work, use tools, edit files, run commands, inspect failures, and keep going within boundaries the developer controls.",
-            "We've made it possible for a developer to describe an outcome, and GitHub Copilot can gather repository context, inspect symbols and dependencies, edit files, run tests, and revise the implementation.",
-            "GitHub Copilot coding agent can take an issue into an isolated GitHub Actions-powered environment and return a pull request for review.",
-            "It is the shift from issuing commands to making intent executable."
-          ]
-        },
-        {
-          "id": "9732b2763df5a67a",
-          "title": "How Itaú is building generative AI for its entire customer base",
-          "excerpt": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/itau-generative-ai",
-          "publishedAt": "2026-10-16T19:00:00.000Z",
+          "id": "68e2ee5d21f7dc1b",
+          "title": "Cutting our inference bill by 68% by being obsessive about optimization",
+          "excerpt": "When our AI code reviewer's cost per run doubled, we dug into the token usage to find out why. Learn how we used prompt caching and intelligent model routing to slash our inference bill by 68% while speeding up reviews.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/obsessive-inference-optimization/",
+          "publishedAt": "2026-10-19T19:12:53.000Z",
           "technologies": [
             "Software Engineering"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "The challenge is to make the technology disappear Creating a close, personalized experience for millions of customers in a country like Brazil is, first and foremost, a question of simplicity rather than of models.",
-            "“Much of it is about making something simple, direct, and useful, delivering a direct benefit to the customer, and making the technology almost unnoticeable,” says Carlos Eduardo Mazzei, CTO of Itaú.",
-            "The standard he describes is demanding: the solution must solve a real everyday problem and be direct, simple, and memorable.",
-            "Technology serves as the means, never as the centerpiece of the experience.",
-            "This breadth was precisely what guided the choice of models."
+            "When we previously blogged about our AI code reviewer in April , an average review cost a palatable $1.19. By the end of August, that figure had shot up to about $2.46. We hadn't made any significant architectural changes: the coordinator was still handing work to the same set of specialist reviewers, and the same risk tiers decided how intensive of a review we gave.",
+            "Around mid-September we tasked our agents with working out where those tokens were going and cutting them - aggressively.",
+            "With code quality at high effort, the average review now costs just $0.77, down 68% from the $2.43 it averaged over our two most expensive weeks before we started.",
+            "Our main goal was to cut costs, but as part of this work we also managed to optimize the reviewer, so that the median review now takes just 1m 32s instead of the 4m 09s it took before.",
+            "About 40% of the savings came from changes and optimizations to the reviewer's code, and the rest from experimenting with which models we use and how much effort they put in."
           ]
         },
         {
-          "id": "d05f789212e75b03",
-          "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
-          "excerpt": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
-          "publishedAt": "2026-10-15T13:00:00.000Z",
+          "id": "5e09805dda87945d",
+          "title": "How to continue a GitHub Copilot app session in VS Code",
+          "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
+          "publishedAt": "2026-10-19T18:47:22.000Z",
           "technologies": [
-            "OpenAI"
+            "GitHub"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Optimizing your site for AI is of little use if AI can't find it.",
-            "The answer to someone's question may already be on your website: the installation guide you spent a week writing, or a first-hand account of using a product, with the details that make the difference for whether they buy it.",
-            "As more people turn to AI for help, you want those systems to find your work, represent it accurately, and send interested people your way.",
-            "Cloudflare and OpenAI launched a research pilot in July 2026 with those interests in mind. We wanted to find out whether signals from Cloudflare’s network could help ChatGPT users discover new content more efficiently.",
-            "Today, we’re sharing early results. So far, the answer is a resounding yes: the pilot has brought previously unknown pages into OpenAI’s search index, giving ChatGPT more sources to draw on to help people find relevant, timely information. Along the way, we’ve learned more about what makes a page worth discovering and how AI systems use the web."
+            "The agent has finished the bulk of your change. Now you want to inspect one implementation detail, adjust a few lines by hand, and run the project locally before you ship it.",
+            "But the work is sitting in the GitHub Copilot app ... and your editor is where you review diffs, debug code, and make final adjustments. Do you have to choose between staying in the session and starting over in Visual Studio Code?",
+            "You don't. You can open the Copilot app session directly in VS Code and continue with its conversation, code changes, and working context intact. That means Copilot can handle the repetitive or time-consuming work, then hand control back to you for closer review, hands-on editing, and local testing.",
+            "Push your updates to the pull request associated with the session.",
+            "Visual Studio Code installed and connected to the same GitHub account."
+          ]
+        },
+        {
+          "id": "40634a33b7feb1d3",
+          "title": "Introducing Clairic, a new System One class of extraction models",
+          "excerpt": "Clairic is a new model from Cloudflare that is a System One extraction modeI, capable of extracting, computing, estimating, and forecasting data from unstructured inputs.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/clairic-extraction-model/",
+          "publishedAt": "2026-10-19T17:48:26.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Today, we're announcing a preview of a new class of System One-style models: extraction models.",
+            "Our first one, Clairic, is available hosted on Workers AI as @cf/cloudflare/clairic.",
+            "Clairic is an extraction model that is able to extract, compute, estimate, and forecast values from unstructured inputs - all at a significantly higher accuracy, faster latency, and cheaper cost than traditional LLMs.",
+            "When System One models were announced by TypeSafe a month ago, it took the industry by storm.",
+            "As referenced by TypeSafe in their blog and defined by Daniel Kahneman’s book Thinking, Fast and Slow , a System One model should be fast and precise, which contrasts a System Two model that is capable of deliberate reasoning (like LLMs)."
           ]
         }
       ]
@@ -162,23 +161,23 @@
       "name": "Security",
       "articles": [
         {
-          "id": "004cd593adabcd24",
-          "title": "SentinelOne cuts malware analysis from weeks to hours",
-          "excerpt": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/sentinelone",
-          "publishedAt": "2026-10-14T12:00:00.000Z",
+          "id": "72477d086944244f",
+          "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
+          "excerpt": "CVE-2026-88771 lets attackers run commands on NetScaler Gateway before anyone signs in. Patching takes time most teams don't have, so the sign-in decision has to move in front of the vulnerable code.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
+          "publishedAt": "2026-10-19T13:00:00.000Z",
           "technologies": [
-            "OpenAI"
+            "Software Engineering"
           ],
           "category": "Security",
           "scanMinutes": 1,
           "details": [
-            "Reverse engineering a sophisticated piece of malware can take a top security researcher four to six weeks.",
-            "It’s painstaking work where researchers pull apart software to understand how it behaves, often retracing their steps as they uncover new information.",
-            "Gregor Stewart, Chief AI Officer at SentinelOne, says OpenAI Daybreak can now produce human-level reverse-engineering output in roughly eight hours.",
-            "By reducing the time needed for deep analysis, OpenAI gives SentinelOne’s researchers room to investigate more malware and connect findings across samples.",
-            "That wider view often reveals relationships that isolated investigations might miss."
+            "The recent disclosure of a major vulnerability in Citrix NetScaler pointed to a widespread weak point: a login page is an attack surface that can be used to compromise and access an application server.",
+            "Indeed, the disclosures included an actively exploited flaw that allowed attackers to execute commands on affected gateways without signing in.",
+            "As with any emergency patch, admins had to weigh cutting off or disrupting their users’ access with the risk of delaying a critical security update.",
+            "If you’re a NetScaler customer and you haven’t patched your instance, stop reading and go do that. This was a bad one. Once you’ve finished the patch, we’ll explore how to avoid a future fire drill by laying additional security controls.",
+            "This issue extends beyond NetScaler and can be applied to any internal application available on the Internet. Remote desktop portals, administrative consoles, and other publicly accessible authentication pages all deserve the same scrutiny: Does the intended audience require unrestricted Internet reachability? And can an attacker bypass this authentication check to reach the application's server?"
           ]
         }
       ]
