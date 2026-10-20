@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "generatedAt": "2026-10-20T01:06:25.564Z",
+  "generatedAt": "2026-10-20T23:53:40.093Z",
   "sections": [
     {
       "name": "AI",
@@ -71,6 +71,47 @@
       "name": "Cloud",
       "articles": [
         {
+          "id": "c78cf468160e1a45",
+          "title": "8 eMudhra certificates are compromised. Here's what you need to know",
+          "excerpt": "Following the discovery that eight eMudhra intermediate certificates use weak keys, Cloudflare is deploying mitigations and releasing client updates. We explain the impact, our response, and what customers and developers should do next.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
+          "publishedAt": "2026-10-20T22:20:16.000Z",
+          "technologies": [
+            "Next.js"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "On October 19, 2026, at approximately 17:00 UTC, Cloudflare became aware that private keys associated with eight eMudhra intermediate certificates were compromised.",
+            "These certificates were widely trusted by browsers, operating systems, and also within Cloudflare.",
+            "Because the keys themselves are weak, an attacker can create a forged certificate for any domain and use it to impersonate servers to intercept or modify traffic.",
+            "This is a serious security incident with implications across the Internet.",
+            "For reference, here is a link to more information about how SSL certificates work and why they are so critical to the operation of the Internet."
+          ]
+        },
+        {
+          "id": "bc34cbec3dd5a0fb",
+          "title": "Introducing tsrs: A port of TypeScript to Rust",
+          "excerpt": "Cloudflare is collaborating on tsrs, a Rust port of TypeScript that is up to 8x faster and uses 70% less memory.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/typescript-rust-port/",
+          "publishedAt": "2026-10-20T13:00:00.000Z",
+          "technologies": [
+            "TypeScript",
+            "Rust"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Cloudflare and VoidZero are now working with Max Schwenk of Owner.com on tsrs , a Rust port of the TypeScript compiler. We are doing this work in close collaboration with the TypeScript team, and incubating tsrs as part of the Oxc JavaScript compiler toolchain .",
+            "Our goal is to help developers spend less time waiting for their code to be checked and more time building. Making TypeScript faster and more memory-efficient also helps bring complete development environments to more places, including right in your browser.",
+            "To be clear, we are not forking TypeScript. We believe the TypeScript team should remain in full control of the language’s design and direction. They have maintained a long-term vision while guiding TypeScript’s adoption across the JavaScript community. We do not want to change that.",
+            "The TypeScript team can move quite fast on many things, but for some features they may spend years intentionally exploring options and making prototypes before picking the right implementation.",
+            "A Rust port has to follow those decisions closely, or it will eventually fall apart and become incompatible."
+          ]
+        },
+        {
           "id": "8d017137f926178e",
           "title": "A fully programmable secure web gateway",
           "excerpt": "Cloudflare Gateway and Data Loss Prevention have inherited the flexibility and power of Cloudflare Workers through our full-stack integration with the Cloudflare Developer platform.",
@@ -88,71 +129,6 @@
             "We also outlined how the term programmability has become diluted by the security industry.",
             "Most vendors claim programmability because they have public APIs, Terraform providers, webhooks, and alerting.",
             "Cloudflare offers all of those things too, but that’s not enough."
-          ]
-        },
-        {
-          "id": "2628c857671d6194",
-          "title": "Deploy with Void",
-          "excerpt": "Introducing Void: an open-source SDK, CLI, and self-hosted platform for building full-stack Vite apps and deploying them to Cloudflare.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/deploy-with-void/",
-          "publishedAt": "2026-10-15T14:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Cloud",
-          "scanMinutes": 1,
-          "details": [
-            "VoidZero's tools such as Vite, Vitest, Oxc, and Rolldown - bundled in one toolchain as Vite+ - have made frontend development faster, but building full-stack applications requires more than just a tooling stack. These applications need server routes, databases, local development environments, and a fast and easy way to deploy ideas to production.",
-            "We’re excited to open-source three new products that bring server routing, typed data access, and Cloudflare deployment into a unified Vite workflow.",
-            "Void Platform: A shared deployment platform for teams to host Void apps on Cloudflare.",
-            "Void SDK: A composable JavaScript SDK for building full-stack apps with Vite.",
-            "Void CLI: A CLI for provisioning resources and deploying Vite apps to Cloudflare."
-          ]
-        },
-        {
-          "id": "049f752dea89d9de",
-          "title": "Yandex outage: Data shows that instead of going dark, malicious bots went on the move",
-          "excerpt": "When strikes hit Yandex data centers, many assumed Russian bot operations went dark. Cloudflare data reveals that while search crawling stopped, malicious bots simply migrated to other networks.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/yandex-outage/",
-          "publishedAt": "2026-10-14T20:24:19.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Cloud",
-          "scanMinutes": 1,
-          "details": [
-            "Following reported strikes on Yandex data centers, claims circulated on the Internet that Russian bot farms and influence operations had been knocked offline.",
-            "HTTP traffic charts showed steep drops, fueling speculation that the infrastructure damage had stopped these malicious actors.",
-            "There are two autonomous system numbers ( ASNs ) associated with Yandex: AS13238 is used by Yandex’s search engine, while AS200350 runs its cloud services.",
-            "Using Cloudflare Radar and Bot Management data, we analyzed how these two ASNs were affected - and while both saw drops in traffic, they saw differing impact.",
-            "Yandex Search (AS13238) : The drop in traffic consisted almost entirely of verified search crawlers indexing web pages, images, and site resources."
-          ]
-        }
-      ]
-    },
-    {
-      "name": "DevOps",
-      "articles": [
-        {
-          "id": "4622528705e7449b",
-          "title": "Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp",
-          "excerpt": "You submit a Kubernetes Job and wait for its Pods to appear. A minute passes. Then another. The Job is still suspended, there are no application logs, and there may not even be a Pod to inspect. In a cluster managed by Kueue , this can be completely normal. Kueue may still be deciding whether the Job can use…",
-          "source": "Kubernetes Blog",
-          "url": "https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/",
-          "publishedAt": "2026-10-14T18:35:00.000Z",
-          "technologies": [
-            "Kubernetes"
-          ],
-          "category": "DevOps",
-          "scanMinutes": 1,
-          "details": [
-            "In a cluster managed by Kueue , this can be completely normal. Kueue may still be deciding whether the Job can use the requested resources. The useful question is not only “Why is the Pod pending?” It is first “Has Kueue admitted the Workload?”",
-            "The Kueue plugin for Headlamp brings that investigation into the Headlamp UI. Instead of reconstructing the admission path from several commands and large YAML objects, you can begin with the Workload, read its condition message, and follow links through the LocalQueue, ClusterQueue, ResourceFlavor, and Cohort.",
-            "This article follows that Headlamp-first path. The command line appears only in a short optional section for reproducing the example.",
-            "You need a Kubernetes cluster with Kueue installed , a Headlamp installation , and the 0.1.0-alpha Kueue plugin . Your Kubernetes identity must be allowed to read the Kueue resources used in this article.",
-            "The alpha release provides read-only views for Kueue v1beta2 Cohorts, ClusterQueues, LocalQueues, ResourceFlavors, and Workloads. It does not add its own create, edit, stop, resume, or delete workflows. Headlamp still provides its standard YAML and resource actions where your permissions allow them."
           ]
         }
       ]
@@ -211,6 +187,26 @@
       "name": "Developer Tools",
       "articles": [
         {
+          "id": "806b1f92932cb664",
+          "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+          "excerpt": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+          "publishedAt": "2026-10-20T16:05:03.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "AI coding tools can generate code quickly, but speed alone does not solve the hardest software engineering problems. Developers still need to provide context, validate results, protect maintainability, and remain accountable for what ships.",
+            "To learn how experienced developers strike that balance, we spoke with three Java Champions, all with over a decade of experience in using Java. They shared concrete examples of using GitHub Copilot in production and open source, along with the practices they use to turn AI-generated output into reliable software.",
+            "Vlad Mihalcea , founder of Hypersistence and author of the book High-Performance Java Persistence",
+            "Patrick Baumgartner , software crafter at 42talents with 20+ years of Java experience",
+            "Frank Delporte , senior technical writer at Azul and maintainer of Foojay.io with 15+ years of Java experience"
+          ]
+        },
+        {
           "id": "1beb66d0b231d0b1",
           "title": "Continuous accountability for Verified bots",
           "excerpt": "Identity alone doesn't guarantee a bot will behave responsibly. We are introducing a system to continuously evaluate whether Verified bots honor site preferences, like robots.txt and HTTP 429s, ensuring they remain accountable over time.",
@@ -248,26 +244,6 @@
             "We faced this problem in a shared organization where GitHub employees (\"Hubbers\") collaborate with customers and partners on product trials and professional services engagements. Our answer was Evergreen , a GitHub App built with native GitHub features. The workflows below exhibit a pattern you can adapt for your own organization.",
             "Evergreen is a GitHub App that automates organization hygiene through two workflows:",
             "Outside collaborator access reviews. Every quarter, each repo's outside collaborators are reviewed. Keep who you need, and everyone else is removed."
-          ]
-        },
-        {
-          "id": "3cbafd4338038f81",
-          "title": "GitHub availability report: September 2026",
-          "excerpt": "In September, we experienced two incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: September 2026 appeared first on The GitHub Blog .",
-          "source": "GitHub Blog",
-          "url": "https://github.blog/news-insights/company-news/github-availability-report-september-2026/",
-          "publishedAt": "2026-10-14T20:01:35.000Z",
-          "technologies": [
-            "GitHub"
-          ],
-          "category": "Developer Tools",
-          "scanMinutes": 1,
-          "details": [
-            "Our last update covered content through August. We did not publish another in September while other public content addressed the August 17 outage. This edition covers progress over the past two months.",
-            "The short version of August and September : we reduced shared-database pressure, added overload controls, created headroom for GitHub Actions, expanded failure containment for pull requests, and moved more production workloads to Azure. Significant incidents, a capacity pause, and a missed migration target show that the work is not complete.",
-            "By October 7, 120 of 160 production services were deployed in Central US, and 13 of 51 primary MySQL databases had moved. Azure also handled 65.4% of read traffic for GitHub's core application, 48.3% of Git read traffic, and 80.2% of stream-processing traffic. These percentages measure different workloads and should not be added.",
-            "We paused Central US deployments and traffic increases on September 11 because capacity was uneven across availability zones.",
-            "Permanent ramps resumed September 18 after temporary relief, but durable capacity work continues, with a goal of unlocking all available capacity by the end of October."
           ]
         }
       ]
