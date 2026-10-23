@@ -1,10 +1,30 @@
 {
   "week": "2026-W43",
-  "generatedAt": "2026-10-23T00:43:00.616Z",
+  "generatedAt": "2026-10-23T23:51:51.897Z",
   "sections": [
     {
       "name": "AI",
       "articles": [
+        {
+          "id": "f8c156dba7886826",
+          "title": "Securing our frontier model training environment",
+          "excerpt": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+          "publishedAt": "2026-10-23T10:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "_This post describes how we secure the environments that we use to train and evaluate frontier models.",
+            "These research settings differ from those in which customers use our released models: models in development may not yet have completed safety and alignment training, and we deliberately test them under adversarial conditions to expose weaknesses.",
+            "Before making models available for broader use, we conduct safety and alignment assessments and put production safeguards in place._ In order to work with software, AI models need computing environments: digital workspaces where they can write and run code, search for information, and attempt different approaches to solving problems.",
+            "These environments allow models to practice these skills, while also restricting what they can access or do-helping contain the consequences when models make mistakes or exhibit misaligned behavior.",
+            "But as models become more capable, they become better at finding ways around those limits."
+          ]
+        },
         {
           "id": "4ba30d9b0c538cac",
           "title": "The bridge to agent-scale Git infrastructure",
@@ -44,26 +64,52 @@
             "Instead of hunting for buttons, the agent calls the exact tool it needs directly, making shopping faster, cheaper, and far more reliable.",
             "Because WebMCP is still an experimental proposed browser standard in early preview, it’s currently available behind experimental Chrome flags ( chrome://flags/#enable-webmcp-testing ), in Chrome Origin Trials, in some agentic browsers, and across developer environments like Cloudflare Kitesurf ."
           ]
-        },
-        {
-          "id": "6400feb681472530",
-          "title": "What FDE means at OpenAI",
-          "excerpt": "What forward deployed engineering means at OpenAI",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/forward-deployed-engineering-means",
-          "publishedAt": "2026-10-22T06:00:00.000Z",
-          "technologies": [
-            "OpenAI"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": []
         }
       ]
     },
     {
       "name": "Cloud",
       "articles": [
+        {
+          "id": "60f970e1df3b48e3",
+          "title": "Origin Range Requests: Serving large files without range-request tuning",
+          "excerpt": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/origin-range-requests/",
+          "publishedAt": "2026-10-23T18:22:59.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "A video player seeking to the middle of a movie asks for a few megabytes.",
+            "Under our old range caching, that one request could make Cloudflare pull 128 MiB from the origin and move it between data centers, sometimes after the viewer had already left.",
+            "Range requests are how large files get delivered, and caching them naively easily leads to wasted network bandwidth and wasted disk operations when running a CDN at scale.",
+            "So we rebuilt how our cache handles them. For R2, Cloudflare's object storage, p99 time to first byte dropped by about half, and a follow-up improvement cut tiered cache traffic for R2 and similar workloads by about 6%.",
+            "Today, we're making that new implementation available as Origin Range Requests , a self-service feature on all plans. There's no range size to tune and no need to contact support. Turn it on with a Cache Rule , and Cloudflare handles the rest."
+          ]
+        },
+        {
+          "id": "70bdd870b2ac82df",
+          "title": "Bringing post-quantum cryptography to geographically fenced key management",
+          "excerpt": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict data sovereignty in a post-quantum world.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
+          "publishedAt": "2026-10-23T18:06:56.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Today, Cloudflare is launching a post-quantum geographically restricted key manager in support of our Data Localization Suite (DLS) in closed beta.",
+            "This new PQ GeoKey Manager is a cornerstone of Cloudflare’s data sovereignty solutions, making sure that a customer's decryption keys are only accessible in their chosen geography.",
+            "GeoKey Manager implements this by wrapping each decryption key such that it can only be decrypted by Cloudflare servers that are located in the allowed geography.",
+            "While general availability (GA) is planned for Q1 2027, today’s launch is an important milestone on our journey to support our customers’ data sovereignty goals while also migrating all Cloudflare products to post-quantum (PQ) cryptography .",
+            "Governments, financial institutions, healthcare providers, and defense organizations process highly sensitive data that can remain sensitive for years or decades after it is produced."
+          ]
+        },
         {
           "id": "c78cf468160e1a45",
           "title": "8 eMudhra certificates are compromised. Here's what you need to know",
@@ -82,27 +128,6 @@
             "Because the keys themselves are weak, an attacker can create a forged certificate for any domain and use it to impersonate servers to intercept or modify traffic.",
             "This is a serious security incident with implications across the Internet.",
             "For reference, here is a link to more information about how SSL certificates work and why they are so critical to the operation of the Internet."
-          ]
-        },
-        {
-          "id": "bc34cbec3dd5a0fb",
-          "title": "Introducing tsrs: A port of TypeScript to Rust",
-          "excerpt": "Cloudflare is collaborating on tsrs, a Rust port of TypeScript that is up to 8x faster and uses 70% less memory.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/typescript-rust-port/",
-          "publishedAt": "2026-10-20T13:00:00.000Z",
-          "technologies": [
-            "TypeScript",
-            "Rust"
-          ],
-          "category": "Cloud",
-          "scanMinutes": 1,
-          "details": [
-            "Cloudflare and VoidZero are now working with Max Schwenk of Owner.com on tsrs , a Rust port of the TypeScript compiler. We are doing this work in close collaboration with the TypeScript team, and incubating tsrs as part of the Oxc JavaScript compiler toolchain .",
-            "Our goal is to help developers spend less time waiting for their code to be checked and more time building. Making TypeScript faster and more memory-efficient also helps bring complete development environments to more places, including right in your browser.",
-            "To be clear, we are not forking TypeScript. We believe the TypeScript team should remain in full control of the language’s design and direction. They have maintained a long-term vision while guiding TypeScript’s adoption across the JavaScript community. We do not want to change that.",
-            "The TypeScript team can move quite fast on many things, but for some features they may spend years intentionally exploring options and making prototypes before picking the right implementation.",
-            "A Rust port has to follow those decisions closely, or it will eventually fall apart and become incompatible."
           ]
         }
       ]
@@ -151,23 +176,23 @@
           ]
         },
         {
-          "id": "59c87ea544e0e5db",
-          "title": "Introducing full transaction detection for Cloudflare WAF",
-          "excerpt": "Cloudflare's web application firewall can now correlate an HTTP request with its response. Full transaction detection helps every customer find successful exploits, data exposure, and risky misconfigurations that request-only inspection can miss.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/full-transaction-waf/",
-          "publishedAt": "2026-10-21T14:10:42.000Z",
+          "id": "1a543055a02f9816",
+          "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+          "excerpt": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+          "publishedAt": "2026-10-23T00:00:00.000Z",
           "technologies": [
-            "Software Engineering"
+            "OpenAI"
           ],
           "category": "Security",
           "scanMinutes": 1,
           "details": [
-            "Today, we are expanding our web application firewall (WAF) by adding two new capabilities: full transaction detections and response rules.",
-            "Full transaction detections evaluate each HTTP request alongside its response to identify evidence of exploitation.",
-            "It helps answer both \"Does this request look malicious?\" and \"What happened when the application handled it?\" Response rules can then block the origin’s response before it reaches the requester.",
-            "These are valuable protections because the latest frontier models are uncovering vulnerabilities buried deep in widely used software, giving defenders clarity on what to fix - and attackers new paths to exploit.",
-            "The recent php2shell vulnerability shows the stakes: a flaw in a common software component can put applications across the Internet at risk."
+            "OpenAI and Poland’s NASK National Research Institute have signed an agreement to explore collaboration on AI safety, security and technical research.",
+            "The partnership will bring together expertise from both organizations to better understand emerging risks, strengthen safeguards, and explore how advanced AI can contribute to a more secure and resilient digital ecosystem.",
+            "As AI systems become more capable, international collaboration between developers and public research institutions will be essential to understanding their risks and building stronger safeguards.",
+            "OpenAI’s existing work with the US Center for Advancing Standards and Innovation for Super Intelligence (CAISSI), UK AI Security Institute (AISI) and other public research institutions around the world has already helped strengthen safeguards, identify and fix security vulnerabilities in AI agents, and advance frontier AI safety.",
+            "Through the agreement, NASK’s AI Safety Research Center - serving as the Polish Artificial Intelligence Safety Institute (AISI) - and OpenAI will collaborate on AI safety research, exploring ways to evaluate increasingly capable AI systems, identify potential vulnerabilities and strengthen safeguards."
           ]
         }
       ]
@@ -200,6 +225,26 @@
     {
       "name": "Developer Tools",
       "articles": [
+        {
+          "id": "ee4c22366ef7e7ab",
+          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+          "excerpt": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+          "publishedAt": "2026-10-23T17:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "All OpenAI products require fast, reliable access to data, provided by our storage platform, Habitat.",
+            "It has to respond in milliseconds to over 1 billion users across 40 geographic regions.",
+            "Our infrastructure faced an extraordinary challenge: supporting explosive growth and new use cases while continuing to improve reliability, performance, and product developer velocity.",
+            "Solving that challenge required rethinking how our online storage platform was designed and operated.",
+            "We constantly evaluated tradeoffs, following the pattern of: first become reliable enough for mission-critical product traffic, then fast enough for global users, and, finally, to deftly operate at massive scale."
+          ]
+        },
         {
           "id": "891b7e0bbf66f86d",
           "title": "Build more responsive apps with the Decisions API",
@@ -238,26 +283,6 @@
             "Vlad Mihalcea , founder of Hypersistence and author of the book High-Performance Java Persistence",
             "Patrick Baumgartner , software crafter at 42talents with 20+ years of Java experience",
             "Frank Delporte , senior technical writer at Azul and maintainer of Foojay.io with 15+ years of Java experience"
-          ]
-        },
-        {
-          "id": "b1215e1aefc04c61",
-          "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-          "excerpt": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-          "publishedAt": "2026-10-21T13:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Developer Tools",
-          "scanMinutes": 1,
-          "details": [
-            "More than 1.2 billion people use ChatGPT each week to explore ideas, compare options and make decisions.",
-            "Ads can help people discover products and services that fit their needs, including options they might not have found otherwise.",
-            "Since we launched ads just over eight months ago, over 100,000 advertisers have run campaigns on ChatGPT.",
-            "Today, we’re expanding ChatGPT Ads to 26 additional countries, extending availability to 89 countries worldwide.",
-            "This launch builds on our recent expansions across[](https://openai.com/index/chatgpt-ads-expands-across-europe/)Europe and[](https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/)Southeast Asia and Taiwan."
           ]
         }
       ]
