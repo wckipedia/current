@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generatedAt": "2026-10-23T00:00:25.026Z",
+  "generatedAt": "2026-10-23T00:43:00.616Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -50,6 +50,20 @@
           ]
         },
         {
+          "id": "6400feb681472530",
+          "title": "What FDE means at OpenAI",
+          "excerpt": "What forward deployed engineering means at OpenAI",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/forward-deployed-engineering-means",
+          "publishedAt": "2026-10-22T06:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": []
+        },
+        {
           "id": "eda525050cea8fce",
           "title": "Uber brings ChatGPT Work to all employees with OpenAI",
           "excerpt": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
@@ -67,26 +81,6 @@
             "Expanding from an initial pilot of 1,000 employees, the rollout will give teams across Uber access to an agentic platform designed to take on complex, multi-step tasks and deliver finished work.",
             "The expansion makes ChatGPT Work Uber’s first company-wide deployment of an agentic platform tailored for knowledge work.",
             "ChatGPT Work connects with tools companies like Uber use on a daily basis, including Google Drive, Gmail, Google Calendar, and Slack, enabling workers to research information, prepare meeting briefs, create presentations, analyze data and complete workflows across applications."
-          ]
-        },
-        {
-          "id": "3f1a11956436b167",
-          "title": "Broad access through consistent standards",
-          "excerpt": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/broad-access-through-consistent-standards",
-          "publishedAt": "2026-10-21T21:00:00.000Z",
-          "technologies": [
-            "OpenAI"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": [
-            "Over the past few months, we’ve worked with customers and partners to align safety policies across services that provide our models.",
-            "We’re also updating our Usage Policies to make those requirements clearer and easier for developers to follow.",
-            "Models such as GPT‑6 Astra expand what developers and businesses can build.",
-            "As those capabilities grow, we’re working to keep safeguards effective and consistently applied across the services that offer our models.",
-            "Responsibility starts with us Before deploying a model, we evaluate its capabilities and risks, train it to follow safety requirements, and test whether its safeguards hold up when people deliberately try to bypass them."
           ]
         }
       ]
@@ -307,7 +301,7 @@
             "Ads can help people discover products and services that fit their needs, including options they might not have found otherwise.",
             "Since we launched ads just over eight months ago, over 100,000 advertisers have run campaigns on ChatGPT.",
             "Today, we’re expanding ChatGPT Ads to 26 additional countries, extending availability to 89 countries worldwide.",
-            "This launch builds on our recent expansions across[](http://openai.com/index/chatgpt-ads-expands-across-europe/)Europe and[](http://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/)Southeast Asia and Taiwan."
+            "This launch builds on our recent expansions across[](https://openai.com/index/chatgpt-ads-expands-across-europe/)Europe and[](https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/)Southeast Asia and Taiwan."
           ]
         }
       ]
