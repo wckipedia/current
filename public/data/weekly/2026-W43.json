@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "generatedAt": "2026-10-22T00:42:29.843Z",
+  "generatedAt": "2026-10-23T00:00:25.026Z",
   "sections": [
     {
       "name": "AI",
@@ -46,23 +46,23 @@
           ]
         },
         {
-          "id": "3f1a11956436b167",
-          "title": "Broad access through consistent standards",
-          "excerpt": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+          "id": "eda525050cea8fce",
+          "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+          "excerpt": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/broad-access-through-consistent-standards",
-          "publishedAt": "2026-10-21T21:00:00.000Z",
+          "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+          "publishedAt": "2026-10-22T00:00:00.000Z",
           "technologies": [
             "OpenAI"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Over the past few months, we’ve worked with customers and partners to align safety policies across services that provide our models.",
-            "We’re also updating our Usage Policies to make those requirements clearer and easier for developers to follow.",
-            "Models such as GPT‑6 Astra expand what developers and businesses can build.",
-            "As those capabilities grow, we’re working to keep safeguards effective and consistently applied across the services that offer our models.",
-            "Responsibility starts with us Before deploying a model, we evaluate its capabilities and risks, train it to follow safety requirements, and test whether its safeguards hold up when people deliberately try to bypass them."
+            "Uber announced the company-wide rollout of ChatGPT Work, an agent that helps employees take on a wide range of tasks within ChatGPT Enterprise, starting today.",
+            "The rollout will make ChatGPT Work available to more than 30,000 employees across Uber’s global workforce.",
+            "Expanding from an initial pilot of 1,000 employees, the rollout will give teams across Uber access to an agentic platform designed to take on complex, multi-step tasks and deliver finished work.",
+            "The expansion makes ChatGPT Work Uber’s first company-wide deployment of an agentic platform tailored for knowledge work.",
+            "ChatGPT Work connects with tools companies like Uber use on a daily basis, including Google Drive, Gmail, Google Calendar, and Slack, enabling workers to research information, prepare meeting briefs, create presentations, analyze data and complete workflows across applications."
           ]
         }
       ]
@@ -117,6 +117,46 @@
       "name": "Security",
       "articles": [
         {
+          "id": "c10dae251e662270",
+          "title": "How bug bounty sharpens one researcher’s security skills",
+          "excerpt": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
+          "publishedAt": "2026-10-22T17:21:30.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team is excited to spotlight another top-performing security researcher from the GitHub Security Bug Bounty Program: @r31n !",
+            "As home to the world's developers, GitHub is dedicated to the security and reliability of the code behind millions of projects, and our Bug Bounty Program remains a cornerstone of that commitment. Collaboration with external researchers is one of the most effective ways to improve security, and every year, the community helps us identify and fix vulnerabilities that make the platform safer for everyone.",
+            "AI has lowered the barrier to entry and become a genuine force multiplier.",
+            "We use it across our own internal security programs, and we welcome researchers who do the same .",
+            "However, what separates great research has not changed: validation, a working proof of concept, and a clear demonstration of real security impact."
+          ]
+        },
+        {
+          "id": "405699f87f1c0744",
+          "title": "Localizing compliance at scale: achieving South Korea’s ISMS certification",
+          "excerpt": "Cloudflare has achieved South Korea's ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our global security program.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/k-isms/",
+          "publishedAt": "2026-10-22T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "For ten days, auditors appointed by the Korea Internet & Security Agency (KISA) sat together with us and worked through 80 controls. That is what it took for a company headquartered in the United States, operating a global network serving Korean users, to be certified in South Korea. Cloudflare has now obtained South Korea's Information Security Management System (ISMS) certification under the ISMS-P framework .",
+            "For customers in Korea, this is more than a compliance checkbox. It is evidence that Cloudflare's security and privacy program has been examined not only for whether our controls exist, but for how they operate in the context of Korean law, the Korean language, and the particular expectations of Korean regulators.",
+            "A user signing up from South Korea sees something different. The Korean experience is triggered by the country selected at sign-up and by IP geolocation from within South Korea, and it breaks the same agreement into four separately labeled items, each marked required or optional, each linking to its full text, with an option to agree to all of them at once:",
+            "[필수] 개인정보 수집 및 이용 ([Required] Collection and use of personal information)",
+            "[필수] 제한된 범위의 개인정보 해외 이전 ([Required] Transfer of a limited amount of personal information overseas)"
+          ]
+        },
+        {
           "id": "59c87ea544e0e5db",
           "title": "Introducing full transaction detection for Cloudflare WAF",
           "excerpt": "Cloudflare's web application firewall can now correlate an HTTP request with its response. Full transaction detection helps every customer find successful exploits, data exposure, and risky misconfigurations that request-only inspection can miss.",
@@ -134,46 +174,6 @@
             "It helps answer both \"Does this request look malicious?\" and \"What happened when the application handled it?\" Response rules can then block the origin’s response before it reaches the requester.",
             "These are valuable protections because the latest frontier models are uncovering vulnerabilities buried deep in widely used software, giving defenders clarity on what to fix - and attackers new paths to exploit.",
             "The recent php2shell vulnerability shows the stakes: a flaw in a common software component can put applications across the Internet at risk."
-          ]
-        },
-        {
-          "id": "4a59615041b968ae",
-          "title": "Cloudflare deploys protections against php2shell vulnerability",
-          "excerpt": "Cloudflare has deployed default web application firewall (WAF) protections for newly disclosed PHP vulnerabilities before public disclosure. The rules use request and response signals to stop exploit attempts and prevent exposed data from reaching attackers.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
-          "publishedAt": "2026-10-21T13:56:45.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Security",
-          "scanMinutes": 1,
-          "details": [
-            "Today, Calif.io, Wiz, OpenAI and Quarkslab disclosed two vulnerabilities in PHP, tracked as CVE-2026-109618 and CVE-2026-109619 and known as php2shell . The vulnerabilities affect all web servers running PHP 5.4 or later and they may allow an attacker to cause denial of service, remote code execution, and data exposure when an application processes specially crafted HTTP traffic.",
-            "Cloudflare has been part of a coordinated effort to deploy mitigations to protect the Internet, working with PHP foundation , OpenAI and Wiz among others.",
-            "Cloudflare has developed and deployed web application firewall (WAF) protections since early October 2026, which were deployed about 9 hours ahead of public disclosure.",
-            "Starting on October 21 3:02 am UTC, Cloudflare customers using our free or paid WAF were protected by default against php2shell.",
-            "Cloudflare successfully deployed multiple mitigations for all its customers while the vulnerability was leaked before the official release date and we observed attack traffic targeting our customers. We observed how attackers were mutating the attack payload to try to bypass our protections by tracking the volume of matches and cross-referencing with the rule logic."
-          ]
-        },
-        {
-          "id": "de9db6f384cbc788",
-          "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-          "excerpt": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-          "publishedAt": "2026-10-21T07:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Security",
-          "scanMinutes": 1,
-          "details": [
-            "Over the past two months, we led a coalition of maintainers, researchers, and security providers to address critical vulnerabilities in PHP, an open-source programming language used to run websites and web applications.",
-            "Calif identified a critical flaw using GPT‑5.6 Sol as part of our Patch the Planet initiative, with Wiz also independently discovering and reporting both vulnerabilities.",
-            "PHP’s maintainers led the fixes and release, with our teams and partners like Wiz, Cloudflare, and others contributing research, technical support, and coordination to prepare protections ahead of disclosure.",
-            "For organizations using PHP, the priority now is applying the fixes. **We’re sharing a PHP version checker as a Codex skill**to help operators identify potentially vulnerable PHP versions and, alongside PHP’s and their providers’ guidance, determine which updates apply.",
-            "Given the severity of these flaws and PHP’s widespread use, we consider this one of the most impactful security issues in recent memory."
           ]
         }
       ]
@@ -206,6 +206,26 @@
     {
       "name": "Developer Tools",
       "articles": [
+        {
+          "id": "891b7e0bbf66f86d",
+          "title": "Build more responsive apps with the Decisions API",
+          "excerpt": "Fast, focused, low-cost decisions for any application.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/decisions-api",
+          "publishedAt": "2026-10-22T19:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Applications and agents make many small decisions throughout a workflow: how to classify an input, where to route a request, or which action to take next.",
+            "Today, we’re making the Decisions API generally available.",
+            "Built with GPT‑6 Luna, the Decisions API focuses Luna’s intelligence on questions with bounded answers, helping applications and agents make near real-time decisions from text, images, and structured inputs up to 10x faster than GPT‑6 Luna through the Responses API.",
+            "Since public beta, we’ve added a native GPT‑Live integration, prompt caching for reused context, and inference residency in the US and EU.",
+            "Developers can also pass native JSON inputs, include images in question instructions, and ask up to 400 questions per request, twice the previous limit."
+          ]
+        },
         {
           "id": "806b1f92932cb664",
           "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
@@ -244,26 +264,6 @@
             "Since we launched ads just over eight months ago, over 100,000 advertisers have run campaigns on ChatGPT.",
             "Today, we’re expanding ChatGPT Ads to 26 additional countries, extending availability to 89 countries worldwide.",
             "This launch builds on our recent expansions across[](http://openai.com/index/chatgpt-ads-expands-across-europe/)Europe and[](http://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/)Southeast Asia and Taiwan."
-          ]
-        },
-        {
-          "id": "377b59f097432230",
-          "title": "Staying Evergreen: How we automated secure access and repo hygiene in a shared org",
-          "excerpt": "Put native GitHub features to work to review outside collaborator access and archive stale repositories. The post Staying Evergreen: How we automated secure access and repo hygiene in a shared org appeared first on The GitHub Blog .",
-          "source": "GitHub Blog",
-          "url": "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/",
-          "publishedAt": "2026-10-15T18:00:00.000Z",
-          "technologies": [
-            "GitHub"
-          ],
-          "category": "Developer Tools",
-          "scanMinutes": 1,
-          "details": [
-            "Working with outside collaborators can add more work for a repository owner. You need to confirm who still needs access, change permissions as projects evolve, and archive repositories once they've served their purpose.",
-            "To keep up, repository owners need to track collaborators, deadlines, and follow-ups for each repository. As a project grows, that manual housekeeping becomes harder to keep up with and easier to defer.",
-            "We faced this problem in a shared organization where GitHub employees (\"Hubbers\") collaborate with customers and partners on product trials and professional services engagements. Our answer was Evergreen , a GitHub App built with native GitHub features. The workflows below exhibit a pattern you can adapt for your own organization.",
-            "Evergreen is a GitHub App that automates organization hygiene through two workflows:",
-            "Outside collaborator access reviews. Every quarter, each repo's outside collaborators are reviewed. Keep who you need, and everyone else is removed."
           ]
         }
       ]
