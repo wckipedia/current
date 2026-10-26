@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "generatedAt": "2026-10-25T23:16:51.559Z",
+  "generatedAt": "2026-10-26T00:25:39.702Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -86,7 +86,7 @@
             "What we learn helps shape our products and gives Research concrete problems to solve.",
             "If we make ourselves obsolete every couple of months, our FDE team is doing its job.",
             "I founded the team in early 2025 to close what we call**“the deployment gap”:**the distance between what models appear capable of and what people can reliably use to do their work.",
-            "Deployment gap diagram showing the gap between available AI intelligence and business value."
+            "Model capabilities have moved faster than the systems and processes needed to put them to use."
           ]
         }
       ]
