@@ -1,0 +1,341 @@
+{
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T00:26:08.235Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
+  "sections": [
+    {
+      "name": "AI",
+      "articles": [
+        {
+          "id": "e77549dba84aa9c3",
+          "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+          "excerpt": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+          "publishedAt": "2026-10-26T22:01:23.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "On September 8, 2026, we were alerted by a security researcher, Gadi Evron from Knostic, to a tenant isolation issue affecting the GLM-5.3 Workers AI model ( @cf/zai-org/glm-5.3 ) starting on August 27, 2026. We have remediated the issue, and we restored the model on September 9. We have confirmed that no other model hosted on Workers AI was affected.",
+            "Between August 27 and September 9, a small number of customers using the GLM 5.3 Workers AI model received responses that contained data from other customers' requests made to the same model shortly before theirs. In total, 155 responses were affected, all to prompts longer than 681,280 tokens.",
+            "After excluding our own testing and the researcher's, the requests we identified are consistent in timing and volume with ordinary long-context use, not with someone repeatedly exploiting the bug. We found no evidence of deliberate exploitation.",
+            "Today we are publishing this report alongside a post from SGLang, the open-source inference engine that we use, as a coordinated disclosure. This post describes the bug that caused this issue, our response timeline, and the subsequent hardening we have conducted on our production SGLang deployments. We also detail our continued efforts with the upstream maintainers of SGLang to address this and similar bugs.",
+            "GLM is a text generation model from Z.ai that is built for agentic coding workflows; it is one of the many models available through Workers AI."
+          ]
+        },
+        {
+          "id": "8eb6001a836a6e50",
+          "title": "Working with academic communities to build scientific understanding",
+          "excerpt": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+          "publishedAt": "2026-10-26T14:30:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "We are announcing three new discoveries in mathematics, computer science, and physics about harmonic analysis, complexity theory, and quantum field theory.",
+            "Our release process continues to evolve in response to feedback from the associated academic communities.",
+            "In our view, these manuscripts are best understood as a form of raw research data.",
+            "To convert this raw research data into scientific understanding, in this release we are experimenting with a new approach.",
+            "We reached out to external experts and asked them to act as shepherds, organizing groups to understand the new results."
+          ]
+        },
+        {
+          "id": "27334100e818b985",
+          "title": "ChatGPT’s expanding world of work",
+          "excerpt": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+          "publishedAt": "2026-10-26T10:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Today, we are releasing OpenAI Signals data that explores 165 work activities across nearly 100 countries, revealing how consumers use ChatGPT for work.",
+            "This data gives researchers a new way to study AI’s role in the economy, with new information on the work activities people bring to ChatGPT-from preparing instructional materials and developing marketing content to programming and analyzing business data.",
+            "Researchers can use this data to explore how ChatGPT use for work differs across countries, track changes over time, and match this data to other economic indicators.",
+            "The release connects ChatGPT usage to 165 work activity categories called Intermediate Work Activities (IWAs).",
+            "IWAs are commonly-used categories of tasks for the kinds of work people do across occupations."
+          ]
+        },
+        {
+          "id": "7e73eebe3e909303",
+          "title": "How Fanatics and OpenAI streamline the fan experience",
+          "excerpt": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+          "publishedAt": "2026-10-26T07:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Fanatics and OpenAI are collaborating to improve the fan experience.",
+            "As part of that work, Fanatics is launching an OpenAI-powered version of Shop the Look, which uses AI models to recommend coordinated merchandise to help fans complete their game-day outfits.",
+            "Fanatics, a global digital sports platform, uses ChatGPT Work and Codex across Fanatics Corporate, Commerce, Collectibles, and Betting and Gaming. !Image 1: Two mobile devices show a Shohei Ohtani Dodgers jersey product page on the left and Fanatics’ Shop the Look merchandise recommendations on the right, over navy jersey mesh.",
+            "Helping fans complete the look Shop the Look is now live across many sites across the Fanatics network-including Fanatics.com and the official NFL, NBA, MLB and NHL online stores.",
+            "With it, fans can more easily find recommended merchandise to match with items they’re looking to wear."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "articles": [
+        {
+          "id": "60f970e1df3b48e3",
+          "title": "Origin Range Requests: Serving large files without range-request tuning",
+          "excerpt": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/origin-range-requests/",
+          "publishedAt": "2026-10-23T18:22:59.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "A video player seeking to the middle of a movie asks for a few megabytes.",
+            "Under our old range caching, that one request could make Cloudflare pull 128 MiB from the origin and move it between data centers, sometimes after the viewer had already left.",
+            "Range requests are how large files get delivered, and caching them naively easily leads to wasted network bandwidth and wasted disk operations when running a CDN at scale.",
+            "So we rebuilt how our cache handles them. For R2, Cloudflare's object storage, p99 time to first byte dropped by about half, and a follow-up improvement cut tiered cache traffic for R2 and similar workloads by about 6%.",
+            "Today, we're making that new implementation available as Origin Range Requests , a self-service feature on all plans. There's no range size to tune and no need to contact support. Turn it on with a Cache Rule , and Cloudflare handles the rest."
+          ]
+        },
+        {
+          "id": "70bdd870b2ac82df",
+          "title": "Bringing post-quantum cryptography to geographically fenced key management",
+          "excerpt": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict data sovereignty in a post-quantum world.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
+          "publishedAt": "2026-10-23T18:06:56.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Today, Cloudflare is launching a post-quantum geographically restricted key manager in support of our Data Localization Suite (DLS) in closed beta.",
+            "This new PQ GeoKey Manager is a cornerstone of Cloudflare’s data sovereignty solutions, making sure that a customer's decryption keys are only accessible in their chosen geography.",
+            "GeoKey Manager implements this by wrapping each decryption key such that it can only be decrypted by Cloudflare servers that are located in the allowed geography.",
+            "While general availability (GA) is planned for Q1 2027, today’s launch is an important milestone on our journey to support our customers’ data sovereignty goals while also migrating all Cloudflare products to post-quantum (PQ) cryptography .",
+            "Governments, financial institutions, healthcare providers, and defense organizations process highly sensitive data that can remain sensitive for years or decades after it is produced."
+          ]
+        },
+        {
+          "id": "c78cf468160e1a45",
+          "title": "8 eMudhra certificates are compromised. Here's what you need to know",
+          "excerpt": "Following the discovery that eight eMudhra intermediate certificates use weak keys, Cloudflare is deploying mitigations and releasing client updates. We explain the impact, our response, and what customers and developers should do next.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
+          "publishedAt": "2026-10-20T22:20:16.000Z",
+          "technologies": [
+            "Next.js"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "On October 19, 2026, at approximately 17:00 UTC, Cloudflare became aware that private keys associated with eight eMudhra intermediate certificates were compromised.",
+            "These certificates were widely trusted by browsers, operating systems, and also within Cloudflare.",
+            "Because the keys themselves are weak, an attacker can create a forged certificate for any domain and use it to impersonate servers to intercept or modify traffic.",
+            "This is a serious security incident with implications across the Internet.",
+            "For reference, here is a link to more information about how SSL certificates work and why they are so critical to the operation of the Internet."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "articles": [
+        {
+          "id": "2cc502820f324a57",
+          "title": "PHP2Shell and eMudhra Patched",
+          "excerpt": "PHP2Shell and the eMudhra certificate compromise landed in the same week. Docker published a fixed PHP image within 24 hours and rebuilt the trust store across the catalog.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/php2shell-and-emudhra-patched/",
+          "publishedAt": "2026-10-23T13:08:08.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Two security events landed side by side this week, PHP2Shell and the eMudhra certificate compromise. Both reached the same place, the foundation their applications are built on.",
+            "PHP2Shell is a pair of critical flaws in the PHP engine itself, CVE-2026-109618 and CVE-2026-109619. They let an unauthenticated request become code execution on the server, on any PHP application, however careful its own code is, and PHP runs about 69% of the websites whose server-side language is known.",
+            "Eight intermediate certificates from the certificate authority eMudhra turned out to have private keys that can be computed from the public certificates, which let anyone issue a certificate for any website and have it accepted.",
+            "Browsers revoke certificates like these on their own, but a container image carries its own trust store and keeps trusting them until it is rebuilt.",
+            "The dhi.io/php image was rebuilt on the patched PHP and published early on October 22, within 24 hours of the upstream release and after the DHI testing and verification steps. Pulling the current tag puts you on the fixed version. The few DHI images that bundle their own PHP application, such as composer and nextcloud, follow as their upstream projects release."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "articles": [
+        {
+          "id": "a9c488820a62ac4a",
+          "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+          "excerpt": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/greptile-code-review-codex-astra",
+          "publishedAt": "2026-10-26T22:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Greptile builds AI agents that review and test code changes with full context of the codebase.",
+            "“We are in the business of reducing bugs and making the world’s software more reliable,” says Co-founder and CEO Daksh Gupta.",
+            "For Daksh, that mission requires testing an application’s behavior as well as reading its code, and GPT‑6 Astra’s computer use gives Greptile a way to automate testing at scale.",
+            "Testing applications at scale with GPT‑6 Astra Validating a pull request involves checking whether the code is logically correct, does what the developer intended, is secure, and avoids breaking existing functionality.",
+            "For some of that testing, you need to actually run the application because reading the code alone might not reveal the problem."
+          ]
+        },
+        {
+          "id": "7d972df501d01ba1",
+          "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+          "excerpt": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+          "publishedAt": "2026-10-26T13:45:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "As AI accelerates software development, engineering and application-security teams need ways to investigate code changes and address vulnerabilities while keeping people in control.",
+            "CodeRabbit is using GPT‑6.1 Sol as the primary model in its security agent to extend review beyond individual changes and help developers understand risks across complex codebases.",
+            "A pull request can affect shared libraries, dependencies and safeguards elsewhere in an application.",
+            "GPT‑6.1 Sol helps CodeRabbit connect behavior across files and components to surface potential security issues.",
+            "CodeRabbit’s review is independent of the agent that wrote the code and complements established scanners."
+          ]
+        },
+        {
+          "id": "742d30efdc4090c1",
+          "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+          "excerpt": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/openai-cut-incident-investigation",
+          "publishedAt": "2026-10-26T07:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "_This is part of our series sharing internal examples of how OpenAI is using its own technology and APIs.",
+            "These tools are being used internally, at OpenAI, and are shared here as illustrative examples of how frontier AI is supporting use cases across our teams._ Ultrafast is a high-speed mode in Codex, and for engineers at OpenAI, it’s become the default for incident response.",
+            "When something breaks, engineers often don’t have time to wait minutes for an answer while the issue compounds.",
+            "With Ultrafast, they can investigate multiple potential causes at once and get answers without splitting their attention.",
+            "Finding the needle in the haystack Aaron Friel, Member of the Technical Staff at OpenAI, is usually the one running point on an incident."
+          ]
+        },
+        {
+          "id": "c10dae251e662270",
+          "title": "How bug bounty sharpens one researcher’s security skills",
+          "excerpt": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
+          "publishedAt": "2026-10-22T17:21:30.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team is excited to spotlight another top-performing security researcher from the GitHub Security Bug Bounty Program: @r31n !",
+            "As home to the world's developers, GitHub is dedicated to the security and reliability of the code behind millions of projects, and our Bug Bounty Program remains a cornerstone of that commitment. Collaboration with external researchers is one of the most effective ways to improve security, and every year, the community helps us identify and fix vulnerabilities that make the platform safer for everyone.",
+            "AI has lowered the barrier to entry and become a genuine force multiplier.",
+            "We use it across our own internal security programs, and we welcome researchers who do the same .",
+            "However, what separates great research has not changed: validation, a working proof of concept, and a clear demonstration of real security impact."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Languages",
+      "articles": [
+        {
+          "id": "d7f0690de09af5c4",
+          "title": "How to fund Rust contributors",
+          "excerpt": "TLDR: To fund general maintenance, donate to the Rust Foundation Maintainers Fund or sponsor the RustNL Maintainers Team To fund specific features and improvements, sponsor fundable Rust Project Goals To fund individual contributors, donate to their GitHub Sponsors accounts There is always so much to do in…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/10/26/how-to-fund-rust-contributors/",
+          "publishedAt": "2026-10-26T00:00:00.000Z",
+          "technologies": [
+            "Rust",
+            "GitHub"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "To fund general maintenance, donate to the Rust Foundation Maintainers Fund or sponsor the RustNL Maintainers Team",
+            "To fund specific features and improvements, sponsor fundable Rust Project Goals",
+            "To fund individual contributors, donate to their GitHub Sponsors accounts",
+            "There is always so much to do in the Rust Project! New features to implement, bugs to fix, performance optimizations to make, issues to triage… It takes a lot of work to keep our high bar of quality while also shipping new features and improvements. And the workload keeps increasing with the continuous growth of Rust adoption.",
+            "As is unfortunately common in open source projects, a large fraction of that work is currently done by volunteers. That causes various issues, such as people burning out or complex features taking many years to ship."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "articles": [
+        {
+          "id": "ee4c22366ef7e7ab",
+          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+          "excerpt": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+          "publishedAt": "2026-10-23T17:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "All OpenAI products require fast, reliable access to data, provided by our storage platform, Habitat.",
+            "It has to respond in milliseconds to over 1 billion users across 40 geographic regions.",
+            "Our infrastructure faced an extraordinary challenge: supporting explosive growth and new use cases while continuing to improve reliability, performance, and product developer velocity.",
+            "Solving that challenge required rethinking how our online storage platform was designed and operated.",
+            "We constantly evaluated tradeoffs, following the pattern of: first become reliable enough for mission-critical product traffic, then fast enough for global users, and, finally, to deftly operate at massive scale."
+          ]
+        },
+        {
+          "id": "806b1f92932cb664",
+          "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+          "excerpt": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+          "publishedAt": "2026-10-20T16:05:03.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "AI coding tools can generate code quickly, but speed alone does not solve the hardest software engineering problems. Developers still need to provide context, validate results, protect maintainability, and remain accountable for what ships.",
+            "To learn how experienced developers strike that balance, we spoke with three Java Champions, all with over a decade of experience in using Java. They shared concrete examples of using GitHub Copilot in production and open source, along with the practices they use to turn AI-generated output into reliable software.",
+            "Vlad Mihalcea , founder of Hypersistence and author of the book High-Performance Java Persistence",
+            "Patrick Baumgartner , software crafter at 42talents with 20+ years of Java experience",
+            "Frank Delporte , senior technical writer at Azul and maintainer of Foojay.io with 15+ years of Java experience"
+          ]
+        }
+      ]
+    }
+  ]
+}

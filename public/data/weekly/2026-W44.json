@@ -1,68 +1,68 @@
 {
   "week": "2026-W44",
-  "generatedAt": "2026-10-26T00:25:39.702Z",
+  "generatedAt": "2026-10-27T00:26:08.235Z",
   "sections": [
     {
       "name": "AI",
       "articles": [
         {
-          "id": "f8c156dba7886826",
-          "title": "Securing our frontier model training environment",
-          "excerpt": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-          "publishedAt": "2026-10-23T10:00:00.000Z",
-          "technologies": [
-            "OpenAI"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": [
-            "_This post describes how we secure the environments that we use to train and evaluate frontier models.",
-            "These research settings differ from those in which customers use our released models: models in development may not yet have completed safety and alignment training, and we deliberately test them under adversarial conditions to expose weaknesses.",
-            "Before making models available for broader use, we conduct safety and alignment assessments and put production safeguards in place._ In order to work with software, AI models need computing environments: digital workspaces where they can write and run code, search for information, and attempt different approaches to solving problems.",
-            "These environments allow models to practice these skills, while also restricting what they can access or do-helping contain the consequences when models make mistakes or exhibit misaligned behavior.",
-            "But as models become more capable, they become better at finding ways around those limits."
-          ]
-        },
-        {
-          "id": "4ba30d9b0c538cac",
-          "title": "The bridge to agent-scale Git infrastructure",
-          "excerpt": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog .",
-          "source": "GitHub Blog",
-          "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
-          "publishedAt": "2026-10-21T16:00:00.000Z",
-          "technologies": [
-            "GitHub"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": [
-            "Over the past year, while Git traffic grew exponentially, 99.99999% of the Git repositories on GitHub began living in two places at once: our own data centers and Azure. The rest are among the busiest on the platform, and they're held back by just one thing: a 25ms round trip.",
-            "In an earlier blog post , we laid out the two principles behind our next-generation storage architecture:",
-            "In this post, we'll look at the immediate bridge between our old design and our new one. We'll talk about how a change to the way our quorum serializes writes gets the busiest repositories into Azure, and how that same step opens the door to replicas that keep no persistent state of their own.",
-            "The timing and shape of the move were driven by the agentic shift: rapidly growing traffic, a hard ceiling on the power capacity of our data centers and the surrounding geographical region, and physical supply chain constraints. At the beginning of our migration, the remaining capacity with all possible expansion gave us enough time to migrate safely, but not enough to do it slowly.",
-            "While we had prototyped new architectural approaches for scaling Git on cloud infrastructure, changing the storage architecture and the hosting platform at the same time, under that growth, carried too much risk. Given our scale and how critical the service is to the community, we needed to sequence the work carefully: move the data first, then evolve the architecture once it arrived."
-          ]
-        },
-        {
-          "id": "1c5f83daf4c5b5dc",
-          "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
-          "excerpt": "Almost 100,000 Commerce.com domains now give AI agents real shopping tools through WebMCP on Cloudflare. Here's how we turned it on across every store at once, while keeping each merchant in control.",
+          "id": "e77549dba84aa9c3",
+          "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+          "excerpt": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
           "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/webmcp-commerce/",
-          "publishedAt": "2026-10-21T13:00:00.000Z",
+          "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+          "publishedAt": "2026-10-26T22:01:23.000Z",
           "technologies": [
             "Software Engineering"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "AI can write code and pass the bar exam, but it still struggles to buy a pair of shoes online.",
-            "That’s because websites were built for humans, not agents. Most agents that shop for someone today work from a site’s HTML - they look at the page, guess which button does what, click, and try again when they get it wrong. This process is slow, uses a lot of tokens, and something as seemingly innocuous as a theme change can break it.",
-            "Enter WebMCP: a browser standard from Google that gives AI agents structured tools on a page, like search_products .",
-            "Instead of hunting for buttons, the agent calls the exact tool it needs directly, making shopping faster, cheaper, and far more reliable.",
-            "Because WebMCP is still an experimental proposed browser standard in early preview, it’s currently available behind experimental Chrome flags ( chrome://flags/#enable-webmcp-testing ), in Chrome Origin Trials, in some agentic browsers, and across developer environments like Cloudflare Kitesurf ."
+            "On September 8, 2026, we were alerted by a security researcher, Gadi Evron from Knostic, to a tenant isolation issue affecting the GLM-5.3 Workers AI model ( @cf/zai-org/glm-5.3 ) starting on August 27, 2026. We have remediated the issue, and we restored the model on September 9. We have confirmed that no other model hosted on Workers AI was affected.",
+            "Between August 27 and September 9, a small number of customers using the GLM 5.3 Workers AI model received responses that contained data from other customers' requests made to the same model shortly before theirs. In total, 155 responses were affected, all to prompts longer than 681,280 tokens.",
+            "After excluding our own testing and the researcher's, the requests we identified are consistent in timing and volume with ordinary long-context use, not with someone repeatedly exploiting the bug. We found no evidence of deliberate exploitation.",
+            "Today we are publishing this report alongside a post from SGLang, the open-source inference engine that we use, as a coordinated disclosure. This post describes the bug that caused this issue, our response timeline, and the subsequent hardening we have conducted on our production SGLang deployments. We also detail our continued efforts with the upstream maintainers of SGLang to address this and similar bugs.",
+            "GLM is a text generation model from Z.ai that is built for agentic coding workflows; it is one of the many models available through Workers AI."
+          ]
+        },
+        {
+          "id": "8eb6001a836a6e50",
+          "title": "Working with academic communities to build scientific understanding",
+          "excerpt": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+          "publishedAt": "2026-10-26T14:30:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "We are announcing three new discoveries in mathematics, computer science, and physics about harmonic analysis, complexity theory, and quantum field theory.",
+            "Our release process continues to evolve in response to feedback from the associated academic communities.",
+            "In our view, these manuscripts are best understood as a form of raw research data.",
+            "To convert this raw research data into scientific understanding, in this release we are experimenting with a new approach.",
+            "We reached out to external experts and asked them to act as shepherds, organizing groups to understand the new results."
+          ]
+        },
+        {
+          "id": "27334100e818b985",
+          "title": "ChatGPT’s expanding world of work",
+          "excerpt": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+          "publishedAt": "2026-10-26T10:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Today, we are releasing OpenAI Signals data that explores 165 work activities across nearly 100 countries, revealing how consumers use ChatGPT for work.",
+            "This data gives researchers a new way to study AI’s role in the economy, with new information on the work activities people bring to ChatGPT-from preparing instructional materials and developing marketing content to programming and analyzing business data.",
+            "Researchers can use this data to explore how ChatGPT use for work differs across countries, track changes over time, and match this data to other economic indicators.",
+            "The release connects ChatGPT usage to 165 work activity categories called Intermediate Work Activities (IWAs).",
+            "IWAs are commonly-used categories of tasks for the kinds of work people do across occupations."
           ]
         }
       ]
@@ -133,66 +133,91 @@
       ]
     },
     {
+      "name": "DevOps",
+      "articles": [
+        {
+          "id": "2cc502820f324a57",
+          "title": "PHP2Shell and eMudhra Patched",
+          "excerpt": "PHP2Shell and the eMudhra certificate compromise landed in the same week. Docker published a fixed PHP image within 24 hours and rebuilt the trust store across the catalog.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/php2shell-and-emudhra-patched/",
+          "publishedAt": "2026-10-23T13:08:08.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Two security events landed side by side this week, PHP2Shell and the eMudhra certificate compromise. Both reached the same place, the foundation their applications are built on.",
+            "PHP2Shell is a pair of critical flaws in the PHP engine itself, CVE-2026-109618 and CVE-2026-109619. They let an unauthenticated request become code execution on the server, on any PHP application, however careful its own code is, and PHP runs about 69% of the websites whose server-side language is known.",
+            "Eight intermediate certificates from the certificate authority eMudhra turned out to have private keys that can be computed from the public certificates, which let anyone issue a certificate for any website and have it accepted.",
+            "Browsers revoke certificates like these on their own, but a container image carries its own trust store and keeps trusting them until it is rebuilt.",
+            "The dhi.io/php image was rebuilt on the patched PHP and published early on October 22, within 24 hours of the upstream release and after the DHI testing and verification steps. Pulling the current tag puts you on the fixed version. The few DHI images that bundle their own PHP application, such as composer and nextcloud, follow as their upstream projects release."
+          ]
+        }
+      ]
+    },
+    {
       "name": "Security",
       "articles": [
         {
-          "id": "c10dae251e662270",
-          "title": "How bug bounty sharpens one researcher’s security skills",
-          "excerpt": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog .",
-          "source": "GitHub Blog",
-          "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
-          "publishedAt": "2026-10-22T17:21:30.000Z",
-          "technologies": [
-            "GitHub"
-          ],
-          "category": "Security",
-          "scanMinutes": 1,
-          "details": [
-            "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team is excited to spotlight another top-performing security researcher from the GitHub Security Bug Bounty Program: @r31n !",
-            "As home to the world's developers, GitHub is dedicated to the security and reliability of the code behind millions of projects, and our Bug Bounty Program remains a cornerstone of that commitment. Collaboration with external researchers is one of the most effective ways to improve security, and every year, the community helps us identify and fix vulnerabilities that make the platform safer for everyone.",
-            "AI has lowered the barrier to entry and become a genuine force multiplier.",
-            "We use it across our own internal security programs, and we welcome researchers who do the same .",
-            "However, what separates great research has not changed: validation, a working proof of concept, and a clear demonstration of real security impact."
-          ]
-        },
-        {
-          "id": "405699f87f1c0744",
-          "title": "Localizing compliance at scale: achieving South Korea’s ISMS certification",
-          "excerpt": "Cloudflare has achieved South Korea's ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our global security program.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/k-isms/",
-          "publishedAt": "2026-10-22T13:00:00.000Z",
+          "id": "a9c488820a62ac4a",
+          "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+          "excerpt": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/greptile-code-review-codex-astra",
+          "publishedAt": "2026-10-26T22:00:00.000Z",
           "technologies": [
             "Software Engineering"
           ],
           "category": "Security",
           "scanMinutes": 1,
           "details": [
-            "For ten days, auditors appointed by the Korea Internet & Security Agency (KISA) sat together with us and worked through 80 controls. That is what it took for a company headquartered in the United States, operating a global network serving Korean users, to be certified in South Korea. Cloudflare has now obtained South Korea's Information Security Management System (ISMS) certification under the ISMS-P framework .",
-            "For customers in Korea, this is more than a compliance checkbox. It is evidence that Cloudflare's security and privacy program has been examined not only for whether our controls exist, but for how they operate in the context of Korean law, the Korean language, and the particular expectations of Korean regulators.",
-            "A user signing up from South Korea sees something different. The Korean experience is triggered by the country selected at sign-up and by IP geolocation from within South Korea, and it breaks the same agreement into four separately labeled items, each marked required or optional, each linking to its full text, with an option to agree to all of them at once:",
-            "[필수] 개인정보 수집 및 이용 ([Required] Collection and use of personal information)",
-            "[필수] 제한된 범위의 개인정보 해외 이전 ([Required] Transfer of a limited amount of personal information overseas)"
+            "Greptile builds AI agents that review and test code changes with full context of the codebase.",
+            "“We are in the business of reducing bugs and making the world’s software more reliable,” says Co-founder and CEO Daksh Gupta.",
+            "For Daksh, that mission requires testing an application’s behavior as well as reading its code, and GPT‑6 Astra’s computer use gives Greptile a way to automate testing at scale.",
+            "Testing applications at scale with GPT‑6 Astra Validating a pull request involves checking whether the code is logically correct, does what the developer intended, is secure, and avoids breaking existing functionality.",
+            "For some of that testing, you need to actually run the application because reading the code alone might not reveal the problem."
           ]
         },
         {
-          "id": "1a543055a02f9816",
-          "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-          "excerpt": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+          "id": "7d972df501d01ba1",
+          "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+          "excerpt": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-          "publishedAt": "2026-10-23T00:00:00.000Z",
+          "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+          "publishedAt": "2026-10-26T13:45:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "As AI accelerates software development, engineering and application-security teams need ways to investigate code changes and address vulnerabilities while keeping people in control.",
+            "CodeRabbit is using GPT‑6.1 Sol as the primary model in its security agent to extend review beyond individual changes and help developers understand risks across complex codebases.",
+            "A pull request can affect shared libraries, dependencies and safeguards elsewhere in an application.",
+            "GPT‑6.1 Sol helps CodeRabbit connect behavior across files and components to surface potential security issues.",
+            "CodeRabbit’s review is independent of the agent that wrote the code and complements established scanners."
+          ]
+        },
+        {
+          "id": "742d30efdc4090c1",
+          "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+          "excerpt": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/openai-cut-incident-investigation",
+          "publishedAt": "2026-10-26T07:00:00.000Z",
           "technologies": [
             "OpenAI"
           ],
           "category": "Security",
           "scanMinutes": 1,
           "details": [
-            "OpenAI and Poland’s NASK National Research Institute have signed an agreement to explore collaboration on AI safety, security and technical research.",
-            "The partnership will bring together expertise from both organizations to better understand emerging risks, strengthen safeguards, and explore how advanced AI can contribute to a more secure and resilient digital ecosystem.",
-            "As AI systems become more capable, international collaboration between developers and public research institutions will be essential to understanding their risks and building stronger safeguards.",
-            "OpenAI’s existing work with the US Center for Advancing Standards and Innovation for Super Intelligence (CAISSI), UK AI Security Institute (AISI) and other public research institutions around the world has already helped strengthen safeguards, identify and fix security vulnerabilities in AI agents, and advance frontier AI safety.",
-            "Through the agreement, NASK’s AI Safety Research Center - serving as the Polish Artificial Intelligence Safety Institute (AISI) - and OpenAI will collaborate on AI safety research, exploring ways to evaluate increasingly capable AI systems, identify potential vulnerabilities and strengthen safeguards."
+            "_This is part of our series sharing internal examples of how OpenAI is using its own technology and APIs.",
+            "These tools are being used internally, at OpenAI, and are shared here as illustrative examples of how frontier AI is supporting use cases across our teams._ Ultrafast is a high-speed mode in Codex, and for engineers at OpenAI, it’s become the default for incident response.",
+            "When something breaks, engineers often don’t have time to wait minutes for an answer while the issue compounds.",
+            "With Ultrafast, they can investigate multiple potential causes at once and get answers without splitting their attention.",
+            "Finding the needle in the haystack Aaron Friel, Member of the Technical Staff at OpenAI, is usually the one running point on an incident."
           ]
         }
       ]
@@ -201,23 +226,24 @@
       "name": "Languages",
       "articles": [
         {
-          "id": "f4b372c09c603dbf",
-          "title": "Announcing rustup 1.29.2",
-          "excerpt": "The rustup team is happy to announce the release of rustup version 1.29.2. Rustup is the recommended tool to install Rust , a programming language that empowers everyone to build reliable and efficient software. What's new in rustup 1.29.2 This is a small release which only updates the rustls-webpki and…",
+          "id": "d7f0690de09af5c4",
+          "title": "How to fund Rust contributors",
+          "excerpt": "TLDR: To fund general maintenance, donate to the Rust Foundation Maintainers Fund or sponsor the RustNL Maintainers Team To fund specific features and improvements, sponsor fundable Rust Project Goals To fund individual contributors, donate to their GitHub Sponsors accounts There is always so much to do in…",
           "source": "Rust Blog",
-          "url": "https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/",
-          "publishedAt": "2026-10-20T00:00:00.000Z",
+          "url": "https://blog.rust-lang.org/2026/10/26/how-to-fund-rust-contributors/",
+          "publishedAt": "2026-10-26T00:00:00.000Z",
           "technologies": [
-            "Rust"
+            "Rust",
+            "GitHub"
           ],
           "category": "Languages",
           "scanMinutes": 1,
           "details": [
-            "The rustup team is happy to announce the release of rustup version 1.29.2.",
-            "Rustup is the recommended tool to install Rust , a programming language that empowers everyone to build reliable and efficient software.",
-            "This is a small release which only updates the rustls-webpki and webpki-root-certs dependencies to address the problematic eMudhra intermediate certificates issue described in CVE-2026-111943 .",
-            "If you have a previous version of rustup installed, getting the new one is as easy as stopping any programs which may be using rustup (e.g. closing your IDE) and running:",
-            "Rustup will also automatically update itself at the end of a normal toolchain update:"
+            "To fund general maintenance, donate to the Rust Foundation Maintainers Fund or sponsor the RustNL Maintainers Team",
+            "To fund specific features and improvements, sponsor fundable Rust Project Goals",
+            "To fund individual contributors, donate to their GitHub Sponsors accounts",
+            "There is always so much to do in the Rust Project! New features to implement, bugs to fix, performance optimizations to make, issues to triage… It takes a lot of work to keep our high bar of quality while also shipping new features and improvements. And the workload keeps increasing with the continuous growth of Rust adoption.",
+            "As is unfortunately common in open source projects, a large fraction of that work is currently done by volunteers. That causes various issues, such as people burning out or complex features taking many years to ship."
           ]
         }
       ]
@@ -243,26 +269,6 @@
             "Our infrastructure faced an extraordinary challenge: supporting explosive growth and new use cases while continuing to improve reliability, performance, and product developer velocity.",
             "Solving that challenge required rethinking how our online storage platform was designed and operated.",
             "We constantly evaluated tradeoffs, following the pattern of: first become reliable enough for mission-critical product traffic, then fast enough for global users, and, finally, to deftly operate at massive scale."
-          ]
-        },
-        {
-          "id": "891b7e0bbf66f86d",
-          "title": "Build more responsive apps with the Decisions API",
-          "excerpt": "Fast, focused, low-cost decisions for any application.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/decisions-api",
-          "publishedAt": "2026-10-22T19:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Developer Tools",
-          "scanMinutes": 1,
-          "details": [
-            "Applications and agents make many small decisions throughout a workflow: how to classify an input, where to route a request, or which action to take next.",
-            "Today, we’re making the Decisions API generally available.",
-            "Built with GPT‑6 Luna, the Decisions API focuses Luna’s intelligence on questions with bounded answers, helping applications and agents make near real-time decisions from text, images, and structured inputs up to 10x faster than GPT‑6 Luna through the Responses API.",
-            "Since public beta, we’ve added a native GPT‑Live integration, prompt caching for reused context, and inference residency in the US and EU.",
-            "Developers can also pass native JSON inputs, include images in question instructions, and ask up to 400 questions per request, twice the previous limit."
           ]
         },
         {
