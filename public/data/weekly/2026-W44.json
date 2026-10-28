@@ -1,6 +1,6 @@
 {
   "week": "2026-W44",
-  "generatedAt": "2026-10-27T01:30:25.398Z",
+  "generatedAt": "2026-10-28T00:31:58.877Z",
   "sections": [
     {
       "name": "AI",
@@ -18,7 +18,7 @@
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "On September 8, 2026, we were alerted by a security researcher, Gadi Evron from Knostic, to a tenant isolation issue affecting the GLM-5.3 Workers AI model ( @cf/zai-org/glm-5.3 ) starting on August 27, 2026. We have remediated the issue, and we restored the model on September 9. We have confirmed that no other model hosted on Workers AI was affected.",
+            "On September 8, 2026, we were alerted by a security researcher, Gadi Evron from Knostic , to a tenant isolation issue affecting the GLM-5.3 Workers AI model ( @cf/zai-org/glm-5.3 ) starting on August 27, 2026. We have remediated the issue, and we restored the model on September 9. We have confirmed that no other model hosted on Workers AI was affected.",
             "Between August 27 and September 9, a small number of customers using the GLM 5.3 Workers AI model received responses that contained data from other customers' requests made to the same model shortly before theirs. In total, 155 responses were affected, all to prompts longer than 681,280 tokens.",
             "After excluding our own testing and the researcher's, the requests we identified are consistent in timing and volume with ordinary long-context use, not with someone repeatedly exploiting the bug. We found no evidence of deliberate exploitation.",
             "Today we are publishing this report alongside a post from SGLang, the open-source inference engine that we use, as a coordinated disclosure. This post describes the bug that caused this issue, our response timeline, and the subsequent hardening we have conducted on our production SGLang deployments. We also detail our continued efforts with the upstream maintainers of SGLang to address this and similar bugs.",
@@ -26,43 +26,43 @@
           ]
         },
         {
-          "id": "8eb6001a836a6e50",
-          "title": "Working with academic communities to build scientific understanding",
-          "excerpt": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+          "id": "1e3ebf94e41ebe19",
+          "title": "Retell uses OpenAI models to help power 100M monthly calls",
+          "excerpt": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-          "publishedAt": "2026-10-26T14:30:00.000Z",
+          "url": "https://openai.com/index/retell-ai",
+          "publishedAt": "2026-10-27T15:00:00.000Z",
           "technologies": [
             "OpenAI"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "We are announcing three new discoveries in mathematics, computer science, and physics about harmonic analysis, complexity theory, and quantum field theory.",
-            "Our release process continues to evolve in response to feedback from the associated academic communities.",
-            "In our view, these manuscripts are best understood as a form of raw research data.",
-            "To convert this raw research data into scientific understanding, in this release we are experimenting with a new approach.",
-            "We reached out to external experts and asked them to act as shepherds, organizing groups to understand the new results."
+            "Retell AI is a voice AI platform for contact center operations, helping businesses build agents that can answer questions, take action, and connect a caller with a person when needed.",
+            "Its platform now serves more than 4,000 businesses, with monthly call volume growing from 30 million in early 2026 to more than 100 million by September.",
+            "As Retell serves more enterprises with complex workflows, it uses OpenAI models to keep call quality and reliability high.",
+            "Today, OpenAI models generate responses for 80% of calls on Retell, with customers achieving resolution rates above 80%.",
+            "Retell has also surpassed 1 trillion tokens consumed across OpenAI models, reflecting the scale of that adoption."
           ]
         },
         {
-          "id": "27334100e818b985",
-          "title": "ChatGPT’s expanding world of work",
-          "excerpt": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+          "id": "c417f8e3d39d0b89",
+          "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+          "excerpt": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-          "publishedAt": "2026-10-26T10:00:00.000Z",
+          "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+          "publishedAt": "2026-10-27T07:00:00.000Z",
           "technologies": [
             "OpenAI"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Today, we are releasing OpenAI Signals data that explores 165 work activities across nearly 100 countries, revealing how consumers use ChatGPT for work.",
-            "This data gives researchers a new way to study AI’s role in the economy, with new information on the work activities people bring to ChatGPT-from preparing instructional materials and developing marketing content to programming and analyzing business data.",
-            "Researchers can use this data to explore how ChatGPT use for work differs across countries, track changes over time, and match this data to other economic indicators.",
-            "The release connects ChatGPT usage to 165 work activity categories called Intermediate Work Activities (IWAs).",
-            "IWAs are commonly-used categories of tasks for the kinds of work people do across occupations."
+            "OpenAI and Oracle are bringing Oracle applications and data into ChatGPT and powering new Oracle products and services with OpenAI models and products.",
+            "Together, we aim to help businesses use AI to run core operations, build better applications, and strengthen security.",
+            "This builds on our commercial relationship across the OpenAI API, ChatGPT Work, and Codex.",
+            "Oraclereported⁠ 130,000 active ChatGPT users and more than 95,000 active Codex users.",
+            "Its recruiting team uses ChatGPT Work for market research that once took two to four days to compile, with preparation now taking 15-20 minutes."
           ]
         }
       ]
@@ -70,6 +70,26 @@
     {
       "name": "Cloud",
       "articles": [
+        {
+          "id": "f21bc890ebec1e8c",
+          "title": "What took the Internet offline in Q3 2026",
+          "excerpt": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
+          "publishedAt": "2026-10-27T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "The Internet can feel invisible when everything is working normally.",
+            "But when connectivity breaks, the many systems it depends upon become evident in an instant.",
+            "Because Cloudflare’s global network handles more than 20% of the web’s traffic, it offers a unique perspective of how Internet traffic is behaving.",
+            "When failures in infrastructure, power, policy, or security disrupt access to the Internet, Cloudflare Radar can observe the impact by monitoring traffic to our customers.",
+            "Each quarter, we review the disruptions detected and annotated on Radar, highlighting what happened, where it happened, and the broader conditions that shaped each event."
+          ]
+        },
         {
           "id": "60f970e1df3b48e3",
           "title": "Origin Range Requests: Serving large files without range-request tuning",
@@ -109,32 +129,32 @@
             "While general availability (GA) is planned for Q1 2027, today’s launch is an important milestone on our journey to support our customers’ data sovereignty goals while also migrating all Cloudflare products to post-quantum (PQ) cryptography .",
             "Governments, financial institutions, healthcare providers, and defense organizations process highly sensitive data that can remain sensitive for years or decades after it is produced."
           ]
-        },
-        {
-          "id": "c78cf468160e1a45",
-          "title": "8 eMudhra certificates are compromised. Here's what you need to know",
-          "excerpt": "Following the discovery that eight eMudhra intermediate certificates use weak keys, Cloudflare is deploying mitigations and releasing client updates. We explain the impact, our response, and what customers and developers should do next.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
-          "publishedAt": "2026-10-20T22:20:16.000Z",
-          "technologies": [
-            "Next.js"
-          ],
-          "category": "Cloud",
-          "scanMinutes": 1,
-          "details": [
-            "On October 19, 2026, at approximately 17:00 UTC, Cloudflare became aware that private keys associated with eight eMudhra intermediate certificates were compromised.",
-            "These certificates were widely trusted by browsers, operating systems, and also within Cloudflare.",
-            "Because the keys themselves are weak, an attacker can create a forged certificate for any domain and use it to impersonate servers to intercept or modify traffic.",
-            "This is a serious security incident with implications across the Internet.",
-            "For reference, here is a link to more information about how SSL certificates work and why they are so critical to the operation of the Internet."
-          ]
         }
       ]
     },
     {
       "name": "DevOps",
       "articles": [
+        {
+          "id": "ab88661a74761e9b",
+          "title": "Announcing the Workload Conformance Working Group",
+          "excerpt": "We are excited to announce that the Kubernetes community now has a Workload Conformance Working Group . The working group is writing a shared standard for how workloads behave at runtime on Kubernetes. To get it right, we need input from the people who build those workloads and from the people who run the…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/",
+          "publishedAt": "2026-10-27T04:30:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Certified Kubernetes tests the cluster, and Kubernetes AI Conformance tests whether a cluster can run AI and ML workloads. Nothing comparable exists for the workloads themselves, so cluster operators still check each application by hand before routine maintenance or a Kubernetes upgrade.",
+            "The problems they find are familiar. A routine node drain is often how you discover that an application can't tolerate disruption. An upgrade can break an application that still depends on a removed API version . Others show up in day-to-day operation: workloads that ask for privileges they don't need, or reserve resources they never use.",
+            "Kubernetes already documents much of this, including security and handling disruptions . Even so, every cluster operator ends up repeating the same assessment, and application maintainers get the same questions from each environment they support. A common specification with repeatable tests would give both groups the same baseline to start from.",
+            "A specification of workload behavior for each Kubernetes minor version.",
+            "A method for testing each requirement against a running workload."
+          ]
+        },
         {
           "id": "2cc502820f324a57",
           "title": "PHP2Shell and eMudhra Patched",
@@ -161,6 +181,46 @@
       "name": "Security",
       "articles": [
         {
+          "id": "b98b75e5e3efe8c1",
+          "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+          "excerpt": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/php-ctf/",
+          "publishedAt": "2026-10-27T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Last week was one for the Internet security history books. First, eight eMudhra intermediate certificates were compromised , creating the possibility of forged certificates that could be used to impersonate servers. Then came php2shell : serious vulnerabilities in PHP, the runtime behind a large portion of the Web.",
+            "Cloudflare worked around the clock as these events unfolded to protect our customers and help protect the Internet. We shipped client updates and multiple mitigations , updated our web application firewall (WAF) with new rules to block attackers from exploiting the PHP vulnerabilities, and introduced a new feature called full transaction detection .",
+            "As always in situations like this, these new capabilities were made available on all plans, including Free.",
+            "Protecting systems from vulnerabilities like these is always an ongoing process, not a one-time event. The widespread adoption of AI allows attackers to discover new vectors with unprecedented speed and efficiency, so collecting real-world data to test our assumptions and strengthen defenses is essential.",
+            "That’s why today we're launching the Cloudflare PHP Capture the Flag challenge , run through our Bug Bounty program . We've put a deliberately vulnerable PHP installation behind our WAF, and we're inviting security researchers on HackerOne to try to bypass the protections and capture a flag."
+          ]
+        },
+        {
+          "id": "c44dc9ed271ff418",
+          "title": "How Check Point accelerates vulnerability research with Daybreak",
+          "excerpt": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/check-point-daybreak",
+          "publishedAt": "2026-10-27T00:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Check Point’s vulnerability research workflow used to take hours to complete.",
+            "As part of the OpenAI Daybreak Defense Network, the company uses Daybreak to reduce that work to minutes, according to Jonathan Zanger, CTO of Check Point.",
+            "Daybreak gives defenders access to OpenAI’s frontier cyber models that can analyze vulnerabilities, reason through attack paths, and identify security gaps in code and configurations.",
+            "Check Point helps secure over 100,000 organizations through its AI, workspace, cloud, and network security products.",
+            "Check Point Research brings vulnerability research expertise to the company’s prevention-first approach, investigating emerging vulnerabilities and translating findings into protections for customers."
+          ]
+        },
+        {
           "id": "a9c488820a62ac4a",
           "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
           "excerpt": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
@@ -178,46 +238,6 @@
             "For Daksh, that mission requires testing an application’s behavior as well as reading its code, and GPT‑6 Astra’s computer use gives Greptile a way to automate testing at scale.",
             "Testing applications at scale with GPT‑6 Astra Validating a pull request involves checking whether the code is logically correct, does what the developer intended, is secure, and avoids breaking existing functionality.",
             "For some of that testing, you need to actually run the application because reading the code alone might not reveal the problem."
-          ]
-        },
-        {
-          "id": "7d972df501d01ba1",
-          "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-          "excerpt": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-          "publishedAt": "2026-10-26T13:45:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Security",
-          "scanMinutes": 1,
-          "details": [
-            "As AI accelerates software development, engineering and application-security teams need ways to investigate code changes and address vulnerabilities while keeping people in control.",
-            "CodeRabbit is using GPT‑6.1 Sol as the primary model in its security agent to extend review beyond individual changes and help developers understand risks across complex codebases.",
-            "A pull request can affect shared libraries, dependencies and safeguards elsewhere in an application.",
-            "GPT‑6.1 Sol helps CodeRabbit connect behavior across files and components to surface potential security issues.",
-            "CodeRabbit’s review is independent of the agent that wrote the code and complements established scanners."
-          ]
-        },
-        {
-          "id": "742d30efdc4090c1",
-          "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-          "excerpt": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/openai-cut-incident-investigation",
-          "publishedAt": "2026-10-26T07:00:00.000Z",
-          "technologies": [
-            "OpenAI"
-          ],
-          "category": "Security",
-          "scanMinutes": 1,
-          "details": [
-            "_This is part of our series sharing internal examples of how OpenAI is using its own technology and APIs.",
-            "These tools are being used internally, at OpenAI, and are shared here as illustrative examples of how frontier AI is supporting use cases across our teams._ Ultrafast is a high-speed mode in Codex, and for engineers at OpenAI, it’s become the default for incident response.",
-            "When something breaks, engineers often don’t have time to wait minutes for an answer while the issue compounds.",
-            "With Ultrafast, they can investigate multiple potential causes at once and get answers without splitting their attention.",
-            "Finding the needle in the haystack Aaron Friel, Member of the Technical Staff at OpenAI, is usually the one running point on an incident."
           ]
         }
       ]
@@ -251,26 +271,6 @@
     {
       "name": "Developer Tools",
       "articles": [
-        {
-          "id": "ee4c22366ef7e7ab",
-          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-          "excerpt": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-          "publishedAt": "2026-10-23T17:00:00.000Z",
-          "technologies": [
-            "OpenAI"
-          ],
-          "category": "Developer Tools",
-          "scanMinutes": 1,
-          "details": [
-            "All OpenAI products require fast, reliable access to data, provided by our storage platform, Habitat.",
-            "It has to respond in milliseconds to over 1 billion users across 40 geographic regions.",
-            "Our infrastructure faced an extraordinary challenge: supporting explosive growth and new use cases while continuing to improve reliability, performance, and product developer velocity.",
-            "Solving that challenge required rethinking how our online storage platform was designed and operated.",
-            "We constantly evaluated tradeoffs, following the pattern of: first become reliable enough for mission-critical product traffic, then fast enough for global users, and, finally, to deftly operate at massive scale."
-          ]
-        },
         {
           "id": "806b1f92932cb664",
           "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
