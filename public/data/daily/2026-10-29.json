@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "generatedAt": "2026-10-29T00:56:39.764Z",
+  "generatedAt": "2026-10-29T01:50:58.756Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -256,7 +256,13 @@
           ],
           "category": "Security",
           "scanMinutes": 1,
-          "details": []
+          "details": [
+            "Greptile builds AI agents that review and test code changes with full context of the codebase.",
+            "“We are in the business of reducing bugs and making the world’s software more reliable,” says Co-founder and CEO Daksh Gupta.",
+            "For Daksh, that mission requires testing an application’s behavior as well as reading its code, and GPT‑6 Astra’s computer use gives Greptile a way to automate testing at scale.",
+            "Testing applications at scale with GPT‑6 Astra Validating a pull request involves checking whether the code is logically correct, does what the developer intended, is secure, and avoids breaking existing functionality.",
+            "For some of that testing, you need to actually run the application because reading the code alone might not reveal the problem."
+          ]
         },
         {
           "id": "c10dae251e662270",
