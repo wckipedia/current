@@ -1,0 +1,341 @@
+{
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T00:59:13.162Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
+  "sections": [
+    {
+      "name": "AI",
+      "articles": [
+        {
+          "id": "9349f418e7bc7ab4",
+          "title": "An updated Model Spec for more capable and beneficial AI",
+          "excerpt": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/updated-model-spec",
+          "publishedAt": "2026-10-29T17:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "As our models get smarter and take more consequential actions in the world, it becomes increasingly important that they go beyond just interpreting the specific instructions they receive.",
+            "Models also need to understand human intentions and values, so they can exercise good judgment in situations their instructions don’t explicitly address while remaining faithful to human intent and oversight.",
+            "Today we’re updating the Model Spec, our public description of how we want our models to behave.",
+            "The update reorganizes its guidance around five underlying values: **faithfulness to human intent**, **harm minimization**, **honesty and transparency**, **human agency**, and **care**.",
+            "This reflects an aim of our work on value alignment: for models to understand and apply human values in unfamiliar situations, while remaining faithful to human intent."
+          ]
+        },
+        {
+          "id": "34902b30f790e3e6",
+          "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+          "excerpt": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report. The post Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+          "publishedAt": "2026-10-28T16:07:40.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Developers pushed code to GitHub 17.9 billion times in the past 12 months, more than in 2024 and 2025 combined.",
+            "Behind that number are developers building what interests them and what their communities need.",
+            "In Nepal, one developer built a flood bulletin on GitHub Pages with verified information on roads, rescue, weather, and power.",
+            "It has since grown into Gati , a Nepali-first relay of official disaster alerts that runs on GitHub Pages and Actions.",
+            "Elsewhere, developers at NASA's Jet Propulsion Laboratory are creating software designed to run programs aboard spacecraft , and fans built open-source firmware that lets people customize their e-readers ."
+          ]
+        },
+        {
+          "id": "0f01adb2acab0a67",
+          "title": "How we detect frontier model misalignment",
+          "excerpt": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+          "publishedAt": "2026-10-29T09:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "As we train increasingly capable AI models, we need reliable ways to detect when their behavior departs from what we intended.",
+            "Agents can misbehave and take unauthorized actions during training, evaluation, or deployment, with potentially serious consequences.",
+            "In order to detect these failures-and, where necessary, to intervene in time-we monitor how agents reason, what actions they take, and how those actions affect their environment.",
+            "While we’ve been monitoring our internal coding agents for some time, the Hugging Face incident exposed a gap in our coverage: the incident began during internal cybersecurity evaluations on which we were not running our monitors for misaligned behavior.",
+            "In response to that incident, and to the increasing capabilities of our models more generally, we’ve substantially expanded our system for monitoring agents’ behavior."
+          ]
+        },
+        {
+          "id": "d948735545c20cf3",
+          "title": "How Ropes & Gray is developing AI for transactional diligence",
+          "excerpt": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/ropes-gray-ai-diligence",
+          "publishedAt": "2026-10-29T07:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "In transactional diligence, lawyers need to work through large volumes of documents under tight deadlines.",
+            "That process of transactional diligence uncovers risks and liabilities, requiring data-heavy research that usually involves an entire team of lawyers.",
+            "From parsing through an enormous number of documents to analyzing patterns, putting together a bid on a short timeline can take days of intensive work.",
+            "To help their lawyers help their clients move more quickly, Ropes & Gray developed a transactional diligence AI tool with OpenAI.",
+            "“It’s enabling all the lawyers at our firm to actually get to what we’re supposed to be doing,” says Howard Glazer, the Partner and Head of Practice AI at Ropes & Gray."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "articles": [
+        {
+          "id": "93dde8cc7b16e732",
+          "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
+          "excerpt": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent botnet takedowns.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
+          "publishedAt": "2026-10-29T12:55:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Welcome to the 26th edition of Cloudflare's DDoS Threat Report.",
+            "This edition covers the third quarter of 2026 - July, August, and September - and returns the series to its quarterly cadence following the combined H1 2026 volume.",
+            "The analysis is produced by Cloudforce One , Cloudflare's Threat Intelligence organization, providing a comprehensive analysis of the evolving threat landscape of Distributed Denial of Service (DDoS) attacks based on data from the Cloudflare network .",
+            "Short-burst, low-bandwidth attacks lasting under 10 minutes and 1 Gbps surged by 208%.",
+            "Conversely, hyper-volumetric attacks exceeding 1 Tbps plummeted by nearly 69% from Q2, possibly a reflection of law enforcement actions against four major Internet of Things (IoT) botnets earlier in the year."
+          ]
+        },
+        {
+          "id": "f21bc890ebec1e8c",
+          "title": "What took the Internet offline in Q3 2026",
+          "excerpt": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
+          "publishedAt": "2026-10-27T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "The Internet can feel invisible when everything is working normally.",
+            "But when connectivity breaks, the many systems it depends upon become evident in an instant.",
+            "Because Cloudflare’s global network handles more than 20% of the web’s traffic, it offers a unique perspective of how Internet traffic is behaving.",
+            "When failures in infrastructure, power, policy, or security disrupt access to the Internet, Cloudflare Radar can observe the impact by monitoring traffic to our customers.",
+            "Each quarter, we review the disruptions detected and annotated on Radar, highlighting what happened, where it happened, and the broader conditions that shaped each event."
+          ]
+        },
+        {
+          "id": "60f970e1df3b48e3",
+          "title": "Origin Range Requests: Serving large files without range-request tuning",
+          "excerpt": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/origin-range-requests/",
+          "publishedAt": "2026-10-23T18:22:59.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "A video player seeking to the middle of a movie asks for a few megabytes.",
+            "Under our old range caching, that one request could make Cloudflare pull 128 MiB from the origin and move it between data centers, sometimes after the viewer had already left.",
+            "Range requests are how large files get delivered, and caching them naively easily leads to wasted network bandwidth and wasted disk operations when running a CDN at scale.",
+            "So we rebuilt how our cache handles them. For R2, Cloudflare's object storage, p99 time to first byte dropped by about half, and a follow-up improvement cut tiered cache traffic for R2 and similar workloads by about 6%.",
+            "Today, we're making that new implementation available as Origin Range Requests , a self-service feature on all plans. There's no range size to tune and no need to contact support. Turn it on with a Cache Rule , and Cloudflare handles the rest."
+          ]
+        },
+        {
+          "id": "70bdd870b2ac82df",
+          "title": "Bringing post-quantum cryptography to geographically fenced key management",
+          "excerpt": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict data sovereignty in a post-quantum world.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
+          "publishedAt": "2026-10-23T18:06:56.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Today, Cloudflare is launching a post-quantum geographically restricted key manager in support of our Data Localization Suite (DLS) in closed beta.",
+            "This new PQ GeoKey Manager is a cornerstone of Cloudflare’s data sovereignty solutions, making sure that a customer's decryption keys are only accessible in their chosen geography.",
+            "GeoKey Manager implements this by wrapping each decryption key such that it can only be decrypted by Cloudflare servers that are located in the allowed geography.",
+            "While general availability (GA) is planned for Q1 2027, today’s launch is an important milestone on our journey to support our customers’ data sovereignty goals while also migrating all Cloudflare products to post-quantum (PQ) cryptography .",
+            "Governments, financial institutions, healthcare providers, and defense organizations process highly sensitive data that can remain sensitive for years or decades after it is produced."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "articles": [
+        {
+          "id": "ab88661a74761e9b",
+          "title": "Announcing the Workload Conformance Working Group",
+          "excerpt": "We are excited to announce that the Kubernetes community now has a Workload Conformance Working Group . The working group is writing a shared standard for how workloads behave at runtime on Kubernetes. To get it right, we need input from the people who build those workloads and from the people who run the…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/",
+          "publishedAt": "2026-10-27T04:30:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Certified Kubernetes tests the cluster, and Kubernetes AI Conformance tests whether a cluster can run AI and ML workloads. Nothing comparable exists for the workloads themselves, so cluster operators still check each application by hand before routine maintenance or a Kubernetes upgrade.",
+            "The problems they find are familiar. A routine node drain is often how you discover that an application can't tolerate disruption. An upgrade can break an application that still depends on a removed API version . Others show up in day-to-day operation: workloads that ask for privileges they don't need, or reserve resources they never use.",
+            "Kubernetes already documents much of this, including security and handling disruptions . Even so, every cluster operator ends up repeating the same assessment, and application maintainers get the same questions from each environment they support. A common specification with repeatable tests would give both groups the same baseline to start from.",
+            "A specification of workload behavior for each Kubernetes minor version.",
+            "A method for testing each requirement against a running workload."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "articles": [
+        {
+          "id": "b98b75e5e3efe8c1",
+          "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+          "excerpt": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/php-ctf/",
+          "publishedAt": "2026-10-27T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Last week was one for the Internet security history books. First, eight eMudhra intermediate certificates were compromised , creating the possibility of forged certificates that could be used to impersonate servers. Then came php2shell : serious vulnerabilities in PHP, the runtime behind a large portion of the Web.",
+            "Cloudflare worked around the clock as these events unfolded to protect our customers and help protect the Internet. We shipped client updates and multiple mitigations , updated our web application firewall (WAF) with new rules to block attackers from exploiting the PHP vulnerabilities, and introduced a new feature called full transaction detection .",
+            "As always in situations like this, these new capabilities were made available on all plans, including Free.",
+            "Protecting systems from vulnerabilities like these is always an ongoing process, not a one-time event. The widespread adoption of AI allows attackers to discover new vectors with unprecedented speed and efficiency, so collecting real-world data to test our assumptions and strengthen defenses is essential.",
+            "That’s why today we're launching the Cloudflare PHP Capture the Flag challenge , run through our Bug Bounty program . We've put a deliberately vulnerable PHP installation behind our WAF, and we're inviting security researchers on HackerOne to try to bypass the protections and capture a flag."
+          ]
+        },
+        {
+          "id": "3b6251909818d39b",
+          "title": "Coding Agent Horror Stories: The CVE That Did Not Exist",
+          "excerpt": "An AI code review agent invented a CVE and recommended dangerous fixes. Learn how Docker Sandboxes contain agents and why their output needs verification.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-cve-that-did-not-exist/",
+          "publishedAt": "2026-10-29T13:00:00.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "This is Part 6 of our AI Coding Agent Horror Stories series , where we look at real security incidents involving AI coding agents and at how Docker Sandboxes contain agent execution at the boundary rather than at the command line.",
+            "Every story in this series so far has been about an agent reaching for something it should not have touched. We have seen agents wander into home directories, drop production databases, leak credentials, and run shell commands that did something very different from what the developer expected. In each case, the damage came from the agent having more reach than it needed.",
+            "This story is the opposite. The agent in this one reached nothing at all, because it was deliberately built so that it could not. And yet, on the night in question, it was still the most dangerous thing in the pipeline.",
+            "This story was shared by Pratik Kumar Singh as part of our Agent Hall of Shame contest on social media.",
+            "A platform engineer built a code review bot for his team. The idea was simple and useful. Every time someone pushes code, the bot reads what changed and writes a review into the pipeline, the same kind of first pass a human teammate would give before a person looks at the change."
+          ]
+        },
+        {
+          "id": "c10dae251e662270",
+          "title": "How bug bounty sharpens one researcher’s security skills",
+          "excerpt": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
+          "publishedAt": "2026-10-22T17:21:30.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team is excited to spotlight another top-performing security researcher from the GitHub Security Bug Bounty Program: @r31n !",
+            "As home to the world's developers, GitHub is dedicated to the security and reliability of the code behind millions of projects, and our Bug Bounty Program remains a cornerstone of that commitment. Collaboration with external researchers is one of the most effective ways to improve security, and every year, the community helps us identify and fix vulnerabilities that make the platform safer for everyone.",
+            "AI has lowered the barrier to entry and become a genuine force multiplier.",
+            "We use it across our own internal security programs, and we welcome researchers who do the same .",
+            "However, what separates great research has not changed: validation, a working proof of concept, and a clear demonstration of real security impact."
+          ]
+        },
+        {
+          "id": "405699f87f1c0744",
+          "title": "Localizing compliance at scale: achieving South Korea’s ISMS certification",
+          "excerpt": "Cloudflare has achieved South Korea's ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our global security program.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/k-isms/",
+          "publishedAt": "2026-10-22T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "For ten days, auditors appointed by the Korea Internet & Security Agency (KISA) sat together with us and worked through 80 controls. That is what it took for a company headquartered in the United States, operating a global network serving Korean users, to be certified in South Korea. Cloudflare has now obtained South Korea's Information Security Management System (ISMS) certification under the ISMS-P framework .",
+            "For customers in Korea, this is more than a compliance checkbox. It is evidence that Cloudflare's security and privacy program has been examined not only for whether our controls exist, but for how they operate in the context of Korean law, the Korean language, and the particular expectations of Korean regulators.",
+            "A user signing up from South Korea sees something different. The Korean experience is triggered by the country selected at sign-up and by IP geolocation from within South Korea, and it breaks the same agreement into four separately labeled items, each marked required or optional, each linking to its full text, with an option to agree to all of them at once:",
+            "[필수] 개인정보 수집 및 이용 ([Required] Collection and use of personal information)",
+            "[필수] 제한된 범위의 개인정보 해외 이전 ([Required] Transfer of a limited amount of personal information overseas)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Languages",
+      "articles": [
+        {
+          "id": "d7f0690de09af5c4",
+          "title": "How to fund Rust contributors",
+          "excerpt": "TLDR: To fund general maintenance, donate to the Rust Foundation Maintainers Fund or sponsor the RustNL Maintainers Team To fund specific features and improvements, sponsor fundable Rust Project Goals To fund individual contributors, donate to their GitHub Sponsors accounts There is always so much to do in…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/10/26/how-to-fund-rust-contributors/",
+          "publishedAt": "2026-10-26T00:00:00.000Z",
+          "technologies": [
+            "Rust",
+            "GitHub"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "To fund general maintenance, donate to the Rust Foundation Maintainers Fund or sponsor the RustNL Maintainers Team",
+            "To fund specific features and improvements, sponsor fundable Rust Project Goals",
+            "To fund individual contributors, donate to their GitHub Sponsors accounts",
+            "There is always so much to do in the Rust Project! New features to implement, bugs to fix, performance optimizations to make, issues to triage… It takes a lot of work to keep our high bar of quality while also shipping new features and improvements. And the workload keeps increasing with the continuous growth of Rust adoption.",
+            "As is unfortunately common in open source projects, a large fraction of that work is currently done by volunteers. That causes various issues, such as people burning out or complex features taking many years to ship."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "articles": [
+        {
+          "id": "8d24f5677c199a45",
+          "title": "GitHub Universe 2026: Evolving every layer of the stack",
+          "excerpt": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+          "publishedAt": "2026-10-28T16:09:28.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Our jobs as developers are changing. In a couple of years, we've gone from writing every line of code to working with AI assistants to orchestrating fleets of agents. But the goal hasn't changed: ship completed software work. A feature, a bug fix, a security fix. Completed work, not more code, is the output that matters.",
+            "Today at GitHub Universe , we shared our vision for GitHub as the most comprehensive software delivery system in the world. We introduced products that bring that vision to life and showed how we're rebuilding the infrastructure underneath it.",
+            "The SDLC is no longer a linear path from planning to coding to testing to deployment.",
+            "A code change, a request from a colleague, or a production metric can trigger work anywhere in the system.",
+            "Most of us (and our agents) jump between different stages, depending on the task at hand."
+          ]
+        }
+      ]
+    }
+  ]
+}
