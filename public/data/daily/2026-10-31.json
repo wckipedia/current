@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "generatedAt": "2026-10-31T00:48:37.114Z",
+  "generatedAt": "2026-10-31T01:37:47.848Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -42,11 +42,7 @@
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Final URL: https://openai.com/index/community-safety-report-and-new-protections-for-teens/ ChatGPT is one of the world’s most widely used AI products, and we have invested in building some of the industry’s most advanced systems for detecting potential harm, reviewing concerning activity, and escalating credible threats.",
-            "We’re making two announcements to further our work in this area: a new Community Safeguards Report and more restrictions around firearms content for minors.",
-            "Keeping communities safe⁠ continues to be a top priority for OpenAI.",
-            "Our work includes bringing imminent threats of violence to the attention of law enforcement, and we made over 200 law enforcement referrals in Q3 2026.These referrals are making apositivedifference in disrupting violent plots, and we continue to rely on mental health and behavioral experts to help us assess difficult cases.",
-            "We recognize AI companies have a distinct role to play alongside law enforcement, family members, mental-health professionals, and policymakers, who bring critical authority, context and real-world reach."
+            "Final URL: https://openai.com/index/community-safety-report-and-new-protections-for-teens/ Warning: Target URL returned error 403: Forbidden Warning: This page maybe not yet fully loaded, consider explicitly specify a timeout."
           ]
         },
         {
