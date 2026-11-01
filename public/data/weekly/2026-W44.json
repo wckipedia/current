@@ -1,6 +1,6 @@
 {
   "week": "2026-W44",
-  "generatedAt": "2026-10-31T01:37:47.848Z",
+  "generatedAt": "2026-11-01T00:08:27.366Z",
   "sections": [
     {
       "name": "AI",
@@ -38,7 +38,11 @@
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Final URL: https://openai.com/index/community-safety-report-and-new-protections-for-teens/ Warning: Target URL returned error 403: Forbidden Warning: This page maybe not yet fully loaded, consider explicitly specify a timeout."
+            "Final URL: https://openai.com/index/community-safety-report-and-new-protections-for-teens/ ChatGPT is one of the world’s most widely used AI products, and we have invested in building some of the industry’s most advanced systems for detecting potential harm, reviewing concerning activity, and escalating credible threats.",
+            "We’re making two announcements to further our work in this area: a new Community Safeguards Report and more restrictions around firearms content for minors.",
+            "Keeping communities safe⁠ continues to be a top priority for OpenAI.",
+            "Our work includes bringing imminent threats of violence to the attention of law enforcement, and we made over 200 law enforcement referrals in Q3 2026.These referrals are making apositivedifference in disrupting violent plots, and we continue to rely on mental health and behavioral experts to help us assess difficult cases.",
+            "We recognize AI companies have a distinct role to play alongside law enforcement, family members, mental-health professionals, and policymakers, who bring critical authority, context and real-world reach."
           ]
         },
         {
@@ -285,6 +289,26 @@
             "In September 2025, Credit Saison rolled out ChatGPT Enterprise to all employees.",
             "A pilot had exceeded its targets for time savings, giving the company the confidence to approve a companywide rollout just one month after the pilot ended.",
             "A pilot across the business delivers 954% ROI With many employees in generalist roles, Credit Saison wanted to understand how AI could improve everyday work and deliver tangible results."
+          ]
+        },
+        {
+          "id": "806b1f92932cb664",
+          "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+          "excerpt": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+          "publishedAt": "2026-10-20T16:05:03.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "AI coding tools can generate code quickly, but speed alone does not solve the hardest software engineering problems. Developers still need to provide context, validate results, protect maintainability, and remain accountable for what ships.",
+            "To learn how experienced developers strike that balance, we spoke with three Java Champions, all with over a decade of experience in using Java. They shared concrete examples of using GitHub Copilot in production and open source, along with the practices they use to turn AI-generated output into reliable software.",
+            "Vlad Mihalcea , founder of Hypersistence and author of the book High-Performance Java Persistence",
+            "Patrick Baumgartner , software crafter at 42talents with 20+ years of Java experience",
+            "Frank Delporte , senior technical writer at Azul and maintainer of Foojay.io with 15+ years of Java experience"
           ]
         }
       ]
