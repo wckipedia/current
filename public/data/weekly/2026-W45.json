@@ -1,6 +1,6 @@
 {
   "week": "2026-W45",
-  "generatedAt": "2026-11-02T00:44:48.207Z",
+  "generatedAt": "2026-11-02T01:32:40.657Z",
   "sections": [
     {
       "name": "AI",
@@ -278,8 +278,11 @@
           "category": "Developer Tools",
           "scanMinutes": 1,
           "details": [
-            "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI.",
-            "See how leaders and employees helped turn the results into companywide adoption."
+            "Final URL: https://openai.com/index/credit-saison/ Credit Saison’s business centers on credit cards, with approximately 31.16 million cardholders.",
+            "The company also operates financing and international businesses.",
+            "In September 2025, Credit Saison rolled out ChatGPT Enterprise to all employees.",
+            "A pilot had exceeded its targets for time savings, giving the company the confidence to approve a companywide rollout just one month after the pilot ended.",
+            "A pilot across the business delivers 954% ROI With many employees in generalist roles, Credit Saison wanted to understand how AI could improve everyday work and deliver tangible results."
           ]
         }
       ]

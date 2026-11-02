@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "generatedAt": "2026-11-02T00:44:48.207Z",
+  "generatedAt": "2026-11-02T01:32:40.657Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -82,7 +82,11 @@
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Final URL: https://openai.com/index/updated-model-spec/ Warning: Target URL returned error 403: Forbidden Warning: This page maybe not yet fully loaded, consider explicitly specify a timeout."
+            "Final URL: https://openai.com/index/updated-model-spec/ As our models get smarter and take more consequential actions in the world, it becomes increasingly important that they go beyond just interpreting the specific instructions they receive.",
+            "Models also need to understand human intentions and values, so they can exercise good judgment in situations their instructions don’t explicitly address while remaining faithful to human intent and oversight.",
+            "Today we’re updating the Model Spec, our public description of how we want our models to behave.",
+            "The update reorganizes its guidance around five underlying values: **faithfulness to human intent**, **harm minimization**, **honesty and transparency**, **human agency**, and **care**.",
+            "This reflects an aim of our work on value alignment: for models to understand and apply human values in unfamiliar situations, while remaining faithful to human intent."
           ]
         }
       ]
@@ -318,8 +322,11 @@
           "category": "Developer Tools",
           "scanMinutes": 1,
           "details": [
-            "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI.",
-            "See how leaders and employees helped turn the results into companywide adoption."
+            "Final URL: https://openai.com/index/credit-saison/ Credit Saison’s business centers on credit cards, with approximately 31.16 million cardholders.",
+            "The company also operates financing and international businesses.",
+            "In September 2025, Credit Saison rolled out ChatGPT Enterprise to all employees.",
+            "A pilot had exceeded its targets for time savings, giving the company the confidence to approve a companywide rollout just one month after the pilot ended.",
+            "A pilot across the business delivers 954% ROI With many employees in generalist roles, Credit Saison wanted to understand how AI could improve everyday work and deliver tangible results."
           ]
         },
         {
