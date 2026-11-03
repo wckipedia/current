@@ -1,68 +1,93 @@
 {
   "week": "2026-W45",
-  "generatedAt": "2026-11-02T01:32:40.657Z",
+  "generatedAt": "2026-11-03T02:56:34.628Z",
   "sections": [
     {
       "name": "AI",
       "articles": [
         {
-          "id": "84abd1857de5dfd9",
-          "title": "Making it easier for websites to express AI training preferences",
-          "excerpt": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+          "id": "5d33ed0c66ace544",
+          "title": "Introducing the Grid Protectors Program",
+          "excerpt": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-          "publishedAt": "2026-10-30T09:30:00.000Z",
+          "url": "https://openai.com/index/grid-protectors-program",
+          "publishedAt": "2026-11-02T15:00:00.000Z",
           "technologies": [
             "OpenAI"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Final URL: https://openai.com/index/helping-websites-express-ai-training-preferences/ Today, we’re announcing that OpenAI will honor a common signal in robots.txt, the file that lets websites express their preferences about the use of their content for foundational generative AI training.",
-            "This voluntary effort makes it easier for publishers and website operators to communicate the same preference to multiple participating providers at once.",
-            "Previously, website operators would identify individual crawlers and maintain separate rules for each and every provider.",
-            "Having a shared signal across multiple providers reduces that work for operators.",
-            "We aim to implement the signal in the coming months, and will share another update with details about our implementation when we do so."
+            "Final URL: https://openai.com/index/grid-protectors-program/ Today we’re launching the **Grid Protectors Program**, a national effort to support affordable, reliable electricity for families and businesses in the communities where we build.",
+            "Working with utilities, regulators and policymakers, we’ll develop arrangements for our future campuses to reduce electricity demand when the grid is under strain.",
+            "Whether it’s heating homes during a northern cold snap or running air conditioning through a southern heat wave, families need reliable electricity.",
+            "Our goal is to make campus flexibility a resource that utilities can call on when communities need it most.",
+            "With U.S. data center capacity projected to exceed 100 gigawatts by 2030, we have a once-in-a-generation opportunity to strengthen the electric grid by building campuses that can adjust their power use when communities need it most."
           ]
         },
         {
-          "id": "a86d24c59c826150",
-          "title": "Community safety report and new protections for teens",
-          "excerpt": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+          "id": "5a014341bc3fc0f1",
+          "title": "LifeVal",
+          "excerpt": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-          "publishedAt": "2026-10-30T09:00:00.000Z",
+          "url": "https://openai.com/index/lifeval",
+          "publishedAt": "2026-11-02T09:00:00.000Z",
           "technologies": [
-            "OpenAI"
+            "Software Engineering"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Final URL: https://openai.com/index/community-safety-report-and-new-protections-for-teens/ ChatGPT is one of the world’s most widely used AI products, and we have invested in building some of the industry’s most advanced systems for detecting potential harm, reviewing concerning activity, and escalating credible threats.",
-            "We’re making two announcements to further our work in this area: a new Community Safeguards Report and more restrictions around firearms content for minors.",
-            "Keeping communities safe⁠ continues to be a top priority for OpenAI.",
-            "Our work includes bringing imminent threats of violence to the attention of law enforcement, and we made over 200 law enforcement referrals in Q3 2026.These referrals are making apositivedifference in disrupting violent plots, and we continue to rely on mental health and behavioral experts to help us assess difficult cases.",
-            "We recognize AI companies have a distinct role to play alongside law enforcement, family members, mental-health professionals, and policymakers, who bring critical authority, context and real-world reach."
+            "For the more than one billion people who currently use ChatGPT every week, we want to build AI that can help with the practical challenges of everyday life, like finding childcare, accessing government services, creating a budget, preparing for school, modifying recipes, ordering groceries, designing workout plans, and more.",
+            "When someone is looking for help making their life easier, they need more than advice or a chat response.",
+            "To be a truly helpful personal assistant, ChatGPT should be able to take actions that actually get things done.",
+            "To measure model performance over time on everyday tasks, we built an evaluation of tasks covering areas where users wanted the most help from AI and personal agents.",
+            "We used this evaluation to track and drive improvement in model performance on everyday tasks over the past year."
           ]
         },
         {
-          "id": "574dbaf7fc8731e4",
-          "title": "Fair use benefits everyone",
-          "excerpt": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+          "id": "4094d4340f9e66f9",
+          "title": "Qodo builds context into AI code review with Codex",
+          "excerpt": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/fair-use-benefits-everyone",
-          "publishedAt": "2026-10-30T00:00:00.000Z",
+          "url": "https://openai.com/index/qodo-codex-plugin",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
           "technologies": [
-            "OpenAI"
+            "Software Engineering"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Final URL: https://openai.com/index/fair-use-benefits-everyone/ For decades, fair use has played a critical role in driving innovation that benefits everyone.",
-            "It has helped deliver important medical and scientific breakthroughs and new technologies that have made real and positive differences for countless people, including authors and journalists.",
-            "The New York Times’ lawsuit, meanwhile, asks everyone to ignore a half century of legal history and progress, and toss aside the longstanding principle of fair use in their own narrow pursuit of an undeserved payday.",
-            "Experts and leaders across a wide range of fields have recognized that fair use is a win-win that benefits everyone, and have shared their perspectives with the Court in filing briefs in support of fair use.",
-            "Below you’ll find excerpts from some of those submissions, in their own words."
+            "Final URL: https://openai.com/index/qodo-codex-plugin/ Qodo builds AI tools for code review and software quality, giving coding agents the organizational knowledge they need to understand the code they change.",
+            "Co-founder and CEO Itamar Friedman calls it “the coding agent’s best friend.” Qodo uses OpenAI models including GPT‑6 Astra to gather engineering knowledge, review code, and monitor software quality.",
+            "Its Codex plugin brings that context and review into developers’ coding sessions. > “We love OpenAI models.",
+            "We want the frontier, the best reasoning models, but also those that are really fast.” -Itamar Friedman, Co-founder and CEO, Qodo Finding P0 bugs across repositories with Codex Itamar describes customer environments that can span 10,000 or more repositories, where a local code change can break a downstream service, even if it looks correct on its own.",
+            "Qodo built a plugin in the Codex marketplace to address this."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Backend",
+      "articles": [
+        {
+          "id": "277870ffc8d71544",
+          "title": "Scaling Git at OpenAI",
+          "excerpt": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/scaling-git-at-openai",
+          "publishedAt": "2026-11-02T15:30:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Backend",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/scaling-git-at-openai/ Over the past year, the size and demands on our monorepo have increased at a staggering pace.",
+            "It was clear that we needed to revamp our source control system to scale to the level of concurrent work that Codex makes possible.",
+            "We built Pando, a new backend for Git repositories, without interrupting any engineering work or changing how our team uses Git.",
+            "Pando is designed to meet two ambitious goals: first, horizontally scalable writes, optimized for concurrent pushes to many branches.",
+            "And second, maximize read throughput, so clients can download data fast enough to fully saturate their available network bandwidth."
           ]
         }
       ]
@@ -70,6 +95,26 @@
     {
       "name": "Cloud",
       "articles": [
+        {
+          "id": "3017d51cc49fa391",
+          "title": "How we halved DNS build delay and cut memory use by 85%",
+          "excerpt": "Zone setting changes used to rebuild entire DNS zones, even ones with tens of millions of records. Here is how we built a planner that picks the smallest safe build, cutting full builds by 40%, peak memory by 85%, and halving build delay.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
+          "publishedAt": "2026-11-02T14:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "When I last wrote about our DNS propagation pipeline in 2022 , the Zone Builder received about 250 DNS record changes per second.",
+            "Today it receives about 700, nearly three times as many, plus about 100 other events, such as zone setting changes.",
+            "However, the number of events was never the real problem.",
+            "The problem was the kind of work some of those events needed, and how that work grows with the size of a zone.",
+            "Some zones now hold more than 20 million records, and we expect them to keep growing toward hundreds of millions."
+          ]
+        },
         {
           "id": "4d4206ade98bad0a",
           "title": "Cloudflare services for private origins is now generally available",
@@ -109,26 +154,6 @@
             "Short-burst, low-bandwidth attacks lasting under 10 minutes and 1 Gbps surged by 208%.",
             "Conversely, hyper-volumetric attacks exceeding 1 Tbps plummeted by nearly 69% from Q2, possibly a reflection of law enforcement actions against four major Internet of Things (IoT) botnets earlier in the year."
           ]
-        },
-        {
-          "id": "f21bc890ebec1e8c",
-          "title": "What took the Internet offline in Q3 2026",
-          "excerpt": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
-          "publishedAt": "2026-10-27T13:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Cloud",
-          "scanMinutes": 1,
-          "details": [
-            "The Internet can feel invisible when everything is working normally.",
-            "But when connectivity breaks, the many systems it depends upon become evident in an instant.",
-            "Because Cloudflare’s global network handles more than 20% of the web’s traffic, it offers a unique perspective of how Internet traffic is behaving.",
-            "When failures in infrastructure, power, policy, or security disrupt access to the Internet, Cloudflare Radar can observe the impact by monitoring traffic to our customers.",
-            "Each quarter, we review the disruptions detected and annotated on Radar, highlighting what happened, where it happened, and the broader conditions that shaped each event."
-          ]
         }
       ]
     },
@@ -160,6 +185,26 @@
     {
       "name": "Security",
       "articles": [
+        {
+          "id": "945f879ef3a469b4",
+          "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+          "excerpt": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/dan-driscoll-joins-openai",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/dan-driscoll-joins-openai/ Dan Driscoll will join OpenAI as Senior Counselor for National Security Modernization, working with senior leadership and external partners to advise on how advanced AI can strengthen national and cyber security, with a particular focus on working with U.S. allies to advance its responsible use.",
+            "In this newly created role, Dan will work with OpenAI teams and leaders across governments, industry, academia, and allied institutions to advance practical modernization initiatives that support the buildout of democratic AI.",
+            "He will also help internal OpenAI teams understand the operational needs of global national security institutions.",
+            "Dan previously served as the 26th Secretary of the Army, overseeing the service’s operations, modernization, and resources.",
+            "He brings experience spanning military service, senior government leadership, and the private sector."
+          ]
+        },
         {
           "id": "46377df52764d6fd",
           "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
@@ -198,26 +243,6 @@
             "The CTF remains open. We encourage researchers to continue submitting materially distinct, reproducible bypasses through the Cloudflare HackerOne program. We will share further information and feedback as the challenge progresses. Thank you again for your contributions.",
             "Last week was one for the Internet security history books. First, eight eMudhra intermediate certificates were compromised , creating the possibility of forged certificates that could be used to impersonate servers. Then came php2shell : serious vulnerabilities in PHP, the runtime behind a large portion of the Web.",
             "Cloudflare worked around the clock as these events unfolded to protect our customers and help protect the Internet. We shipped client updates and multiple mitigations , updated our web application firewall (WAF) with new rules to block attackers from exploiting the PHP vulnerabilities, and introduced a new feature called full transaction detection ."
-          ]
-        },
-        {
-          "id": "3b6251909818d39b",
-          "title": "Coding Agent Horror Stories: The CVE That Did Not Exist",
-          "excerpt": "An AI code review agent invented a CVE and recommended dangerous fixes. Learn how Docker Sandboxes contain agents and why their output needs verification.",
-          "source": "Docker Blog",
-          "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-cve-that-did-not-exist/",
-          "publishedAt": "2026-10-29T13:00:00.000Z",
-          "technologies": [
-            "Docker"
-          ],
-          "category": "Security",
-          "scanMinutes": 1,
-          "details": [
-            "This is Part 6 of our AI Coding Agent Horror Stories series , where we look at real security incidents involving AI coding agents and at how Docker Sandboxes contain agent execution at the boundary rather than at the command line.",
-            "Every story in this series so far has been about an agent reaching for something it should not have touched. We have seen agents wander into home directories, drop production databases, leak credentials, and run shell commands that did something very different from what the developer expected. In each case, the damage came from the agent having more reach than it needed.",
-            "This story is the opposite. The agent in this one reached nothing at all, because it was deliberately built so that it could not. And yet, on the night in question, it was still the most dangerous thing in the pipeline.",
-            "This story was shared by Pratik Kumar Singh as part of our Agent Hall of Shame contest on social media.",
-            "A platform engineer built a code review bot for his team. The idea was simple and useful. Every time someone pushes code, the bot reads what changed and writes a review into the pipeline, the same kind of first pass a human teammate would give before a person looks at the change."
           ]
         }
       ]
@@ -263,26 +288,6 @@
             "The SDLC is no longer a linear path from planning to coding to testing to deployment.",
             "A code change, a request from a colleague, or a production metric can trigger work anywhere in the system.",
             "Most of us (and our agents) jump between different stages, depending on the task at hand."
-          ]
-        },
-        {
-          "id": "85f94c0fe8f02a81",
-          "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-          "excerpt": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/credit-saison",
-          "publishedAt": "2026-10-29T00:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Developer Tools",
-          "scanMinutes": 1,
-          "details": [
-            "Final URL: https://openai.com/index/credit-saison/ Credit Saison’s business centers on credit cards, with approximately 31.16 million cardholders.",
-            "The company also operates financing and international businesses.",
-            "In September 2025, Credit Saison rolled out ChatGPT Enterprise to all employees.",
-            "A pilot had exceeded its targets for time savings, giving the company the confidence to approve a companywide rollout just one month after the pilot ended.",
-            "A pilot across the business delivers 954% ROI With many employees in generalist roles, Credit Saison wanted to understand how AI could improve everyday work and deliver tangible results."
           ]
         }
       ]
