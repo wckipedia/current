@@ -1,6 +1,6 @@
 {
   "week": "2026-W45",
-  "generatedAt": "2026-11-03T02:56:34.628Z",
+  "generatedAt": "2026-11-03T03:29:50.383Z",
   "sections": [
     {
       "name": "AI",
@@ -186,6 +186,47 @@
       "name": "Security",
       "articles": [
         {
+          "id": "bca108e4c77bd86b",
+          "title": "Rewarding defenders with bigger bug bounties",
+          "excerpt": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+          "publishedAt": "2026-11-02T18:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties/ We’re raising rewards in OpenAI’s Security Bug Bounty program to further encourage independent researchers to pursue vulnerabilities in OpenAI software that our testing may have missed.",
+            "We’re also introducing new incentives for researchers to earn more for higher quality vulnerability reports.",
+            "Independent security researchers play an essential role in protecting technology across the industry.",
+            "At OpenAI, incentivizing responsible disclosure is a core part of our security model, complementing our Defense Factory⁠ work, where our engineers use our models to find weaknesses, reproduce them, and test fixes.",
+            "Today’s updates are designed to encourage and empower researchers, and to continue building a collaborative, community-first security environment."
+          ]
+        },
+        {
+          "id": "0d297090385ad5a7",
+          "title": "Preparing our next security sprint to harden OpenAI",
+          "excerpt": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+          "publishedAt": "2026-11-02T18:00:00.000Z",
+          "technologies": [
+            "Next.js",
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai/ We’re planning our next internal security sprint at OpenAI, bringing new researchers and security partners together with our own teams to use our models to test and strengthen our systems.",
+            "We’re partnering with Cathedral, whose researchers will use OpenAI’s models alongside our teams to challenge our defenses, bringing differentiated expertise and approaches to finding weaknesses and helping us protect our platforms.",
+            "We’re also making improvements to ourSecurity Bug Bounty program including more than quadrupling our rewards for critical findings.",
+            "We want researchers to challenge our assumptions and help strengthen both our systems and the methods we use to defend them.",
+            "This is part of our ongoing effort to use AI to continuously find and fix weaknesses in our systems."
+          ]
+        },
+        {
           "id": "945f879ef3a469b4",
           "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
           "excerpt": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
@@ -203,46 +244,6 @@
             "He will also help internal OpenAI teams understand the operational needs of global national security institutions.",
             "Dan previously served as the 26th Secretary of the Army, overseeing the service’s operations, modernization, and resources.",
             "He brings experience spanning military service, senior government leadership, and the private sector."
-          ]
-        },
-        {
-          "id": "46377df52764d6fd",
-          "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
-          "excerpt": "Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempted exploitation, and how much of the rest of the Internet remains exposed.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/emudhra-patching/",
-          "publishedAt": "2026-10-30T17:38:50.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Security",
-          "scanMinutes": 1,
-          "details": [
-            "On October 19, 2026, we learned about eMudhra’s eight shockingly weak keys: where eMudhra was trusted to pick a 115-digit number for their virtual combination lock protecting the Internet, they picked the number 4. Not even four digits, just the number 4. The other seven keys were similarly weak: 56, 66, 115, 155, 156, 230 and 237.",
-            "The next day, we wrote a blog post on the immediate action we took to mitigate this leak, and what customers needed to do on their end to stay secure. Now, we are sharing a more in-depth follow up on the evidence we’ve seen of exploitation, and the progress seen on visitors patching their systems.",
-            "A certificate authority (CA) with weak keys this serious is unprecedented, and the potential consequences are significant.",
-            "While there have been plenty of compromised certification authorities in the past (such as DigiNotar , TÜRKTRUST , and TrustWave ), access to their keys has always been contained to a degree; these incidents gave a limited set of attackers or organizations the ability to issue fraudulent certificates.",
-            "The eMudhra incident is fundamentally different; the affected intermediate private keys could be recovered almost instantly by anyone from the public certificates themselves."
-          ]
-        },
-        {
-          "id": "b98b75e5e3efe8c1",
-          "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
-          "excerpt": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/php-ctf/",
-          "publishedAt": "2026-10-27T13:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Security",
-          "scanMinutes": 1,
-          "details": [
-            "Update - October 30, 2026: Thank you to everyone who has participated in the PHP Capture the Flag challenge. We have received a strong response from the security research community, and the submissions have helped us harden our existing php2shell WAF protections and create new detections.",
-            "Details of managed-rule changes are available in the Cloudflare WAF changelog .",
-            "The CTF remains open. We encourage researchers to continue submitting materially distinct, reproducible bypasses through the Cloudflare HackerOne program. We will share further information and feedback as the challenge progresses. Thank you again for your contributions.",
-            "Last week was one for the Internet security history books. First, eight eMudhra intermediate certificates were compromised , creating the possibility of forged certificates that could be used to impersonate servers. Then came php2shell : serious vulnerabilities in PHP, the runtime behind a large portion of the Web.",
-            "Cloudflare worked around the clock as these events unfolded to protect our customers and help protect the Internet. We shipped client updates and multiple mitigations , updated our web application firewall (WAF) with new rules to block attackers from exploiting the PHP vulnerabilities, and introduced a new feature called full transaction detection ."
           ]
         }
       ]
