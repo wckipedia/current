@@ -1,68 +1,68 @@
 {
   "week": "2026-W45",
-  "generatedAt": "2026-11-05T02:31:22.844Z",
+  "generatedAt": "2026-11-06T01:33:15.153Z",
   "sections": [
     {
       "name": "AI",
       "articles": [
         {
-          "id": "d13fbfe75d78ae19",
-          "title": "See the agents, set the terms: new visibility and control for personal agents",
-          "excerpt": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage personal agent access.",
+          "id": "51dc1d2f6b3bd6df",
+          "title": "Inside GitHub’s new Git storage architecture",
+          "excerpt": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works. The post Inside GitHub’s new Git storage architecture appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+          "publishedAt": "2026-11-05T20:23:21.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Last week at GitHub Universe, we announced our new Git storage architecture, capable of handling thousands of writes per second with reads that scale on demand.",
+            "Through internal testing, we've demonstrated the ability to support 5,000 concurrent agents working on a repository, sending 7,200 pushes per second to a repo, all while serving read traffic with consistently low latency.",
+            "This new architecture is the foundation for GitHub to support agentic development for hundreds of millions of developers, and we've been building it underneath GitHub while it keeps running.",
+            "Over the past year, agents changed what a busy repository looks like on GitHub.",
+            "In our first post in this series, we laid out the two principles behind our next-generation Git storage architecture: minimize coordination, and decouple storage from compute."
+          ]
+        },
+        {
+          "id": "7303cf34c367e545",
+          "title": "Agents aren’t humans (but they kinda are)",
+          "excerpt": "AI agents act for millions, but servers see intermediaries that strip user visibility. This post defines the problem space and introduces a collaborative approach to safely identifying, allowing, and managing this automated traffic.",
           "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
-          "publishedAt": "2026-11-04T14:00:00.000Z",
+          "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
+          "publishedAt": "2026-11-05T17:03:04.000Z",
           "technologies": [
             "Software Engineering"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Personal agents are the intermediary between humans and the Internet, turning a person’s instructions into requests and actions on websites.",
-            "A customer might ask a personal agent to compare products across your site, find support articles, or complete a purchase.",
-            "To a site owner, all three interactions show up as automated traffic - and without a clear view of which agents are visiting and what they are doing, it can be difficult to know whether that traffic is helping your business or creating risk.",
-            "Blocking agents altogether can feel like the safest choice, but it can mean losing customers.",
-            "Better visibility into agent activity allows you to decide what access makes sense for your site."
+            "It may be indistinguishable from a human user carrying out a task, or it might look like one visitor carrying many Users.",
+            "This removes the ability for the Site to recognize, serve, and hold accountable the user or users behind the Agent, and causes the Site to face the costs when something goes wrong.",
+            "This post argues that in order for Sites to maximize the access they provide to Agents, the ecosystem must develop new mechanisms to preserve the relationship between Sites and Users.",
+            "Traditionally, in Security and Fraud Prevention, that requires three things: Identity, Reputation, and Accountability, allowing Sites to answer: Is the person acting being truthful about who they are?",
+            "“Personal AI Agents” (“Agents” for short) are automations that take instructions from a human (“User”) and pursue a goal by controlling a cloud computer or browser."
           ]
         },
         {
-          "id": "1be4fdd8e6ca80f0",
-          "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-          "excerpt": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+          "id": "bbd492caba72ca54",
+          "title": "Cult.fit builds operational muscle with Codex",
+          "excerpt": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/openai-to-acquire-pierre",
-          "publishedAt": "2026-11-04T14:30:00.000Z",
-          "technologies": [
-            "OpenAI"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": [
-            "Final URL: https://openai.com/index/openai-to-acquire-pierre/ Today we're announcing that OpenAI will acquire Pierre Computer Company, Inc. (“Pierre”), the company behind Code Storage and a family of standout open-source developer tools.",
-            "If you’ve browsed files or reviewed a change in the Codex app, you’ve already used Pierre’s Trees and Diffs libraries.",
-            "We’re excited to work with the Pierre team to build on the Git workflows that developers already rely on and adapt them to how teams work with coding agents.",
-            "We’ve seen in our own engineering work how the systems around Git need to evolve as more of that work happens in parallel.",
-            "Earlier this week, we shared how we’re scaling Git at OpenAI with Pando, our in-house source control backend for engineers and agents."
-          ]
-        },
-        {
-          "id": "981785a01550309d",
-          "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
-          "excerpt": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/devrev-enterprise-self-service",
-          "publishedAt": "2026-11-04T00:00:00.000Z",
+          "url": "https://openai.com/index/cultfit-builds-with-codex",
+          "publishedAt": "2026-11-05T20:00:00.000Z",
           "technologies": [
             "Software Engineering"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Final URL: https://openai.com/index/devrev-enterprise-self-service/ DevRev built Computer and Operator to help service and operations teams carry even the hardest customer and employee requests through to completion.",
-            "Computer and Operator are designed to reason across live data.",
-            "Actions are reversible, and answers point back to their sources, explains Ahmed Bashir, DevRev’s chief technology officer.",
-            "DevRev combines OpenAI models, including GPT‑6 Astra and GPT‑6.1 Sol, with its harness for connecting company knowledge and giving teams control over the actions an agent can take.",
-            "In DevRev’s Agent Studio, users can describe how they want a tool to behave in a conversation with AI and define parts of its behavior with fixed rules."
+            "Final URL: https://openai.com/index/cultfit-builds-with-codex/ Cult.fit is one of India’s leading technology-enabled fitness companies, operating 708 fitness centers across 77 cities and serving nearly one million paid members.",
+            "Its business combines subscription-based access to gyms and trainer-led fitness classes with a growing consumer products portfolio spanning fitness equipment, accessories, workout footwear and activewear.",
+            "As the company grew, it wanted to solve more operational and product challenges without adding layers of process and complexity.",
+            "By standardizing engineering on Codex and then extending it beyond engineering, cult.fit is helping teams across the organization analyze data, build tools, and move ideas into production.",
+            "Alongside its Codex rollout, it is using the OpenAI API to develop more personalized member experiences, including through its AI Trainer."
           ]
         }
       ]
@@ -133,8 +133,53 @@
       ]
     },
     {
+      "name": "DevOps",
+      "articles": [
+        {
+          "id": "abcfa69678f5ded8",
+          "title": "Docker and ActiveState Extending Secure Defaults to the Packages Developers Install",
+          "excerpt": "Docker partners with ActiveState to continue to provide one standard for trusted content across everything you and your teams build on.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/docker-activestate-trusted-content/",
+          "publishedAt": "2026-11-05T15:28:22.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Trusted content is the foundation security-conscious organizations expect all builds to start from.",
+            "Docker has made that possible for everyone by providing the foundation free.",
+            "Docker Hardened Images (DHI) are open source under Apache 2.0, with a catalog of 4,000+ minimal images (and growing) built from source and continuously maintained by Docker.",
+            "The catalog also carries customizable Helm charts and over 65,000 hardened system packages.",
+            "For most services, adopting DHI is as simple as changing the FROM line."
+          ]
+        }
+      ]
+    },
+    {
       "name": "Security",
       "articles": [
+        {
+          "id": "14e90e72d3401ddf",
+          "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+          "excerpt": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-gpt-6-cyber",
+          "publishedAt": "2026-11-05T09:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/introducing-gpt-6-cyber/ We’re introducing GPT‑6 Cyber, a major leap in security research: more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set.",
+            "GPT‑6 Cyber delivers major gains on key cybersecurity benchmarks over GPT‑5.6 Cyber, including a 51% relative improvement on ExploitGym and a step function improvement when tested on staying within scope.",
+            "It is already helping to secure real-world software, uncovering and validating thousands of exploits in security-critical codebases such as Linux and Firefox.",
+            "On ExploitGym, which tests whether models can exploit a specified vulnerability, GPT‑6 Cyber scores 48.5%, up from 32.1% for GPT‑5.6 Cyber.",
+            "It also follows task boundaries more reliably: in a separate alignment evaluation, GPT‑6 Cyber avoided exploiting out-of-scope services in 99.93% of tests without its deployment prompt, and 100% with this prompt."
+          ]
+        },
         {
           "id": "e581154108f523de",
           "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
@@ -156,44 +201,23 @@
           ]
         },
         {
-          "id": "fbaa86a829ad59fd",
-          "title": "A thousand fewer paths to root",
-          "excerpt": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-          "publishedAt": "2026-11-04T08:00:00.000Z",
+          "id": "f650e3d5431a6a34",
+          "title": "CNCF Score project improved its security posture by joining the Docker-Sponsored Open Source Program",
+          "excerpt": "See how CNCF Score improved container security with Docker Scout, Hardened Images, and the Docker-Sponsored Open Source Program.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/cncf-score-project-improved-its-security-posture-by-joining-the-docker-sponsored-open-source-program/",
+          "publishedAt": "2026-11-05T14:00:00.000Z",
           "technologies": [
-            "Linux",
-            "OpenAI"
+            "Docker"
           ],
           "category": "Security",
           "scanMinutes": 1,
           "details": [
-            "Final URL: https://openai.com/index/a-thousand-fewer-paths-to-root/ Security research that once required a separate, sustained investigation for each finding can increasingly be run as a systematic process.",
-            "This document explores one of our efforts in this area.",
-            "Vulnerability discovery is becoming easier to scale, but prioritization and validation remain operational bottlenecks.",
-            "We built a prototype to look for security flaws in the Linux kernel inside a controlled research environment.",
-            "Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE) exploits that could allow an unprivileged local user to gain root access."
-          ]
-        },
-        {
-          "id": "a3433e936d2c04bf",
-          "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-          "excerpt": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/daybreak-red-aws-govcloud",
-          "publishedAt": "2026-11-04T07:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Security",
-          "scanMinutes": 1,
-          "details": [
-            "Final URL: https://openai.com/index/daybreak-red-aws-govcloud/ Building on the availability of Daybreak models on Amazon Bedrock, GPT‑5.6 Cyber is now available to approved customers in AWS GovCloud (US-East) through Daybreak Red.",
-            "This expansion gives government security teams a new way to apply advanced cybersecurity capabilities within the AWS environments they use to support critical missions.",
-            "Daybreak Red provides access to OpenAI’s purpose-trained cybersecurity models for authorized vulnerability research, exploit validation, and security testing.",
-            "GPT‑5.6 Cyber can help defenders investigate complex software weaknesses, reproduce vulnerabilities in controlled settings, and develop mitigations.",
-            "Qualified security practitioners should review findings and proposed fixes before implementation."
+            "Score, a CNCF Sandbox project, recently joined the Docker-Sponsored Open Source (DSOS) Program to strengthen the security of its container images and release pipeline.",
+            "In this post, the Score maintainers share what we adopted (Docker Hub, Docker Scout, Docker Hardened Images, the Docker GitHub Builder, and OIDC connections), the results we measured, and how other open source projects, within the CNCF and beyond, can apply the same practices by default.",
+            "In September 2025, the CNCF announced a partnership with Docker to expand infrastructure support for project maintainers through the Docker-Sponsored Open Source (DSOS) Program. The partnership gives CNCF projects access to Docker’s security scanning tools, container registry, and best-practice resources at no cost.",
+            "This aligned closely with the discussions held at the Maintainer Summit NA 2025 in Atlanta , which centered on increasing collaboration across CNCF projects and demonstrating security best practices.",
+            "The Docker-Sponsored Open Source (DSOS) Program supports non-commercial open source projects with Docker tooling and infrastructure."
           ]
         }
       ]
@@ -224,6 +248,31 @@
       ]
     },
     {
+      "name": "Open Source",
+      "articles": [
+        {
+          "id": "1558c78d072630b6",
+          "title": "Accessibility statements now have a home on GitHub",
+          "excerpt": "GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes. The post Accessibility statements now have a home on GitHub appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
+          "publishedAt": "2026-11-05T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Open Source",
+          "scanMinutes": 1,
+          "details": [
+            "Accessibility work often lives in issue trackers, contribution guidelines, audit reports, team knowledge, and conversations with users. When that information has no predictable home, people who encounter a barrier must search for it, and maintainers lose context as contributors and project ownership change.",
+            "An ACCESSIBILITY.md file, now visible on repository overview pages, gives a project one durable place to explain its accessibility goals, contributor expectations, supported environments, known limitations, and process for reporting barriers.",
+            "GitHub now recognizes the ACCESSIBILITY.md file in the repository's root, .github/ directory, or docs/ directory. A repository can also inherit a statement from its organization's .github/ repository. For public repositories, maintainers can add or propose a statement from Insights > Community Standards using a concise starter document.",
+            "GitHub's community health files help people understand how a project works:",
+            "Codes of conduct establish expectations for participation"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Developer Tools",
       "articles": [
         {
@@ -244,26 +293,6 @@
             "Arnis is also the name of his open source project, which takes real-world data from OpenStreetMap and other sources to turn places you know into Minecraft worlds you can freely explore. Since Louis started Arnis in 2022, it's reached close to 900,000 downloads from GitHub and about 70 contributors.",
             "Louis grew up playing Minecraft and started coding at 13, always looking for ways to bring code into the game. Arnis began as a fun diversion combining Minecraft with geospatial data, and it went on GitHub, where he already kept his side projects. He finished the first prototype within two weeks while on a break from school.",
             "That first version was Python written by hand, built only on OpenStreetMap, and generating a town took a while. He needed somewhere real to test it, so he looked up towns in Germany, where he lives, and found Arnis. A small town helped while early generation was slow."
-          ]
-        },
-        {
-          "id": "295354ff422b0d4d",
-          "title": "Introducing Images 2.6",
-          "excerpt": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/introducing-images-2-6",
-          "publishedAt": "2026-11-04T00:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Developer Tools",
-          "scanMinutes": 1,
-          "details": [
-            "With this, you can bring motion to your images with GIFs - from animating a brand mascot or character to turning a product shot into an eye-catching loop.",
-            "You can also create polished visuals faster and refine them with greater precision - keeping characters, products, and brand details consistent as you edit.",
-            "People around the world now create 4 billion images per week across ChatGPT, Codex, and the API.",
-            "On average, that’s more than half a billion images created per day.",
-            "Faster iteration and more professional visuals Images 2.6 generates images 50% faster than before."
           ]
         },
         {
