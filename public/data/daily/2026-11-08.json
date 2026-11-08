@@ -1,0 +1,345 @@
+{
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T00:36:35.880Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
+  "sections": [
+    {
+      "name": "AI",
+      "articles": [
+        {
+          "id": "aff32afb63af01e7",
+          "title": "Beyond code generation: A developer’s guide to agentic engineering",
+          "excerpt": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+          "publishedAt": "2026-11-06T22:15:59.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "This October, GitHub saw more than 1.2 billion commits in one week-over 400% more than a year earlier. This is more commits than GitHub received in all of 2025. Chances are, you're generating more code than you were a year ago. But ask yourself: do you feel 400% more productive than you were last year?",
+            "Building software takes more than a good prompt. As AI speeds up implementation, software developers are feeling more pressure in other places: a Faros AI study found that pull requests spent 441% longer in review when teams went from low to high AI adoption.",
+            "As a software developer, you gather requirements and steer implementation, review changes and evaluate test results, then investigate what happens in production. Agents can help you work more efficiently across all of these stages: Plan, Build, Verify, and Observe. We'll walk through what an effective agentic engineering workflow looks like on GitHub.",
+            "The design is in one tool, a compatibility requirement is buried in Slack, and an old pull request explains why the current implementation works this way.",
+            "Before you can write a useful plan, you need to connect those details, compare approaches, and agree on how existing clients will keep working."
+          ]
+        },
+        {
+          "id": "51dc1d2f6b3bd6df",
+          "title": "Inside GitHub’s new Git storage architecture",
+          "excerpt": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works. The post Inside GitHub’s new Git storage architecture appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+          "publishedAt": "2026-11-05T20:23:21.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Last week at GitHub Universe, we announced our new Git storage architecture, capable of handling thousands of writes per second with reads that scale on demand.",
+            "Through internal testing, we've demonstrated the ability to support 5,000 concurrent agents working on a repository, sending 7,200 pushes per second to a repo, all while serving read traffic with consistently low latency.",
+            "This new architecture is the foundation for GitHub to support agentic development for hundreds of millions of developers, and we've been building it underneath GitHub while it keeps running.",
+            "Over the past year, agents changed what a busy repository looks like on GitHub.",
+            "In our first post in this series, we laid out the two principles behind our next-generation Git storage architecture: minimize coordination, and decouple storage from compute."
+          ]
+        },
+        {
+          "id": "7303cf34c367e545",
+          "title": "Agents aren’t humans (but they kinda are)",
+          "excerpt": "AI agents act for millions, but servers see intermediaries that strip user visibility. This post defines the problem space and introduces a collaborative approach to safely identifying, allowing, and managing this automated traffic.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
+          "publishedAt": "2026-11-05T17:03:04.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "It may be indistinguishable from a human user carrying out a task, or it might look like one visitor carrying many Users.",
+            "This removes the ability for the Site to recognize, serve, and hold accountable the user or users behind the Agent, and causes the Site to face the costs when something goes wrong.",
+            "This post argues that in order for Sites to maximize the access they provide to Agents, the ecosystem must develop new mechanisms to preserve the relationship between Sites and Users.",
+            "Traditionally, in Security and Fraud Prevention, that requires three things: Identity, Reputation, and Accountability, allowing Sites to answer: Is the person acting being truthful about who they are?",
+            "“Personal AI Agents” (“Agents” for short) are automations that take instructions from a human (“User”) and pursue a goal by controlling a cloud computer or browser."
+          ]
+        },
+        {
+          "id": "5f721228af3682c2",
+          "title": "Measuring how AI agents handle everyday wet-lab science",
+          "excerpt": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/ Our mission is to ensure that artificial general intelligence benefits all of humanity.",
+            "As part of that mission, we want to help scientists accelerate biological research-from understanding disease to developing new treatments.",
+            "For AI agents to contribute, they need to reliably interpret the experimental evidence scientists work with every day in wet labs, where they run experiments with biological samples.",
+            "Everyday wet-lab work involves failed experiments, ambiguous images and conflicting observations.",
+            "Existing benchmarks are built around charts and images selected for scientific papers may miss this ambiguity and the troubleshooting it requires."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "articles": [
+        {
+          "id": "a4dbacf967e62059",
+          "title": "The post-quantum future of web privacy",
+          "excerpt": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/vole-mole/",
+          "publishedAt": "2026-11-06T14:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "The highest priorities for the transition to post-quantum cryptography are the basic building blocks of authenticated key-agreement protocols such as TLS. Without these building blocks in place, secure communication on the Internet will not be possible once cryptographically relevant quantum computers come online. However, today we rely on quantum-vulnerable cryptography for much more than TLS.",
+            "Privacy Pass is a protocol used by site operators like Cloudflare to help protect applications from abuse.",
+            "One way we do this is by rate limiting individual clients so that no one client consumes too many of the site's resources.",
+            "Normally this involves some combination of friction or loss of privacy for users: CAPTCHAs or other challenges to moderate traffic, along with accounts and fingerprinting to identify traffic.Privacy Pass was designed to avoid this tradeoff between friction and privacy.",
+            "The basic idea is that a client gets issued a number of tokens , which they can redeem in exchange for access to the site."
+          ]
+        },
+        {
+          "id": "3017d51cc49fa391",
+          "title": "How we halved DNS build delay and cut memory use by 85%",
+          "excerpt": "Zone setting changes used to rebuild entire DNS zones, even ones with tens of millions of records. Here is how we built a planner that picks the smallest safe build, cutting full builds by 40%, peak memory by 85%, and halving build delay.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
+          "publishedAt": "2026-11-02T14:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "When I last wrote about our DNS propagation pipeline in 2022 , the Zone Builder received about 250 DNS record changes per second.",
+            "Today it receives about 700, nearly three times as many, plus about 100 other events, such as zone setting changes.",
+            "However, the number of events was never the real problem.",
+            "The problem was the kind of work some of those events needed, and how that work grows with the size of a zone.",
+            "Some zones now hold more than 20 million records, and we expect them to keep growing toward hundreds of millions."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "articles": [
+        {
+          "id": "abcfa69678f5ded8",
+          "title": "Docker and ActiveState Extending Secure Defaults to the Packages Developers Install",
+          "excerpt": "Docker partners with ActiveState to continue to provide one standard for trusted content across everything you and your teams build on.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/docker-activestate-trusted-content/",
+          "publishedAt": "2026-11-05T15:28:22.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Trusted content is the foundation security-conscious organizations expect all builds to start from.",
+            "Docker has made that possible for everyone by providing the foundation free.",
+            "Docker Hardened Images (DHI) are open source under Apache 2.0, with a catalog of 4,000+ minimal images (and growing) built from source and continuously maintained by Docker.",
+            "The catalog also carries customizable Helm charts and over 65,000 hardened system packages.",
+            "For most services, adopting DHI is as simple as changing the FROM line."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "articles": [
+        {
+          "id": "a0a44ed09dc9a108",
+          "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+          "excerpt": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/partnering-with-hacktron",
+          "publishedAt": "2026-11-06T08:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/partnering-with-hacktron/ Today we’re announcing a partnership with Hacktron to find vulnerabilities in OpenAI’s systems.",
+            "Our engineers and Hacktron’s security researchers will choose high-priority areas to test together, with a focus on how our systems interact with third-party services.",
+            "As part of the partnership, we’re expanding Hacktron’s access to our frontier models through Daybreak Red.",
+            "As we work to accelerate cyber defense with frontier AI, we’re applying the same urgency to finding and fixing vulnerabilities in our own systems.",
+            "Earlier this week, we announced that Cathedral’s researchers will work alongside our teams in our next security sprint."
+          ]
+        },
+        {
+          "id": "14e90e72d3401ddf",
+          "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+          "excerpt": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-gpt-6-cyber",
+          "publishedAt": "2026-11-05T09:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/introducing-gpt-6-cyber/ We’re introducing GPT‑6 Cyber, a major leap in security research: more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set.",
+            "GPT‑6 Cyber delivers major gains on key cybersecurity benchmarks over GPT‑5.6 Cyber, including a 51% relative improvement on ExploitGym and a step function improvement when tested on staying within scope.",
+            "It is already helping to secure real-world software, uncovering and validating thousands of exploits in security-critical codebases such as Linux and Firefox.",
+            "On ExploitGym, which tests whether models can exploit a specified vulnerability, GPT‑6 Cyber scores 48.5%, up from 32.1% for GPT‑5.6 Cyber.",
+            "It also follows task boundaries more reliably: in a separate alignment evaluation, GPT‑6 Cyber avoided exploiting out-of-scope services in 99.93% of tests without its deployment prompt, and 100% with this prompt."
+          ]
+        },
+        {
+          "id": "e581154108f523de",
+          "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
+          "excerpt": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/zero-wire/",
+          "publishedAt": "2026-11-03T14:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "You receive a ping: a new critical vulnerability has been disclosed.",
+            "Your team scrambles to compare vendor advisories, read technical research, check which systems run the affected software, and answer familiar questions from the business: are we affected, and what are we doing about it?",
+            "Another disclosure arrives before that work is finished.",
+            "AI is changing both the volume and speed of critical vulnerability discovery. It can analyze large codebases at scale and surface deeply nested flaws that may have existed for years without being found through human review. That discovery momentum will put more pressure on security teams to understand the impact of each disclosure on their infrastructure.",
+            "To help security teams prepare, today we’re introducing Zero Wire : a public vulnerability intelligence feed on Cloudflare Radar, bringing the clarity of a news wire service to critical security developments. It helps security leaders and practitioners understand significant vulnerabilities and decide what to do next."
+          ]
+        },
+        {
+          "id": "f650e3d5431a6a34",
+          "title": "CNCF Score project improved its security posture by joining the Docker-Sponsored Open Source Program",
+          "excerpt": "See how CNCF Score improved container security with Docker Scout, Hardened Images, and the Docker-Sponsored Open Source Program.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/cncf-score-project-improved-its-security-posture-by-joining-the-docker-sponsored-open-source-program/",
+          "publishedAt": "2026-11-05T14:00:00.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Score, a CNCF Sandbox project, recently joined the Docker-Sponsored Open Source (DSOS) Program to strengthen the security of its container images and release pipeline.",
+            "In this post, the Score maintainers share what we adopted (Docker Hub, Docker Scout, Docker Hardened Images, the Docker GitHub Builder, and OIDC connections), the results we measured, and how other open source projects, within the CNCF and beyond, can apply the same practices by default.",
+            "In September 2025, the CNCF announced a partnership with Docker to expand infrastructure support for project maintainers through the Docker-Sponsored Open Source (DSOS) Program. The partnership gives CNCF projects access to Docker’s security scanning tools, container registry, and best-practice resources at no cost.",
+            "This aligned closely with the discussions held at the Maintainer Summit NA 2025 in Atlanta , which centered on increasing collaboration across CNCF projects and demonstrating security best practices.",
+            "The Docker-Sponsored Open Source (DSOS) Program supports non-commercial open source projects with Docker tooling and infrastructure."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Languages",
+      "articles": [
+        {
+          "id": "0bdc55c8bbdd99ad",
+          "title": "Announcing rustup 1.29.3",
+          "excerpt": "The rustup team has published a new point release of rustup, 1.29.3. Rustup is the recommended tool to install Rust , a programming language that empowers everyone to build reliable and efficient software. What's new in rustup 1.29.3 This new patch release has fixed some minor regressions over the previous…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/11/03/Rustup-1.29.3/",
+          "publishedAt": "2026-11-03T00:00:00.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "The rustup team has published a new point release of rustup, 1.29.3.",
+            "Rustup is the recommended tool to install Rust , a programming language that empowers everyone to build reliable and efficient software.",
+            "This new patch release has fixed some minor regressions over the previous one:",
+            "Fixed \"Illegal instruction\" error on certain x86_64 CPUs without SSE4.1. pr#5162",
+            "Fixed \" lock() not supported\" error on Solaris. pr#5167"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Open Source",
+      "articles": [
+        {
+          "id": "1558c78d072630b6",
+          "title": "Accessibility statements now have a home on GitHub",
+          "excerpt": "GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes. The post Accessibility statements now have a home on GitHub appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
+          "publishedAt": "2026-11-05T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Open Source",
+          "scanMinutes": 1,
+          "details": [
+            "Accessibility work often lives in issue trackers, contribution guidelines, audit reports, team knowledge, and conversations with users. When that information has no predictable home, people who encounter a barrier must search for it, and maintainers lose context as contributors and project ownership change.",
+            "An ACCESSIBILITY.md file, now visible on repository overview pages, gives a project one durable place to explain its accessibility goals, contributor expectations, supported environments, known limitations, and process for reporting barriers.",
+            "GitHub now recognizes the ACCESSIBILITY.md file in the repository's root, .github/ directory, or docs/ directory. A repository can also inherit a statement from its organization's .github/ repository. For public repositories, maintainers can add or propose a statement from Insights > Community Standards using a concise starter document.",
+            "GitHub's community health files help people understand how a project works:",
+            "Codes of conduct establish expectations for participation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "articles": [
+        {
+          "id": "410a92595886a074",
+          "title": "Arnis turns any place on Earth into a Minecraft world",
+          "excerpt": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
+          "publishedAt": "2026-11-03T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Louis Erbkamm knows his way around Arnis, the smallest town in Germany, but he's never set foot in it.",
+            "I know where the shops are. Where the boats are... I know the city pretty well, but I haven't been there yet.",
+            "Arnis is also the name of his open source project, which takes real-world data from OpenStreetMap and other sources to turn places you know into Minecraft worlds you can freely explore. Since Louis started Arnis in 2022, it's reached close to 900,000 downloads from GitHub and about 70 contributors.",
+            "Louis grew up playing Minecraft and started coding at 13, always looking for ways to bring code into the game. Arnis began as a fun diversion combining Minecraft with geospatial data, and it went on GitHub, where he already kept his side projects. He finished the first prototype within two weeks while on a break from school.",
+            "That first version was Python written by hand, built only on OpenStreetMap, and generating a town took a while. He needed somewhere real to test it, so he looked up towns in Germany, where he lives, and found Arnis. A small town helped while early generation was slow."
+          ]
+        },
+        {
+          "id": "9a97986aa28bfe34",
+          "title": "Game Off 2026: The theme is SHIFT",
+          "excerpt": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+          "publishedAt": "2026-11-01T21:36:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Game Off , GitHub's annual month-long game jam, returns for its 14th year this November. Thousands of developers have joined us over the years to make everything from polished platformers to wonderfully weird experiments.",
+            "Whether you're making your first game or your fiftieth, we'd love for you to join us.",
+            "Shift gears. Shift perspectives. Shift dimensions. Shift bits. Work the night shift. Or make a game where the only buttons are the Shift keys.",
+            "You have until December 1, 2026, at 13:37 PST to build and submit a game inspired by SHIFT. Strong or loose inspirations apply!",
+            "A change in position, direction, perspective, or reality."
+          ]
+        }
+      ]
+    }
+  ]
+}
