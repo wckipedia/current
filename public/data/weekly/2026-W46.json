@@ -1,68 +1,68 @@
 {
   "week": "2026-W46",
-  "generatedAt": "2026-11-10T04:09:59.164Z",
+  "generatedAt": "2026-11-11T01:14:42.601Z",
   "sections": [
     {
       "name": "AI",
       "articles": [
         {
-          "id": "caa9073cefb43725",
-          "title": "ChatGPT Enterprise now available in AWS Marketplace",
-          "excerpt": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+          "id": "65b96c238445cded",
+          "title": "Gilbert + Tobin rethinks the business of law with AI",
+          "excerpt": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-          "publishedAt": "2026-11-09T19:00:00.000Z",
+          "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+          "publishedAt": "2026-11-12T00:00:00.000Z",
           "technologies": [
             "Software Engineering"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "The listing gives organizations a simpler way to discover, buy, and manage ChatGPT Enterprise using their existing AWS purchasing and billing relationship and to apply eligible spend toward their AWS commitments.",
-            "ChatGPT Enterprise brings that familiar experience to work with ChatGPT, ChatGPT Work, Codex, and dots.",
-            "These OpenAI products complement the OpenAI models available in Amazon Bedrock.",
-            "Developers can build AI applications and agents with OpenAI models in Amazon Bedrock, while teams across the business use ChatGPT Enterprise in their daily work.",
-            "Organizations can choose the approach that fits their workloads and governance requirements."
+            "Final URL: https://openai.com/index/gilbert-tobin-sam-nickless/ Our Executive Function series features perspectives from leaders driving transformation through AI.",
+            "Gilbert + Tobin is one of Australia’s leading corporate law firms, with work spanning capital markets, mergers and acquisitions, disputes, and technology.",
+            "The firm operates in a profession built on specialist knowledge, careful judgement, and the secure handling of sensitive information.",
+            "Gilbert + Tobin began by giving its people room to experiment with AI, then introduced ChatGPT Enterprise, ChatGPT Work and Codex to move from individual assistance to defined, multistep agentic workflows, with people responsible for review and approval.",
+            "We spoke with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin, about leading adoption from the front, where he’s seeing the value of AI, and his advice for other CEOs."
           ]
         },
         {
-          "id": "02e9abf47eaf3fa0",
-          "title": "CodeRabbit scales agentic software development and ships 20x more",
-          "excerpt": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+          "id": "0f0020abcf733229",
+          "title": "Helping caregivers use AI in everyday life",
+          "excerpt": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/coderabbit-codex-daybreak",
-          "publishedAt": "2026-11-09T08:00:00.000Z",
+          "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+          "publishedAt": "2026-11-10T12:00:00.000Z",
           "technologies": [
             "OpenAI"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Final URL: https://openai.com/index/coderabbit-codex-daybreak/ For Harjot Gill, co-founder and CEO of CodeRabbit, trusting and validating agentic code is becoming the place where teams bring judgment to a growing volume of AI-generated work.",
-            "“The first bottleneck that every company hits as soon as you adopt coding agents is code reviews,” Harjot says.",
-            "CodeRabbit built an AI-powered governance and control platform designed to validate and trust AI-generated code.",
-            "Used by over 20,000 organizations and 150,000+ open-source projects, CodeRabbit helps teams understand, review, and secure code produced by AI agents and decide what is ready to ship.",
-            "According to CodeRabbit, better price-performance from OpenAI helps it add more AI agents to its reviews and pass the benefits to customers, and Codex⁠ helps it ship 20 times more software with the same engineering team."
+            "Final URL: https://openai.com/index/helping-caregivers-use-ai-in-everyday-life/ Caregiving often means juggling schedules, keeping track of information, and finding support while balancing work and family life.",
+            "During National Family Caregivers Month, we’re helping caregivers gain AI skills that can make some of those everyday tasks easier, giving them more time to focus on the people they care for.",
+            "On November 10, OpenAI Academy, in collaboration with Caregiver Action Network, Alzheimer’s Association, and American Diabetes Association®, is hosting the AI Skills Jam for Caregivers & Community Health: a free, in-person learning experience designed to help caregivers use ChatGPT confidently, safely, and practically.",
+            "Participants will also learn when to consult healthcare professionals and how AI tools should complement, not replace, medical, legal, or financial advice.OpenAI facilitators and mentors will offer hands-on support throughout the workshops.",
+            "1 of 4 The Jam brings this learning into local communities, where caregivers can practice alongside peers and share the everyday challenges they hope these tools can help address."
           ]
         },
         {
-          "id": "aff32afb63af01e7",
-          "title": "Beyond code generation: A developer’s guide to agentic engineering",
-          "excerpt": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appeared first on The GitHub Blog .",
-          "source": "GitHub Blog",
-          "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
-          "publishedAt": "2026-11-06T22:15:59.000Z",
+          "id": "991ad48e8559b2fe",
+          "title": "Introducing Businesses in ChatGPT",
+          "excerpt": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-businesses-chatgpt",
+          "publishedAt": "2026-11-10T10:00:00.000Z",
           "technologies": [
-            "GitHub"
+            "Software Engineering"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "This October, GitHub saw more than 1.2 billion commits in one week-over 400% more than a year earlier. This is more commits than GitHub received in all of 2025. Chances are, you're generating more code than you were a year ago. But ask yourself: do you feel 400% more productive than you were last year?",
-            "Building software takes more than a good prompt. As AI speeds up implementation, software developers are feeling more pressure in other places: a Faros AI study found that pull requests spent 441% longer in review when teams went from low to high AI adoption.",
-            "As a software developer, you gather requirements and steer implementation, review changes and evaluate test results, then investigate what happens in production. Agents can help you work more efficiently across all of these stages: Plan, Build, Verify, and Observe. We'll walk through what an effective agentic engineering workflow looks like on GitHub.",
-            "The design is in one tool, a compatibility requirement is buried in Slack, and an old pull request explains why the current implementation works this way.",
-            "Before you can write a useful plan, you need to connect those details, compare approaches, and agree on how existing clients will keep working."
+            "Through Business Hub, businesses can claim their business, manage their information, and see insights on how people engage with them on ChatGPT.",
+            "In addition, we are adding a powerful new way for businesses to interact with users via Business Agents, starting with eligible ecommerce and online service businesses in the U.S.",
+            "Together, these products create more ways for businesses to connect with people as they explore options and make decisions.",
+            "They strengthen how people discover and interact with businesses in ChatGPT through broader business coverage, up-to-date information, and the ability to connect with a business through its Business Agent.",
+            "Throughout these experiences, protecting the trust people place in ChatGPT remains our North Star."
           ]
         }
       ]
@@ -109,26 +109,6 @@
             "Normally this involves some combination of friction or loss of privacy for users: CAPTCHAs or other challenges to moderate traffic, along with accounts and fingerprinting to identify traffic.Privacy Pass was designed to avoid this tradeoff between friction and privacy.",
             "The basic idea is that a client gets issued a number of tokens , which they can redeem in exchange for access to the site."
           ]
-        },
-        {
-          "id": "3017d51cc49fa391",
-          "title": "How we halved DNS build delay and cut memory use by 85%",
-          "excerpt": "Zone setting changes used to rebuild entire DNS zones, even ones with tens of millions of records. Here is how we built a planner that picks the smallest safe build, cutting full builds by 40%, peak memory by 85%, and halving build delay.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
-          "publishedAt": "2026-11-02T14:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Cloud",
-          "scanMinutes": 1,
-          "details": [
-            "When I last wrote about our DNS propagation pipeline in 2022 , the Zone Builder received about 250 DNS record changes per second.",
-            "Today it receives about 700, nearly three times as many, plus about 100 other events, such as zone setting changes.",
-            "However, the number of events was never the real problem.",
-            "The problem was the kind of work some of those events needed, and how that work grows with the size of a zone.",
-            "Some zones now hold more than 20 million records, and we expect them to keep growing toward hundreds of millions."
-          ]
         }
       ]
     },
@@ -161,6 +141,26 @@
       "name": "Security",
       "articles": [
         {
+          "id": "2c15f23ac7aa344c",
+          "title": "Git security vulnerabilities announced",
+          "excerpt": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+          "publishedAt": "2026-11-10T18:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Today, the Git project is releasing new versions to address six security vulnerabilities. These include arbitrary code execution when recursively cloning a malicious repository, writes to unintended files, and memory corruption when processing merges or binary patches.",
+            "The fixes are included in Git 2.56.1 , with backports to Git 2.55.1, 2.54.1, 2.53.1, 2.52.1, 2.51.3, and 2.50.2. We recommend updating to Git 2.56.1 or the patched release for your maintenance series, and updating any applications that bundle Git.",
+            "Git checks paths before writing files into a working tree, including rejecting paths that would overwrite its own repository metadata. However, an integer truncation in Git's index handling can cause an extremely long path to pass validation under one name and then be written using a shorter name.",
+            "An attacker can use this discrepancy to replace a submodule's .git file with a symbolic link pointing to a directory containing malicious configuration or hooks . When Git subsequently uses that directory, it can execute attacker-controlled code during a recursive clone.",
+            "The fix rejects extremely long index entry paths before their lengths can be truncated."
+          ]
+        },
+        {
           "id": "952d2516af2e9054",
           "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
           "excerpt": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
@@ -178,26 +178,6 @@
             "It connects every research inference workload, including agentic sampling for model training and evaluation, data processing, and more.",
             "This works together with our misalignment monitoring systems, and halts model output within 35 seconds of a decision to intervene to stop or pause a job.",
             "It has been built to keep working even when other systems fail, and to stop model output if Control Room itself goes down."
-          ]
-        },
-        {
-          "id": "a0a44ed09dc9a108",
-          "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-          "excerpt": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/partnering-with-hacktron",
-          "publishedAt": "2026-11-06T08:00:00.000Z",
-          "technologies": [
-            "OpenAI"
-          ],
-          "category": "Security",
-          "scanMinutes": 1,
-          "details": [
-            "Final URL: https://openai.com/index/partnering-with-hacktron/ Today we’re announcing a partnership with Hacktron to find vulnerabilities in OpenAI’s systems.",
-            "Our engineers and Hacktron’s security researchers will choose high-priority areas to test together, with a focus on how our systems interact with third-party services.",
-            "As part of the partnership, we’re expanding Hacktron’s access to our frontier models through Daybreak Red.",
-            "As we work to accelerate cyber defense with frontier AI, we’re applying the same urgency to finding and fixing vulnerabilities in our own systems.",
-            "Earlier this week, we announced that Cathedral’s researchers will work alongside our teams in our next security sprint."
           ]
         },
         {
@@ -251,22 +231,6 @@
       "name": "Developer Tools",
       "articles": [
         {
-          "id": "2e34e84f0999c607",
-          "title": "Kuken Industries searches 70 years of drawings in minutes",
-          "excerpt": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/kuken",
-          "publishedAt": "2026-11-09T08:00:00.000Z",
-          "technologies": [
-            "OpenAI"
-          ],
-          "category": "Developer Tools",
-          "scanMinutes": 1,
-          "details": [
-            "Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour."
-          ]
-        },
-        {
           "id": "410a92595886a074",
           "title": "Arnis turns any place on Earth into a Minecraft world",
           "excerpt": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog .",
@@ -304,6 +268,26 @@
             "Shift gears. Shift perspectives. Shift dimensions. Shift bits. Work the night shift. Or make a game where the only buttons are the Shift keys.",
             "You have until December 1, 2026, at 13:37 PST to build and submit a game inspired by SHIFT. Strong or loose inspirations apply!",
             "A change in position, direction, perspective, or reality."
+          ]
+        },
+        {
+          "id": "8d24f5677c199a45",
+          "title": "GitHub Universe 2026: Evolving every layer of the stack",
+          "excerpt": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+          "publishedAt": "2026-10-28T16:09:28.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Our jobs as developers are changing. In a couple of years, we've gone from writing every line of code to working with AI assistants to orchestrating fleets of agents. But the goal hasn't changed: ship completed software work. A feature, a bug fix, a security fix. Completed work, not more code, is the output that matters.",
+            "Today at GitHub Universe , we shared our vision for GitHub as the most comprehensive software delivery system in the world. We introduced products that bring that vision to life and showed how we're rebuilding the infrastructure underneath it.",
+            "The SDLC is no longer a linear path from planning to coding to testing to deployment.",
+            "A code change, a request from a colleague, or a production metric can trigger work anywhere in the system.",
+            "Most of us (and our agents) jump between different stages, depending on the task at hand."
           ]
         }
       ]

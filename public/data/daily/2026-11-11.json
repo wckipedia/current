@@ -1,0 +1,340 @@
+{
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T01:14:42.601Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
+  "sections": [
+    {
+      "name": "AI",
+      "articles": [
+        {
+          "id": "65b96c238445cded",
+          "title": "Gilbert + Tobin rethinks the business of law with AI",
+          "excerpt": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+          "publishedAt": "2026-11-12T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/gilbert-tobin-sam-nickless/ Our Executive Function series features perspectives from leaders driving transformation through AI.",
+            "Gilbert + Tobin is one of Australia’s leading corporate law firms, with work spanning capital markets, mergers and acquisitions, disputes, and technology.",
+            "The firm operates in a profession built on specialist knowledge, careful judgement, and the secure handling of sensitive information.",
+            "Gilbert + Tobin began by giving its people room to experiment with AI, then introduced ChatGPT Enterprise, ChatGPT Work and Codex to move from individual assistance to defined, multistep agentic workflows, with people responsible for review and approval.",
+            "We spoke with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin, about leading adoption from the front, where he’s seeing the value of AI, and his advice for other CEOs."
+          ]
+        },
+        {
+          "id": "0f0020abcf733229",
+          "title": "Helping caregivers use AI in everyday life",
+          "excerpt": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+          "publishedAt": "2026-11-10T12:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/helping-caregivers-use-ai-in-everyday-life/ Caregiving often means juggling schedules, keeping track of information, and finding support while balancing work and family life.",
+            "During National Family Caregivers Month, we’re helping caregivers gain AI skills that can make some of those everyday tasks easier, giving them more time to focus on the people they care for.",
+            "On November 10, OpenAI Academy, in collaboration with Caregiver Action Network, Alzheimer’s Association, and American Diabetes Association®, is hosting the AI Skills Jam for Caregivers & Community Health: a free, in-person learning experience designed to help caregivers use ChatGPT confidently, safely, and practically.",
+            "Participants will also learn when to consult healthcare professionals and how AI tools should complement, not replace, medical, legal, or financial advice.OpenAI facilitators and mentors will offer hands-on support throughout the workshops.",
+            "1 of 4 The Jam brings this learning into local communities, where caregivers can practice alongside peers and share the everyday challenges they hope these tools can help address."
+          ]
+        },
+        {
+          "id": "991ad48e8559b2fe",
+          "title": "Introducing Businesses in ChatGPT",
+          "excerpt": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-businesses-chatgpt",
+          "publishedAt": "2026-11-10T10:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Through Business Hub, businesses can claim their business, manage their information, and see insights on how people engage with them on ChatGPT.",
+            "In addition, we are adding a powerful new way for businesses to interact with users via Business Agents, starting with eligible ecommerce and online service businesses in the U.S.",
+            "Together, these products create more ways for businesses to connect with people as they explore options and make decisions.",
+            "They strengthen how people discover and interact with businesses in ChatGPT through broader business coverage, up-to-date information, and the ability to connect with a business through its Business Agent.",
+            "Throughout these experiences, protecting the trust people place in ChatGPT remains our North Star."
+          ]
+        },
+        {
+          "id": "69d4d9d74efa0162",
+          "title": "Closing the AI guidance gap in education",
+          "excerpt": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+          "publishedAt": "2026-11-10T09:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/closing-ai-guidance-gap-education/ AI is prompting a fundamental reassessment of what education should prepare societies for.",
+            "As intelligence becomes easier to access and apply, the question is no longer simply what people need to know, but which skills and capabilities will help them thrive in an AI-enabled world.",
+            "Recent debates around PISA and AI, including those led by theOECD’s Andreas Schleicher, underscore this shift.",
+            "They also point to a central lesson: as AI becomes more capable, the role of teachers becomes more important, not less.",
+            "Their expertise, judgement and ability to guide learning remain essential."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "articles": [
+        {
+          "id": "f27ad28b0c4db975",
+          "title": "Launching the Vite Ecosystem Fund",
+          "excerpt": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed by Cloudflare.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+          "publishedAt": "2026-11-09T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to 44 projects and maintainers across the Vite ecosystem.",
+            "When VoidZero joined Cloudflare, we committed $1 million to strengthen the open source ecosystem around Vite. This round is just the start.",
+            "Sponsoring open source has always mattered, but now AI has made funding urgent.",
+            "AI has made open source more valuable while triggering more maintainer burnout. Previously, contributing to a project through either an issue or pull request meant you cared about it. In return, maintainers would review and provide feedback. AI changed the social contract of open source. Anyone can now create and submit AI-authored pull requests.",
+            "The most visible result is the influx of pull requests. As the number of PRs has gone up, the number of maintainers reviewing them has stayed constant. So each maintainer’s workload has grown."
+          ]
+        },
+        {
+          "id": "a4dbacf967e62059",
+          "title": "The post-quantum future of web privacy",
+          "excerpt": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/vole-mole/",
+          "publishedAt": "2026-11-06T14:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "The highest priorities for the transition to post-quantum cryptography are the basic building blocks of authenticated key-agreement protocols such as TLS. Without these building blocks in place, secure communication on the Internet will not be possible once cryptographically relevant quantum computers come online. However, today we rely on quantum-vulnerable cryptography for much more than TLS.",
+            "Privacy Pass is a protocol used by site operators like Cloudflare to help protect applications from abuse.",
+            "One way we do this is by rate limiting individual clients so that no one client consumes too many of the site's resources.",
+            "Normally this involves some combination of friction or loss of privacy for users: CAPTCHAs or other challenges to moderate traffic, along with accounts and fingerprinting to identify traffic.Privacy Pass was designed to avoid this tradeoff between friction and privacy.",
+            "The basic idea is that a client gets issued a number of tokens , which they can redeem in exchange for access to the site."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "articles": [
+        {
+          "id": "abcfa69678f5ded8",
+          "title": "Docker and ActiveState Extending Secure Defaults to the Packages Developers Install",
+          "excerpt": "Docker partners with ActiveState to continue to provide one standard for trusted content across everything you and your teams build on.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/docker-activestate-trusted-content/",
+          "publishedAt": "2026-11-05T15:28:22.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "Trusted content is the foundation security-conscious organizations expect all builds to start from.",
+            "Docker has made that possible for everyone by providing the foundation free.",
+            "Docker Hardened Images (DHI) are open source under Apache 2.0, with a catalog of 4,000+ minimal images (and growing) built from source and continuously maintained by Docker.",
+            "The catalog also carries customizable Helm charts and over 65,000 hardened system packages.",
+            "For most services, adopting DHI is as simple as changing the FROM line."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "articles": [
+        {
+          "id": "2c15f23ac7aa344c",
+          "title": "Git security vulnerabilities announced",
+          "excerpt": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+          "publishedAt": "2026-11-10T18:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Today, the Git project is releasing new versions to address six security vulnerabilities. These include arbitrary code execution when recursively cloning a malicious repository, writes to unintended files, and memory corruption when processing merges or binary patches.",
+            "The fixes are included in Git 2.56.1 , with backports to Git 2.55.1, 2.54.1, 2.53.1, 2.52.1, 2.51.3, and 2.50.2. We recommend updating to Git 2.56.1 or the patched release for your maintenance series, and updating any applications that bundle Git.",
+            "Git checks paths before writing files into a working tree, including rejecting paths that would overwrite its own repository metadata. However, an integer truncation in Git's index handling can cause an extremely long path to pass validation under one name and then be written using a shorter name.",
+            "An attacker can use this discrepancy to replace a submodule's .git file with a symbolic link pointing to a directory containing malicious configuration or hooks . When Git subsequently uses that directory, it can execute attacker-controlled code during a recursive clone.",
+            "The fix rejects extremely long index entry paths before their lengths can be truncated."
+          ]
+        },
+        {
+          "id": "952d2516af2e9054",
+          "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+          "excerpt": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/control-room",
+          "publishedAt": "2026-11-09T13:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/control-room/ As our models get more powerful and the associated safety and security risks become bigger, it becomes more and more critical that we can detect potential issues, and quickly stop models in their tracks when needed.",
+            "Control Room is a central system to track model workloads across our research infrastructure and stop them quickly when safety or security concerns arise.",
+            "It connects every research inference workload, including agentic sampling for model training and evaluation, data processing, and more.",
+            "This works together with our misalignment monitoring systems, and halts model output within 35 seconds of a decision to intervene to stop or pause a job.",
+            "It has been built to keep working even when other systems fail, and to stop model output if Control Room itself goes down."
+          ]
+        },
+        {
+          "id": "e581154108f523de",
+          "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
+          "excerpt": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/zero-wire/",
+          "publishedAt": "2026-11-03T14:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "You receive a ping: a new critical vulnerability has been disclosed.",
+            "Your team scrambles to compare vendor advisories, read technical research, check which systems run the affected software, and answer familiar questions from the business: are we affected, and what are we doing about it?",
+            "Another disclosure arrives before that work is finished.",
+            "AI is changing both the volume and speed of critical vulnerability discovery. It can analyze large codebases at scale and surface deeply nested flaws that may have existed for years without being found through human review. That discovery momentum will put more pressure on security teams to understand the impact of each disclosure on their infrastructure.",
+            "To help security teams prepare, today we’re introducing Zero Wire : a public vulnerability intelligence feed on Cloudflare Radar, bringing the clarity of a news wire service to critical security developments. It helps security leaders and practitioners understand significant vulnerabilities and decide what to do next."
+          ]
+        },
+        {
+          "id": "f650e3d5431a6a34",
+          "title": "CNCF Score project improved its security posture by joining the Docker-Sponsored Open Source Program",
+          "excerpt": "See how CNCF Score improved container security with Docker Scout, Hardened Images, and the Docker-Sponsored Open Source Program.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/cncf-score-project-improved-its-security-posture-by-joining-the-docker-sponsored-open-source-program/",
+          "publishedAt": "2026-11-05T14:00:00.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Score, a CNCF Sandbox project, recently joined the Docker-Sponsored Open Source (DSOS) Program to strengthen the security of its container images and release pipeline.",
+            "In this post, the Score maintainers share what we adopted (Docker Hub, Docker Scout, Docker Hardened Images, the Docker GitHub Builder, and OIDC connections), the results we measured, and how other open source projects, within the CNCF and beyond, can apply the same practices by default.",
+            "In September 2025, the CNCF announced a partnership with Docker to expand infrastructure support for project maintainers through the Docker-Sponsored Open Source (DSOS) Program. The partnership gives CNCF projects access to Docker’s security scanning tools, container registry, and best-practice resources at no cost.",
+            "This aligned closely with the discussions held at the Maintainer Summit NA 2025 in Atlanta , which centered on increasing collaboration across CNCF projects and demonstrating security best practices.",
+            "The Docker-Sponsored Open Source (DSOS) Program supports non-commercial open source projects with Docker tooling and infrastructure."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Open Source",
+      "articles": [
+        {
+          "id": "1558c78d072630b6",
+          "title": "Accessibility statements now have a home on GitHub",
+          "excerpt": "GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes. The post Accessibility statements now have a home on GitHub appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
+          "publishedAt": "2026-11-05T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Open Source",
+          "scanMinutes": 1,
+          "details": [
+            "Accessibility work often lives in issue trackers, contribution guidelines, audit reports, team knowledge, and conversations with users. When that information has no predictable home, people who encounter a barrier must search for it, and maintainers lose context as contributors and project ownership change.",
+            "An ACCESSIBILITY.md file, now visible on repository overview pages, gives a project one durable place to explain its accessibility goals, contributor expectations, supported environments, known limitations, and process for reporting barriers.",
+            "GitHub now recognizes the ACCESSIBILITY.md file in the repository's root, .github/ directory, or docs/ directory. A repository can also inherit a statement from its organization's .github/ repository. For public repositories, maintainers can add or propose a statement from Insights > Community Standards using a concise starter document.",
+            "GitHub's community health files help people understand how a project works:",
+            "Codes of conduct establish expectations for participation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "articles": [
+        {
+          "id": "410a92595886a074",
+          "title": "Arnis turns any place on Earth into a Minecraft world",
+          "excerpt": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
+          "publishedAt": "2026-11-03T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Louis Erbkamm knows his way around Arnis, the smallest town in Germany, but he's never set foot in it.",
+            "I know where the shops are. Where the boats are... I know the city pretty well, but I haven't been there yet.",
+            "Arnis is also the name of his open source project, which takes real-world data from OpenStreetMap and other sources to turn places you know into Minecraft worlds you can freely explore. Since Louis started Arnis in 2022, it's reached close to 900,000 downloads from GitHub and about 70 contributors.",
+            "Louis grew up playing Minecraft and started coding at 13, always looking for ways to bring code into the game. Arnis began as a fun diversion combining Minecraft with geospatial data, and it went on GitHub, where he already kept his side projects. He finished the first prototype within two weeks while on a break from school.",
+            "That first version was Python written by hand, built only on OpenStreetMap, and generating a town took a while. He needed somewhere real to test it, so he looked up towns in Germany, where he lives, and found Arnis. A small town helped while early generation was slow."
+          ]
+        },
+        {
+          "id": "9a97986aa28bfe34",
+          "title": "Game Off 2026: The theme is SHIFT",
+          "excerpt": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+          "publishedAt": "2026-11-01T21:36:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Game Off , GitHub's annual month-long game jam, returns for its 14th year this November. Thousands of developers have joined us over the years to make everything from polished platformers to wonderfully weird experiments.",
+            "Whether you're making your first game or your fiftieth, we'd love for you to join us.",
+            "Shift gears. Shift perspectives. Shift dimensions. Shift bits. Work the night shift. Or make a game where the only buttons are the Shift keys.",
+            "You have until December 1, 2026, at 13:37 PST to build and submit a game inspired by SHIFT. Strong or loose inspirations apply!",
+            "A change in position, direction, perspective, or reality."
+          ]
+        },
+        {
+          "id": "8d24f5677c199a45",
+          "title": "GitHub Universe 2026: Evolving every layer of the stack",
+          "excerpt": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+          "publishedAt": "2026-10-28T16:09:28.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Our jobs as developers are changing. In a couple of years, we've gone from writing every line of code to working with AI assistants to orchestrating fleets of agents. But the goal hasn't changed: ship completed software work. A feature, a bug fix, a security fix. Completed work, not more code, is the output that matters.",
+            "Today at GitHub Universe , we shared our vision for GitHub as the most comprehensive software delivery system in the world. We introduced products that bring that vision to life and showed how we're rebuilding the infrastructure underneath it.",
+            "The SDLC is no longer a linear path from planning to coding to testing to deployment.",
+            "A code change, a request from a colleague, or a production metric can trigger work anywhere in the system.",
+            "Most of us (and our agents) jump between different stages, depending on the task at hand."
+          ]
+        }
+      ]
+    }
+  ]
+}
