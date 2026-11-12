@@ -1,6 +1,6 @@
 {
   "week": "2026-W46",
-  "generatedAt": "2026-11-11T01:58:09.276Z",
+  "generatedAt": "2026-11-12T02:16:51.125Z",
   "sections": [
     {
       "name": "AI",
@@ -26,43 +26,43 @@
           ]
         },
         {
-          "id": "0f0020abcf733229",
-          "title": "Helping caregivers use AI in everyday life",
-          "excerpt": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+          "id": "ac94b61a25ade5ed",
+          "title": "ChatGPT Plus for veterans and servicemembers",
+          "excerpt": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-          "publishedAt": "2026-11-10T12:00:00.000Z",
-          "technologies": [
-            "OpenAI"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": [
-            "Final URL: https://openai.com/index/helping-caregivers-use-ai-in-everyday-life/ Caregiving often means juggling schedules, keeping track of information, and finding support while balancing work and family life.",
-            "During National Family Caregivers Month, we’re helping caregivers gain AI skills that can make some of those everyday tasks easier, giving them more time to focus on the people they care for.",
-            "On November 10, OpenAI Academy, in collaboration with Caregiver Action Network, Alzheimer’s Association, and American Diabetes Association®, is hosting the AI Skills Jam for Caregivers & Community Health: a free, in-person learning experience designed to help caregivers use ChatGPT confidently, safely, and practically.",
-            "Participants will also learn when to consult healthcare professionals and how AI tools should complement, not replace, medical, legal, or financial advice.OpenAI facilitators and mentors will offer hands-on support throughout the workshops.",
-            "1 of 4 The Jam brings this learning into local communities, where caregivers can practice alongside peers and share the everyday challenges they hope these tools can help address."
-          ]
-        },
-        {
-          "id": "991ad48e8559b2fe",
-          "title": "Introducing Businesses in ChatGPT",
-          "excerpt": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/introducing-businesses-chatgpt",
-          "publishedAt": "2026-11-10T10:00:00.000Z",
+          "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+          "publishedAt": "2026-11-11T08:00:00.000Z",
           "technologies": [
             "Software Engineering"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Through Business Hub, businesses can claim their business, manage their information, and see insights on how people engage with them on ChatGPT.",
-            "In addition, we are adding a powerful new way for businesses to interact with users via Business Agents, starting with eligible ecommerce and online service businesses in the U.S.",
-            "Together, these products create more ways for businesses to connect with people as they explore options and make decisions.",
-            "They strengthen how people discover and interact with businesses in ChatGPT through broader business coverage, up-to-date information, and the ability to connect with a business through its Business Agent.",
-            "Throughout these experiences, protecting the trust people place in ChatGPT remains our North Star."
+            "Final URL: https://openai.com/index/chatgpt-plus-for-veterans/ 20,000 veterans are using ChatGPT to build what comes next In the past year, more than 20,000 transitioning servicemembers and veterans have claimed a year of ChatGPT Plus at no cost after being offered free access by OpenAI.",
+            "That milestone gives us a chance to look at how veterans are using AI to prepare for civilian careers and to figure out what comes next for themselves and their families.",
+            "The effort started with veterans who work here at OpenAI, people who use these tools every day and know firsthand how challenging the transition can be.",
+            "Beyond the free access, OpenAI Academy and our community partners have hosted more than a dozen trainings for nearly 1,000 members of the military community, with seven more scheduled before the year ends.",
+            "Preparing for civilian careers Leaving the military often means stepping into an unfamiliar job market and working out how years of service translate into a civilian role."
+          ]
+        },
+        {
+          "id": "55ff14dc4213127d",
+          "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+          "excerpt": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/jiostar-vijay-seshadri",
+          "publishedAt": "2026-11-11T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/jiostar-vijay-seshadri/ Our Executive Function series features perspectives from leaders driving transformation through AI.",
+            "JioStar operates entertainment and live-sports platforms used by more than 500 million consumers and has supported as many as 72.5 million concurrent live-sports viewers.",
+            "At that scale, AI has to be fast, reliable, and ready for production.",
+            "Using the OpenAI API, JioStar built a conversational video and cricket-stat discovery assistant into JioHotstar.",
+            "Viewers can speak naturally to find movies and shows, historical highlights, live-match moments, or cricket statistics, with results returned through a visual, conversational experience."
           ]
         }
       ]
@@ -70,6 +70,26 @@
     {
       "name": "Cloud",
       "articles": [
+        {
+          "id": "b4c8fa961fce9edf",
+          "title": "Choosing QuePaxa, an unusual consensus algorithm",
+          "excerpt": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/choosing-quepaxa/",
+          "publishedAt": "2026-11-11T14:24:46.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Cloudflare recently announced Meerkat , an experimental distributed consensus service designed to manage our internal global control plane. It is powered by a new consensus algorithm published by researchers Tennage & Băsescu et al. called QuePaxa (2023).",
+            "QuePaxa is an unusual choice; most consensus systems use well-established consensus algorithms like Raft, (Multi-)Paxos or Viewstamped Replication. These algorithms are well understood, have mature implementations, and usually work well.",
+            "Unfortunately, common consensus algorithms often suffer in wide-area networks with volatile network connectivity and latency, i.e., networks like the Internet, which is where Meerkat runs.",
+            "These algorithms rely on a single leader process being available and having predictable latency.",
+            "If the leader goes down, experiences higher latency than usual, or is disconnected, the entire consensus system slows down or becomes unavailable until the leader is replaced."
+          ]
+        },
         {
           "id": "f27ad28b0c4db975",
           "title": "Launching the Vite Ecosystem Fund",
@@ -113,31 +133,6 @@
       ]
     },
     {
-      "name": "DevOps",
-      "articles": [
-        {
-          "id": "abcfa69678f5ded8",
-          "title": "Docker and ActiveState Extending Secure Defaults to the Packages Developers Install",
-          "excerpt": "Docker partners with ActiveState to continue to provide one standard for trusted content across everything you and your teams build on.",
-          "source": "Docker Blog",
-          "url": "https://www.docker.com/blog/docker-activestate-trusted-content/",
-          "publishedAt": "2026-11-05T15:28:22.000Z",
-          "technologies": [
-            "Docker"
-          ],
-          "category": "DevOps",
-          "scanMinutes": 1,
-          "details": [
-            "Trusted content is the foundation security-conscious organizations expect all builds to start from.",
-            "Docker has made that possible for everyone by providing the foundation free.",
-            "Docker Hardened Images (DHI) are open source under Apache 2.0, with a catalog of 4,000+ minimal images (and growing) built from source and continuously maintained by Docker.",
-            "The catalog also carries customizable Helm charts and over 65,000 hardened system packages.",
-            "For most services, adopting DHI is as simple as changing the FROM line."
-          ]
-        }
-      ]
-    },
-    {
       "name": "Security",
       "articles": [
         {
@@ -161,26 +156,6 @@
           ]
         },
         {
-          "id": "952d2516af2e9054",
-          "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-          "excerpt": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/control-room",
-          "publishedAt": "2026-11-09T13:00:00.000Z",
-          "technologies": [
-            "OpenAI"
-          ],
-          "category": "Security",
-          "scanMinutes": 1,
-          "details": [
-            "Final URL: https://openai.com/index/control-room/ As our models get more powerful and the associated safety and security risks become bigger, it becomes more and more critical that we can detect potential issues, and quickly stop models in their tracks when needed.",
-            "Control Room is a central system to track model workloads across our research infrastructure and stop them quickly when safety or security concerns arise.",
-            "It connects every research inference workload, including agentic sampling for model training and evaluation, data processing, and more.",
-            "This works together with our misalignment monitoring systems, and halts model output within 35 seconds of a decision to intervene to stop or pause a job.",
-            "It has been built to keep working even when other systems fail, and to stop model output if Control Room itself goes down."
-          ]
-        },
-        {
           "id": "e581154108f523de",
           "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
           "excerpt": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
@@ -198,6 +173,31 @@
             "Another disclosure arrives before that work is finished.",
             "AI is changing both the volume and speed of critical vulnerability discovery. It can analyze large codebases at scale and surface deeply nested flaws that may have existed for years without being found through human review. That discovery momentum will put more pressure on security teams to understand the impact of each disclosure on their infrastructure.",
             "To help security teams prepare, today we’re introducing Zero Wire : a public vulnerability intelligence feed on Cloudflare Radar, bringing the clarity of a news wire service to critical security developments. It helps security leaders and practitioners understand significant vulnerabilities and decide what to do next."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Languages",
+      "articles": [
+        {
+          "id": "6a8c4dac5a5dde0b",
+          "title": "Google Summer of Code 2026 results",
+          "excerpt": "The Rust Project participated in Google Summer of Code (GSoC) for the third time this year. This time we had 13 projects, and our dear contributors have been working very hard on them for several months. As usual, the projects had various durations, so while some of them have ended in August, the last one…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/11/11/gsoc-2026-results/",
+          "publishedAt": "2026-11-11T00:00:00.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "This time we had 13 projects, and our dear contributors have been working very hard on them for several months.",
+            "As usual, the projects had various durations, so while some of them have ended in August, the last one has only finished in November, so we have been waiting until we have all the results before publishing this blog post.",
+            "We are very happy to announce that all 13 projects were successful and passed their final evaluation! We consider it to be a testament to the diligence of our contributors, and the helpfulness of our mentors, that we are able to keep a very high rate [1] of successful GSoC projects several years in a row.",
+            "At the start of summer, we had a video call with our contributors, so that we could all get to know each other a bit, and learn about their projects.",
+            "Over the following few months, we continuously communicated with the contributors, provided guidance and answered their questions and reviewed their pull requests."
           ]
         }
       ]

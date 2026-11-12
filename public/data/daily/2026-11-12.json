@@ -1,0 +1,320 @@
+{
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T02:16:51.125Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
+  "sections": [
+    {
+      "name": "AI",
+      "articles": [
+        {
+          "id": "65b96c238445cded",
+          "title": "Gilbert + Tobin rethinks the business of law with AI",
+          "excerpt": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+          "publishedAt": "2026-11-12T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/gilbert-tobin-sam-nickless/ Our Executive Function series features perspectives from leaders driving transformation through AI.",
+            "Gilbert + Tobin is one of Australia’s leading corporate law firms, with work spanning capital markets, mergers and acquisitions, disputes, and technology.",
+            "The firm operates in a profession built on specialist knowledge, careful judgement, and the secure handling of sensitive information.",
+            "Gilbert + Tobin began by giving its people room to experiment with AI, then introduced ChatGPT Enterprise, ChatGPT Work and Codex to move from individual assistance to defined, multistep agentic workflows, with people responsible for review and approval.",
+            "We spoke with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin, about leading adoption from the front, where he’s seeing the value of AI, and his advice for other CEOs."
+          ]
+        },
+        {
+          "id": "ac94b61a25ade5ed",
+          "title": "ChatGPT Plus for veterans and servicemembers",
+          "excerpt": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+          "publishedAt": "2026-11-11T08:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/chatgpt-plus-for-veterans/ 20,000 veterans are using ChatGPT to build what comes next In the past year, more than 20,000 transitioning servicemembers and veterans have claimed a year of ChatGPT Plus at no cost after being offered free access by OpenAI.",
+            "That milestone gives us a chance to look at how veterans are using AI to prepare for civilian careers and to figure out what comes next for themselves and their families.",
+            "The effort started with veterans who work here at OpenAI, people who use these tools every day and know firsthand how challenging the transition can be.",
+            "Beyond the free access, OpenAI Academy and our community partners have hosted more than a dozen trainings for nearly 1,000 members of the military community, with seven more scheduled before the year ends.",
+            "Preparing for civilian careers Leaving the military often means stepping into an unfamiliar job market and working out how years of service translate into a civilian role."
+          ]
+        },
+        {
+          "id": "55ff14dc4213127d",
+          "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+          "excerpt": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/jiostar-vijay-seshadri",
+          "publishedAt": "2026-11-11T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/jiostar-vijay-seshadri/ Our Executive Function series features perspectives from leaders driving transformation through AI.",
+            "JioStar operates entertainment and live-sports platforms used by more than 500 million consumers and has supported as many as 72.5 million concurrent live-sports viewers.",
+            "At that scale, AI has to be fast, reliable, and ready for production.",
+            "Using the OpenAI API, JioStar built a conversational video and cricket-stat discovery assistant into JioHotstar.",
+            "Viewers can speak naturally to find movies and shows, historical highlights, live-match moments, or cricket statistics, with results returned through a visual, conversational experience."
+          ]
+        },
+        {
+          "id": "0f0020abcf733229",
+          "title": "Helping caregivers use AI in everyday life",
+          "excerpt": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+          "publishedAt": "2026-11-10T12:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/helping-caregivers-use-ai-in-everyday-life/ Caregiving often means juggling schedules, keeping track of information, and finding support while balancing work and family life.",
+            "During National Family Caregivers Month, we’re helping caregivers gain AI skills that can make some of those everyday tasks easier, giving them more time to focus on the people they care for.",
+            "On November 10, OpenAI Academy, in collaboration with Caregiver Action Network, Alzheimer’s Association, and American Diabetes Association®, is hosting the AI Skills Jam for Caregivers & Community Health: a free, in-person learning experience designed to help caregivers use ChatGPT confidently, safely, and practically.",
+            "Participants will also learn when to consult healthcare professionals and how AI tools should complement, not replace, medical, legal, or financial advice.OpenAI facilitators and mentors will offer hands-on support throughout the workshops.",
+            "1 of 4 The Jam brings this learning into local communities, where caregivers can practice alongside peers and share the everyday challenges they hope these tools can help address."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "articles": [
+        {
+          "id": "b4c8fa961fce9edf",
+          "title": "Choosing QuePaxa, an unusual consensus algorithm",
+          "excerpt": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/choosing-quepaxa/",
+          "publishedAt": "2026-11-11T14:24:46.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Cloudflare recently announced Meerkat , an experimental distributed consensus service designed to manage our internal global control plane. It is powered by a new consensus algorithm published by researchers Tennage & Băsescu et al. called QuePaxa (2023).",
+            "QuePaxa is an unusual choice; most consensus systems use well-established consensus algorithms like Raft, (Multi-)Paxos or Viewstamped Replication. These algorithms are well understood, have mature implementations, and usually work well.",
+            "Unfortunately, common consensus algorithms often suffer in wide-area networks with volatile network connectivity and latency, i.e., networks like the Internet, which is where Meerkat runs.",
+            "These algorithms rely on a single leader process being available and having predictable latency.",
+            "If the leader goes down, experiences higher latency than usual, or is disconnected, the entire consensus system slows down or becomes unavailable until the leader is replaced."
+          ]
+        },
+        {
+          "id": "f27ad28b0c4db975",
+          "title": "Launching the Vite Ecosystem Fund",
+          "excerpt": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed by Cloudflare.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+          "publishedAt": "2026-11-09T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to 44 projects and maintainers across the Vite ecosystem.",
+            "When VoidZero joined Cloudflare, we committed $1 million to strengthen the open source ecosystem around Vite. This round is just the start.",
+            "Sponsoring open source has always mattered, but now AI has made funding urgent.",
+            "AI has made open source more valuable while triggering more maintainer burnout. Previously, contributing to a project through either an issue or pull request meant you cared about it. In return, maintainers would review and provide feedback. AI changed the social contract of open source. Anyone can now create and submit AI-authored pull requests.",
+            "The most visible result is the influx of pull requests. As the number of PRs has gone up, the number of maintainers reviewing them has stayed constant. So each maintainer’s workload has grown."
+          ]
+        },
+        {
+          "id": "a4dbacf967e62059",
+          "title": "The post-quantum future of web privacy",
+          "excerpt": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/vole-mole/",
+          "publishedAt": "2026-11-06T14:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "The highest priorities for the transition to post-quantum cryptography are the basic building blocks of authenticated key-agreement protocols such as TLS. Without these building blocks in place, secure communication on the Internet will not be possible once cryptographically relevant quantum computers come online. However, today we rely on quantum-vulnerable cryptography for much more than TLS.",
+            "Privacy Pass is a protocol used by site operators like Cloudflare to help protect applications from abuse.",
+            "One way we do this is by rate limiting individual clients so that no one client consumes too many of the site's resources.",
+            "Normally this involves some combination of friction or loss of privacy for users: CAPTCHAs or other challenges to moderate traffic, along with accounts and fingerprinting to identify traffic.Privacy Pass was designed to avoid this tradeoff between friction and privacy.",
+            "The basic idea is that a client gets issued a number of tokens , which they can redeem in exchange for access to the site."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "articles": [
+        {
+          "id": "2c15f23ac7aa344c",
+          "title": "Git security vulnerabilities announced",
+          "excerpt": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+          "publishedAt": "2026-11-10T18:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Today, the Git project is releasing new versions to address six security vulnerabilities. These include arbitrary code execution when recursively cloning a malicious repository, writes to unintended files, and memory corruption when processing merges or binary patches.",
+            "The fixes are included in Git 2.56.1 , with backports to Git 2.55.1, 2.54.1, 2.53.1, 2.52.1, 2.51.3, and 2.50.2. We recommend updating to Git 2.56.1 or the patched release for your maintenance series, and updating any applications that bundle Git.",
+            "Git checks paths before writing files into a working tree, including rejecting paths that would overwrite its own repository metadata. However, an integer truncation in Git's index handling can cause an extremely long path to pass validation under one name and then be written using a shorter name.",
+            "An attacker can use this discrepancy to replace a submodule's .git file with a symbolic link pointing to a directory containing malicious configuration or hooks . When Git subsequently uses that directory, it can execute attacker-controlled code during a recursive clone.",
+            "The fix rejects extremely long index entry paths before their lengths can be truncated."
+          ]
+        },
+        {
+          "id": "e581154108f523de",
+          "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
+          "excerpt": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/zero-wire/",
+          "publishedAt": "2026-11-03T14:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "You receive a ping: a new critical vulnerability has been disclosed.",
+            "Your team scrambles to compare vendor advisories, read technical research, check which systems run the affected software, and answer familiar questions from the business: are we affected, and what are we doing about it?",
+            "Another disclosure arrives before that work is finished.",
+            "AI is changing both the volume and speed of critical vulnerability discovery. It can analyze large codebases at scale and surface deeply nested flaws that may have existed for years without being found through human review. That discovery momentum will put more pressure on security teams to understand the impact of each disclosure on their infrastructure.",
+            "To help security teams prepare, today we’re introducing Zero Wire : a public vulnerability intelligence feed on Cloudflare Radar, bringing the clarity of a news wire service to critical security developments. It helps security leaders and practitioners understand significant vulnerabilities and decide what to do next."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Languages",
+      "articles": [
+        {
+          "id": "6a8c4dac5a5dde0b",
+          "title": "Google Summer of Code 2026 results",
+          "excerpt": "The Rust Project participated in Google Summer of Code (GSoC) for the third time this year. This time we had 13 projects, and our dear contributors have been working very hard on them for several months. As usual, the projects had various durations, so while some of them have ended in August, the last one…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/11/11/gsoc-2026-results/",
+          "publishedAt": "2026-11-11T00:00:00.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "This time we had 13 projects, and our dear contributors have been working very hard on them for several months.",
+            "As usual, the projects had various durations, so while some of them have ended in August, the last one has only finished in November, so we have been waiting until we have all the results before publishing this blog post.",
+            "We are very happy to announce that all 13 projects were successful and passed their final evaluation! We consider it to be a testament to the diligence of our contributors, and the helpfulness of our mentors, that we are able to keep a very high rate [1] of successful GSoC projects several years in a row.",
+            "At the start of summer, we had a video call with our contributors, so that we could all get to know each other a bit, and learn about their projects.",
+            "Over the following few months, we continuously communicated with the contributors, provided guidance and answered their questions and reviewed their pull requests."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Open Source",
+      "articles": [
+        {
+          "id": "1558c78d072630b6",
+          "title": "Accessibility statements now have a home on GitHub",
+          "excerpt": "GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes. The post Accessibility statements now have a home on GitHub appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
+          "publishedAt": "2026-11-05T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Open Source",
+          "scanMinutes": 1,
+          "details": [
+            "Accessibility work often lives in issue trackers, contribution guidelines, audit reports, team knowledge, and conversations with users. When that information has no predictable home, people who encounter a barrier must search for it, and maintainers lose context as contributors and project ownership change.",
+            "An ACCESSIBILITY.md file, now visible on repository overview pages, gives a project one durable place to explain its accessibility goals, contributor expectations, supported environments, known limitations, and process for reporting barriers.",
+            "GitHub now recognizes the ACCESSIBILITY.md file in the repository's root, .github/ directory, or docs/ directory. A repository can also inherit a statement from its organization's .github/ repository. For public repositories, maintainers can add or propose a statement from Insights > Community Standards using a concise starter document.",
+            "GitHub's community health files help people understand how a project works:",
+            "Codes of conduct establish expectations for participation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "articles": [
+        {
+          "id": "410a92595886a074",
+          "title": "Arnis turns any place on Earth into a Minecraft world",
+          "excerpt": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
+          "publishedAt": "2026-11-03T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Louis Erbkamm knows his way around Arnis, the smallest town in Germany, but he's never set foot in it.",
+            "I know where the shops are. Where the boats are... I know the city pretty well, but I haven't been there yet.",
+            "Arnis is also the name of his open source project, which takes real-world data from OpenStreetMap and other sources to turn places you know into Minecraft worlds you can freely explore. Since Louis started Arnis in 2022, it's reached close to 900,000 downloads from GitHub and about 70 contributors.",
+            "Louis grew up playing Minecraft and started coding at 13, always looking for ways to bring code into the game. Arnis began as a fun diversion combining Minecraft with geospatial data, and it went on GitHub, where he already kept his side projects. He finished the first prototype within two weeks while on a break from school.",
+            "That first version was Python written by hand, built only on OpenStreetMap, and generating a town took a while. He needed somewhere real to test it, so he looked up towns in Germany, where he lives, and found Arnis. A small town helped while early generation was slow."
+          ]
+        },
+        {
+          "id": "9a97986aa28bfe34",
+          "title": "Game Off 2026: The theme is SHIFT",
+          "excerpt": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+          "publishedAt": "2026-11-01T21:36:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Game Off , GitHub's annual month-long game jam, returns for its 14th year this November. Thousands of developers have joined us over the years to make everything from polished platformers to wonderfully weird experiments.",
+            "Whether you're making your first game or your fiftieth, we'd love for you to join us.",
+            "Shift gears. Shift perspectives. Shift dimensions. Shift bits. Work the night shift. Or make a game where the only buttons are the Shift keys.",
+            "You have until December 1, 2026, at 13:37 PST to build and submit a game inspired by SHIFT. Strong or loose inspirations apply!",
+            "A change in position, direction, perspective, or reality."
+          ]
+        },
+        {
+          "id": "8d24f5677c199a45",
+          "title": "GitHub Universe 2026: Evolving every layer of the stack",
+          "excerpt": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+          "publishedAt": "2026-10-28T16:09:28.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Our jobs as developers are changing. In a couple of years, we've gone from writing every line of code to working with AI assistants to orchestrating fleets of agents. But the goal hasn't changed: ship completed software work. A feature, a bug fix, a security fix. Completed work, not more code, is the output that matters.",
+            "Today at GitHub Universe , we shared our vision for GitHub as the most comprehensive software delivery system in the world. We introduced products that bring that vision to life and showed how we're rebuilding the infrastructure underneath it.",
+            "The SDLC is no longer a linear path from planning to coding to testing to deployment.",
+            "A code change, a request from a colleague, or a production metric can trigger work anywhere in the system.",
+            "Most of us (and our agents) jump between different stages, depending on the task at hand."
+          ]
+        }
+      ]
+    }
+  ]
+}
