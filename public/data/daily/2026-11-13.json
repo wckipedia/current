@@ -1,0 +1,340 @@
+{
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T01:50:18.594Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
+  "sections": [
+    {
+      "name": "AI",
+      "articles": [
+        {
+          "id": "8bc9138e516754eb",
+          "title": "Build once, run on any agent: A practical guide to agent skills",
+          "excerpt": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+          "publishedAt": "2026-11-12T22:54:52.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "How many times this week did you re-explain the same task to an agent?",
+            "How many times did you ask your colleague with deep institutional knowledge how to solve a specific problem?",
+            "That context shouldn't be lost in a chat or locked in one person's head.",
+            "Agent skills let you capture repeatable instructions so you and your agents can reuse them.",
+            "The skill you write for yourself tonight can later become part of a team's pipeline."
+          ]
+        },
+        {
+          "id": "67672a694e389b29",
+          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+          "excerpt": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/business/customer-stories/amplitude",
+          "publishedAt": "2026-11-12T20:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/business/customer-stories/amplitude/ Amplitude has always helped teams see how people actually use their products.",
+            "Its proactive product agent Wave helps teams turn those insights into shipped improvements.",
+            "Amplitude describes Wave as roughly 80% powered by OpenAI models, including GPT‑6.1 Sol, GPT‑6 Luna, and GPT‑Image‑2.5 Flare.",
+            "Wave turns product insights into implementation plans teams can ship to coding agents, including Codex, then measures the impact.",
+            "Amplitude estimates that Wave can help teams ship product improvements in 1-2 days, down from roughly a month.On Amplitude’s own homepage, Wave helped personalize suggestion cards, driving a 160% lift in card-driven sends. > “AI can now find useful work we never thought to assign it."
+          ]
+        },
+        {
+          "id": "b9840fd67063a36a",
+          "title": "Gondola doubles revenue as its team builds more with Codex",
+          "excerpt": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/business/customer-stories/gondola",
+          "publishedAt": "2026-11-12T12:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/business/customer-stories/gondola/ While running his creative production agency, Fresh Tape Media, Jared Kleinstein noticed a problem: incredible creative work was being made for social media, but the makers weren’t getting proper credit.",
+            "So he built the Gondola platform to help creatives show what they made, prove its impact, and turn their work into their next opportunity.",
+            "For Gondola’s small team, one of the biggest constraints was how much product and operational work it could take on.",
+            "Even small experiments competed with core product priorities for engineering time, and finding information and drafting work required sifting through tools and systems.",
+            "Today, the team uses Codex to turn more ideas into software and ChatGPT to simplify daily operations."
+          ]
+        },
+        {
+          "id": "4922ca6fb0dd9299",
+          "title": "Holiday Extras is rethinking what it can build with Codex",
+          "excerpt": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+          "publishedAt": "2026-11-12T09:30:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/business/customer-stories/holidays-extras-codex/ Holiday Extras helps customers search, book and manage trips.",
+            "For CEO Matthew Pack, becoming an AI-based travel technology business means changing how the whole organisation works: giving the people who understand customers and operations the ability to improve them directly.",
+            "Company-wide ChatGPT Enterprise access established the foundation.",
+            "Codex extended it into building software, from customer-facing apps to internal systems.",
+            "Pack builds with Codex himself, using that experience to understand what colleagues need and raise his expectations of what the business can achieve. > “This isn’t about one or two people anymore."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "articles": [
+        {
+          "id": "b4c8fa961fce9edf",
+          "title": "Choosing QuePaxa, an unusual consensus algorithm",
+          "excerpt": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/choosing-quepaxa/",
+          "publishedAt": "2026-11-11T14:24:46.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Cloudflare recently announced Meerkat , an experimental distributed consensus service designed to manage our internal global control plane. It is powered by a new consensus algorithm published by researchers Tennage & Băsescu et al. called QuePaxa (2023).",
+            "QuePaxa is an unusual choice; most consensus systems use well-established consensus algorithms like Raft, (Multi-)Paxos or Viewstamped Replication. These algorithms are well understood, have mature implementations, and usually work well.",
+            "Unfortunately, common consensus algorithms often suffer in wide-area networks with volatile network connectivity and latency, i.e., networks like the Internet, which is where Meerkat runs.",
+            "These algorithms rely on a single leader process being available and having predictable latency.",
+            "If the leader goes down, experiences higher latency than usual, or is disconnected, the entire consensus system slows down or becomes unavailable until the leader is replaced."
+          ]
+        },
+        {
+          "id": "f27ad28b0c4db975",
+          "title": "Launching the Vite Ecosystem Fund",
+          "excerpt": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed by Cloudflare.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+          "publishedAt": "2026-11-09T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to 44 projects and maintainers across the Vite ecosystem.",
+            "When VoidZero joined Cloudflare, we committed $1 million to strengthen the open source ecosystem around Vite. This round is just the start.",
+            "Sponsoring open source has always mattered, but now AI has made funding urgent.",
+            "AI has made open source more valuable while triggering more maintainer burnout. Previously, contributing to a project through either an issue or pull request meant you cared about it. In return, maintainers would review and provide feedback. AI changed the social contract of open source. Anyone can now create and submit AI-authored pull requests.",
+            "The most visible result is the influx of pull requests. As the number of PRs has gone up, the number of maintainers reviewing them has stayed constant. So each maintainer’s workload has grown."
+          ]
+        },
+        {
+          "id": "a4dbacf967e62059",
+          "title": "The post-quantum future of web privacy",
+          "excerpt": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/vole-mole/",
+          "publishedAt": "2026-11-06T14:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "The highest priorities for the transition to post-quantum cryptography are the basic building blocks of authenticated key-agreement protocols such as TLS. Without these building blocks in place, secure communication on the Internet will not be possible once cryptographically relevant quantum computers come online. However, today we rely on quantum-vulnerable cryptography for much more than TLS.",
+            "Privacy Pass is a protocol used by site operators like Cloudflare to help protect applications from abuse.",
+            "One way we do this is by rate limiting individual clients so that no one client consumes too many of the site's resources.",
+            "Normally this involves some combination of friction or loss of privacy for users: CAPTCHAs or other challenges to moderate traffic, along with accounts and fingerprinting to identify traffic.Privacy Pass was designed to avoid this tradeoff between friction and privacy.",
+            "The basic idea is that a client gets issued a number of tokens , which they can redeem in exchange for access to the site."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "articles": [
+        {
+          "id": "2c15f23ac7aa344c",
+          "title": "Git security vulnerabilities announced",
+          "excerpt": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+          "publishedAt": "2026-11-10T18:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Today, the Git project is releasing new versions to address six security vulnerabilities. These include arbitrary code execution when recursively cloning a malicious repository, writes to unintended files, and memory corruption when processing merges or binary patches.",
+            "The fixes are included in Git 2.56.1 , with backports to Git 2.55.1, 2.54.1, 2.53.1, 2.52.1, 2.51.3, and 2.50.2. We recommend updating to Git 2.56.1 or the patched release for your maintenance series, and updating any applications that bundle Git.",
+            "Git checks paths before writing files into a working tree, including rejecting paths that would overwrite its own repository metadata. However, an integer truncation in Git's index handling can cause an extremely long path to pass validation under one name and then be written using a shorter name.",
+            "An attacker can use this discrepancy to replace a submodule's .git file with a symbolic link pointing to a directory containing malicious configuration or hooks . When Git subsequently uses that directory, it can execute attacker-controlled code during a recursive clone.",
+            "The fix rejects extremely long index entry paths before their lengths can be truncated."
+          ]
+        },
+        {
+          "id": "e581154108f523de",
+          "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
+          "excerpt": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/zero-wire/",
+          "publishedAt": "2026-11-03T14:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "You receive a ping: a new critical vulnerability has been disclosed.",
+            "Your team scrambles to compare vendor advisories, read technical research, check which systems run the affected software, and answer familiar questions from the business: are we affected, and what are we doing about it?",
+            "Another disclosure arrives before that work is finished.",
+            "AI is changing both the volume and speed of critical vulnerability discovery. It can analyze large codebases at scale and surface deeply nested flaws that may have existed for years without being found through human review. That discovery momentum will put more pressure on security teams to understand the impact of each disclosure on their infrastructure.",
+            "To help security teams prepare, today we’re introducing Zero Wire : a public vulnerability intelligence feed on Cloudflare Radar, bringing the clarity of a news wire service to critical security developments. It helps security leaders and practitioners understand significant vulnerabilities and decide what to do next."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Languages",
+      "articles": [
+        {
+          "id": "9ab435bfd5da65a2",
+          "title": "Announcing Rust 1.100.0",
+          "excerpt": "The Rust team is happy to announce a new version of Rust, 1.100.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.100.0 with: $ rustup update stable If you don't have it already, you can…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+          "publishedAt": "2026-11-12T00:00:00.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "If you have a previous version of Rust installed via rustup , you can get 1.100.0 with:",
+            "If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.100.0 .",
+            "If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default nightly ). Please report any bugs you might come across!",
+            "After 10 years and 5 failed stabilization attempts, the never type is finally stable ! This also completes the project goal for this work.",
+            "The never type, spelled ! in code, is the canonical uninhabited type. It represents the type of diverging computations - computations which never resolve to any value - where any code that follows is unreachable. Expressions that terminate control flow, such as return , break , and std::process::exit , also have the type ! ."
+          ]
+        },
+        {
+          "id": "6a8c4dac5a5dde0b",
+          "title": "Google Summer of Code 2026 results",
+          "excerpt": "The Rust Project participated in Google Summer of Code (GSoC) for the third time this year. This time we had 13 projects, and our dear contributors have been working very hard on them for several months. As usual, the projects had various durations, so while some of them have ended in August, the last one…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/11/11/gsoc-2026-results/",
+          "publishedAt": "2026-11-11T00:00:00.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "This time we had 13 projects, and our dear contributors have been working very hard on them for several months.",
+            "As usual, the projects had various durations, so while some of them have ended in August, the last one has only finished in November, so we have been waiting until we have all the results before publishing this blog post.",
+            "We are very happy to announce that all 13 projects were successful and passed their final evaluation! We consider it to be a testament to the diligence of our contributors, and the helpfulness of our mentors, that we are able to keep a very high rate [1] of successful GSoC projects several years in a row.",
+            "At the start of summer, we had a video call with our contributors, so that we could all get to know each other a bit, and learn about their projects.",
+            "Over the following few months, we continuously communicated with the contributors, provided guidance and answered their questions and reviewed their pull requests."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Open Source",
+      "articles": [
+        {
+          "id": "1558c78d072630b6",
+          "title": "Accessibility statements now have a home on GitHub",
+          "excerpt": "GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes. The post Accessibility statements now have a home on GitHub appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
+          "publishedAt": "2026-11-05T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Open Source",
+          "scanMinutes": 1,
+          "details": [
+            "Accessibility work often lives in issue trackers, contribution guidelines, audit reports, team knowledge, and conversations with users. When that information has no predictable home, people who encounter a barrier must search for it, and maintainers lose context as contributors and project ownership change.",
+            "An ACCESSIBILITY.md file, now visible on repository overview pages, gives a project one durable place to explain its accessibility goals, contributor expectations, supported environments, known limitations, and process for reporting barriers.",
+            "GitHub now recognizes the ACCESSIBILITY.md file in the repository's root, .github/ directory, or docs/ directory. A repository can also inherit a statement from its organization's .github/ repository. For public repositories, maintainers can add or propose a statement from Insights > Community Standards using a concise starter document.",
+            "GitHub's community health files help people understand how a project works:",
+            "Codes of conduct establish expectations for participation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "articles": [
+        {
+          "id": "7c512829bf524dd8",
+          "title": "GitHub availability report: October 2026",
+          "excerpt": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+          "publishedAt": "2026-11-13T00:20:16.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "We continue to share monthly updates on the work behind GitHub's availability and reliability.",
+            "The short version of October: we added substantial independently scalable Azure capacity and removed several ways that failures could escalate. However, write outages, monitoring gaps during data migrations, and a regional network disruption reinforced the need for capacity growth to be paired with safer operations, stronger isolation, and validated regional recovery.",
+            "As of November 9, 140 of 151 production services and 32 of 50 MySQL primaries were running in Azure Central US. Azure served 63% of migrated-service reads, 66% of monolith reads, and 52% of Git reads. We also completed a compute expansion across all nine Central US Kubernetes clusters, more than doubling capacity.",
+            "That capacity is already carrying real growth. Migrated-service traffic has increased 82% since March, with Central US absorbing the growth beyond the highest weekly-average load previously served from our existing datacenter. This gives GitHub more room to grow without pushing the original environment beyond its prior operating range.",
+            "We also made several targeted reliability improvements."
+          ]
+        },
+        {
+          "id": "410a92595886a074",
+          "title": "Arnis turns any place on Earth into a Minecraft world",
+          "excerpt": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
+          "publishedAt": "2026-11-03T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Louis Erbkamm knows his way around Arnis, the smallest town in Germany, but he's never set foot in it.",
+            "I know where the shops are. Where the boats are... I know the city pretty well, but I haven't been there yet.",
+            "Arnis is also the name of his open source project, which takes real-world data from OpenStreetMap and other sources to turn places you know into Minecraft worlds you can freely explore. Since Louis started Arnis in 2022, it's reached close to 900,000 downloads from GitHub and about 70 contributors.",
+            "Louis grew up playing Minecraft and started coding at 13, always looking for ways to bring code into the game. Arnis began as a fun diversion combining Minecraft with geospatial data, and it went on GitHub, where he already kept his side projects. He finished the first prototype within two weeks while on a break from school.",
+            "That first version was Python written by hand, built only on OpenStreetMap, and generating a town took a while. He needed somewhere real to test it, so he looked up towns in Germany, where he lives, and found Arnis. A small town helped while early generation was slow."
+          ]
+        },
+        {
+          "id": "9a97986aa28bfe34",
+          "title": "Game Off 2026: The theme is SHIFT",
+          "excerpt": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+          "publishedAt": "2026-11-01T21:36:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Game Off , GitHub's annual month-long game jam, returns for its 14th year this November. Thousands of developers have joined us over the years to make everything from polished platformers to wonderfully weird experiments.",
+            "Whether you're making your first game or your fiftieth, we'd love for you to join us.",
+            "Shift gears. Shift perspectives. Shift dimensions. Shift bits. Work the night shift. Or make a game where the only buttons are the Shift keys.",
+            "You have until December 1, 2026, at 13:37 PST to build and submit a game inspired by SHIFT. Strong or loose inspirations apply!",
+            "A change in position, direction, perspective, or reality."
+          ]
+        }
+      ]
+    }
+  ]
+}

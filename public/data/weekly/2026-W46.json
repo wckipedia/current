@@ -1,68 +1,68 @@
 {
   "week": "2026-W46",
-  "generatedAt": "2026-11-12T03:05:04.594Z",
+  "generatedAt": "2026-11-13T01:50:18.594Z",
   "sections": [
     {
       "name": "AI",
       "articles": [
         {
-          "id": "65b96c238445cded",
-          "title": "Gilbert + Tobin rethinks the business of law with AI",
-          "excerpt": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
-          "publishedAt": "2026-11-12T00:00:00.000Z",
+          "id": "8bc9138e516754eb",
+          "title": "Build once, run on any agent: A practical guide to agent skills",
+          "excerpt": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+          "publishedAt": "2026-11-12T22:54:52.000Z",
           "technologies": [
-            "Software Engineering"
+            "GitHub"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Final URL: https://openai.com/index/gilbert-tobin-sam-nickless/ Our Executive Function series features perspectives from leaders driving transformation through AI.",
-            "Gilbert + Tobin is one of Australia’s leading corporate law firms, with work spanning capital markets, mergers and acquisitions, disputes, and technology.",
-            "The firm operates in a profession built on specialist knowledge, careful judgement, and the secure handling of sensitive information.",
-            "Gilbert + Tobin began by giving its people room to experiment with AI, then introduced ChatGPT Enterprise, ChatGPT Work and Codex to move from individual assistance to defined, multistep agentic workflows, with people responsible for review and approval.",
-            "We spoke with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin, about leading adoption from the front, where he’s seeing the value of AI, and his advice for other CEOs."
+            "How many times this week did you re-explain the same task to an agent?",
+            "How many times did you ask your colleague with deep institutional knowledge how to solve a specific problem?",
+            "That context shouldn't be lost in a chat or locked in one person's head.",
+            "Agent skills let you capture repeatable instructions so you and your agents can reuse them.",
+            "The skill you write for yourself tonight can later become part of a team's pipeline."
           ]
         },
         {
-          "id": "ac94b61a25ade5ed",
-          "title": "ChatGPT Plus for veterans and servicemembers",
-          "excerpt": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+          "id": "67672a694e389b29",
+          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+          "excerpt": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-          "publishedAt": "2026-11-11T08:00:00.000Z",
+          "url": "https://openai.com/business/customer-stories/amplitude",
+          "publishedAt": "2026-11-12T20:00:00.000Z",
           "technologies": [
-            "Software Engineering"
+            "OpenAI"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Final URL: https://openai.com/index/chatgpt-plus-for-veterans/ 20,000 veterans are using ChatGPT to build what comes next In the past year, more than 20,000 transitioning servicemembers and veterans have claimed a year of ChatGPT Plus at no cost after being offered free access by OpenAI.",
-            "That milestone gives us a chance to look at how veterans are using AI to prepare for civilian careers and to figure out what comes next for themselves and their families.",
-            "The effort started with veterans who work here at OpenAI, people who use these tools every day and know firsthand how challenging the transition can be.",
-            "Beyond the free access, OpenAI Academy and our community partners have hosted more than a dozen trainings for nearly 1,000 members of the military community, with seven more scheduled before the year ends.",
-            "Preparing for civilian careers Leaving the military often means stepping into an unfamiliar job market and working out how years of service translate into a civilian role."
+            "Final URL: https://openai.com/business/customer-stories/amplitude/ Amplitude has always helped teams see how people actually use their products.",
+            "Its proactive product agent Wave helps teams turn those insights into shipped improvements.",
+            "Amplitude describes Wave as roughly 80% powered by OpenAI models, including GPT‑6.1 Sol, GPT‑6 Luna, and GPT‑Image‑2.5 Flare.",
+            "Wave turns product insights into implementation plans teams can ship to coding agents, including Codex, then measures the impact.",
+            "Amplitude estimates that Wave can help teams ship product improvements in 1-2 days, down from roughly a month.On Amplitude’s own homepage, Wave helped personalize suggestion cards, driving a 160% lift in card-driven sends. > “AI can now find useful work we never thought to assign it."
           ]
         },
         {
-          "id": "55ff14dc4213127d",
-          "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
-          "excerpt": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+          "id": "b9840fd67063a36a",
+          "title": "Gondola doubles revenue as its team builds more with Codex",
+          "excerpt": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/jiostar-vijay-seshadri",
-          "publishedAt": "2026-11-11T00:00:00.000Z",
+          "url": "https://openai.com/business/customer-stories/gondola",
+          "publishedAt": "2026-11-12T12:00:00.000Z",
           "technologies": [
             "Software Engineering"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Final URL: https://openai.com/index/jiostar-vijay-seshadri/ Our Executive Function series features perspectives from leaders driving transformation through AI.",
-            "JioStar operates entertainment and live-sports platforms used by more than 500 million consumers and has supported as many as 72.5 million concurrent live-sports viewers.",
-            "At that scale, AI has to be fast, reliable, and ready for production.",
-            "Using the OpenAI API, JioStar built a conversational video and cricket-stat discovery assistant into JioHotstar.",
-            "Viewers can speak naturally to find movies and shows, historical highlights, live-match moments, or cricket statistics, with results returned through a visual, conversational experience."
+            "Final URL: https://openai.com/business/customer-stories/gondola/ While running his creative production agency, Fresh Tape Media, Jared Kleinstein noticed a problem: incredible creative work was being made for social media, but the makers weren’t getting proper credit.",
+            "So he built the Gondola platform to help creatives show what they made, prove its impact, and turn their work into their next opportunity.",
+            "For Gondola’s small team, one of the biggest constraints was how much product and operational work it could take on.",
+            "Even small experiments competed with core product priorities for engineering time, and finding information and drafting work required sifting through tools and systems.",
+            "Today, the team uses Codex to turn more ideas into software and ChatGPT to simplify daily operations."
           ]
         }
       ]
@@ -181,6 +181,26 @@
       "name": "Languages",
       "articles": [
         {
+          "id": "9ab435bfd5da65a2",
+          "title": "Announcing Rust 1.100.0",
+          "excerpt": "The Rust team is happy to announce a new version of Rust, 1.100.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.100.0 with: $ rustup update stable If you don't have it already, you can…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+          "publishedAt": "2026-11-12T00:00:00.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "If you have a previous version of Rust installed via rustup , you can get 1.100.0 with:",
+            "If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.100.0 .",
+            "If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default nightly ). Please report any bugs you might come across!",
+            "After 10 years and 5 failed stabilization attempts, the never type is finally stable ! This also completes the project goal for this work.",
+            "The never type, spelled ! in code, is the canonical uninhabited type. It represents the type of diverging computations - computations which never resolve to any value - where any code that follows is unreachable. Expressions that terminate control flow, such as return , break , and std::process::exit , also have the type ! ."
+          ]
+        },
+        {
           "id": "6a8c4dac5a5dde0b",
           "title": "Google Summer of Code 2026 results",
           "excerpt": "The Rust Project participated in Google Summer of Code (GSoC) for the third time this year. This time we had 13 projects, and our dear contributors have been working very hard on them for several months. As usual, the projects had various durations, so while some of them have ended in August, the last one…",
@@ -231,6 +251,26 @@
       "name": "Developer Tools",
       "articles": [
         {
+          "id": "7c512829bf524dd8",
+          "title": "GitHub availability report: October 2026",
+          "excerpt": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+          "publishedAt": "2026-11-13T00:20:16.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "We continue to share monthly updates on the work behind GitHub's availability and reliability.",
+            "The short version of October: we added substantial independently scalable Azure capacity and removed several ways that failures could escalate. However, write outages, monitoring gaps during data migrations, and a regional network disruption reinforced the need for capacity growth to be paired with safer operations, stronger isolation, and validated regional recovery.",
+            "As of November 9, 140 of 151 production services and 32 of 50 MySQL primaries were running in Azure Central US. Azure served 63% of migrated-service reads, 66% of monolith reads, and 52% of Git reads. We also completed a compute expansion across all nine Central US Kubernetes clusters, more than doubling capacity.",
+            "That capacity is already carrying real growth. Migrated-service traffic has increased 82% since March, with Central US absorbing the growth beyond the highest weekly-average load previously served from our existing datacenter. This gives GitHub more room to grow without pushing the original environment beyond its prior operating range.",
+            "We also made several targeted reliability improvements."
+          ]
+        },
+        {
           "id": "410a92595886a074",
           "title": "Arnis turns any place on Earth into a Minecraft world",
           "excerpt": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog .",
@@ -268,26 +308,6 @@
             "Shift gears. Shift perspectives. Shift dimensions. Shift bits. Work the night shift. Or make a game where the only buttons are the Shift keys.",
             "You have until December 1, 2026, at 13:37 PST to build and submit a game inspired by SHIFT. Strong or loose inspirations apply!",
             "A change in position, direction, perspective, or reality."
-          ]
-        },
-        {
-          "id": "8d24f5677c199a45",
-          "title": "GitHub Universe 2026: Evolving every layer of the stack",
-          "excerpt": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog .",
-          "source": "GitHub Blog",
-          "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
-          "publishedAt": "2026-10-28T16:09:28.000Z",
-          "technologies": [
-            "GitHub"
-          ],
-          "category": "Developer Tools",
-          "scanMinutes": 1,
-          "details": [
-            "Our jobs as developers are changing. In a couple of years, we've gone from writing every line of code to working with AI assistants to orchestrating fleets of agents. But the goal hasn't changed: ship completed software work. A feature, a bug fix, a security fix. Completed work, not more code, is the output that matters.",
-            "Today at GitHub Universe , we shared our vision for GitHub as the most comprehensive software delivery system in the world. We introduced products that bring that vision to life and showed how we're rebuilding the infrastructure underneath it.",
-            "The SDLC is no longer a linear path from planning to coding to testing to deployment.",
-            "A code change, a request from a colleague, or a production metric can trigger work anywhere in the system.",
-            "Most of us (and our agents) jump between different stages, depending on the task at hand."
           ]
         }
       ]
