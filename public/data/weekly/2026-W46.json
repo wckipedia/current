@@ -1,10 +1,30 @@
 {
   "week": "2026-W46",
-  "generatedAt": "2026-11-13T02:39:51.154Z",
+  "generatedAt": "2026-11-14T01:27:39.492Z",
   "sections": [
     {
       "name": "AI",
       "articles": [
+        {
+          "id": "5ab783dcdbdb11e3",
+          "title": "Kitesurf is now open source",
+          "excerpt": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/kitesurf-open-source/",
+          "publishedAt": "2026-11-13T20:20:21.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "We introduced Kitesurf , our stateless browser for AI agents that runs entirely on top of Workers, in August and followed up in September with WebMCP support, new APIs, and improved compatibility. On every occasion, we mentioned our commitment to open sourcing it so that developers could run their own browser engine on their own Cloudflare accounts if they want to.",
+            "That promise is now real. Kitesurf is open source on GitHub under the Apache 2.0 license. You can read the code, run it locally, change it, and deploy your own instance to Cloudflare Workers.",
+            "Kitesurf runs entirely on Cloudflare Workers. It parses HTML, applies CSS, executes page JavaScript, and renders screenshots without a browser container. It supports the Chrome DevTools Protocol (CDP), so you can connect clients such as Puppeteer.",
+            "Our main goal is to give AI agents a lightweight, efficient browser - one that can load websites, execute JavaScript, and interact with pages while using less CPU and memory than a full browser like Chromium, and scaling on demand across Cloudflare’s global Workers network.",
+            "Read more about why and how we built Kitesurf in our initial announcement and how to use it in Browser Run’s developer documentation."
+          ]
+        },
         {
           "id": "8bc9138e516754eb",
           "title": "Build once, run on any agent: A practical guide to agent skills",
@@ -26,43 +46,23 @@
           ]
         },
         {
-          "id": "67672a694e389b29",
-          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-          "excerpt": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+          "id": "7d4d71d056da0286",
+          "title": "Introducing ChatGPT Wallet",
+          "excerpt": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
           "source": "OpenAI News",
-          "url": "https://openai.com/business/customer-stories/amplitude",
-          "publishedAt": "2026-11-12T20:00:00.000Z",
-          "technologies": [
-            "OpenAI"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": [
-            "Final URL: https://openai.com/business/customer-stories/amplitude/ Amplitude has always helped teams see how people actually use their products.",
-            "Its proactive product agent Wave helps teams turn those insights into shipped improvements.",
-            "Amplitude describes Wave as roughly 80% powered by OpenAI models, including GPT‑6.1 Sol, GPT‑6 Luna, and GPT‑Image‑2.5 Flare.",
-            "Wave turns product insights into implementation plans teams can ship to coding agents, including Codex, then measures the impact.",
-            "Amplitude estimates that Wave can help teams ship product improvements in 1-2 days, down from roughly a month.On Amplitude’s own homepage, Wave helped personalize suggestion cards, driving a 160% lift in card-driven sends. > “AI can now find useful work we never thought to assign it."
-          ]
-        },
-        {
-          "id": "b9840fd67063a36a",
-          "title": "Gondola doubles revenue as its team builds more with Codex",
-          "excerpt": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/business/customer-stories/gondola",
-          "publishedAt": "2026-11-12T12:00:00.000Z",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet",
+          "publishedAt": "2026-11-13T15:00:00.000Z",
           "technologies": [
             "Software Engineering"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Final URL: https://openai.com/business/customer-stories/gondola/ While running his creative production agency, Fresh Tape Media, Jared Kleinstein noticed a problem: incredible creative work was being made for social media, but the makers weren’t getting proper credit.",
-            "So he built the Gondola platform to help creatives show what they made, prove its impact, and turn their work into their next opportunity.",
-            "For Gondola’s small team, one of the biggest constraints was how much product and operational work it could take on.",
-            "Even small experiments competed with core product priorities for engineering time, and finding information and drafting work required sifting through tools and systems.",
-            "Today, the team uses Codex to turn more ideas into software and ChatGPT to simplify daily operations."
+            "It’s the first wallet that lets agents pay without access to users’ actual card details and that requires a security check for every purchase, while also preserving existing card rewards and protections for eligible disputes.",
+            "Alongside ChatGPT Wallet, we’re releasing tools and guidance to help businesses support customers using agents.",
+            "1.2B people use ChatGPT each week, and many of them turn to it to research products, compare options, and decide what to buy.",
+            "With ChatGPT Wallet, we’re now helping people complete purchases, and giving their agents a way to pay that businesses can accept with their existing systems.",
+            "To accept payment from ChatGPT Wallet, websites need to ensure agents are not inadvertently blocked, and payment and risk systems need to recognize legitimate purchases made by agents."
           ]
         }
       ]
@@ -70,6 +70,26 @@
     {
       "name": "Cloud",
       "articles": [
+        {
+          "id": "40ec4dab142d1c85",
+          "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
+          "excerpt": "Spend Management adds opt-in spending caps for Cloudflare Workers and Durable Objects, and more products soon. Here is how we built the metering pipeline that turns usage into runtime decisions.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/spend-management/",
+          "publishedAt": "2026-11-13T14:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Spend controls have been at the top of the list of most requested features from developers building on our developer platform for quite some time now. With more than 10 million developers now building on Cloudflare, this matters more than ever.",
+            "Although we’ve had usage notifications and budget alerts available to paid plans for a while, this doesn’t solve the problem completely; informing is not the same as controlling.",
+            "You can now set spending thresholds and choose to have Cloudflare pause activity when those limits are reached, thus avoiding unexpected bills from unplanned usage. Today, we're introducing Spend Management in Beta, for any pay-as-you-go (PayGo) customer, starting with Workers and Durable Objects.",
+            "Use Spend Management alongside AI Gateway spend limits to manage compute and AI inference costs across your application. AI Gateway already supports per-user and per-model budgets for Workers AI and other AI providers, applied to requests routed through your gateway.",
+            "You can start using Spend Management using the dashboard, cf CLI , or REST API ."
+          ]
+        },
         {
           "id": "b4c8fa961fce9edf",
           "title": "Choosing QuePaxa, an unusual consensus algorithm",
@@ -109,32 +129,32 @@
             "AI has made open source more valuable while triggering more maintainer burnout. Previously, contributing to a project through either an issue or pull request meant you cared about it. In return, maintainers would review and provide feedback. AI changed the social contract of open source. Anyone can now create and submit AI-authored pull requests.",
             "The most visible result is the influx of pull requests. As the number of PRs has gone up, the number of maintainers reviewing them has stayed constant. So each maintainer’s workload has grown."
           ]
-        },
-        {
-          "id": "a4dbacf967e62059",
-          "title": "The post-quantum future of web privacy",
-          "excerpt": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/vole-mole/",
-          "publishedAt": "2026-11-06T14:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Cloud",
-          "scanMinutes": 1,
-          "details": [
-            "The highest priorities for the transition to post-quantum cryptography are the basic building blocks of authenticated key-agreement protocols such as TLS. Without these building blocks in place, secure communication on the Internet will not be possible once cryptographically relevant quantum computers come online. However, today we rely on quantum-vulnerable cryptography for much more than TLS.",
-            "Privacy Pass is a protocol used by site operators like Cloudflare to help protect applications from abuse.",
-            "One way we do this is by rate limiting individual clients so that no one client consumes too many of the site's resources.",
-            "Normally this involves some combination of friction or loss of privacy for users: CAPTCHAs or other challenges to moderate traffic, along with accounts and fingerprinting to identify traffic.Privacy Pass was designed to avoid this tradeoff between friction and privacy.",
-            "The basic idea is that a client gets issued a number of tokens , which they can redeem in exchange for access to the site."
-          ]
         }
       ]
     },
     {
       "name": "Security",
       "articles": [
+        {
+          "id": "a009bbdbfbe6de47",
+          "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+          "excerpt": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+          "publishedAt": "2026-11-13T19:26:07.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Over the last month, the number of Large Language Model (LLM) penetration testing and orchestration frameworks has exploded.",
+            "Just a few weeks ago, ARTEX - an open source agentic penetration testing system that automates offensive security workflows - was the only framework available.",
+            "In just the last three days, we have seen over 50 framework families attempt to scan Cloudflare customers globally.",
+            "The number of Internet Protocol (IP) addresses seen running these frameworks has grown into the thousands and continues to increase daily.",
+            "The proliferation of these frameworks has significantly changed the status quo in cyber defense: defenders are struggling to keep up with the volumetric nature of these autonomously guided attacks."
+          ]
+        },
         {
           "id": "2c15f23ac7aa344c",
           "title": "Git security vulnerabilities announced",
@@ -153,26 +173,6 @@
             "Git checks paths before writing files into a working tree, including rejecting paths that would overwrite its own repository metadata. However, an integer truncation in Git's index handling can cause an extremely long path to pass validation under one name and then be written using a shorter name.",
             "An attacker can use this discrepancy to replace a submodule's .git file with a symbolic link pointing to a directory containing malicious configuration or hooks . When Git subsequently uses that directory, it can execute attacker-controlled code during a recursive clone.",
             "The fix rejects extremely long index entry paths before their lengths can be truncated."
-          ]
-        },
-        {
-          "id": "e581154108f523de",
-          "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
-          "excerpt": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/zero-wire/",
-          "publishedAt": "2026-11-03T14:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Security",
-          "scanMinutes": 1,
-          "details": [
-            "You receive a ping: a new critical vulnerability has been disclosed.",
-            "Your team scrambles to compare vendor advisories, read technical research, check which systems run the affected software, and answer familiar questions from the business: are we affected, and what are we doing about it?",
-            "Another disclosure arrives before that work is finished.",
-            "AI is changing both the volume and speed of critical vulnerability discovery. It can analyze large codebases at scale and surface deeply nested flaws that may have existed for years without being found through human review. That discovery momentum will put more pressure on security teams to understand the impact of each disclosure on their infrastructure.",
-            "To help security teams prepare, today we’re introducing Zero Wire : a public vulnerability intelligence feed on Cloudflare Radar, bringing the clarity of a news wire service to critical security developments. It helps security leaders and practitioners understand significant vulnerabilities and decide what to do next."
           ]
         }
       ]

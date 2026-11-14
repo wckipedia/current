@@ -1,0 +1,360 @@
+{
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T01:27:39.492Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
+  "sections": [
+    {
+      "name": "AI",
+      "articles": [
+        {
+          "id": "5ab783dcdbdb11e3",
+          "title": "Kitesurf is now open source",
+          "excerpt": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/kitesurf-open-source/",
+          "publishedAt": "2026-11-13T20:20:21.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "We introduced Kitesurf , our stateless browser for AI agents that runs entirely on top of Workers, in August and followed up in September with WebMCP support, new APIs, and improved compatibility. On every occasion, we mentioned our commitment to open sourcing it so that developers could run their own browser engine on their own Cloudflare accounts if they want to.",
+            "That promise is now real. Kitesurf is open source on GitHub under the Apache 2.0 license. You can read the code, run it locally, change it, and deploy your own instance to Cloudflare Workers.",
+            "Kitesurf runs entirely on Cloudflare Workers. It parses HTML, applies CSS, executes page JavaScript, and renders screenshots without a browser container. It supports the Chrome DevTools Protocol (CDP), so you can connect clients such as Puppeteer.",
+            "Our main goal is to give AI agents a lightweight, efficient browser - one that can load websites, execute JavaScript, and interact with pages while using less CPU and memory than a full browser like Chromium, and scaling on demand across Cloudflare’s global Workers network.",
+            "Read more about why and how we built Kitesurf in our initial announcement and how to use it in Browser Run’s developer documentation."
+          ]
+        },
+        {
+          "id": "8bc9138e516754eb",
+          "title": "Build once, run on any agent: A practical guide to agent skills",
+          "excerpt": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+          "publishedAt": "2026-11-12T22:54:52.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "How many times this week did you re-explain the same task to an agent?",
+            "How many times did you ask your colleague with deep institutional knowledge how to solve a specific problem?",
+            "That context shouldn't be lost in a chat or locked in one person's head.",
+            "Agent skills let you capture repeatable instructions so you and your agents can reuse them.",
+            "The skill you write for yourself tonight can later become part of a team's pipeline."
+          ]
+        },
+        {
+          "id": "7d4d71d056da0286",
+          "title": "Introducing ChatGPT Wallet",
+          "excerpt": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet",
+          "publishedAt": "2026-11-13T15:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "It’s the first wallet that lets agents pay without access to users’ actual card details and that requires a security check for every purchase, while also preserving existing card rewards and protections for eligible disputes.",
+            "Alongside ChatGPT Wallet, we’re releasing tools and guidance to help businesses support customers using agents.",
+            "1.2B people use ChatGPT each week, and many of them turn to it to research products, compare options, and decide what to buy.",
+            "With ChatGPT Wallet, we’re now helping people complete purchases, and giving their agents a way to pay that businesses can accept with their existing systems.",
+            "To accept payment from ChatGPT Wallet, websites need to ensure agents are not inadvertently blocked, and payment and risk systems need to recognize legitimate purchases made by agents."
+          ]
+        },
+        {
+          "id": "a99dfdd20d85acbb",
+          "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+          "excerpt": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/business/customer-stories/shield",
+          "publishedAt": "2026-11-13T08:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/business/customer-stories/shield/ For many small and medium-sized businesses, an outsourced IT services provider handles everything from an employee locked out of their laptop to a misconfigured firewall that took the office offline.",
+            "Shield built Forge, an AI operating system for IT services providers.",
+            "The platform brings together business data and customer context to help providers complete IT support tasks end to end.",
+            "That means its agents also need to work in the older portals technicians use every day.",
+            "“Whether you’re going to solve their issue or you’re going to escalate to a human, you want to do either as fast as possible.” Before using GPT‑6 Astra, Forge’s agents could get stuck at systems they could not access."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "articles": [
+        {
+          "id": "40ec4dab142d1c85",
+          "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
+          "excerpt": "Spend Management adds opt-in spending caps for Cloudflare Workers and Durable Objects, and more products soon. Here is how we built the metering pipeline that turns usage into runtime decisions.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/spend-management/",
+          "publishedAt": "2026-11-13T14:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Spend controls have been at the top of the list of most requested features from developers building on our developer platform for quite some time now. With more than 10 million developers now building on Cloudflare, this matters more than ever.",
+            "Although we’ve had usage notifications and budget alerts available to paid plans for a while, this doesn’t solve the problem completely; informing is not the same as controlling.",
+            "You can now set spending thresholds and choose to have Cloudflare pause activity when those limits are reached, thus avoiding unexpected bills from unplanned usage. Today, we're introducing Spend Management in Beta, for any pay-as-you-go (PayGo) customer, starting with Workers and Durable Objects.",
+            "Use Spend Management alongside AI Gateway spend limits to manage compute and AI inference costs across your application. AI Gateway already supports per-user and per-model budgets for Workers AI and other AI providers, applied to requests routed through your gateway.",
+            "You can start using Spend Management using the dashboard, cf CLI , or REST API ."
+          ]
+        },
+        {
+          "id": "b4c8fa961fce9edf",
+          "title": "Choosing QuePaxa, an unusual consensus algorithm",
+          "excerpt": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/choosing-quepaxa/",
+          "publishedAt": "2026-11-11T14:24:46.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Cloudflare recently announced Meerkat , an experimental distributed consensus service designed to manage our internal global control plane. It is powered by a new consensus algorithm published by researchers Tennage & Băsescu et al. called QuePaxa (2023).",
+            "QuePaxa is an unusual choice; most consensus systems use well-established consensus algorithms like Raft, (Multi-)Paxos or Viewstamped Replication. These algorithms are well understood, have mature implementations, and usually work well.",
+            "Unfortunately, common consensus algorithms often suffer in wide-area networks with volatile network connectivity and latency, i.e., networks like the Internet, which is where Meerkat runs.",
+            "These algorithms rely on a single leader process being available and having predictable latency.",
+            "If the leader goes down, experiences higher latency than usual, or is disconnected, the entire consensus system slows down or becomes unavailable until the leader is replaced."
+          ]
+        },
+        {
+          "id": "f27ad28b0c4db975",
+          "title": "Launching the Vite Ecosystem Fund",
+          "excerpt": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed by Cloudflare.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+          "publishedAt": "2026-11-09T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to 44 projects and maintainers across the Vite ecosystem.",
+            "When VoidZero joined Cloudflare, we committed $1 million to strengthen the open source ecosystem around Vite. This round is just the start.",
+            "Sponsoring open source has always mattered, but now AI has made funding urgent.",
+            "AI has made open source more valuable while triggering more maintainer burnout. Previously, contributing to a project through either an issue or pull request meant you cared about it. In return, maintainers would review and provide feedback. AI changed the social contract of open source. Anyone can now create and submit AI-authored pull requests.",
+            "The most visible result is the influx of pull requests. As the number of PRs has gone up, the number of maintainers reviewing them has stayed constant. So each maintainer’s workload has grown."
+          ]
+        },
+        {
+          "id": "a4dbacf967e62059",
+          "title": "The post-quantum future of web privacy",
+          "excerpt": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/vole-mole/",
+          "publishedAt": "2026-11-06T14:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "The highest priorities for the transition to post-quantum cryptography are the basic building blocks of authenticated key-agreement protocols such as TLS. Without these building blocks in place, secure communication on the Internet will not be possible once cryptographically relevant quantum computers come online. However, today we rely on quantum-vulnerable cryptography for much more than TLS.",
+            "Privacy Pass is a protocol used by site operators like Cloudflare to help protect applications from abuse.",
+            "One way we do this is by rate limiting individual clients so that no one client consumes too many of the site's resources.",
+            "Normally this involves some combination of friction or loss of privacy for users: CAPTCHAs or other challenges to moderate traffic, along with accounts and fingerprinting to identify traffic.Privacy Pass was designed to avoid this tradeoff between friction and privacy.",
+            "The basic idea is that a client gets issued a number of tokens , which they can redeem in exchange for access to the site."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "articles": [
+        {
+          "id": "a009bbdbfbe6de47",
+          "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+          "excerpt": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+          "publishedAt": "2026-11-13T19:26:07.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Over the last month, the number of Large Language Model (LLM) penetration testing and orchestration frameworks has exploded.",
+            "Just a few weeks ago, ARTEX - an open source agentic penetration testing system that automates offensive security workflows - was the only framework available.",
+            "In just the last three days, we have seen over 50 framework families attempt to scan Cloudflare customers globally.",
+            "The number of Internet Protocol (IP) addresses seen running these frameworks has grown into the thousands and continues to increase daily.",
+            "The proliferation of these frameworks has significantly changed the status quo in cyber defense: defenders are struggling to keep up with the volumetric nature of these autonomously guided attacks."
+          ]
+        },
+        {
+          "id": "2c15f23ac7aa344c",
+          "title": "Git security vulnerabilities announced",
+          "excerpt": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+          "publishedAt": "2026-11-10T18:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Today, the Git project is releasing new versions to address six security vulnerabilities. These include arbitrary code execution when recursively cloning a malicious repository, writes to unintended files, and memory corruption when processing merges or binary patches.",
+            "The fixes are included in Git 2.56.1 , with backports to Git 2.55.1, 2.54.1, 2.53.1, 2.52.1, 2.51.3, and 2.50.2. We recommend updating to Git 2.56.1 or the patched release for your maintenance series, and updating any applications that bundle Git.",
+            "Git checks paths before writing files into a working tree, including rejecting paths that would overwrite its own repository metadata. However, an integer truncation in Git's index handling can cause an extremely long path to pass validation under one name and then be written using a shorter name.",
+            "An attacker can use this discrepancy to replace a submodule's .git file with a symbolic link pointing to a directory containing malicious configuration or hooks . When Git subsequently uses that directory, it can execute attacker-controlled code during a recursive clone.",
+            "The fix rejects extremely long index entry paths before their lengths can be truncated."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Languages",
+      "articles": [
+        {
+          "id": "9ab435bfd5da65a2",
+          "title": "Announcing Rust 1.100.0",
+          "excerpt": "The Rust team is happy to announce a new version of Rust, 1.100.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.100.0 with: $ rustup update stable If you don't have it already, you can…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+          "publishedAt": "2026-11-12T00:00:00.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "If you have a previous version of Rust installed via rustup , you can get 1.100.0 with:",
+            "If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.100.0 .",
+            "If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default nightly ). Please report any bugs you might come across!",
+            "After 10 years and 5 failed stabilization attempts, the never type is finally stable ! This also completes the project goal for this work.",
+            "The never type, spelled ! in code, is the canonical uninhabited type. It represents the type of diverging computations - computations which never resolve to any value - where any code that follows is unreachable. Expressions that terminate control flow, such as return , break , and std::process::exit , also have the type ! ."
+          ]
+        },
+        {
+          "id": "6a8c4dac5a5dde0b",
+          "title": "Google Summer of Code 2026 results",
+          "excerpt": "The Rust Project participated in Google Summer of Code (GSoC) for the third time this year. This time we had 13 projects, and our dear contributors have been working very hard on them for several months. As usual, the projects had various durations, so while some of them have ended in August, the last one…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/11/11/gsoc-2026-results/",
+          "publishedAt": "2026-11-11T00:00:00.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "This time we had 13 projects, and our dear contributors have been working very hard on them for several months.",
+            "As usual, the projects had various durations, so while some of them have ended in August, the last one has only finished in November, so we have been waiting until we have all the results before publishing this blog post.",
+            "We are very happy to announce that all 13 projects were successful and passed their final evaluation! We consider it to be a testament to the diligence of our contributors, and the helpfulness of our mentors, that we are able to keep a very high rate [1] of successful GSoC projects several years in a row.",
+            "At the start of summer, we had a video call with our contributors, so that we could all get to know each other a bit, and learn about their projects.",
+            "Over the following few months, we continuously communicated with the contributors, provided guidance and answered their questions and reviewed their pull requests."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Open Source",
+      "articles": [
+        {
+          "id": "1558c78d072630b6",
+          "title": "Accessibility statements now have a home on GitHub",
+          "excerpt": "GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes. The post Accessibility statements now have a home on GitHub appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
+          "publishedAt": "2026-11-05T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Open Source",
+          "scanMinutes": 1,
+          "details": [
+            "Accessibility work often lives in issue trackers, contribution guidelines, audit reports, team knowledge, and conversations with users. When that information has no predictable home, people who encounter a barrier must search for it, and maintainers lose context as contributors and project ownership change.",
+            "An ACCESSIBILITY.md file, now visible on repository overview pages, gives a project one durable place to explain its accessibility goals, contributor expectations, supported environments, known limitations, and process for reporting barriers.",
+            "GitHub now recognizes the ACCESSIBILITY.md file in the repository's root, .github/ directory, or docs/ directory. A repository can also inherit a statement from its organization's .github/ repository. For public repositories, maintainers can add or propose a statement from Insights > Community Standards using a concise starter document.",
+            "GitHub's community health files help people understand how a project works:",
+            "Codes of conduct establish expectations for participation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "articles": [
+        {
+          "id": "7c512829bf524dd8",
+          "title": "GitHub availability report: October 2026",
+          "excerpt": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+          "publishedAt": "2026-11-13T00:20:16.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "We continue to share monthly updates on the work behind GitHub's availability and reliability.",
+            "The short version of October: we added substantial independently scalable Azure capacity and removed several ways that failures could escalate. However, write outages, monitoring gaps during data migrations, and a regional network disruption reinforced the need for capacity growth to be paired with safer operations, stronger isolation, and validated regional recovery.",
+            "As of November 9, 140 of 151 production services and 32 of 50 MySQL primaries were running in Azure Central US. Azure served 63% of migrated-service reads, 66% of monolith reads, and 52% of Git reads. We also completed a compute expansion across all nine Central US Kubernetes clusters, more than doubling capacity.",
+            "That capacity is already carrying real growth. Migrated-service traffic has increased 82% since March, with Central US absorbing the growth beyond the highest weekly-average load previously served from our existing datacenter. This gives GitHub more room to grow without pushing the original environment beyond its prior operating range.",
+            "We also made several targeted reliability improvements."
+          ]
+        },
+        {
+          "id": "410a92595886a074",
+          "title": "Arnis turns any place on Earth into a Minecraft world",
+          "excerpt": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
+          "publishedAt": "2026-11-03T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Louis Erbkamm knows his way around Arnis, the smallest town in Germany, but he's never set foot in it.",
+            "I know where the shops are. Where the boats are... I know the city pretty well, but I haven't been there yet.",
+            "Arnis is also the name of his open source project, which takes real-world data from OpenStreetMap and other sources to turn places you know into Minecraft worlds you can freely explore. Since Louis started Arnis in 2022, it's reached close to 900,000 downloads from GitHub and about 70 contributors.",
+            "Louis grew up playing Minecraft and started coding at 13, always looking for ways to bring code into the game. Arnis began as a fun diversion combining Minecraft with geospatial data, and it went on GitHub, where he already kept his side projects. He finished the first prototype within two weeks while on a break from school.",
+            "That first version was Python written by hand, built only on OpenStreetMap, and generating a town took a while. He needed somewhere real to test it, so he looked up towns in Germany, where he lives, and found Arnis. A small town helped while early generation was slow."
+          ]
+        },
+        {
+          "id": "9a97986aa28bfe34",
+          "title": "Game Off 2026: The theme is SHIFT",
+          "excerpt": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+          "publishedAt": "2026-11-01T21:36:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Game Off , GitHub's annual month-long game jam, returns for its 14th year this November. Thousands of developers have joined us over the years to make everything from polished platformers to wonderfully weird experiments.",
+            "Whether you're making your first game or your fiftieth, we'd love for you to join us.",
+            "Shift gears. Shift perspectives. Shift dimensions. Shift bits. Work the night shift. Or make a game where the only buttons are the Shift keys.",
+            "You have until December 1, 2026, at 13:37 PST to build and submit a game inspired by SHIFT. Strong or loose inspirations apply!",
+            "A change in position, direction, perspective, or reality."
+          ]
+        }
+      ]
+    }
+  ]
+}
