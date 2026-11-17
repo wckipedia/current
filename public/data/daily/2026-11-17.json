@@ -1,0 +1,385 @@
+{
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T03:54:38.842Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
+  "sections": [
+    {
+      "name": "AI",
+      "articles": [
+        {
+          "id": "2d7a5d6b20fff3cd",
+          "title": "Broadening access to AI for scientists",
+          "excerpt": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+          "publishedAt": "2026-11-16T17:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/expanding-chatgpt-for-academic-researchers/ We’re expanding the ChatGPT for Academic Researchers program to give up to 200,000 researchers worldwide free access to ChatGPT.",
+            "Applications for the next round open Monday, November 23.",
+            "We’ll award 50,000 new grants to eligible researchers on a first-come, first-served basis.",
+            "Each grant gives the recipient and up to two collaborators free access to ChatGPT Plus.",
+            "If you’re already on the waitlist and qualify, we’ll email you before applications open with instructions for activating your account."
+          ]
+        },
+        {
+          "id": "d91fd06de7b8771e",
+          "title": "Science at the Frontier: How scientists use ChatGPT",
+          "excerpt": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/science-at-the-frontier",
+          "publishedAt": "2026-11-16T12:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/science-at-the-frontier/ Scientific progress depends on researchers asking new questions and finding ways to answer them.",
+            "AI is becoming part of that work, but we’re still learning where it helps and what it could mean for discovery.",
+            "OpenAI’s Economic Research team studied more than 580,000 scientific messages from 1,819 scientists in the ChatGPT for Academic Researchers summer pilot and surveyed 251 participants.",
+            "Scientists used ChatGPT across the research process, from reviewing literature to analyzing evidence and developing ideas.",
+            "Surveyed participants estimated that the same work, at the same quality, would have taken 1.9 times as long without AI."
+          ]
+        },
+        {
+          "id": "ff7833693fa2a067",
+          "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+          "excerpt": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/lvmh-media-division-partnership",
+          "publishedAt": "2026-11-16T09:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/lvmh-media-division-partnership/ _This news was originally shared by LVMH’s Media Division and can be read__here__._ **Paris, 16 November 2026**-LVMH Group’s Media Division and OpenAI announce the signing of a strategic agreement to support new uses of artificial intelligence across all the division’s publications and make their journalism more accessible through ChatGPT.",
+            "The agreement includes the deployment of OpenAI tools and ChatGPT Enterprise to teams across the media division, enabling them to develop AI applications tailored to their day-to-day work.",
+            "Their shared ambition is to empower teams across the media division to experiment with and develop practical uses of AI that support journalism and high-quality reporting.",
+            "Artificial intelligence is a powerful tool that, when put to work in newsrooms, enables journalists to focus on the core of their profession: investigating, analysing and writing.",
+            "Teams will be able to explore applications such as document research, document comparison and preliminary translation."
+          ]
+        },
+        {
+          "id": "9fe6d2ae73e55f52",
+          "title": "Our first phase of embedded assessments",
+          "excerpt": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+          "publishedAt": "2026-11-16T08:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "As AI capabilities advance rapidly and the potential risks grow, public reporting from independent assessments can give people a clearer view of how labs are evaluating and managing those risks.",
+            "Embedded assessments give independent experts deep access to a lab’s internal models and systems to assess model alignment and the effectiveness of safeguards over an extended period of time, especially where relevant to our safety cases.",
+            "Based on what each evaluation needs, assessors receive access to some of the same internal resources our researchers use, including model checkpoints, source code, training and evaluation data, monitoring systems, technical documentation, and discussions with the researchers and engineers responsible for the work.",
+            "This access gives assessors the evidence and context to pursue independent evaluations and uncover failures we may not have anticipated.",
+            "Our initial assessments focus on alignment and safeguards for models during training and internal use, complementing our safety cases."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "articles": [
+        {
+          "id": "40ec4dab142d1c85",
+          "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
+          "excerpt": "Spend Management adds opt-in spending caps for Cloudflare Workers and Durable Objects, and more products soon. Here is how we built the metering pipeline that turns usage into runtime decisions.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/spend-management/",
+          "publishedAt": "2026-11-13T14:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Spend controls have been at the top of the list of most requested features from developers building on our developer platform for quite some time now. With more than 10 million developers now building on Cloudflare, this matters more than ever.",
+            "Although we’ve had usage notifications and budget alerts available to paid plans for a while, this doesn’t solve the problem completely; informing is not the same as controlling.",
+            "You can now set spending thresholds and choose to have Cloudflare pause activity when those limits are reached, thus avoiding unexpected bills from unplanned usage. Today, we're introducing Spend Management in Beta, for any pay-as-you-go (PayGo) customer, starting with Workers and Durable Objects.",
+            "Use Spend Management alongside AI Gateway spend limits to manage compute and AI inference costs across your application. AI Gateway already supports per-user and per-model budgets for Workers AI and other AI providers, applied to requests routed through your gateway.",
+            "You can start using Spend Management using the dashboard, cf CLI , or REST API ."
+          ]
+        },
+        {
+          "id": "b4c8fa961fce9edf",
+          "title": "Choosing QuePaxa, an unusual consensus algorithm",
+          "excerpt": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/choosing-quepaxa/",
+          "publishedAt": "2026-11-11T14:24:46.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Cloudflare recently announced Meerkat , an experimental distributed consensus service designed to manage our internal global control plane. It is powered by a new consensus algorithm published by researchers Tennage & Băsescu et al. called QuePaxa (2023).",
+            "QuePaxa is an unusual choice; most consensus systems use well-established consensus algorithms like Raft, (Multi-)Paxos or Viewstamped Replication. These algorithms are well understood, have mature implementations, and usually work well.",
+            "Unfortunately, common consensus algorithms often suffer in wide-area networks with volatile network connectivity and latency, i.e., networks like the Internet, which is where Meerkat runs.",
+            "These algorithms rely on a single leader process being available and having predictable latency.",
+            "If the leader goes down, experiences higher latency than usual, or is disconnected, the entire consensus system slows down or becomes unavailable until the leader is replaced."
+          ]
+        },
+        {
+          "id": "f27ad28b0c4db975",
+          "title": "Launching the Vite Ecosystem Fund",
+          "excerpt": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed by Cloudflare.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+          "publishedAt": "2026-11-09T13:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to 44 projects and maintainers across the Vite ecosystem.",
+            "When VoidZero joined Cloudflare, we committed $1 million to strengthen the open source ecosystem around Vite. This round is just the start.",
+            "Sponsoring open source has always mattered, but now AI has made funding urgent.",
+            "AI has made open source more valuable while triggering more maintainer burnout. Previously, contributing to a project through either an issue or pull request meant you cared about it. In return, maintainers would review and provide feedback. AI changed the social contract of open source. Anyone can now create and submit AI-authored pull requests.",
+            "The most visible result is the influx of pull requests. As the number of PRs has gone up, the number of maintainers reviewing them has stayed constant. So each maintainer’s workload has grown."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "articles": [
+        {
+          "id": "2f2dcaa3d13bcabb",
+          "title": "Scheduling the removal of the kube-proxy IPVS backend",
+          "excerpt": "The ipvs backend for kube-proxy was an experiment in providing a service proxy implementation with better performance than the iptables backend. While it succeeded in that goal, the kernel IPVS API has turned out to be a bad match for the Kubernetes Services API, and the ipvs backend was never able to…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/11/16/ipvs-removal/",
+          "publishedAt": "2026-11-16T18:35:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "In Kubernetes 1.29, the project introduced the nftables backend for kube-proxy, which became GA in 1.33.",
+            "Part of the plan behind adding the nftables backend was the idea that it would eventually replace both the iptables and ipvs backends.",
+            "Because the ipvs backend in particular is complex, not 100% feature complete, and architecturally quite different from the other two backends (and thus more work to maintain), Kubernetes SIG Network decided to officially deprecate it as of Kubernetes 1.35 .",
+            "Although it currently remains available in kube-proxy (with a warning about its deprecation), we (Kubernetes SIG Network) now plan to remove it in Kubernetes 1.40.",
+            "All ipvs users should therefore be planning to migrate to either the nftables or iptables backends."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "articles": [
+        {
+          "id": "dd659f011024f04f",
+          "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+          "excerpt": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/strengthening-online-child-safety",
+          "publishedAt": "2026-11-16T17:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/strengthening-online-child-safety/ Today, we’re releasing a new tool to detect child sexual abuse material (CSAM), interventions that interrupt harmful behavior and point people toward help, practical resources for developers, and support for child-safety law enforcement investigators.",
+            "These efforts build on our Child Safety Blueprint and our ongoing work to detect, block, and report abuse.",
+            "For parents, the goal is simple: technology that helps keep children safe, with people in control.",
+            "It is wellestablished that combatting online child predators requires coordination across many organizations.",
+            "Individual companies like OpenAI have a responsibility to prevent our technology from being exploited by predators to harm children, and we also must work together with the broader industry, child safety organizations and law enforcement to advance our collective efforts to protect children online."
+          ]
+        },
+        {
+          "id": "a009bbdbfbe6de47",
+          "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+          "excerpt": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+          "publishedAt": "2026-11-13T19:26:07.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Over the last month, the number of Large Language Model (LLM) penetration testing and orchestration frameworks has exploded.",
+            "Just a few weeks ago, ARTEX - an open source agentic penetration testing system that automates offensive security workflows - was the only framework available.",
+            "In just the last three days, we have seen over 50 framework families attempt to scan Cloudflare customers globally.",
+            "The number of Internet Protocol (IP) addresses seen running these frameworks has grown into the thousands and continues to increase daily.",
+            "The proliferation of these frameworks has significantly changed the status quo in cyber defense: defenders are struggling to keep up with the volumetric nature of these autonomously guided attacks."
+          ]
+        },
+        {
+          "id": "2c15f23ac7aa344c",
+          "title": "Git security vulnerabilities announced",
+          "excerpt": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+          "publishedAt": "2026-11-10T18:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Today, the Git project is releasing new versions to address six security vulnerabilities. These include arbitrary code execution when recursively cloning a malicious repository, writes to unintended files, and memory corruption when processing merges or binary patches.",
+            "The fixes are included in Git 2.56.1 , with backports to Git 2.55.1, 2.54.1, 2.53.1, 2.52.1, 2.51.3, and 2.50.2. We recommend updating to Git 2.56.1 or the patched release for your maintenance series, and updating any applications that bundle Git.",
+            "Git checks paths before writing files into a working tree, including rejecting paths that would overwrite its own repository metadata. However, an integer truncation in Git's index handling can cause an extremely long path to pass validation under one name and then be written using a shorter name.",
+            "An attacker can use this discrepancy to replace a submodule's .git file with a symbolic link pointing to a directory containing malicious configuration or hooks . When Git subsequently uses that directory, it can execute attacker-controlled code during a recursive clone.",
+            "The fix rejects extremely long index entry paths before their lengths can be truncated."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Languages",
+      "articles": [
+        {
+          "id": "d1e49eedb9dee154",
+          "title": "Enabling the parallel frontend on nightly",
+          "excerpt": "TL;DR: We are enabling the parallel frontend of the Rust compiler on nightly by default, to find remaining issues in preparation for its stabilization. Context The Rust compiler has been using multiple threads to compile code in its \"backend\" part (using LLVM) for a long time. However, its \"frontend\" part…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/11/16/enabling-parallel-frontend-on-nightly/",
+          "publishedAt": "2026-11-16T00:00:00.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "The Rust compiler has been using multiple threads to compile code in its \"backend\" part (using LLVM) for a long time.",
+            "However, its \"frontend\" part (which includes type checking and borrow checking) has been executing sequentially, on a single thread, which of course limits the performance of the compiler.",
+            "If you are interested in a more in-depth explanation of parallelism in the Rust compiler, see this previous post .",
+            "The compiler frontend actually had support for running in parallel for a long time, but it was not enabled by default due to various issues. Three years ago , we made it possible to opt into the parallel frontend on the nightly channel, with the plan to stabilize it in 2024. Clearly, we did not achieve that goal, but work on the parallel frontend was still slowly progressing in the meantime.",
+            "Last year, Vadim Petrochenkov , together with several other contributors, started a coordinated effort to finally get the parallel frontend over the finish line."
+          ]
+        },
+        {
+          "id": "9ab435bfd5da65a2",
+          "title": "Announcing Rust 1.100.0",
+          "excerpt": "The Rust team is happy to announce a new version of Rust, 1.100.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.100.0 with: $ rustup update stable If you don't have it already, you can…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+          "publishedAt": "2026-11-12T00:00:00.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "If you have a previous version of Rust installed via rustup , you can get 1.100.0 with:",
+            "If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.100.0 .",
+            "If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default nightly ). Please report any bugs you might come across!",
+            "After 10 years and 5 failed stabilization attempts, the never type is finally stable ! This also completes the project goal for this work.",
+            "The never type, spelled ! in code, is the canonical uninhabited type. It represents the type of diverging computations - computations which never resolve to any value - where any code that follows is unreachable. Expressions that terminate control flow, such as return , break , and std::process::exit , also have the type ! ."
+          ]
+        },
+        {
+          "id": "6a8c4dac5a5dde0b",
+          "title": "Google Summer of Code 2026 results",
+          "excerpt": "The Rust Project participated in Google Summer of Code (GSoC) for the third time this year. This time we had 13 projects, and our dear contributors have been working very hard on them for several months. As usual, the projects had various durations, so while some of them have ended in August, the last one…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/11/11/gsoc-2026-results/",
+          "publishedAt": "2026-11-11T00:00:00.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "This time we had 13 projects, and our dear contributors have been working very hard on them for several months.",
+            "As usual, the projects had various durations, so while some of them have ended in August, the last one has only finished in November, so we have been waiting until we have all the results before publishing this blog post.",
+            "We are very happy to announce that all 13 projects were successful and passed their final evaluation! We consider it to be a testament to the diligence of our contributors, and the helpfulness of our mentors, that we are able to keep a very high rate [1] of successful GSoC projects several years in a row.",
+            "At the start of summer, we had a video call with our contributors, so that we could all get to know each other a bit, and learn about their projects.",
+            "Over the following few months, we continuously communicated with the contributors, provided guidance and answered their questions and reviewed their pull requests."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Open Source",
+      "articles": [
+        {
+          "id": "1558c78d072630b6",
+          "title": "Accessibility statements now have a home on GitHub",
+          "excerpt": "GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes. The post Accessibility statements now have a home on GitHub appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
+          "publishedAt": "2026-11-05T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Open Source",
+          "scanMinutes": 1,
+          "details": [
+            "Accessibility work often lives in issue trackers, contribution guidelines, audit reports, team knowledge, and conversations with users. When that information has no predictable home, people who encounter a barrier must search for it, and maintainers lose context as contributors and project ownership change.",
+            "An ACCESSIBILITY.md file, now visible on repository overview pages, gives a project one durable place to explain its accessibility goals, contributor expectations, supported environments, known limitations, and process for reporting barriers.",
+            "GitHub now recognizes the ACCESSIBILITY.md file in the repository's root, .github/ directory, or docs/ directory. A repository can also inherit a statement from its organization's .github/ repository. For public repositories, maintainers can add or propose a statement from Insights > Community Standards using a concise starter document.",
+            "GitHub's community health files help people understand how a project works:",
+            "Codes of conduct establish expectations for participation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "articles": [
+        {
+          "id": "7c512829bf524dd8",
+          "title": "GitHub availability report: October 2026",
+          "excerpt": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+          "publishedAt": "2026-11-13T00:20:16.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "We continue to share monthly updates on the work behind GitHub's availability and reliability.",
+            "The short version of October: we added substantial independently scalable Azure capacity and removed several ways that failures could escalate. However, write outages, monitoring gaps during data migrations, and a regional network disruption reinforced the need for capacity growth to be paired with safer operations, stronger isolation, and validated regional recovery.",
+            "As of November 9, 140 of 151 production services and 32 of 50 MySQL primaries were running in Azure Central US. Azure served 63% of migrated-service reads, 66% of monolith reads, and 52% of Git reads. We also completed a compute expansion across all nine Central US Kubernetes clusters, more than doubling capacity.",
+            "That capacity is already carrying real growth. Migrated-service traffic has increased 82% since March, with Central US absorbing the growth beyond the highest weekly-average load previously served from our existing datacenter. This gives GitHub more room to grow without pushing the original environment beyond its prior operating range.",
+            "We also made several targeted reliability improvements."
+          ]
+        },
+        {
+          "id": "410a92595886a074",
+          "title": "Arnis turns any place on Earth into a Minecraft world",
+          "excerpt": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
+          "publishedAt": "2026-11-03T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Louis Erbkamm knows his way around Arnis, the smallest town in Germany, but he's never set foot in it.",
+            "I know where the shops are. Where the boats are... I know the city pretty well, but I haven't been there yet.",
+            "Arnis is also the name of his open source project, which takes real-world data from OpenStreetMap and other sources to turn places you know into Minecraft worlds you can freely explore. Since Louis started Arnis in 2022, it's reached close to 900,000 downloads from GitHub and about 70 contributors.",
+            "Louis grew up playing Minecraft and started coding at 13, always looking for ways to bring code into the game. Arnis began as a fun diversion combining Minecraft with geospatial data, and it went on GitHub, where he already kept his side projects. He finished the first prototype within two weeks while on a break from school.",
+            "That first version was Python written by hand, built only on OpenStreetMap, and generating a town took a while. He needed somewhere real to test it, so he looked up towns in Germany, where he lives, and found Arnis. A small town helped while early generation was slow."
+          ]
+        }
+      ]
+    }
+  ]
+}
