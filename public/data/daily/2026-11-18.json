@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "generatedAt": "2026-11-18T02:54:59.257Z",
+  "generatedAt": "2026-11-18T03:44:23.081Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -61,13 +61,7 @@
           ],
           "category": "AI",
           "scanMinutes": 1,
-          "details": [
-            "It includes our new Sales plugin with dedicated skills for sellers, and more than 30 new and enhanced partner plugins in ChatGPT, so you can use information from the tools your team already relies on to prepare for calls, tailor proposals, and follow up faster.",
-            "A starting point for every seller The new Sales plugin from OpenAI gives you ready-to-use workflows for everyday sales work, from deciding which accounts to pursue to preparing for a call and drafting the follow-up.",
-            "Sales teams work best when everyone has a shared understanding of the customer.",
-            "The answers often sit across teammates, prospecting tools, customer calls, and the CRM.",
-            "Bringing that information together gives teams more time to make informed decisions and follow through on customer commitments."
-          ]
+          "details": []
         },
         {
           "id": "b43ef08ac3ed4f7a",
