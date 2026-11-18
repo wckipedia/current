@@ -1,68 +1,68 @@
 {
   "week": "2026-W47",
-  "generatedAt": "2026-11-17T04:33:41.630Z",
+  "generatedAt": "2026-11-18T02:54:59.257Z",
   "sections": [
     {
       "name": "AI",
       "articles": [
         {
-          "id": "2d7a5d6b20fff3cd",
-          "title": "Broadening access to AI for scientists",
-          "excerpt": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+          "id": "de1a299348ffc0d1",
+          "title": "Maintainers don’t need more AI bug reports. They need fixes.",
+          "excerpt": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half. The post Maintainers don’t need more AI bug reports. They need fixes. appeared…",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+          "publishedAt": "2026-11-17T18:29:29.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "AI has made finding potential vulnerabilities fast and cheap.",
+            "Fixing them still takes human judgment, and in open source, that work falls to maintainers.",
+            "Many are already flooded with AI-generated security findings, including duplicates and reports that aren't vulnerabilities at all.",
+            "Anyone pointing a new model at a project should ask its maintainers first and come with fixes, not just findings.",
+            "Maintainers are under intense pressure from this flood of reports. As Christian Grobmeier, a maintainer of Log4j, has put it, the AI defending open source has to be better than the AI attacking it ."
+          ]
+        },
+        {
+          "id": "2f1c65ad4b7ec380",
+          "title": "Building the Agent Host Protocol for sessions that continue across devices",
+          "excerpt": "Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud. The post Building the Agent Host Protocol for sessions that continue across devices appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+          "publishedAt": "2026-11-17T18:20:40.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Models are now good enough to work for hours or even days on their own. You don't have to watch over every thing they do, but you still need to be able to check in, no matter where you are. An agent can't live only inside one application. The work should continue even If you close a window or switch devices.",
+            "In GitHub Copilot you can start an agent session in one place and pick it up in another. This session continuity runs on the Agent Host Protocol (AHP), an open standard built first in VS Code and adopted across GitHub. Here's how it works, what we learned building it, and how you can use it to bring your agents into your own apps and workflows.",
+            "GitHub Copilot was first built in VS Code as an extension that bundled its own harness.",
+            "This gave you access to your agents in VS Code, but it tied their lifetime to the editor.",
+            "Update VS Code, and every agent stops as the application restarts."
+          ]
+        },
+        {
+          "id": "3047d7657748ea76",
+          "title": "Introducing ChatGPT for Sales",
+          "excerpt": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-          "publishedAt": "2026-11-16T17:00:00.000Z",
+          "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+          "publishedAt": "2026-11-17T08:00:00.000Z",
           "technologies": [
             "Software Engineering"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Final URL: https://openai.com/index/expanding-chatgpt-for-academic-researchers/ We’re expanding the ChatGPT for Academic Researchers program to give up to 200,000 researchers worldwide free access to ChatGPT.",
-            "Applications for the next round open Monday, November 23.",
-            "We’ll award 50,000 new grants to eligible researchers on a first-come, first-served basis.",
-            "Each grant gives the recipient and up to two collaborators free access to ChatGPT Plus.",
-            "If you’re already on the waitlist and qualify, we’ll email you before applications open with instructions for activating your account."
-          ]
-        },
-        {
-          "id": "d91fd06de7b8771e",
-          "title": "Science at the Frontier: How scientists use ChatGPT",
-          "excerpt": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/science-at-the-frontier",
-          "publishedAt": "2026-11-16T12:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": [
-            "Final URL: https://openai.com/index/science-at-the-frontier/ Scientific progress depends on researchers asking new questions and finding ways to answer them.",
-            "AI is becoming part of that work, but we’re still learning where it helps and what it could mean for discovery.",
-            "OpenAI’s Economic Research team studied more than 580,000 scientific messages from 1,819 scientists in the ChatGPT for Academic Researchers summer pilot and surveyed 251 participants.",
-            "Scientists used ChatGPT across the research process, from reviewing literature to analyzing evidence and developing ideas.",
-            "Surveyed participants estimated that the same work, at the same quality, would have taken 1.9 times as long without AI."
-          ]
-        },
-        {
-          "id": "ff7833693fa2a067",
-          "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-          "excerpt": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/lvmh-media-division-partnership",
-          "publishedAt": "2026-11-16T09:00:00.000Z",
-          "technologies": [
-            "OpenAI"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": [
-            "Final URL: https://openai.com/index/lvmh-media-division-partnership/ _This news was originally shared by LVMH’s Media Division and can be read__here__._ **Paris, 16 November 2026**-LVMH Group’s Media Division and OpenAI announce the signing of a strategic agreement to support new uses of artificial intelligence across all the division’s publications and make their journalism more accessible through ChatGPT.",
-            "The agreement includes the deployment of OpenAI tools and ChatGPT Enterprise to teams across the media division, enabling them to develop AI applications tailored to their day-to-day work.",
-            "Their shared ambition is to empower teams across the media division to experiment with and develop practical uses of AI that support journalism and high-quality reporting.",
-            "Artificial intelligence is a powerful tool that, when put to work in newsrooms, enables journalists to focus on the core of their profession: investigating, analysing and writing.",
-            "Teams will be able to explore applications such as document research, document comparison and preliminary translation."
+            "It includes our new Sales plugin with dedicated skills for sellers, and more than 30 new and enhanced partner plugins in ChatGPT, so you can use information from the tools your team already relies on to prepare for calls, tailor proposals, and follow up faster.",
+            "A starting point for every seller The new Sales plugin from OpenAI gives you ready-to-use workflows for everyday sales work, from deciding which accounts to pursue to preparing for a call and drafting the follow-up.",
+            "Sales teams work best when everyone has a shared understanding of the customer.",
+            "The answers often sit across teammates, prospecting tools, customer calls, and the CRM.",
+            "Bringing that information together gives teams more time to make informed decisions and follow through on customer commitments."
           ]
         }
       ]
@@ -70,6 +70,26 @@
     {
       "name": "Cloud",
       "articles": [
+        {
+          "id": "9fd23e018da5cf4f",
+          "title": "Quad9’s withdrawal from France: A canary in the coal mine",
+          "excerpt": "Quad9's forced withdrawal from France highlights the dangers of mandating DNS-level blocking. We explore why forcing public resolvers to act as content filters is technically flawed and threatens the open Internet.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+          "publishedAt": "2026-11-17T20:24:27.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Last month, the Swiss non-profit foundation Quad9 announced that it will withdraw its free public DNS resolver from France. This difficult decision followed months of litigation and a French court ruling that imposed daily financial penalties on Quad9 for failing to block domains associated with alleged copyright infringement.",
+            "Quad9’s departure from France is both disheartening and understandable. The court’s ruling put the organization in the impossible bind of having to choose between crippling litigation and penalties, or fundamentally altering its service in a way that would undermine the privacy and security of its users. Left with no good option, Quad9 is choosing the exit door instead.",
+            "The withdrawal of a basic infrastructure service from France fundamentally harms the free and open Internet, and it should serve as a warning of the damage that will result if rightsholders and policymakers continue demanding maximal blocking across every layer of the Internet.",
+            "It not only deprives French Internet users of a trustworthy and important tool; it creates a real risk of disruption to their daily lives.",
+            "Quad9’s resolver is used by a wide variety of individuals and organizations in France - including government bodies, educational institutions, hospitals, and utilities - and Quad9 has no way to directly notify those individuals and institutions that their resolver will soon stop working."
+          ]
+        },
         {
           "id": "40ec4dab142d1c85",
           "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
@@ -109,26 +129,6 @@
             "These algorithms rely on a single leader process being available and having predictable latency.",
             "If the leader goes down, experiences higher latency than usual, or is disconnected, the entire consensus system slows down or becomes unavailable until the leader is replaced."
           ]
-        },
-        {
-          "id": "f27ad28b0c4db975",
-          "title": "Launching the Vite Ecosystem Fund",
-          "excerpt": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed by Cloudflare.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
-          "publishedAt": "2026-11-09T13:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Cloud",
-          "scanMinutes": 1,
-          "details": [
-            "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to 44 projects and maintainers across the Vite ecosystem.",
-            "When VoidZero joined Cloudflare, we committed $1 million to strengthen the open source ecosystem around Vite. This round is just the start.",
-            "Sponsoring open source has always mattered, but now AI has made funding urgent.",
-            "AI has made open source more valuable while triggering more maintainer burnout. Previously, contributing to a project through either an issue or pull request meant you cared about it. In return, maintainers would review and provide feedback. AI changed the social contract of open source. Anyone can now create and submit AI-authored pull requests.",
-            "The most visible result is the influx of pull requests. As the number of PRs has gone up, the number of maintainers reviewing them has stayed constant. So each maintainer’s workload has grown."
-          ]
         }
       ]
     },
@@ -160,6 +160,26 @@
     {
       "name": "Security",
       "articles": [
+        {
+          "id": "0e7f690aa4ff229b",
+          "title": "Strengthening NATO and allied cyber defenses with AI",
+          "excerpt": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+          "publishedAt": "2026-11-17T00:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/strengthening-nato-allied-cyber-defences-ai/ Governments and national cyber agencies protect the systems that people, public services and economies depend on.",
+            "Through Daybreak, we’re putting advanced AI into the hands of trusted defenders for authorized security work, from reviewing software and investigating suspicious activity to validating vulnerabilities, and developing and testing fixes.",
+            "Strengthening NATO’s cyber defenses OpenAI works with NATO’s Communications and Information Agency (NCIA) to provide NATO’s core institutions with access to advanced cybersecurity models, helping protect Allied networks.",
+            "NATO has used up to 300 billion raw input and output tokens per month as part of this work.",
+            "NATO’s early use of OpenAI tools shows how capable cyber defenders can put frontier models to work, supporting NATO’s mission of safeguarding the freedom and security of its member states."
+          ]
+        },
         {
           "id": "dd659f011024f04f",
           "title": "Strengthening the fight against online child sexual abuse with new tools and support",
@@ -198,26 +218,6 @@
             "In just the last three days, we have seen over 50 framework families attempt to scan Cloudflare customers globally.",
             "The number of Internet Protocol (IP) addresses seen running these frameworks has grown into the thousands and continues to increase daily.",
             "The proliferation of these frameworks has significantly changed the status quo in cyber defense: defenders are struggling to keep up with the volumetric nature of these autonomously guided attacks."
-          ]
-        },
-        {
-          "id": "2c15f23ac7aa344c",
-          "title": "Git security vulnerabilities announced",
-          "excerpt": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
-          "source": "GitHub Blog",
-          "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
-          "publishedAt": "2026-11-10T18:00:00.000Z",
-          "technologies": [
-            "GitHub"
-          ],
-          "category": "Security",
-          "scanMinutes": 1,
-          "details": [
-            "Today, the Git project is releasing new versions to address six security vulnerabilities. These include arbitrary code execution when recursively cloning a malicious repository, writes to unintended files, and memory corruption when processing merges or binary patches.",
-            "The fixes are included in Git 2.56.1 , with backports to Git 2.55.1, 2.54.1, 2.53.1, 2.52.1, 2.51.3, and 2.50.2. We recommend updating to Git 2.56.1 or the patched release for your maintenance series, and updating any applications that bundle Git.",
-            "Git checks paths before writing files into a working tree, including rejecting paths that would overwrite its own repository metadata. However, an integer truncation in Git's index handling can cause an extremely long path to pass validation under one name and then be written using a shorter name.",
-            "An attacker can use this discrepancy to replace a submodule's .git file with a symbolic link pointing to a directory containing malicious configuration or hooks . When Git subsequently uses that directory, it can execute attacker-controlled code during a recursive clone.",
-            "The fix rejects extremely long index entry paths before their lengths can be truncated."
           ]
         }
       ]
@@ -264,57 +264,32 @@
             "After 10 years and 5 failed stabilization attempts, the never type is finally stable ! This also completes the project goal for this work.",
             "The never type, spelled ! in code, is the canonical uninhabited type. It represents the type of diverging computations - computations which never resolve to any value - where any code that follows is unreachable. Expressions that terminate control flow, such as return , break , and std::process::exit , also have the type ! ."
           ]
-        },
-        {
-          "id": "6a8c4dac5a5dde0b",
-          "title": "Google Summer of Code 2026 results",
-          "excerpt": "The Rust Project participated in Google Summer of Code (GSoC) for the third time this year. This time we had 13 projects, and our dear contributors have been working very hard on them for several months. As usual, the projects had various durations, so while some of them have ended in August, the last one…",
-          "source": "Rust Blog",
-          "url": "https://blog.rust-lang.org/2026/11/11/gsoc-2026-results/",
-          "publishedAt": "2026-11-11T00:00:00.000Z",
-          "technologies": [
-            "Rust"
-          ],
-          "category": "Languages",
-          "scanMinutes": 1,
-          "details": [
-            "This time we had 13 projects, and our dear contributors have been working very hard on them for several months.",
-            "As usual, the projects had various durations, so while some of them have ended in August, the last one has only finished in November, so we have been waiting until we have all the results before publishing this blog post.",
-            "We are very happy to announce that all 13 projects were successful and passed their final evaluation! We consider it to be a testament to the diligence of our contributors, and the helpfulness of our mentors, that we are able to keep a very high rate [1] of successful GSoC projects several years in a row.",
-            "At the start of summer, we had a video call with our contributors, so that we could all get to know each other a bit, and learn about their projects.",
-            "Over the following few months, we continuously communicated with the contributors, provided guidance and answered their questions and reviewed their pull requests."
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Open Source",
-      "articles": [
-        {
-          "id": "1558c78d072630b6",
-          "title": "Accessibility statements now have a home on GitHub",
-          "excerpt": "GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes. The post Accessibility statements now have a home on GitHub appeared first on The GitHub Blog .",
-          "source": "GitHub Blog",
-          "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
-          "publishedAt": "2026-11-05T16:00:00.000Z",
-          "technologies": [
-            "GitHub"
-          ],
-          "category": "Open Source",
-          "scanMinutes": 1,
-          "details": [
-            "Accessibility work often lives in issue trackers, contribution guidelines, audit reports, team knowledge, and conversations with users. When that information has no predictable home, people who encounter a barrier must search for it, and maintainers lose context as contributors and project ownership change.",
-            "An ACCESSIBILITY.md file, now visible on repository overview pages, gives a project one durable place to explain its accessibility goals, contributor expectations, supported environments, known limitations, and process for reporting barriers.",
-            "GitHub now recognizes the ACCESSIBILITY.md file in the repository's root, .github/ directory, or docs/ directory. A repository can also inherit a statement from its organization's .github/ repository. For public repositories, maintainers can add or propose a statement from Insights > Community Standards using a concise starter document.",
-            "GitHub's community health files help people understand how a project works:",
-            "Codes of conduct establish expectations for participation"
-          ]
         }
       ]
     },
     {
       "name": "Developer Tools",
       "articles": [
+        {
+          "id": "8f6af8c44a4a1bfb",
+          "title": "Introducing GPT-6.2 Astra and Sol",
+          "excerpt": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+          "publishedAt": "2026-11-17T17:45:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/introducing-gpt-6-2-astra-sol/ We’re introducing **GPT‑6.2 Astra**, our new frontier model for your hardest projects, and **GPT‑6.2 Sol**, our efficient, versatile model for everyday work.",
+            "Both models deliver better results on demanding tasks with fewer output tokens, so you can get more done within your usage limits.",
+            "For businesses and developers, that means frontier performance at costs that make sense at scale.",
+            "GPT‑6.2 Astra sets a new quality bar for AI in complex professional work.",
+            "Its slides, spreadsheets, and documents read less like AI, and more closely follow the templates you provide and the conventions of your field."
+          ]
+        },
         {
           "id": "7c512829bf524dd8",
           "title": "GitHub availability report: October 2026",
@@ -333,26 +308,6 @@
             "As of November 9, 140 of 151 production services and 32 of 50 MySQL primaries were running in Azure Central US. Azure served 63% of migrated-service reads, 66% of monolith reads, and 52% of Git reads. We also completed a compute expansion across all nine Central US Kubernetes clusters, more than doubling capacity.",
             "That capacity is already carrying real growth. Migrated-service traffic has increased 82% since March, with Central US absorbing the growth beyond the highest weekly-average load previously served from our existing datacenter. This gives GitHub more room to grow without pushing the original environment beyond its prior operating range.",
             "We also made several targeted reliability improvements."
-          ]
-        },
-        {
-          "id": "410a92595886a074",
-          "title": "Arnis turns any place on Earth into a Minecraft world",
-          "excerpt": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog .",
-          "source": "GitHub Blog",
-          "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
-          "publishedAt": "2026-11-03T16:00:00.000Z",
-          "technologies": [
-            "GitHub"
-          ],
-          "category": "Developer Tools",
-          "scanMinutes": 1,
-          "details": [
-            "Louis Erbkamm knows his way around Arnis, the smallest town in Germany, but he's never set foot in it.",
-            "I know where the shops are. Where the boats are... I know the city pretty well, but I haven't been there yet.",
-            "Arnis is also the name of his open source project, which takes real-world data from OpenStreetMap and other sources to turn places you know into Minecraft worlds you can freely explore. Since Louis started Arnis in 2022, it's reached close to 900,000 downloads from GitHub and about 70 contributors.",
-            "Louis grew up playing Minecraft and started coding at 13, always looking for ways to bring code into the game. Arnis began as a fun diversion combining Minecraft with geospatial data, and it went on GitHub, where he already kept his side projects. He finished the first prototype within two weeks while on a break from school.",
-            "That first version was Python written by hand, built only on OpenStreetMap, and generating a town took a while. He needed somewhere real to test it, so he looked up towns in Germany, where he lives, and found Arnis. A small town helped while early generation was slow."
           ]
         }
       ]

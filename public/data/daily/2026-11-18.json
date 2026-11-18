@@ -1,0 +1,360 @@
+{
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T02:54:59.257Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
+  "sections": [
+    {
+      "name": "AI",
+      "articles": [
+        {
+          "id": "de1a299348ffc0d1",
+          "title": "Maintainers don’t need more AI bug reports. They need fixes.",
+          "excerpt": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half. The post Maintainers don’t need more AI bug reports. They need fixes. appeared…",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+          "publishedAt": "2026-11-17T18:29:29.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "AI has made finding potential vulnerabilities fast and cheap.",
+            "Fixing them still takes human judgment, and in open source, that work falls to maintainers.",
+            "Many are already flooded with AI-generated security findings, including duplicates and reports that aren't vulnerabilities at all.",
+            "Anyone pointing a new model at a project should ask its maintainers first and come with fixes, not just findings.",
+            "Maintainers are under intense pressure from this flood of reports. As Christian Grobmeier, a maintainer of Log4j, has put it, the AI defending open source has to be better than the AI attacking it ."
+          ]
+        },
+        {
+          "id": "2f1c65ad4b7ec380",
+          "title": "Building the Agent Host Protocol for sessions that continue across devices",
+          "excerpt": "Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud. The post Building the Agent Host Protocol for sessions that continue across devices appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+          "publishedAt": "2026-11-17T18:20:40.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Models are now good enough to work for hours or even days on their own. You don't have to watch over every thing they do, but you still need to be able to check in, no matter where you are. An agent can't live only inside one application. The work should continue even If you close a window or switch devices.",
+            "In GitHub Copilot you can start an agent session in one place and pick it up in another. This session continuity runs on the Agent Host Protocol (AHP), an open standard built first in VS Code and adopted across GitHub. Here's how it works, what we learned building it, and how you can use it to bring your agents into your own apps and workflows.",
+            "GitHub Copilot was first built in VS Code as an extension that bundled its own harness.",
+            "This gave you access to your agents in VS Code, but it tied their lifetime to the editor.",
+            "Update VS Code, and every agent stops as the application restarts."
+          ]
+        },
+        {
+          "id": "3047d7657748ea76",
+          "title": "Introducing ChatGPT for Sales",
+          "excerpt": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+          "publishedAt": "2026-11-17T08:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "It includes our new Sales plugin with dedicated skills for sellers, and more than 30 new and enhanced partner plugins in ChatGPT, so you can use information from the tools your team already relies on to prepare for calls, tailor proposals, and follow up faster.",
+            "A starting point for every seller The new Sales plugin from OpenAI gives you ready-to-use workflows for everyday sales work, from deciding which accounts to pursue to preparing for a call and drafting the follow-up.",
+            "Sales teams work best when everyone has a shared understanding of the customer.",
+            "The answers often sit across teammates, prospecting tools, customer calls, and the CRM.",
+            "Bringing that information together gives teams more time to make informed decisions and follow through on customer commitments."
+          ]
+        },
+        {
+          "id": "b43ef08ac3ed4f7a",
+          "title": "Astra for Law leads in legal intelligence",
+          "excerpt": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/astra-law-6-2",
+          "publishedAt": "2026-11-17T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/astra-law-6-2/ Today, we're releasing an updated Astra for Law that is state-of-the-art on Harvey LAB-AA and a top performer on Vals AI’s Legal Research Bench.",
+            "We are also enabling all ChatGPT Enterprise customers to request access through the Trusted Access Program, including through the API.",
+            "Astra for Law is a model configuration of GPT‑6.2 Astra⁠, our latest, most powerful frontier model.",
+            "It pairs GPT‑6.2 Astra with an expanded legal search index and instructions for researching a question, weighing the authorities, and writing the answer.",
+            "Today’s configuration earned full credit on the LAB-AA tests nearly 40% more often than did the runner-up, GPT‑6.2 Astra."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "articles": [
+        {
+          "id": "9fd23e018da5cf4f",
+          "title": "Quad9’s withdrawal from France: A canary in the coal mine",
+          "excerpt": "Quad9's forced withdrawal from France highlights the dangers of mandating DNS-level blocking. We explore why forcing public resolvers to act as content filters is technically flawed and threatens the open Internet.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+          "publishedAt": "2026-11-17T20:24:27.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Last month, the Swiss non-profit foundation Quad9 announced that it will withdraw its free public DNS resolver from France. This difficult decision followed months of litigation and a French court ruling that imposed daily financial penalties on Quad9 for failing to block domains associated with alleged copyright infringement.",
+            "Quad9’s departure from France is both disheartening and understandable. The court’s ruling put the organization in the impossible bind of having to choose between crippling litigation and penalties, or fundamentally altering its service in a way that would undermine the privacy and security of its users. Left with no good option, Quad9 is choosing the exit door instead.",
+            "The withdrawal of a basic infrastructure service from France fundamentally harms the free and open Internet, and it should serve as a warning of the damage that will result if rightsholders and policymakers continue demanding maximal blocking across every layer of the Internet.",
+            "It not only deprives French Internet users of a trustworthy and important tool; it creates a real risk of disruption to their daily lives.",
+            "Quad9’s resolver is used by a wide variety of individuals and organizations in France - including government bodies, educational institutions, hospitals, and utilities - and Quad9 has no way to directly notify those individuals and institutions that their resolver will soon stop working."
+          ]
+        },
+        {
+          "id": "40ec4dab142d1c85",
+          "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
+          "excerpt": "Spend Management adds opt-in spending caps for Cloudflare Workers and Durable Objects, and more products soon. Here is how we built the metering pipeline that turns usage into runtime decisions.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/spend-management/",
+          "publishedAt": "2026-11-13T14:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Spend controls have been at the top of the list of most requested features from developers building on our developer platform for quite some time now. With more than 10 million developers now building on Cloudflare, this matters more than ever.",
+            "Although we’ve had usage notifications and budget alerts available to paid plans for a while, this doesn’t solve the problem completely; informing is not the same as controlling.",
+            "You can now set spending thresholds and choose to have Cloudflare pause activity when those limits are reached, thus avoiding unexpected bills from unplanned usage. Today, we're introducing Spend Management in Beta, for any pay-as-you-go (PayGo) customer, starting with Workers and Durable Objects.",
+            "Use Spend Management alongside AI Gateway spend limits to manage compute and AI inference costs across your application. AI Gateway already supports per-user and per-model budgets for Workers AI and other AI providers, applied to requests routed through your gateway.",
+            "You can start using Spend Management using the dashboard, cf CLI , or REST API ."
+          ]
+        },
+        {
+          "id": "b4c8fa961fce9edf",
+          "title": "Choosing QuePaxa, an unusual consensus algorithm",
+          "excerpt": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/choosing-quepaxa/",
+          "publishedAt": "2026-11-11T14:24:46.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Cloudflare recently announced Meerkat , an experimental distributed consensus service designed to manage our internal global control plane. It is powered by a new consensus algorithm published by researchers Tennage & Băsescu et al. called QuePaxa (2023).",
+            "QuePaxa is an unusual choice; most consensus systems use well-established consensus algorithms like Raft, (Multi-)Paxos or Viewstamped Replication. These algorithms are well understood, have mature implementations, and usually work well.",
+            "Unfortunately, common consensus algorithms often suffer in wide-area networks with volatile network connectivity and latency, i.e., networks like the Internet, which is where Meerkat runs.",
+            "These algorithms rely on a single leader process being available and having predictable latency.",
+            "If the leader goes down, experiences higher latency than usual, or is disconnected, the entire consensus system slows down or becomes unavailable until the leader is replaced."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "articles": [
+        {
+          "id": "2f2dcaa3d13bcabb",
+          "title": "Scheduling the removal of the kube-proxy IPVS backend",
+          "excerpt": "The ipvs backend for kube-proxy was an experiment in providing a service proxy implementation with better performance than the iptables backend. While it succeeded in that goal, the kernel IPVS API has turned out to be a bad match for the Kubernetes Services API, and the ipvs backend was never able to…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/11/16/ipvs-removal/",
+          "publishedAt": "2026-11-16T18:35:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "In Kubernetes 1.29, the project introduced the nftables backend for kube-proxy, which became GA in 1.33.",
+            "Part of the plan behind adding the nftables backend was the idea that it would eventually replace both the iptables and ipvs backends.",
+            "Because the ipvs backend in particular is complex, not 100% feature complete, and architecturally quite different from the other two backends (and thus more work to maintain), Kubernetes SIG Network decided to officially deprecate it as of Kubernetes 1.35 .",
+            "Although it currently remains available in kube-proxy (with a warning about its deprecation), we (Kubernetes SIG Network) now plan to remove it in Kubernetes 1.40.",
+            "All ipvs users should therefore be planning to migrate to either the nftables or iptables backends."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "articles": [
+        {
+          "id": "0e7f690aa4ff229b",
+          "title": "Strengthening NATO and allied cyber defenses with AI",
+          "excerpt": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+          "publishedAt": "2026-11-17T00:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/strengthening-nato-allied-cyber-defences-ai/ Governments and national cyber agencies protect the systems that people, public services and economies depend on.",
+            "Through Daybreak, we’re putting advanced AI into the hands of trusted defenders for authorized security work, from reviewing software and investigating suspicious activity to validating vulnerabilities, and developing and testing fixes.",
+            "Strengthening NATO’s cyber defenses OpenAI works with NATO’s Communications and Information Agency (NCIA) to provide NATO’s core institutions with access to advanced cybersecurity models, helping protect Allied networks.",
+            "NATO has used up to 300 billion raw input and output tokens per month as part of this work.",
+            "NATO’s early use of OpenAI tools shows how capable cyber defenders can put frontier models to work, supporting NATO’s mission of safeguarding the freedom and security of its member states."
+          ]
+        },
+        {
+          "id": "dd659f011024f04f",
+          "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+          "excerpt": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/strengthening-online-child-safety",
+          "publishedAt": "2026-11-16T17:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/strengthening-online-child-safety/ Today, we’re releasing a new tool to detect child sexual abuse material (CSAM), interventions that interrupt harmful behavior and point people toward help, practical resources for developers, and support for child-safety law enforcement investigators.",
+            "These efforts build on our Child Safety Blueprint and our ongoing work to detect, block, and report abuse.",
+            "For parents, the goal is simple: technology that helps keep children safe, with people in control.",
+            "It is wellestablished that combatting online child predators requires coordination across many organizations.",
+            "Individual companies like OpenAI have a responsibility to prevent our technology from being exploited by predators to harm children, and we also must work together with the broader industry, child safety organizations and law enforcement to advance our collective efforts to protect children online."
+          ]
+        },
+        {
+          "id": "a009bbdbfbe6de47",
+          "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+          "excerpt": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+          "publishedAt": "2026-11-13T19:26:07.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Over the last month, the number of Large Language Model (LLM) penetration testing and orchestration frameworks has exploded.",
+            "Just a few weeks ago, ARTEX - an open source agentic penetration testing system that automates offensive security workflows - was the only framework available.",
+            "In just the last three days, we have seen over 50 framework families attempt to scan Cloudflare customers globally.",
+            "The number of Internet Protocol (IP) addresses seen running these frameworks has grown into the thousands and continues to increase daily.",
+            "The proliferation of these frameworks has significantly changed the status quo in cyber defense: defenders are struggling to keep up with the volumetric nature of these autonomously guided attacks."
+          ]
+        },
+        {
+          "id": "2c15f23ac7aa344c",
+          "title": "Git security vulnerabilities announced",
+          "excerpt": "Git is releasing updates addressing six security vulnerabilities affecting clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+          "publishedAt": "2026-11-10T18:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Editor's note (November 17, 2026): This post has been updated with additional CVE information and updated guidance for GitHub Enterprise Server users . Please see the release information below for the versions that include the fixes.",
+            "Today, the Git project is releasing new versions to address six security vulnerabilities. These include arbitrary code execution when cloning a malicious repository, writes to unintended files, and memory corruption when processing merges or binary patches.",
+            "The fixes are included in Git 2.56.1 , with backports to Git 2.55.1, 2.54.1, 2.53.1, 2.52.1, 2.51.3, and 2.50.2. We recommend updating to Git 2.56.1 or the patched release for your maintenance series, and updating any applications that bundle Git.",
+            "Git checks paths before writing files into a working tree, including rejecting paths that would overwrite its own repository metadata.",
+            "However, an integer truncation in Git's index handling can cause an extremely long path to pass validation under one name and then be written using a shorter name."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Languages",
+      "articles": [
+        {
+          "id": "d1e49eedb9dee154",
+          "title": "Enabling the parallel frontend on nightly",
+          "excerpt": "TL;DR: We are enabling the parallel frontend of the Rust compiler on nightly by default, to find remaining issues in preparation for its stabilization. Context The Rust compiler has been using multiple threads to compile code in its \"backend\" part (using LLVM) for a long time. However, its \"frontend\" part…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/11/16/enabling-parallel-frontend-on-nightly/",
+          "publishedAt": "2026-11-16T00:00:00.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "The Rust compiler has been using multiple threads to compile code in its \"backend\" part (using LLVM) for a long time.",
+            "However, its \"frontend\" part (which includes type checking and borrow checking) has been executing sequentially, on a single thread, which of course limits the performance of the compiler.",
+            "If you are interested in a more in-depth explanation of parallelism in the Rust compiler, see this previous post .",
+            "The compiler frontend actually had support for running in parallel for a long time, but it was not enabled by default due to various issues. Three years ago , we made it possible to opt into the parallel frontend on the nightly channel, with the plan to stabilize it in 2024. Clearly, we did not achieve that goal, but work on the parallel frontend was still slowly progressing in the meantime.",
+            "Last year, Vadim Petrochenkov , together with several other contributors, started a coordinated effort to finally get the parallel frontend over the finish line."
+          ]
+        },
+        {
+          "id": "9ab435bfd5da65a2",
+          "title": "Announcing Rust 1.100.0",
+          "excerpt": "The Rust team is happy to announce a new version of Rust, 1.100.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.100.0 with: $ rustup update stable If you don't have it already, you can…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+          "publishedAt": "2026-11-12T00:00:00.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "If you have a previous version of Rust installed via rustup , you can get 1.100.0 with:",
+            "If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.100.0 .",
+            "If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default nightly ). Please report any bugs you might come across!",
+            "After 10 years and 5 failed stabilization attempts, the never type is finally stable ! This also completes the project goal for this work.",
+            "The never type, spelled ! in code, is the canonical uninhabited type. It represents the type of diverging computations - computations which never resolve to any value - where any code that follows is unreachable. Expressions that terminate control flow, such as return , break , and std::process::exit , also have the type ! ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "articles": [
+        {
+          "id": "8f6af8c44a4a1bfb",
+          "title": "Introducing GPT-6.2 Astra and Sol",
+          "excerpt": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+          "publishedAt": "2026-11-17T17:45:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/introducing-gpt-6-2-astra-sol/ We’re introducing **GPT‑6.2 Astra**, our new frontier model for your hardest projects, and **GPT‑6.2 Sol**, our efficient, versatile model for everyday work.",
+            "Both models deliver better results on demanding tasks with fewer output tokens, so you can get more done within your usage limits.",
+            "For businesses and developers, that means frontier performance at costs that make sense at scale.",
+            "GPT‑6.2 Astra sets a new quality bar for AI in complex professional work.",
+            "Its slides, spreadsheets, and documents read less like AI, and more closely follow the templates you provide and the conventions of your field."
+          ]
+        },
+        {
+          "id": "7c512829bf524dd8",
+          "title": "GitHub availability report: October 2026",
+          "excerpt": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+          "publishedAt": "2026-11-13T00:20:16.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "We continue to share monthly updates on the work behind GitHub's availability and reliability.",
+            "The short version of October: we added substantial independently scalable Azure capacity and removed several ways that failures could escalate. However, write outages, monitoring gaps during data migrations, and a regional network disruption reinforced the need for capacity growth to be paired with safer operations, stronger isolation, and validated regional recovery.",
+            "As of November 9, 140 of 151 production services and 32 of 50 MySQL primaries were running in Azure Central US. Azure served 63% of migrated-service reads, 66% of monolith reads, and 52% of Git reads. We also completed a compute expansion across all nine Central US Kubernetes clusters, more than doubling capacity.",
+            "That capacity is already carrying real growth. Migrated-service traffic has increased 82% since March, with Central US absorbing the growth beyond the highest weekly-average load previously served from our existing datacenter. This gives GitHub more room to grow without pushing the original environment beyond its prior operating range.",
+            "We also made several targeted reliability improvements."
+          ]
+        }
+      ]
+    }
+  ]
+}
