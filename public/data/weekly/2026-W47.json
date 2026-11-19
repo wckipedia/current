@@ -1,10 +1,30 @@
 {
   "week": "2026-W47",
-  "generatedAt": "2026-11-18T03:44:23.081Z",
+  "generatedAt": "2026-11-19T02:34:50.578Z",
   "sections": [
     {
       "name": "AI",
       "articles": [
+        {
+          "id": "c9098ac47ad21321",
+          "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+          "excerpt": "Add your teaser here. It should complement the headline, not repeat it. Teaser cannot be longer than 240 characters. The Blog Review Gem will suggest an excerpt. Clairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight release for both extraction…",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/open-clairic/",
+          "publishedAt": "2026-11-18T22:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Cloudflare has become a neolab. We’re building our own frontier AI models for our customers and the open-source community.",
+            "Today, we’re announcing two open-weight model releases:",
+            "We’re introducing an updated version of Clairic . Since the preview, we’ve improved extraction from complex documents including images and PDFs (new!), with more reliable handling of tables, lists, and dates, and better grounding of answers in the source material.",
+            "We’re introducing Clairic-flash , a lighter, faster version of Clairic that delivers strong extraction and prediction performance in a compact, 9-billion-parameter model.",
+            "Both extraction models are hosted on Workers AI and full open weights are available on Hugging Face ."
+          ]
+        },
         {
           "id": "de1a299348ffc0d1",
           "title": "Maintainers don’t need more AI bug reports. They need fixes.",
@@ -44,20 +64,6 @@
             "This gave you access to your agents in VS Code, but it tied their lifetime to the editor.",
             "Update VS Code, and every agent stops as the application restarts."
           ]
-        },
-        {
-          "id": "3047d7657748ea76",
-          "title": "Introducing ChatGPT for Sales",
-          "excerpt": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/introducing-chatgpt-for-sales",
-          "publishedAt": "2026-11-17T08:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": []
         }
       ]
     },
@@ -155,43 +161,23 @@
       "name": "Security",
       "articles": [
         {
-          "id": "0e7f690aa4ff229b",
-          "title": "Strengthening NATO and allied cyber defenses with AI",
-          "excerpt": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-          "publishedAt": "2026-11-17T00:00:00.000Z",
-          "technologies": [
-            "OpenAI"
-          ],
-          "category": "Security",
-          "scanMinutes": 1,
-          "details": [
-            "Final URL: https://openai.com/index/strengthening-nato-allied-cyber-defences-ai/ Governments and national cyber agencies protect the systems that people, public services and economies depend on.",
-            "Through Daybreak, we’re putting advanced AI into the hands of trusted defenders for authorized security work, from reviewing software and investigating suspicious activity to validating vulnerabilities, and developing and testing fixes.",
-            "Strengthening NATO’s cyber defenses OpenAI works with NATO’s Communications and Information Agency (NCIA) to provide NATO’s core institutions with access to advanced cybersecurity models, helping protect Allied networks.",
-            "NATO has used up to 300 billion raw input and output tokens per month as part of this work.",
-            "NATO’s early use of OpenAI tools shows how capable cyber defenders can put frontier models to work, supporting NATO’s mission of safeguarding the freedom and security of its member states."
-          ]
-        },
-        {
-          "id": "dd659f011024f04f",
-          "title": "Strengthening the fight against online child sexual abuse with new tools and support",
-          "excerpt": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/strengthening-online-child-safety",
-          "publishedAt": "2026-11-16T17:00:00.000Z",
+          "id": "a0792ea92321f143",
+          "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
+          "excerpt": "Java4Shell is a critical memory-corruption flaw in OpenJDK's Base64 decoder that can lead to remote code execution. Cloudflare has released six WAF managed rules for paid plans that logs matching requests by default. Patch your Java runtimes now.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/java4shell-waf-protection/",
+          "publishedAt": "2026-11-18T14:52:10.000Z",
           "technologies": [
             "Software Engineering"
           ],
           "category": "Security",
           "scanMinutes": 1,
           "details": [
-            "Final URL: https://openai.com/index/strengthening-online-child-safety/ Today, we’re releasing a new tool to detect child sexual abuse material (CSAM), interventions that interrupt harmful behavior and point people toward help, practical resources for developers, and support for child-safety law enforcement investigators.",
-            "These efforts build on our Child Safety Blueprint and our ongoing work to detect, block, and report abuse.",
-            "For parents, the goal is simple: technology that helps keep children safe, with people in control.",
-            "It is wellestablished that combatting online child predators requires coordination across many organizations.",
-            "Individual companies like OpenAI have a responsibility to prevent our technology from being exploited by predators to harm children, and we also must work together with the broader industry, child safety organizations and law enforcement to advance our collective efforts to protect children online."
+            "On November 17, 2026, the security research company Calif disclosed Java4Shell (CVE-2026-114938) , a memory-corruption vulnerability in the Base64 decoder of OpenJDK, the most widely used Java runtime.",
+            "Under the Common Vulnerability Scoring System (CVSS) 4.0, it scores 9.2 out of 10 (Critical).",
+            "OpenJDK published a security advisory and Oracle released patched builds in its November 2026 Critical Patch Update the same day, at 21:00 UTC.",
+            "The vulnerability lets a remote attacker with no credentials send malformed Base64 data to a Java application and overwrite memory next to the decoded output.",
+            "Calif turned that overwrite into a leak of heap memory, similar to Heartbleed , and into remote code execution."
           ]
         },
         {
@@ -212,6 +198,26 @@
             "In just the last three days, we have seen over 50 framework families attempt to scan Cloudflare customers globally.",
             "The number of Internet Protocol (IP) addresses seen running these frameworks has grown into the thousands and continues to increase daily.",
             "The proliferation of these frameworks has significantly changed the status quo in cyber defense: defenders are struggling to keep up with the volumetric nature of these autonomously guided attacks."
+          ]
+        },
+        {
+          "id": "2c15f23ac7aa344c",
+          "title": "Git security vulnerabilities announced",
+          "excerpt": "Git is releasing updates addressing six security vulnerabilities affecting clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+          "publishedAt": "2026-11-10T18:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Editor's note (November 17, 2026): This post has been updated with additional CVE information and updated guidance for GitHub Enterprise Server users . Please see the release information below for the versions that include the fixes.",
+            "Today, the Git project is releasing new versions to address six security vulnerabilities. These include arbitrary code execution when cloning a malicious repository, writes to unintended files, and memory corruption when processing merges or binary patches.",
+            "The fixes are included in Git 2.56.1 , with backports to Git 2.55.1, 2.54.1, 2.53.1, 2.52.1, 2.51.3, and 2.50.2. We recommend updating to Git 2.56.1 or the patched release for your maintenance series, and updating any applications that bundle Git.",
+            "Git checks paths before writing files into a working tree, including rejecting paths that would overwrite its own repository metadata.",
+            "However, an integer truncation in Git's index handling can cause an extremely long path to pass validation under one name and then be written using a shorter name."
           ]
         }
       ]
@@ -238,32 +244,32 @@
             "The compiler frontend actually had support for running in parallel for a long time, but it was not enabled by default due to various issues. Three years ago , we made it possible to opt into the parallel frontend on the nightly channel, with the plan to stabilize it in 2024. Clearly, we did not achieve that goal, but work on the parallel frontend was still slowly progressing in the meantime.",
             "Last year, Vadim Petrochenkov , together with several other contributors, started a coordinated effort to finally get the parallel frontend over the finish line."
           ]
-        },
-        {
-          "id": "9ab435bfd5da65a2",
-          "title": "Announcing Rust 1.100.0",
-          "excerpt": "The Rust team is happy to announce a new version of Rust, 1.100.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.100.0 with: $ rustup update stable If you don't have it already, you can…",
-          "source": "Rust Blog",
-          "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
-          "publishedAt": "2026-11-12T00:00:00.000Z",
-          "technologies": [
-            "Rust"
-          ],
-          "category": "Languages",
-          "scanMinutes": 1,
-          "details": [
-            "If you have a previous version of Rust installed via rustup , you can get 1.100.0 with:",
-            "If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.100.0 .",
-            "If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default nightly ). Please report any bugs you might come across!",
-            "After 10 years and 5 failed stabilization attempts, the never type is finally stable ! This also completes the project goal for this work.",
-            "The never type, spelled ! in code, is the canonical uninhabited type. It represents the type of diverging computations - computations which never resolve to any value - where any code that follows is unreachable. Expressions that terminate control flow, such as return , break , and std::process::exit , also have the type ! ."
-          ]
         }
       ]
     },
     {
       "name": "Developer Tools",
       "articles": [
+        {
+          "id": "67952d9a918d2536",
+          "title": "Inside the Codex sandbox",
+          "excerpt": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/inside-the-codex-sandbox",
+          "publishedAt": "2026-11-18T08:00:00.000Z",
+          "technologies": [
+            "Linux"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/inside-the-codex-sandbox/ At OpenAI, we take a defense in depth) approach when it comes to safeguarding agents.",
+            "While our investments in training and alignment are fundamental to this effort, we also implement features in our agentic harness, Codex, to provide additional protections.",
+            "Because one of the most common (and potentially risky) things Codex does is run commands on your computer, we built the _Codex sandbox_ so Codex can work in your existing environment within filesystem and network limits you control.",
+            "A)_sandbox_) limits what a program can access while it runs.",
+            "For a photo-organizing task, you might configure the Codex sandbox to let commands read and modify files in `~/Pictures` while blocking network access to prevent uploads."
+          ]
+        },
         {
           "id": "8f6af8c44a4a1bfb",
           "title": "Introducing GPT-6.2 Astra and Sol",
