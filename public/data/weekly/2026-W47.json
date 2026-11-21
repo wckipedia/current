@@ -1,6 +1,6 @@
 {
   "week": "2026-W47",
-  "generatedAt": "2026-11-21T02:14:58.254Z",
+  "generatedAt": "2026-11-21T03:16:02.293Z",
   "sections": [
     {
       "name": "AI",
@@ -232,9 +232,7 @@
           ],
           "category": "Security",
           "scanMinutes": 1,
-          "details": [
-            "Final URL: https://openai.com/business/learn/codex-security-plugin-demo/ Warning: Target URL returned error 403: Forbidden Warning: This page maybe not yet fully loaded, consider explicitly specify a timeout."
-          ]
+          "details": []
         }
       ]
     },
