@@ -1,63 +1,95 @@
 {
   "week": "2026-W47",
-  "generatedAt": "2026-11-20T03:24:19.201Z",
+  "generatedAt": "2026-11-21T02:14:58.254Z",
   "sections": [
     {
       "name": "AI",
       "articles": [
         {
-          "id": "c9098ac47ad21321",
-          "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
-          "excerpt": "Clairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight release for both extraction models.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/open-clairic/",
-          "publishedAt": "2026-11-18T22:00:00.000Z",
+          "id": "7ad44f990f0c53ef",
+          "title": "Combatting adversarial distillation",
+          "excerpt": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/combatting-adversarial-distillation",
+          "publishedAt": "2026-11-20T10:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/combatting-adversarial-distillation/ As frontier AI models become more capable, safeguards play an increasingly important role in how they can be used responsibly.",
+            "Adversarial distillation creates a path for bad actors to reproduce these capabilities without appropriate safeguards.",
+            "An actor may use a frontier model’s outputs without authorization to train another model with similar capabilities, then deploy it without comparable protections.",
+            "For instance, an adversary might distill a model’s cyber capabilities and use the resulting model to help carry out cyberattacks that the original model would have refused to assist with or that its safeguards would have blocked.",
+            "We’re sharing how OpenAI detects and disrupts adversarial distillation, how we’ve strengthened protections for our models’ protected reasoning, and what we’ve learned that can help strengthen defenses across the industry."
+          ]
+        },
+        {
+          "id": "8145fefb47ff1ca9",
+          "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+          "excerpt": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/business/customer-stories/hebbia",
+          "publishedAt": "2026-11-20T00:00:00.000Z",
           "technologies": [
             "Software Engineering"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Cloudflare has become a neolab. We’re building our own frontier AI models for our customers and the open-source community.",
-            "Today, we’re announcing two open-weight model releases:",
-            "We’re introducing an updated version of Clairic . Since the preview, we’ve improved extraction from complex documents including images and PDFs (new!), with more reliable handling of tables, lists, and dates, and better grounding of answers in the source material.",
-            "We’re introducing Clairic-flash , a lighter, faster version of Clairic that delivers strong extraction and prediction performance in a compact, 9-billion-parameter model.",
-            "Both extraction models are hosted on Workers AI and full open weights are available on Hugging Face ."
+            "Final URL: https://openai.com/business/customer-stories/hebbia/ Before a banker can recommend an acquisition to their client, they need to make sense of financial statements, customer contracts and management presentations.",
+            "Hebbia’s Matrix helps bring that research together, linking answers to the documents behind them.",
+            "Hebbia tested OpenAI’s GPT‑6 Astra to improve two parts of that work: finding the sources a question requires and building a presentation that follows the banker’s brief. > “We’ve been strong partners with OpenAI over the course of Hebbia’s lifetime, and the leaps GPT-6 Astra has made in terms of quality outputs and accuracy have truly been surprising.",
+            "GPT-6 Astra shines compared to any other model we’ve tested before on these two fronts.” -Kavita Anand, Member of Technical Staff, Product, Hebbia Hebbia discusses financial research with GPT-6 Astra.",
+            "From source documents to presentations It could work like this: a banker is helping their client assess a strategic acquisition of an industrial-software company, with roughly 2,000 files to review."
           ]
         },
         {
-          "id": "9342dbf934e428aa",
-          "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-          "excerpt": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+          "id": "c1a2af93db54bfcf",
+          "title": "Can AI help scientists identify promising drug candidates?",
+          "excerpt": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-          "publishedAt": "2026-11-19T08:00:00.000Z",
-          "technologies": [
-            "OpenAI"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": []
-        },
-        {
-          "id": "17b7a2b39f098895",
-          "title": "See PR scans in action",
-          "excerpt": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/business/learn/pr-scans-demo",
-          "publishedAt": "2026-11-19T00:00:00.000Z",
+          "url": "https://openai.com/index/introducing-medchembench",
+          "publishedAt": "2026-11-20T00:00:00.000Z",
           "technologies": [
             "Software Engineering"
           ],
           "category": "AI",
           "scanMinutes": 1,
-          "details": []
+          "details": [
+            "Final URL: https://openai.com/index/introducing-medchembench/ We’re introducing MedChemBench, a benchmark that evaluates AI models on reasoning tasks drawn from medicinal chemistry research.",
+            "It tests whether models can connect a molecule’s structure with experimental evidence to explain results, compare compounds, and predict their properties.",
+            "Building AI that can reliably support this work is one step towards helping scientists develop better medicines.",
+            "One of the hardest parts of this work is that improving one property of a molecule can make another worse.",
+            "A compound might act strongly against a disease related protein but be poorly absorbed or break down too quickly in the body."
+          ]
         }
       ]
     },
     {
       "name": "Cloud",
       "articles": [
+        {
+          "id": "dee94a929dea9fb9",
+          "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+          "excerpt": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the same release.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/phpaftershell-waf-protection/",
+          "publishedAt": "2026-11-20T20:00:45.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "On November 19, 2026, the security research company depthfirst disclosed phpAfterShell (CVE-2026-126714) , a vulnerability in PHP's default file-based session handler that can lead to remote code execution.",
+            "Under the Common Vulnerability Scoring System (CVSS) 4.0, it scores 9.2 out of 10 (Critical).",
+            "The PHP project fixed it the same day in versions 8.2.36, 8.3.37, 8.4.28, 8.5.13, and 8.6.0.",
+            "These releases fix 16 other security vulnerabilities, six of them also rated critical.",
+            "Cloudflare’s web application firewall (WAF) blocks known phpAfterShell attack patterns, including for customers on the Free plan."
+          ]
+        },
         {
           "id": "32c1e05692d04a88",
           "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
@@ -149,6 +181,26 @@
       "name": "Security",
       "articles": [
         {
+          "id": "c851a250df92def9",
+          "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+          "excerpt": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
+          "publishedAt": "2026-11-20T20:24:38.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "On November 19, 2026, the Ruby team disclosed ruby2shell ( CVE-2026-132825 ), a heap buffer overflow in the way Ruby changes the case of strings. Ruby rates the flaw Critical and says it is aware of proofs of concept that achieve remote code execution in some scenarios. Fixes shipped in Ruby 3.3.14, 3.4.13, and 4.0.10 .",
+            "The reach is wide. Veria Labs reports that Ruby on Rails and classic-style Sinatra applications reach the bug in their default configuration, before any authentication. Self-hosted products that bundle Ruby, including GitLab, GitHub Enterprise Server, Mastodon, OpenProject, Discourse and Chatwoot, shipped an affected Ruby in their latest release at the time of disclosure.",
+            "Cloudflare WAF blocks ruby2shell for all customers, including those on the Free plan. We have added two rules to both the Cloudflare Free Managed Ruleset and the Cloudflare Managed Ruleset, with Block as the default action: one for ruby2shell and one for GHSA-87fm-7w84-j2px, a related integer overflow in Ruby string case conversion fixed in the same releases.",
+            "The WAF is a compensating control, not a replacement for patching. Exploits can reach the bug through paths a WAF does not see, and the only complete fix is to upgrade Ruby. Our team continues to monitor attack traffic and will update the rules as new techniques appear. You can track rule changes in the WAF changelog and get the latest on the vulnerability in the Cloudflare Zero Wire briefing .",
+            "Cloudflare has patched its own systems that use Ruby, and we have found no indication of compromise."
+          ]
+        },
+        {
           "id": "17fab3637860c9a7",
           "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
           "excerpt": "Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare's proxy are shielded from the most serious of these bugs.",
@@ -169,38 +221,20 @@
           ]
         },
         {
-          "id": "a0792ea92321f143",
-          "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
-          "excerpt": "Java4Shell is a critical memory-corruption flaw in OpenJDK's Base64 decoder that can lead to remote code execution. Cloudflare has released six WAF managed rules for paid plans that logs matching requests by default. Patch your Java runtimes now.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/java4shell-waf-protection/",
-          "publishedAt": "2026-11-18T14:52:10.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Security",
-          "scanMinutes": 1,
-          "details": [
-            "On November 17, 2026, the security research company Calif disclosed Java4Shell (CVE-2026-114938) , a memory-corruption vulnerability in the Base64 decoder of OpenJDK, the most widely used Java runtime.",
-            "Under the Common Vulnerability Scoring System (CVSS) 4.0, it scores 9.2 out of 10 (Critical).",
-            "OpenJDK published a security advisory and Oracle released patched builds in its November 2026 Critical Patch Update the same day, at 21:00 UTC.",
-            "The vulnerability lets a remote attacker with no credentials send malformed Base64 data to a Java application and overwrite memory next to the decoded output.",
-            "Calif turned that overwrite into a leak of heap memory, similar to Heartbleed , and into remote code execution."
-          ]
-        },
-        {
-          "id": "a890a236270cc5e3",
-          "title": "Deploying Daybreak Red",
-          "excerpt": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+          "id": "82fe289fe466dcc1",
+          "title": "Explore the Codex Security Plugin",
+          "excerpt": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
           "source": "OpenAI News",
-          "url": "https://openai.com/business/learn/deploying-daybreak-red",
+          "url": "https://openai.com/business/learn/codex-security-plugin-demo",
           "publishedAt": "2026-11-19T00:00:00.000Z",
           "technologies": [
             "Software Engineering"
           ],
           "category": "Security",
           "scanMinutes": 1,
-          "details": []
+          "details": [
+            "Final URL: https://openai.com/business/learn/codex-security-plugin-demo/ Warning: Target URL returned error 403: Forbidden Warning: This page maybe not yet fully loaded, consider explicitly specify a timeout."
+          ]
         }
       ]
     },
