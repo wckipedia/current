@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "generatedAt": "2026-11-22T01:19:12.400Z",
+  "generatedAt": "2026-11-22T02:17:19.532Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -45,8 +45,8 @@
             "Final URL: https://openai.com/business/customer-stories/hebbia/ Before a banker can recommend an acquisition to their client, they need to make sense of financial statements, customer contracts and management presentations.",
             "Hebbia’s Matrix helps bring that research together, linking answers to the documents behind them.",
             "Hebbia tested OpenAI’s GPT‑6 Astra to improve two parts of that work: finding the sources a question requires and building a presentation that follows the banker’s brief. > “We’ve been strong partners with OpenAI over the course of Hebbia’s lifetime, and the leaps GPT-6 Astra has made in terms of quality outputs and accuracy have truly been surprising.",
-            "GPT-6 Astra shines compared to any other model we’ve tested before on these two fronts.” -Kavita Anand, Member of Technical Staff, Product, Hebbia From source documents to presentations It could work like this: a banker is helping their client assess a strategic acquisition of an industrial-software company, with roughly 2,000 files to review.",
-            "In Hebbia’s hypothetical example, the banker could load the data room into Matrix and examine customer concentration, contract terms and churn in cited cells."
+            "GPT-6 Astra shines compared to any other model we’ve tested before on these two fronts.” -Kavita Anand, Member of Technical Staff, Product, Hebbia Hebbia discusses financial research with GPT-6 Astra.",
+            "From source documents to presentations It could work like this: a banker is helping their client assess a strategic acquisition of an industrial-software company, with roughly 2,000 files to review."
           ]
         },
         {
@@ -271,8 +271,7 @@
           "category": "Security",
           "scanMinutes": 1,
           "details": [
-            "Read the guide Share Learn how to set up an isolated environment for supervised security investigations with Daybreak Red.",
-            "This guide covers architecture, safety controls, environment configuration, and how to run and monitor an investigation."
+            "Final URL: https://openai.com/business/learn/deploying-daybreak-red/ Warning: Target URL returned error 403: Forbidden Warning: This page maybe not yet fully loaded, consider explicitly specify a timeout."
           ]
         }
       ]
