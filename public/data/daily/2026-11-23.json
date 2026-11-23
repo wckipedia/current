@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "generatedAt": "2026-11-23T01:43:22.670Z",
+  "generatedAt": "2026-11-23T02:51:57.002Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -21,7 +21,13 @@
           ],
           "category": "AI",
           "scanMinutes": 1,
-          "details": []
+          "details": [
+            "Final URL: https://openai.com/index/perplexity-and-intelligence/ From afar, it might seem like modern AI is built similarly to how software has been built in previous decades: with a diverse set of techniques targeting specific capabilities.",
+            "There are indeed a variety of methods, but rather than designing something from scratch, they are mostly _harnessing_ the intelligence coming from a much simpler and less interpretable process: training a compressor (or, equivalently, predictor) on a very large corpus of data.1 I believe tracking the pace of progress on training better compressors is key to understanding the arc of advances in AI.",
+            "In this post, I argue for establishing perplexity (or, equivalently, cross-entropy loss) as a metric to compare between model developers and inform shared safety standards.",
+            "As a first step, I provide more transparency into pretraining progress at OpenAI.",
+            "Publishing our internal perplexity measurements took some consideration; it gives competitors a clearer picture of where we stand, but that concern is outweighed by the urgency of establishing shared safety measures across the industry."
+          ]
         },
         {
           "id": "7ad44f990f0c53ef",
@@ -35,7 +41,13 @@
           ],
           "category": "AI",
           "scanMinutes": 1,
-          "details": []
+          "details": [
+            "Final URL: https://openai.com/index/combatting-adversarial-distillation/ As frontier AI models become more capable, safeguards play an increasingly important role in how they can be used responsibly.",
+            "Adversarial distillation creates a path for bad actors to reproduce these capabilities without appropriate safeguards.",
+            "An actor may use a frontier model’s outputs without authorization to train another model with similar capabilities, then deploy it without comparable protections.",
+            "For instance, an adversary might distill a model’s cyber capabilities and use the resulting model to help carry out cyberattacks that the original model would have refused to assist with or that its safeguards would have blocked.",
+            "We’re sharing how OpenAI detects and disrupts adversarial distillation, how we’ve strengthened protections for our models’ protected reasoning, and what we’ve learned that can help strengthen defenses across the industry."
+          ]
         },
         {
           "id": "8145fefb47ff1ca9",
@@ -50,7 +62,11 @@
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality."
+            "Final URL: https://openai.com/business/customer-stories/hebbia/ Before a banker can recommend an acquisition to their client, they need to make sense of financial statements, customer contracts and management presentations.",
+            "Hebbia’s Matrix helps bring that research together, linking answers to the documents behind them.",
+            "Hebbia tested OpenAI’s GPT‑6 Astra to improve two parts of that work: finding the sources a question requires and building a presentation that follows the banker’s brief. > “We’ve been strong partners with OpenAI over the course of Hebbia’s lifetime, and the leaps GPT-6 Astra has made in terms of quality outputs and accuracy have truly been surprising.",
+            "GPT-6 Astra shines compared to any other model we’ve tested before on these two fronts.” -Kavita Anand, Member of Technical Staff, Product, Hebbia Hebbia discusses financial research with GPT-6 Astra.",
+            "From source documents to presentations It could work like this: a banker is helping their client assess a strategic acquisition of an industrial-software company, with roughly 2,000 files to review."
           ]
         },
         {
@@ -65,7 +81,9 @@
           ],
           "category": "AI",
           "scanMinutes": 1,
-          "details": []
+          "details": [
+            "Final URL: https://openai.com/index/introducing-medchembench/ Warning: Target URL returned error 403: Forbidden Warning: This page maybe not yet fully loaded, consider explicitly specify a timeout."
+          ]
         }
       ]
     },
@@ -234,7 +252,10 @@
           ],
           "category": "Security",
           "scanMinutes": 1,
-          "details": []
+          "details": [
+            "Read the guide Share Learn how to set up an isolated environment for supervised security investigations with Daybreak Red.",
+            "This guide covers architecture, safety controls, environment configuration, and how to run and monitor an investigation."
+          ]
         },
         {
           "id": "2c15f23ac7aa344c",
