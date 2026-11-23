@@ -1,0 +1,312 @@
+{
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T01:43:22.670Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
+  "sections": [
+    {
+      "name": "AI",
+      "articles": [
+        {
+          "id": "1a10f1676d46fc01",
+          "title": "Perplexity and Intelligence",
+          "excerpt": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/perplexity-and-intelligence",
+          "publishedAt": "2026-11-22T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": []
+        },
+        {
+          "id": "7ad44f990f0c53ef",
+          "title": "Combatting adversarial distillation",
+          "excerpt": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/combatting-adversarial-distillation",
+          "publishedAt": "2026-11-20T10:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": []
+        },
+        {
+          "id": "8145fefb47ff1ca9",
+          "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+          "excerpt": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/business/customer-stories/hebbia",
+          "publishedAt": "2026-11-20T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality."
+          ]
+        },
+        {
+          "id": "c1a2af93db54bfcf",
+          "title": "Can AI help scientists identify promising drug candidates?",
+          "excerpt": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-medchembench",
+          "publishedAt": "2026-11-20T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": []
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "articles": [
+        {
+          "id": "dee94a929dea9fb9",
+          "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+          "excerpt": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the same release.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/phpaftershell-waf-protection/",
+          "publishedAt": "2026-11-20T20:00:45.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "On November 19, 2026, the security research company depthfirst disclosed phpAfterShell (CVE-2026-126714) , a vulnerability in PHP's default file-based session handler that can lead to remote code execution.",
+            "Under the Common Vulnerability Scoring System (CVSS) 4.0, it scores 9.2 out of 10 (Critical).",
+            "The PHP project fixed it the same day in versions 8.2.36, 8.3.37, 8.4.28, 8.5.13, and 8.6.0.",
+            "These releases fix 16 other security vulnerabilities, six of them also rated critical.",
+            "Cloudflare’s web application firewall (WAF) blocks known phpAfterShell attack patterns, including for customers on the Free plan."
+          ]
+        },
+        {
+          "id": "32c1e05692d04a88",
+          "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
+          "excerpt": "On November 3, 2026 U.S. voters headed to the polls. Here’s what Cloudflare data across more than 1,400 protected sites tells us about Election Day Internet traffic and cyberattacks.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
+          "publishedAt": "2026-11-19T14:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Visitors to government election websites surged 363% on November 3, the date of the 2026 midterm elections in the United States. Across Cloudflare's election protection programs, we also detected a significant shift in the types and timing of cyberattacks throughout 2026.",
+            "Unlike what we saw in other recent elections, attackers focused on gaining access to internal systems and data, rather than knocking websites offline.",
+            "Government election websites faced website vulnerability attempts 180 times more often than denial-of-service (DDoS) attacks, and at roughly ten times the rate of Cloudflare's broader customer base.",
+            "We also found evidence of at least one attempt to exploit a recently disclosed critical PHP vulnerability on a state government voting website in the Western United States.",
+            "These attacks peaked in late October, several weeks before the election."
+          ]
+        },
+        {
+          "id": "9fd23e018da5cf4f",
+          "title": "Quad9’s withdrawal from France: A canary in the coal mine",
+          "excerpt": "Quad9's forced withdrawal from France highlights the dangers of mandating DNS-level blocking. We explore why forcing public resolvers to act as content filters is technically flawed and threatens the open Internet.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+          "publishedAt": "2026-11-17T20:24:27.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Last month, the Swiss non-profit foundation Quad9 announced that it will withdraw its free public DNS resolver from France. This difficult decision followed months of litigation and a French court ruling that imposed daily financial penalties on Quad9 for failing to block domains associated with alleged copyright infringement.",
+            "Quad9’s departure from France is both disheartening and understandable. The court’s ruling put the organization in the impossible bind of having to choose between crippling litigation and penalties, or fundamentally altering its service in a way that would undermine the privacy and security of its users. Left with no good option, Quad9 is choosing the exit door instead.",
+            "The withdrawal of a basic infrastructure service from France fundamentally harms the free and open Internet, and it should serve as a warning of the damage that will result if rightsholders and policymakers continue demanding maximal blocking across every layer of the Internet.",
+            "It not only deprives French Internet users of a trustworthy and important tool; it creates a real risk of disruption to their daily lives.",
+            "Quad9’s resolver is used by a wide variety of individuals and organizations in France - including government bodies, educational institutions, hospitals, and utilities - and Quad9 has no way to directly notify those individuals and institutions that their resolver will soon stop working."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "articles": [
+        {
+          "id": "274f3857c109095a",
+          "title": "Docker patches Java4Shell and the NGINX HTTP/2 with Docker Hardened Images",
+          "excerpt": "Docker publishes fixed images for both Java4Shell and the NGINX HTTP/2 in the Docker Hardened Images (DHI) catalog.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/docker-patches-java4shell-and-the-nginx-http-2-with-docker-hardened-images/",
+          "publishedAt": "2026-11-19T17:38:08.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "OpenJDK and Oracle disclosed Java4Shell (CVE-2026-114938) on November 17, and NGINX released fixes for two HTTP/2 flaws the next day. Docker began publishing fixed images for both in the Docker Hardened Images (DHI) catalog starting that same day.",
+            "What we know about Java4Shell is that it’s a memory-corruption bug in the Java runtime that can let an attacker with no credentials run code inside a Java application. Many container images contain a Java runtime, including application images that bundle their own, so it affects teams well beyond the ones that write Java.",
+            "Docker Hardened Images are the trusted foundation your applications should run on, because a flaw in the runtime inside an image is fixed only when that image is rebuilt, and Docker rebuilds its hardened images as soon as upstream fixes become available.",
+            "Fixed images for the Amazon Corretto, SapMachine and Azul Zulu runtimes and for NGINX are in the catalog today, with Eclipse Temurin following as soon as Adoptium completes its fixed builds.",
+            "Affected: Java 17.0.6 and later, including Java 21, 25, 26 and 27, from every OpenJDK vendor."
+          ]
+        },
+        {
+          "id": "2f2dcaa3d13bcabb",
+          "title": "Scheduling the removal of the kube-proxy IPVS backend",
+          "excerpt": "The ipvs backend for kube-proxy was an experiment in providing a service proxy implementation with better performance than the iptables backend. While it succeeded in that goal, the kernel IPVS API has turned out to be a bad match for the Kubernetes Services API, and the ipvs backend was never able to…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/11/16/ipvs-removal/",
+          "publishedAt": "2026-11-16T18:35:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "In Kubernetes 1.29, the project introduced the nftables backend for kube-proxy, which became GA in 1.33.",
+            "Part of the plan behind adding the nftables backend was the idea that it would eventually replace both the iptables and ipvs backends.",
+            "Because the ipvs backend in particular is complex, not 100% feature complete, and architecturally quite different from the other two backends (and thus more work to maintain), Kubernetes SIG Network decided to officially deprecate it as of Kubernetes 1.35 .",
+            "Although it currently remains available in kube-proxy (with a warning about its deprecation), we (Kubernetes SIG Network) now plan to remove it in Kubernetes 1.40.",
+            "All ipvs users should therefore be planning to migrate to either the nftables or iptables backends."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "articles": [
+        {
+          "id": "c851a250df92def9",
+          "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+          "excerpt": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
+          "publishedAt": "2026-11-20T20:24:38.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "On November 19, 2026, the Ruby team disclosed ruby2shell ( CVE-2026-132825 ), a heap buffer overflow in the way Ruby changes the case of strings. Ruby rates the flaw Critical and says it is aware of proofs of concept that achieve remote code execution in some scenarios. Fixes shipped in Ruby 3.3.14, 3.4.13, and 4.0.10 .",
+            "The reach is wide. Veria Labs reports that Ruby on Rails and classic-style Sinatra applications reach the bug in their default configuration, before any authentication. Self-hosted products that bundle Ruby, including GitLab, GitHub Enterprise Server, Mastodon, OpenProject, Discourse and Chatwoot, shipped an affected Ruby in their latest release at the time of disclosure.",
+            "Cloudflare WAF blocks ruby2shell for all customers, including those on the Free plan. We have added two rules to both the Cloudflare Free Managed Ruleset and the Cloudflare Managed Ruleset, with Block as the default action: one for ruby2shell and one for GHSA-87fm-7w84-j2px, a related integer overflow in Ruby string case conversion fixed in the same releases.",
+            "The WAF is a compensating control, not a replacement for patching. Exploits can reach the bug through paths a WAF does not see, and the only complete fix is to upgrade Ruby. Our team continues to monitor attack traffic and will update the rules as new techniques appear. You can track rule changes in the WAF changelog and get the latest on the vulnerability in the Cloudflare Zero Wire briefing .",
+            "Cloudflare has patched its own systems that use Ruby, and we have found no indication of compromise."
+          ]
+        },
+        {
+          "id": "17fab3637860c9a7",
+          "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
+          "excerpt": "Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare's proxy are shielded from the most serious of these bugs.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/nginx2root/",
+          "publishedAt": "2026-11-20T01:58:29.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "On November 18, 2026, F5 and nginx.org disclosed ten vulnerabilities in nginx.",
+            "Five of them, detailed by the Xint research team and published under the name nginx2root , are memory corruption flaws that an unauthenticated attacker can use to crash an nginx worker or, per Xint's research, run commands on the server.",
+            "Xint also found a Linux kernel bug that turns that foothold into root on the host, including from inside a Docker container.",
+            "Other teams found the two HTTP/2 bugs independently: F5 also credits Rapid7, Wiz Research and Ikotas Labs for CVE-2026-123007, and Metnir, Wiz Research, and Palo Alto Networks Unit 42 for CVE-2026-123633.",
+            "nginx is an HTTP web server that also serves as reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server. nginx runs a large share of the world's web servers, so this is a patch-now event."
+          ]
+        },
+        {
+          "id": "a890a236270cc5e3",
+          "title": "Deploying Daybreak Red",
+          "excerpt": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/business/learn/deploying-daybreak-red",
+          "publishedAt": "2026-11-19T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": []
+        },
+        {
+          "id": "2c15f23ac7aa344c",
+          "title": "Git security vulnerabilities announced",
+          "excerpt": "Git is releasing updates addressing six security vulnerabilities affecting clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+          "publishedAt": "2026-11-10T18:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Editor's note (November 17, 2026): This post has been updated with additional CVE information and updated guidance for GitHub Enterprise Server users . Please see the release information below for the versions that include the fixes.",
+            "Today, the Git project is releasing new versions to address six security vulnerabilities. These include arbitrary code execution when cloning a malicious repository, writes to unintended files, and memory corruption when processing merges or binary patches.",
+            "The fixes are included in Git 2.56.1 , with backports to Git 2.55.1, 2.54.1, 2.53.1, 2.52.1, 2.51.3, and 2.50.2. We recommend updating to Git 2.56.1 or the patched release for your maintenance series, and updating any applications that bundle Git.",
+            "Git checks paths before writing files into a working tree, including rejecting paths that would overwrite its own repository metadata.",
+            "However, an integer truncation in Git's index handling can cause an extremely long path to pass validation under one name and then be written using a shorter name."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Open Source",
+      "articles": [
+        {
+          "id": "5f364a8612fd0351",
+          "title": "The best things in open source are built together",
+          "excerpt": "Introducing Replica and the Open Source Accessibility Framework, new open source projects for collaboration and inclusion. The post The best things in open source are built together appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/",
+          "publishedAt": "2026-11-19T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Open Source",
+          "scanMinutes": 1,
+          "details": [
+            "In 2026, public contributions on GitHub soared to 2.5 billion , more than double last year's total of 1.12 billion. It goes to show how open source remains a powerful mechanism for developers to build, share, and grow communities.",
+            "Open source is how I began my GitHub journey. I contributed to Processing Foundation by adding alt-text to images on the p5.js website. This was the first time I felt included in a software development space as someone with a background in traditional fine arts and design. It was the first time I made a fork, opened a pull request, and merged code on a repo that wasn't mine.",
+            "Working at GitHub, you hear stories like mine everywhere. Open source is foundational to us not only as a business but also for who we are as the people who build it! We recently launched two new open source projects to share with the community: Replica , an open-source design harness, and the Open Source Accessibility Framework .",
+            "I attended John Maeda's session with Qianqian Ye, Director of Creative Technology at Processing Foundation, at GitHub Universe titled, \"Sketching with code in the age of AI.\" This session talked about the power of the open source community and reminded me how important it is to our developer ecosystem.",
+            "It is the reason AI tooling understands different coding languages so well, how developers hacked agent harnesses to be more efficient, and why new AI companies have formed."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "articles": [
+        {
+          "id": "7c512829bf524dd8",
+          "title": "GitHub availability report: October 2026",
+          "excerpt": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+          "publishedAt": "2026-11-13T00:20:16.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "We continue to share monthly updates on the work behind GitHub's availability and reliability.",
+            "The short version of October: we added substantial independently scalable Azure capacity and removed several ways that failures could escalate. However, write outages, monitoring gaps during data migrations, and a regional network disruption reinforced the need for capacity growth to be paired with safer operations, stronger isolation, and validated regional recovery.",
+            "As of November 9, 140 of 151 production services and 32 of 50 MySQL primaries were running in Azure Central US. Azure served 63% of migrated-service reads, 66% of monolith reads, and 52% of Git reads. We also completed a compute expansion across all nine Central US Kubernetes clusters, more than doubling capacity.",
+            "That capacity is already carrying real growth. Migrated-service traffic has increased 82% since March, with Central US absorbing the growth beyond the highest weekly-average load previously served from our existing datacenter. This gives GitHub more room to grow without pushing the original environment beyond its prior operating range.",
+            "We also made several targeted reliability improvements."
+          ]
+        }
+      ]
+    }
+  ]
+}
