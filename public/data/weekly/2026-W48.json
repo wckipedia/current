@@ -1,10 +1,44 @@
 {
   "week": "2026-W48",
-  "generatedAt": "2026-11-23T02:51:57.002Z",
+  "generatedAt": "2026-11-24T05:20:15.579Z",
   "sections": [
     {
       "name": "AI",
       "articles": [
+        {
+          "id": "10878202550bbbf9",
+          "title": "Connected intelligence for in-house legal",
+          "excerpt": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+          "publishedAt": "2026-11-23T08:00:00.000Z",
+          "technologies": [
+            "OpenAI"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": []
+        },
+        {
+          "id": "1259b534687dd8b3",
+          "title": "Richpanel helps companies automate 50% of support in 30 days",
+          "excerpt": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+          "publishedAt": "2026-11-23T08:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/business/customer-stories/richpanel-ai-customer-support/ Beyond knowing how to answer a customer’s request, AI support agents need to be able to execute a solution.",
+            "And for that, they need access to the right tools and instructions.",
+            "According to Richpanel CEO Amit RG, human support agents can use 20 or 30 tools to serve a customer, and the procedures they follow may never have been written down.",
+            "Richpanel solves that using OpenAI models to both set up the tools and procedures AI support agents need to act and handle customer conversations. > _“The intelligence is no longer the bottleneck.",
+            "It’s everything around it.”_ -Amit RG, CEO, Richpanel Building the tools and procedures for AI support Deploying a support agent often requires a forward-deployed engineer to connect the agent to a customer’s systems and define how it should work."
+          ]
+        },
         {
           "id": "1a10f1676d46fc01",
           "title": "Perplexity and Intelligence",
@@ -24,45 +58,31 @@
             "As a first step, I provide more transparency into pretraining progress at OpenAI.",
             "Publishing our internal perplexity measurements took some consideration; it gives competitors a clearer picture of where we stand, but that concern is outweighed by the urgency of establishing shared safety measures across the industry."
           ]
-        },
+        }
+      ]
+    },
+    {
+      "name": "Backend",
+      "articles": [
         {
-          "id": "7ad44f990f0c53ef",
-          "title": "Combatting adversarial distillation",
-          "excerpt": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+          "id": "b0689cf87ab570a4",
+          "title": "OpenAI and Cisco introduce Shirudo",
+          "excerpt": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/combatting-adversarial-distillation",
-          "publishedAt": "2026-11-20T10:00:00.000Z",
+          "url": "https://openai.com/index/introducing-shirudo",
+          "publishedAt": "2026-11-23T21:20:00.000Z",
           "technologies": [
+            "Linux",
             "OpenAI"
           ],
-          "category": "AI",
+          "category": "Backend",
           "scanMinutes": 1,
           "details": [
-            "Final URL: https://openai.com/index/combatting-adversarial-distillation/ As frontier AI models become more capable, safeguards play an increasingly important role in how they can be used responsibly.",
-            "Adversarial distillation creates a path for bad actors to reproduce these capabilities without appropriate safeguards.",
-            "An actor may use a frontier model’s outputs without authorization to train another model with similar capabilities, then deploy it without comparable protections.",
-            "For instance, an adversary might distill a model’s cyber capabilities and use the resulting model to help carry out cyberattacks that the original model would have refused to assist with or that its safeguards would have blocked.",
-            "We’re sharing how OpenAI detects and disrupts adversarial distillation, how we’ve strengthened protections for our models’ protected reasoning, and what we’ve learned that can help strengthen defenses across the industry."
-          ]
-        },
-        {
-          "id": "8145fefb47ff1ca9",
-          "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-          "excerpt": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/business/customer-stories/hebbia",
-          "publishedAt": "2026-11-20T00:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": [
-            "Final URL: https://openai.com/business/customer-stories/hebbia/ Before a banker can recommend an acquisition to their client, they need to make sense of financial statements, customer contracts and management presentations.",
-            "Hebbia’s Matrix helps bring that research together, linking answers to the documents behind them.",
-            "Hebbia tested OpenAI’s GPT‑6 Astra to improve two parts of that work: finding the sources a question requires and building a presentation that follows the banker’s brief. > “We’ve been strong partners with OpenAI over the course of Hebbia’s lifetime, and the leaps GPT-6 Astra has made in terms of quality outputs and accuracy have truly been surprising.",
-            "GPT-6 Astra shines compared to any other model we’ve tested before on these two fronts.” -Kavita Anand, Member of Technical Staff, Product, Hebbia Hebbia discusses financial research with GPT-6 Astra.",
-            "From source documents to presentations It could work like this: a banker is helping their client assess a strategic acquisition of an industrial-software company, with roughly 2,000 files to review."
+            "Final URL: https://openai.com/index/introducing-shirudo/ OpenAI and Cisco are launching Shirudo, an open-source runtime that helps teams protect Linux systems while they roll out patches.",
+            "In a controlled test, a Codex-generated shield blocked a Java4Shell exploit attempt against a running Elasticsearch service without requiring a restart.",
+            "We’re inviting developers, security researchers, and infrastructure operators across the industry to help develop the project further.",
+            "The project brings together OpenAI’s frontier AI, security and infrastructure research and Cisco’s infrastructure and security expertise to help protect the systems people rely on every day.",
+            "Testing and deploying a patch can still take days or weeks."
           ]
         }
       ]
@@ -70,6 +90,26 @@
     {
       "name": "Cloud",
       "articles": [
+        {
+          "id": "6c9e35ea9179d576",
+          "title": "Probing DNS at Cloudflare",
+          "excerpt": "At Cloudflare we’ve built tools to enable teams to extend our internal testing framework and build test tooling for networking protocols. This is the story of how this was used for DNS.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+          "publishedAt": "2026-11-23T14:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Imagine this: you’ve just pushed a release. All the unit tests passed and your dashboards are green. You sit back to relax but then suddenly your phone starts blowing up: prod is broken.",
+            "This is something the Cloudflare DNS team has experienced firsthand. In one rollout of the service that publishes DNS records to our edge, a scheduling bug let some record changes sit unpublished for hours. The service stayed up and was healthy, but new hostnames were slow to resolve and certificates couldn't be issued until the bug was squashed.",
+            "DNS failures are hard to catch because they are slow, spread across the network, and partial in where they cause impact. We needed to figure out a way to test DNS the way customers experience it: constantly, from every data center, and against production.",
+            "For us, the answer was to extend Flamingo, the end-to-end testing framework we were already using to run hundreds of millions of tests a day against Cloudflare's edge. This post covers how Flamingo's modular design lets us add DNS support, how we measure propagation, and how those measurements now decide whether a release goes ahead or gets rolled back.",
+            "At Cloudflare we’re obsessed with improving performance and safety for our customers. It’s crucial that our code is tested constantly, both at scale and against the real Cloudflare edge that our users operate in. That’s one reason why we created a tool called Flamingo: to measure the behavior of our production environments and make sure that code in lower-tier environments behaves as expected."
+          ]
+        },
         {
           "id": "dee94a929dea9fb9",
           "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
@@ -109,32 +149,32 @@
             "We also found evidence of at least one attempt to exploit a recently disclosed critical PHP vulnerability on a state government voting website in the Western United States.",
             "These attacks peaked in late October, several weeks before the election."
           ]
-        },
-        {
-          "id": "9fd23e018da5cf4f",
-          "title": "Quad9’s withdrawal from France: A canary in the coal mine",
-          "excerpt": "Quad9's forced withdrawal from France highlights the dangers of mandating DNS-level blocking. We explore why forcing public resolvers to act as content filters is technically flawed and threatens the open Internet.",
-          "source": "Cloudflare Blog",
-          "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
-          "publishedAt": "2026-11-17T20:24:27.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Cloud",
-          "scanMinutes": 1,
-          "details": [
-            "Last month, the Swiss non-profit foundation Quad9 announced that it will withdraw its free public DNS resolver from France. This difficult decision followed months of litigation and a French court ruling that imposed daily financial penalties on Quad9 for failing to block domains associated with alleged copyright infringement.",
-            "Quad9’s departure from France is both disheartening and understandable. The court’s ruling put the organization in the impossible bind of having to choose between crippling litigation and penalties, or fundamentally altering its service in a way that would undermine the privacy and security of its users. Left with no good option, Quad9 is choosing the exit door instead.",
-            "The withdrawal of a basic infrastructure service from France fundamentally harms the free and open Internet, and it should serve as a warning of the damage that will result if rightsholders and policymakers continue demanding maximal blocking across every layer of the Internet.",
-            "It not only deprives French Internet users of a trustworthy and important tool; it creates a real risk of disruption to their daily lives.",
-            "Quad9’s resolver is used by a wide variety of individuals and organizations in France - including government bodies, educational institutions, hospitals, and utilities - and Quad9 has no way to directly notify those individuals and institutions that their resolver will soon stop working."
-          ]
         }
       ]
     },
     {
       "name": "DevOps",
       "articles": [
+        {
+          "id": "2e31644f6487f318",
+          "title": "Kubernetes v1.38 Sneak Peek",
+          "excerpt": "As we get closer to the release date for Kubernetes v1.38, the project develops and matures, features may be deprecated, removed, or replaced with better ones for the project's overall health. This blog post outlines some of the planned changes for the Kubernetes v1.38 release that the release team feels you…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/",
+          "publishedAt": "2026-11-23T16:00:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "This blog post outlines some of the planned changes for the Kubernetes v1.38 release that the release team feels you should be aware of for the continued maintenance of your Kubernetes environment and keeping up to date with the latest changes.",
+            "The information listed below is based on the current status of the v1.38 release and may change before the actual release date.",
+            "kubectl has used WebSockets instead of SPDY by default for kubectl exec , attach and cp since v1.30, and for kubectl port-forward since v1.31.",
+            "The KUBECTL_REMOTE_COMMAND_WEBSOCKETS and KUBECTL_PORT_FORWARD_WEBSOCKETS environment variables let you turn that behavior off.",
+            "These variables are going to be removed in v1.38. kubectl will then always try WebSockets first and fall back to SPDY when it needs to (the same as the current default behavior)."
+          ]
+        },
         {
           "id": "274f3857c109095a",
           "title": "Docker patches Java4Shell and the NGINX HTTP/2 with Docker Hardened Images",
@@ -153,26 +193,6 @@
             "Docker Hardened Images are the trusted foundation your applications should run on, because a flaw in the runtime inside an image is fixed only when that image is rebuilt, and Docker rebuilds its hardened images as soon as upstream fixes become available.",
             "Fixed images for the Amazon Corretto, SapMachine and Azul Zulu runtimes and for NGINX are in the catalog today, with Eclipse Temurin following as soon as Adoptium completes its fixed builds.",
             "Affected: Java 17.0.6 and later, including Java 21, 25, 26 and 27, from every OpenJDK vendor."
-          ]
-        },
-        {
-          "id": "2f2dcaa3d13bcabb",
-          "title": "Scheduling the removal of the kube-proxy IPVS backend",
-          "excerpt": "The ipvs backend for kube-proxy was an experiment in providing a service proxy implementation with better performance than the iptables backend. While it succeeded in that goal, the kernel IPVS API has turned out to be a bad match for the Kubernetes Services API, and the ipvs backend was never able to…",
-          "source": "Kubernetes Blog",
-          "url": "https://kubernetes.io/blog/2026/11/16/ipvs-removal/",
-          "publishedAt": "2026-11-16T18:35:00.000Z",
-          "technologies": [
-            "Kubernetes"
-          ],
-          "category": "DevOps",
-          "scanMinutes": 1,
-          "details": [
-            "In Kubernetes 1.29, the project introduced the nftables backend for kube-proxy, which became GA in 1.33.",
-            "Part of the plan behind adding the nftables backend was the idea that it would eventually replace both the iptables and ipvs backends.",
-            "Because the ipvs backend in particular is complex, not 100% feature complete, and architecturally quite different from the other two backends (and thus more work to maintain), Kubernetes SIG Network decided to officially deprecate it as of Kubernetes 1.35 .",
-            "Although it currently remains available in kube-proxy (with a warning about its deprecation), we (Kubernetes SIG Network) now plan to remove it in Kubernetes 1.40.",
-            "All ipvs users should therefore be planning to migrate to either the nftables or iptables backends."
           ]
         }
       ]
@@ -218,23 +238,6 @@
             "Xint also found a Linux kernel bug that turns that foothold into root on the host, including from inside a Docker container.",
             "Other teams found the two HTTP/2 bugs independently: F5 also credits Rapid7, Wiz Research and Ikotas Labs for CVE-2026-123007, and Metnir, Wiz Research, and Palo Alto Networks Unit 42 for CVE-2026-123633.",
             "nginx is an HTTP web server that also serves as reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server. nginx runs a large share of the world's web servers, so this is a patch-now event."
-          ]
-        },
-        {
-          "id": "a890a236270cc5e3",
-          "title": "Deploying Daybreak Red",
-          "excerpt": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/business/learn/deploying-daybreak-red",
-          "publishedAt": "2026-11-19T00:00:00.000Z",
-          "technologies": [
-            "Software Engineering"
-          ],
-          "category": "Security",
-          "scanMinutes": 1,
-          "details": [
-            "Read the guide Share Learn how to set up an isolated environment for supervised security investigations with Daybreak Red.",
-            "This guide covers architecture, safety controls, environment configuration, and how to run and monitor an investigation."
           ]
         }
       ]
