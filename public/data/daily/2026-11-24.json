@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "generatedAt": "2026-11-24T05:20:15.579Z",
+  "generatedAt": "2026-11-24T06:06:24.025Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -35,13 +35,7 @@
           ],
           "category": "AI",
           "scanMinutes": 1,
-          "details": [
-            "Final URL: https://openai.com/business/customer-stories/richpanel-ai-customer-support/ Beyond knowing how to answer a customer’s request, AI support agents need to be able to execute a solution.",
-            "And for that, they need access to the right tools and instructions.",
-            "According to Richpanel CEO Amit RG, human support agents can use 20 or 30 tools to serve a customer, and the procedures they follow may never have been written down.",
-            "Richpanel solves that using OpenAI models to both set up the tools and procedures AI support agents need to act and handle customer conversations. > _“The intelligence is no longer the bottleneck.",
-            "It’s everything around it.”_ -Amit RG, CEO, Richpanel Building the tools and procedures for AI support Deploying a support agent often requires a forward-deployed engineer to connect the agent to a customer’s systems and define how it should work."
-          ]
+          "details": []
         },
         {
           "id": "1a10f1676d46fc01",
@@ -55,13 +49,7 @@
           ],
           "category": "AI",
           "scanMinutes": 1,
-          "details": [
-            "Final URL: https://openai.com/index/perplexity-and-intelligence/ From afar, it might seem like modern AI is built similarly to how software has been built in previous decades: with a diverse set of techniques targeting specific capabilities.",
-            "There are indeed a variety of methods, but rather than designing something from scratch, they are mostly _harnessing_ the intelligence coming from a much simpler and less interpretable process: training a compressor (or, equivalently, predictor) on a very large corpus of data.1 I believe tracking the pace of progress on training better compressors is key to understanding the arc of advances in AI.",
-            "In this post, I argue for establishing perplexity (or, equivalently, cross-entropy loss) as a metric to compare between model developers and inform shared safety standards.",
-            "As a first step, I provide more transparency into pretraining progress at OpenAI.",
-            "Publishing our internal perplexity measurements took some consideration; it gives competitors a clearer picture of where we stand, but that concern is outweighed by the urgency of establishing shared safety measures across the industry."
-          ]
+          "details": []
         },
         {
           "id": "7ad44f990f0c53ef",
@@ -75,13 +63,7 @@
           ],
           "category": "AI",
           "scanMinutes": 1,
-          "details": [
-            "Final URL: https://openai.com/index/combatting-adversarial-distillation/ As frontier AI models become more capable, safeguards play an increasingly important role in how they can be used responsibly.",
-            "Adversarial distillation creates a path for bad actors to reproduce these capabilities without appropriate safeguards.",
-            "An actor may use a frontier model’s outputs without authorization to train another model with similar capabilities, then deploy it without comparable protections.",
-            "For instance, an adversary might distill a model’s cyber capabilities and use the resulting model to help carry out cyberattacks that the original model would have refused to assist with or that its safeguards would have blocked.",
-            "We’re sharing how OpenAI detects and disrupts adversarial distillation, how we’ve strengthened protections for our models’ protected reasoning, and what we’ve learned that can help strengthen defenses across the industry."
-          ]
+          "details": []
         }
       ]
     },
@@ -102,11 +84,7 @@
           "category": "Backend",
           "scanMinutes": 1,
           "details": [
-            "Final URL: https://openai.com/index/introducing-shirudo/ OpenAI and Cisco are launching Shirudo, an open-source runtime that helps teams protect Linux systems while they roll out patches.",
-            "In a controlled test, a Codex-generated shield blocked a Java4Shell exploit attempt against a running Elasticsearch service without requiring a restart.",
-            "We’re inviting developers, security researchers, and infrastructure operators across the industry to help develop the project further.",
-            "The project brings together OpenAI’s frontier AI, security and infrastructure research and Cisco’s infrastructure and security expertise to help protect the systems people rely on every day.",
-            "Testing and deploying a patch can still take days or weeks."
+            "It helps teams protect running systems while they roll out patches."
           ]
         }
       ]
