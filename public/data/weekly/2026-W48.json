@@ -1,51 +1,69 @@
 {
   "week": "2026-W48",
-  "generatedAt": "2026-11-24T06:06:24.025Z",
+  "generatedAt": "2026-11-25T04:11:52.327Z",
   "sections": [
     {
       "name": "AI",
       "articles": [
         {
-          "id": "10878202550bbbf9",
-          "title": "Connected intelligence for in-house legal",
-          "excerpt": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+          "id": "ac2f786b30f6d457",
+          "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+          "excerpt": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
           "source": "OpenAI News",
-          "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
-          "publishedAt": "2026-11-23T08:00:00.000Z",
-          "technologies": [
-            "OpenAI"
-          ],
-          "category": "AI",
-          "scanMinutes": 1,
-          "details": []
-        },
-        {
-          "id": "1259b534687dd8b3",
-          "title": "Richpanel helps companies automate 50% of support in 30 days",
-          "excerpt": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
-          "publishedAt": "2026-11-23T08:00:00.000Z",
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+          "publishedAt": "2026-11-24T13:00:00.000Z",
           "technologies": [
             "Software Engineering"
           ],
           "category": "AI",
           "scanMinutes": 1,
-          "details": []
+          "details": [
+            "Researchers could also guide designs by prompting the model on where a protein should attach and what shape it should take. * In lab tests with Onava, proteins based on GPT‑6.2’s designs showed evidence of binding, or attachment, across five targets.",
+            "Specialized models helped supply sequences and select candidates for testing. * The models’ written reasoning and code suggest they draw on math, physics, chemistry, and biological knowledge to reason about protein shapes and interactions with other molecules.",
+            "In a preprint titled _GPT‑6 as a Universal Foundation Model for Protein Biology: Beyond Specialized Models_, we show that our GPT‑6 family of models has **intrinsic capabilities** for designing new proteins: the models can design new protein structures and sequences without relying on specialized biology models, using only reasoning and general-purpose coding tools.",
+            "They drive the chemical reactions that sustain life, carry oxygen through the blood, and defend the body against infection.",
+            "Incorrectly shaped proteins can also cause disease and dysfunction."
+          ]
         },
         {
-          "id": "1a10f1676d46fc01",
-          "title": "Perplexity and Intelligence",
-          "excerpt": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+          "id": "7758c04a629331bf",
+          "title": "Searching for distant planets with Astra",
+          "excerpt": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/perplexity-and-intelligence",
-          "publishedAt": "2026-11-22T00:00:00.000Z",
+          "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+          "publishedAt": "2026-11-24T11:00:00.000Z",
           "technologies": [
             "Software Engineering"
           ],
           "category": "AI",
           "scanMinutes": 1,
-          "details": []
+          "details": [
+            "Final URL: https://openai.com/index/searching-for-distant-planets-with-astra/ Astronomers have confirmed more than 6,400 planets beyond our solar system since the first ones were announced in 1992.",
+            "A worldwide community of amateur astronomers has long been part of that search.",
+            "Some comb through public telescope data for small, repeated dips in a star’s brightness that could signal an orbiting planet.",
+            "Others use their own telescopes to watch for the next dip and share what they see with researchers.",
+            "In 2017, researchers trained a neural network on 15,000 signals from NASA’s Kepler Space Telescope that astronomers had already examined."
+          ]
+        },
+        {
+          "id": "7e14b56be6744308",
+          "title": "How Intentful uses dots to make more time for growth",
+          "excerpt": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/business/customer-stories/intentful-dots",
+          "publishedAt": "2026-11-24T00:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/business/customer-stories/intentful-dots/ Marina Petrova is CEO and cofounder of Intentful, a lean team that helps brands make their marketing interactive, with products such as ads that answer customers’ questions in real time and tools that make website information readable by AI.",
+            "The company also advises and trains marketers on using AI.",
+            "In travel and tourism, Intentful works with destination organizations and local businesses such as hotels, restaurants, and attractions.",
+            "A custom proposal is part of how Marina wins their business, showing prospects what’s possible and what it would take to deliver.",
+            "To keep Intentful growing, she needed more room for that strategic work, but she was spending too much time on research, hunting for files, and formatting decks."
+          ]
         }
       ]
     },
@@ -66,7 +84,11 @@
           "category": "Backend",
           "scanMinutes": 1,
           "details": [
-            "It helps teams protect running systems while they roll out patches."
+            "Final URL: https://openai.com/index/introducing-shirudo/ OpenAI and Cisco are launching Shirudo, an open-source runtime that helps teams protect Linux systems while they roll out patches.",
+            "In a controlled test, a Codex-generated shield blocked a Java4Shell exploit attempt against a running Elasticsearch service without requiring a restart.",
+            "We’re inviting developers, security researchers, and infrastructure operators across the industry to help develop the project further.",
+            "The project brings together OpenAI’s frontier AI, security and infrastructure research and Cisco’s infrastructure and security expertise to help protect the systems people rely on every day.",
+            "Testing and deploying a patch can still take days or weeks."
           ]
         }
       ]
@@ -223,6 +245,26 @@
             "Other teams found the two HTTP/2 bugs independently: F5 also credits Rapid7, Wiz Research and Ikotas Labs for CVE-2026-123007, and Metnir, Wiz Research, and Palo Alto Networks Unit 42 for CVE-2026-123633.",
             "nginx is an HTTP web server that also serves as reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server. nginx runs a large share of the world's web servers, so this is a patch-now event."
           ]
+        },
+        {
+          "id": "2c15f23ac7aa344c",
+          "title": "Git security vulnerabilities announced",
+          "excerpt": "Git is releasing updates addressing six security vulnerabilities affecting clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+          "publishedAt": "2026-11-10T18:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "Editor's note (November 17, 2026): This post has been updated with additional CVE information and updated guidance for GitHub Enterprise Server users . Please see the release information below for the versions that include the fixes.",
+            "Today, the Git project is releasing new versions to address six security vulnerabilities. These include arbitrary code execution when cloning a malicious repository, writes to unintended files, and memory corruption when processing merges or binary patches.",
+            "The fixes are included in Git 2.56.1 , with backports to Git 2.55.1, 2.54.1, 2.53.1, 2.52.1, 2.51.3, and 2.50.2. We recommend updating to Git 2.56.1 or the patched release for your maintenance series, and updating any applications that bundle Git.",
+            "Git checks paths before writing files into a working tree, including rejecting paths that would overwrite its own repository metadata.",
+            "However, an integer truncation in Git's index handling can cause an extremely long path to pass validation under one name and then be written using a shorter name."
+          ]
         }
       ]
     },
@@ -254,6 +296,26 @@
     {
       "name": "Developer Tools",
       "articles": [
+        {
+          "id": "215487d78b45f131",
+          "title": "These are the gifts developers will actually want",
+          "excerpt": "The developer you're shopping for hasn’t shared their holiday wish list with you yet? Check out these gifts, plus our Black Friday discount all week long. The post These are the gifts developers will actually want appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/these-are-the-gifts-developers-will-actually-want/",
+          "publishedAt": "2026-11-24T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Some people tell you exactly what they want for the holidays, but some people just don't. The gifts, the decor, the food, for all of it, you have to guess at what they might like. You trawl thousands of gift guide lists titled \"the definitive gift guide for 2026,\" but none of the guides are quite right for that special person. That is, until this one came along.",
+            "We won't say it's the definitive guide for the developer in your life (or for yourself, we won't judge), but we have brought together a few of our favorite pieces from the GitHub Shop for you to pick from.",
+            "At GitHub Universe this year we brought our brand new GitHub x Omnitype Bauer Lite Keyboard Kit to the Makerspace for our attendees to build.",
+            "If you like building keyboards, you'll want the details.",
+            "Each GitHub-exclusive Bauer Lite kit arrives in a randomly selected color combination and includes a hot-swap PCB with RGB underglow, Omnitype Hawk linear switches, dye-sublimated PBT keycaps, and the essential hardware and tools for a hands-on custom build."
+          ]
+        },
         {
           "id": "7c512829bf524dd8",
           "title": "GitHub availability report: October 2026",
