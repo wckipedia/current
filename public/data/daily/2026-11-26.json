@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "generatedAt": "2026-11-26T03:34:27.888Z",
+  "generatedAt": "2026-11-26T04:11:36.077Z",
   "sourceHealth": {
     "healthy": 8,
     "attempted": 8
@@ -109,7 +109,11 @@
           "category": "Backend",
           "scanMinutes": 1,
           "details": [
-            "It helps teams protect running systems while they roll out patches."
+            "Final URL: https://openai.com/index/introducing-shirudo/ OpenAI and Cisco are launching Shirudo, an open-source runtime that helps teams protect Linux systems while they roll out patches.",
+            "In a controlled test, a Codex-generated shield blocked a Java4Shell exploit attempt against a running Elasticsearch service without requiring a restart.",
+            "We’re inviting developers, security researchers, and infrastructure operators across the industry to help develop the project further.",
+            "The project brings together OpenAI’s frontier AI, security and infrastructure research and Cisco’s infrastructure and security expertise to help protect the systems people rely on every day.",
+            "Testing and deploying a patch can still take days or weeks."
           ]
         }
       ]
