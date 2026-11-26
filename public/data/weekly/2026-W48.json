@@ -1,68 +1,69 @@
 {
   "week": "2026-W48",
-  "generatedAt": "2026-11-25T04:55:09.132Z",
+  "generatedAt": "2026-11-26T03:34:27.888Z",
   "sections": [
     {
       "name": "AI",
       "articles": [
         {
-          "id": "ac2f786b30f6d457",
-          "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-          "excerpt": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-          "publishedAt": "2026-11-24T13:00:00.000Z",
+          "id": "0ef8b273cccd0c03",
+          "title": "Art of play in the age of AI",
+          "excerpt": "Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers. The post Art of play in the age of AI appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
+          "publishedAt": "2026-11-25T16:00:00.000Z",
           "technologies": [
-            "Software Engineering"
+            "GitHub"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Researchers could also guide designs by prompting the model on where a protein should attach and what shape it should take. * In lab tests with Onava, proteins based on GPT‑6.2’s designs showed evidence of binding, or attachment, across five targets.",
-            "Specialized models helped supply sequences and select candidates for testing. * The models’ written reasoning and code suggest they draw on math, physics, chemistry, and biological knowledge to reason about protein shapes and interactions with other molecules.",
-            "In a preprint titled _GPT‑6 as a Universal Foundation Model for Protein Biology: Beyond Specialized Models_, we show that our GPT‑6 family of models has **intrinsic capabilities** for designing new proteins: the models can design new protein structures and sequences without relying on specialized biology models, using only reasoning and general-purpose coding tools.",
-            "They drive the chemical reactions that sustain life, carry oxygen through the blood, and defend the body against infection.",
-            "Incorrectly shaped proteins can also cause disease and dysfunction."
+            "As kids, we spent hours tinkering and building and just messing with things. As an adult, I could watch my own young kiddos figure out how certain shapes and movement work all day. Through that play, we improved our problem-solving and language skills, and it's probably not a stretch to say it was good for our early engineering skills.",
+            "In this era of development now, we're starting to get a taste of that again. We're experimenting more, and taking in more changes, because it's all new!",
+            "For the last four years at GitHub Universe, we've had hackable conference badges. What started as a simple e-ink display for your name and job title morphed into a labor of love for Martin Woodward , VP of Developer Relations. This year, the badge evolved into a device with a color screen, rechargeable battery, accelerometer sensors, and touch-sensitive gaming controls.",
+            "The tinkering we've seen with the badges has been amazing.",
+            "Hacking the GitHub Universe Badge with these 3 apps that I made!! #GitHubUniverse https://t.co/Qy5wYPqXf5"
           ]
         },
         {
-          "id": "7758c04a629331bf",
-          "title": "Searching for distant planets with Astra",
-          "excerpt": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
-          "publishedAt": "2026-11-24T11:00:00.000Z",
+          "id": "7d5c43e3274406d0",
+          "title": "How to choose the next safe step in application modernization",
+          "excerpt": "Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill. The post How to choose the next safe step in application modernization appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+          "publishedAt": "2026-11-25T15:00:00.000Z",
           "technologies": [
-            "Software Engineering"
+            "Next.js",
+            "GitHub"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Final URL: https://openai.com/index/searching-for-distant-planets-with-astra/ Astronomers have confirmed more than 6,400 planets beyond our solar system since the first ones were announced in 1992.",
-            "A worldwide community of amateur astronomers has long been part of that search.",
-            "Some comb through public telescope data for small, repeated dips in a star’s brightness that could signal an orbiting planet.",
-            "Others use their own telescopes to watch for the next dip and share what they see with researchers.",
-            "In 2017, researchers trained a neural network on 15,000 signals from NASA’s Kepler Space Telescope that astronomers had already examined."
+            "A request to modernize an application often starts with a technology question: Which framework should replace the old one? Before you choose, find out what still works. Then collect evidence that can act as a regression net for that behavior and show where modernization is necessary.",
+            "I used an evidence-first method on four public applications, from a small Node.js game to a large Java enterprise resource planning (ERP) application. Each needed a different treatment, but the way I collected evidence, chose the next experiment, and decided on possible proof points was repeatable.",
+            "This post walks through that process so you can apply it to one application of your own. It also shows how to encode the procedure in a GitHub Copilot agent skill while keeping architectural judgment with the people responsible for the system.",
+            "The label on an application rarely tells you enough. \"Java microservices\" doesn't tell you which Java Development Kit (JDK) runs in production, where that version is pinned, whether the tests execute, or which interfaces other systems depend on. \"Legacy monolith\" doesn't tell you whether the business core is broken or whether one retired platform dependency prevents the application from starting.",
+            "Before you recommend a change, build a small evidence inventory:"
           ]
         },
         {
-          "id": "7e14b56be6744308",
-          "title": "How Intentful uses dots to make more time for growth",
-          "excerpt": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
-          "source": "OpenAI News",
-          "url": "https://openai.com/business/customer-stories/intentful-dots",
-          "publishedAt": "2026-11-24T00:00:00.000Z",
+          "id": "a9bc069d7df21121",
+          "title": "Introducing Search for Agents",
+          "excerpt": "Flip one toggle to make your site searchable by AI agents — complete with automatic content indexing, a discoverable search API, and native HTTP QUERY support.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/search-for-agents/",
+          "publishedAt": "2026-11-25T14:00:00.000Z",
           "technologies": [
             "Software Engineering"
           ],
           "category": "AI",
           "scanMinutes": 1,
           "details": [
-            "Final URL: https://openai.com/business/customer-stories/intentful-dots/ Marina Petrova is CEO and cofounder of Intentful, a lean team that helps brands make their marketing interactive, with products such as ads that answer customers’ questions in real time and tools that make website information readable by AI.",
-            "The company also advises and trains marketers on using AI.",
-            "In travel and tourism, Intentful works with destination organizations and local businesses such as hotels, restaurants, and attractions.",
-            "A custom proposal is part of how Marina wins their business, showing prospects what’s possible and what it would take to deliver.",
-            "To keep Intentful growing, she needed more room for that strategic work, but she was spending too much time on research, hunting for files, and formatting decks."
+            "AI Search , our service that indexes your content and lets you add search to any application or agent without having to build an entire retrieval infrastructure, has supported adding your website as a data source for a while now, automatically crawling, converting and indexing its pages.",
+            "Still, setting up an AI Search instance for your website requires manually creating and configuring it initially, and then doing all the integration work to get the search endpoints available from your domain and to make sure that agents know where to find the index and know how to use it.",
+            "The idea follows naturally from Markdown for Agents , where Cloudflare's network converts any HTML page to Markdown in real time for enabled zones using content negotiation headers.",
+            "Similarly, Search for Agents leverages the power of AI Search by automatically creating an index for your zone and exposing APIs that any AI agent can discover and use to search your website, under your domain, all done at the network level.",
+            "You can enable Search for Agents using the API, or by going to the dashboard in your zone page, under Quick Actions :"
           ]
         }
       ]
@@ -84,11 +85,7 @@
           "category": "Backend",
           "scanMinutes": 1,
           "details": [
-            "Final URL: https://openai.com/index/introducing-shirudo/ OpenAI and Cisco are launching Shirudo, an open-source runtime that helps teams protect Linux systems while they roll out patches.",
-            "In a controlled test, a Codex-generated shield blocked a Java4Shell exploit attempt against a running Elasticsearch service without requiring a restart.",
-            "We’re inviting developers, security researchers, and infrastructure operators across the industry to help develop the project further.",
-            "The project brings together OpenAI’s frontier AI, security and infrastructure research and Cisco’s infrastructure and security expertise to help protect the systems people rely on every day.",
-            "Testing and deploying a patch can still take days or weeks."
+            "It helps teams protect running systems while they roll out patches."
           ]
         }
       ]
@@ -180,26 +177,6 @@
             "The KUBECTL_REMOTE_COMMAND_WEBSOCKETS and KUBECTL_PORT_FORWARD_WEBSOCKETS environment variables let you turn that behavior off.",
             "These variables are going to be removed in v1.38. kubectl will then always try WebSockets first and fall back to SPDY when it needs to (the same as the current default behavior)."
           ]
-        },
-        {
-          "id": "274f3857c109095a",
-          "title": "Docker patches Java4Shell and the NGINX HTTP/2 with Docker Hardened Images",
-          "excerpt": "Docker publishes fixed images for both Java4Shell and the NGINX HTTP/2 in the Docker Hardened Images (DHI) catalog.",
-          "source": "Docker Blog",
-          "url": "https://www.docker.com/blog/docker-patches-java4shell-and-the-nginx-http-2-with-docker-hardened-images/",
-          "publishedAt": "2026-11-19T17:38:08.000Z",
-          "technologies": [
-            "Docker"
-          ],
-          "category": "DevOps",
-          "scanMinutes": 1,
-          "details": [
-            "OpenJDK and Oracle disclosed Java4Shell (CVE-2026-114938) on November 17, and NGINX released fixes for two HTTP/2 flaws the next day. Docker began publishing fixed images for both in the Docker Hardened Images (DHI) catalog starting that same day.",
-            "What we know about Java4Shell is that it’s a memory-corruption bug in the Java runtime that can let an attacker with no credentials run code inside a Java application. Many container images contain a Java runtime, including application images that bundle their own, so it affects teams well beyond the ones that write Java.",
-            "Docker Hardened Images are the trusted foundation your applications should run on, because a flaw in the runtime inside an image is fixed only when that image is rebuilt, and Docker rebuilds its hardened images as soon as upstream fixes become available.",
-            "Fixed images for the Amazon Corretto, SapMachine and Azul Zulu runtimes and for NGINX are in the catalog today, with Eclipse Temurin following as soon as Adoptium completes its fixed builds.",
-            "Affected: Java 17.0.6 and later, including Java 21, 25, 26 and 27, from every OpenJDK vendor."
-          ]
         }
       ]
     },
@@ -244,26 +221,6 @@
             "Xint also found a Linux kernel bug that turns that foothold into root on the host, including from inside a Docker container.",
             "Other teams found the two HTTP/2 bugs independently: F5 also credits Rapid7, Wiz Research and Ikotas Labs for CVE-2026-123007, and Metnir, Wiz Research, and Palo Alto Networks Unit 42 for CVE-2026-123633.",
             "nginx is an HTTP web server that also serves as reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server. nginx runs a large share of the world's web servers, so this is a patch-now event."
-          ]
-        },
-        {
-          "id": "2c15f23ac7aa344c",
-          "title": "Git security vulnerabilities announced",
-          "excerpt": "Git is releasing updates addressing six security vulnerabilities affecting clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
-          "source": "GitHub Blog",
-          "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
-          "publishedAt": "2026-11-10T18:00:00.000Z",
-          "technologies": [
-            "GitHub"
-          ],
-          "category": "Security",
-          "scanMinutes": 1,
-          "details": [
-            "Editor's note (November 17, 2026): This post has been updated with additional CVE information and updated guidance for GitHub Enterprise Server users . Please see the release information below for the versions that include the fixes.",
-            "Today, the Git project is releasing new versions to address six security vulnerabilities. These include arbitrary code execution when cloning a malicious repository, writes to unintended files, and memory corruption when processing merges or binary patches.",
-            "The fixes are included in Git 2.56.1 , with backports to Git 2.55.1, 2.54.1, 2.53.1, 2.52.1, 2.51.3, and 2.50.2. We recommend updating to Git 2.56.1 or the patched release for your maintenance series, and updating any applications that bundle Git.",
-            "Git checks paths before writing files into a working tree, including rejecting paths that would overwrite its own repository metadata.",
-            "However, an integer truncation in Git's index handling can cause an extremely long path to pass validation under one name and then be written using a shorter name."
           ]
         }
       ]
