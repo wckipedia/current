@@ -1,0 +1,327 @@
+{
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T03:39:35.161Z",
+  "sourceHealth": {
+    "healthy": 8,
+    "attempted": 8
+  },
+  "sections": [
+    {
+      "name": "AI",
+      "articles": [
+        {
+          "id": "0ef8b273cccd0c03",
+          "title": "Art of play in the age of AI",
+          "excerpt": "Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers. The post Art of play in the age of AI appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
+          "publishedAt": "2026-11-25T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "As kids, we spent hours tinkering and building and just messing with things. As an adult, I could watch my own young kiddos figure out how certain shapes and movement work all day. Through that play, we improved our problem-solving and language skills, and it's probably not a stretch to say it was good for our early engineering skills.",
+            "In this era of development now, we're starting to get a taste of that again. We're experimenting more, and taking in more changes, because it's all new!",
+            "For the last four years at GitHub Universe, we've had hackable conference badges. What started as a simple e-ink display for your name and job title morphed into a labor of love for Martin Woodward , VP of Developer Relations. This year, the badge evolved into a device with a color screen, rechargeable battery, accelerometer sensors, and touch-sensitive gaming controls.",
+            "The tinkering we've seen with the badges has been amazing.",
+            "Hacking the GitHub Universe Badge with these 3 apps that I made!! #GitHubUniverse https://t.co/Qy5wYPqXf5"
+          ]
+        },
+        {
+          "id": "7d5c43e3274406d0",
+          "title": "How to choose the next safe step in application modernization",
+          "excerpt": "Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill. The post How to choose the next safe step in application modernization appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+          "publishedAt": "2026-11-25T15:00:00.000Z",
+          "technologies": [
+            "Next.js",
+            "GitHub"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "A request to modernize an application often starts with a technology question: Which framework should replace the old one? Before you choose, find out what still works. Then collect evidence that can act as a regression net for that behavior and show where modernization is necessary.",
+            "I used an evidence-first method on four public applications, from a small Node.js game to a large Java enterprise resource planning (ERP) application. Each needed a different treatment, but the way I collected evidence, chose the next experiment, and decided on possible proof points was repeatable.",
+            "This post walks through that process so you can apply it to one application of your own. It also shows how to encode the procedure in a GitHub Copilot agent skill while keeping architectural judgment with the people responsible for the system.",
+            "The label on an application rarely tells you enough. \"Java microservices\" doesn't tell you which Java Development Kit (JDK) runs in production, where that version is pinned, whether the tests execute, or which interfaces other systems depend on. \"Legacy monolith\" doesn't tell you whether the business core is broken or whether one retired platform dependency prevents the application from starting.",
+            "Before you recommend a change, build a small evidence inventory:"
+          ]
+        },
+        {
+          "id": "a9bc069d7df21121",
+          "title": "Introducing Search for Agents",
+          "excerpt": "Flip one toggle to make your site searchable by AI agents — complete with automatic content indexing, a discoverable search API, and native HTTP QUERY support.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/search-for-agents/",
+          "publishedAt": "2026-11-25T14:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "AI Search , our service that indexes your content and lets you add search to any application or agent without having to build an entire retrieval infrastructure, has supported adding your website as a data source for a while now, automatically crawling, converting and indexing its pages.",
+            "Still, setting up an AI Search instance for your website requires manually creating and configuring it initially, and then doing all the integration work to get the search endpoints available from your domain and to make sure that agents know where to find the index and know how to use it.",
+            "The idea follows naturally from Markdown for Agents , where Cloudflare's network converts any HTML page to Markdown in real time for enabled zones using content negotiation headers.",
+            "Similarly, Search for Agents leverages the power of AI Search by automatically creating an index for your zone and exposing APIs that any AI agent can discover and use to search your website, under your domain, all done at the network level.",
+            "You can enable Search for Agents using the API, or by going to the dashboard in your zone page, under Quick Actions :"
+          ]
+        },
+        {
+          "id": "afdd0d51efe501f1",
+          "title": "Prove your AI agent guardrails work",
+          "excerpt": "Coding agents can reach more than their task needs. See how Docker AI Governance controls network, filesystem, credential, and MCP access, then test it.",
+          "source": "Docker Blog",
+          "url": "https://www.docker.com/blog/prove-your-ai-agent-guardrails-work/",
+          "publishedAt": "2026-11-25T16:57:00.000Z",
+          "technologies": [
+            "Docker"
+          ],
+          "category": "AI",
+          "scanMinutes": 1,
+          "details": [
+            "You ask a coding agent to clean up one repository. If it has broad permissions, it may also reach your home directory, use your development credentials, and send requests to services you never approved. That gap between the task and the access you grant can turn a routine coding session into a data leak or lost work.",
+            "In Sandboxing Claude and MCP , Hrittik walked through running Claude Code and an MCP server inside Docker Sandboxes using its command-line interface, sbx . That walkthrough started with outbound access blocked, allowed the endpoints needed for the task, and inspected requests to other destinations, including telemetry. The useful part was seeing an actual request fail at the network boundary.",
+            "Models and providers will change, but the access rules still need to hold.",
+            "A sandbox limits what an agent can reach on one machine.",
+            "Organization governance adds shared rules, a managed way to run agents, and records of policy decisions."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Backend",
+      "articles": [
+        {
+          "id": "b0689cf87ab570a4",
+          "title": "OpenAI and Cisco introduce Shirudo",
+          "excerpt": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-shirudo",
+          "publishedAt": "2026-11-23T21:20:00.000Z",
+          "technologies": [
+            "Linux",
+            "OpenAI"
+          ],
+          "category": "Backend",
+          "scanMinutes": 1,
+          "details": [
+            "Final URL: https://openai.com/index/introducing-shirudo/ OpenAI and Cisco are launching Shirudo, an open-source runtime that helps teams protect Linux systems while they roll out patches.",
+            "In a controlled test, a Codex-generated shield blocked a Java4Shell exploit attempt against a running Elasticsearch service without requiring a restart.",
+            "We’re inviting developers, security researchers, and infrastructure operators across the industry to help develop the project further.",
+            "The project brings together OpenAI’s frontier AI, security and infrastructure research and Cisco’s infrastructure and security expertise to help protect the systems people rely on every day.",
+            "Testing and deploying a patch can still take days or weeks."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "articles": [
+        {
+          "id": "6c9e35ea9179d576",
+          "title": "Probing DNS at Cloudflare",
+          "excerpt": "At Cloudflare we’ve built tools to enable teams to extend our internal testing framework and build test tooling for networking protocols. This is the story of how this was used for DNS.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+          "publishedAt": "2026-11-23T14:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Imagine this: you’ve just pushed a release. All the unit tests passed and your dashboards are green. You sit back to relax but then suddenly your phone starts blowing up: prod is broken.",
+            "This is something the Cloudflare DNS team has experienced firsthand. In one rollout of the service that publishes DNS records to our edge, a scheduling bug let some record changes sit unpublished for hours. The service stayed up and was healthy, but new hostnames were slow to resolve and certificates couldn't be issued until the bug was squashed.",
+            "DNS failures are hard to catch because they are slow, spread across the network, and partial in where they cause impact. We needed to figure out a way to test DNS the way customers experience it: constantly, from every data center, and against production.",
+            "For us, the answer was to extend Flamingo, the end-to-end testing framework we were already using to run hundreds of millions of tests a day against Cloudflare's edge. This post covers how Flamingo's modular design lets us add DNS support, how we measure propagation, and how those measurements now decide whether a release goes ahead or gets rolled back.",
+            "At Cloudflare we’re obsessed with improving performance and safety for our customers. It’s crucial that our code is tested constantly, both at scale and against the real Cloudflare edge that our users operate in. That’s one reason why we created a tool called Flamingo: to measure the behavior of our production environments and make sure that code in lower-tier environments behaves as expected."
+          ]
+        },
+        {
+          "id": "dee94a929dea9fb9",
+          "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+          "excerpt": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the same release.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/phpaftershell-waf-protection/",
+          "publishedAt": "2026-11-20T20:00:45.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "On November 19, 2026, the security research company depthfirst disclosed phpAfterShell (CVE-2026-126714) , a vulnerability in PHP's default file-based session handler that can lead to remote code execution.",
+            "Under the Common Vulnerability Scoring System (CVSS) 4.0, it scores 9.2 out of 10 (Critical).",
+            "The PHP project fixed it the same day in versions 8.2.36, 8.3.37, 8.4.28, 8.5.13, and 8.6.0.",
+            "These releases fix 16 other security vulnerabilities, six of them also rated critical.",
+            "Cloudflare’s web application firewall (WAF) blocks known phpAfterShell attack patterns, including for customers on the Free plan."
+          ]
+        },
+        {
+          "id": "32c1e05692d04a88",
+          "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
+          "excerpt": "On November 3, 2026 U.S. voters headed to the polls. Here’s what Cloudflare data across more than 1,400 protected sites tells us about Election Day Internet traffic and cyberattacks.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
+          "publishedAt": "2026-11-19T14:00:00.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Cloud",
+          "scanMinutes": 1,
+          "details": [
+            "Visitors to government election websites surged 363% on November 3, the date of the 2026 midterm elections in the United States. Across Cloudflare's election protection programs, we also detected a significant shift in the types and timing of cyberattacks throughout 2026.",
+            "Unlike what we saw in other recent elections, attackers focused on gaining access to internal systems and data, rather than knocking websites offline.",
+            "Government election websites faced website vulnerability attempts 180 times more often than denial-of-service (DDoS) attacks, and at roughly ten times the rate of Cloudflare's broader customer base.",
+            "We also found evidence of at least one attempt to exploit a recently disclosed critical PHP vulnerability on a state government voting website in the Western United States.",
+            "These attacks peaked in late October, several weeks before the election."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "articles": [
+        {
+          "id": "2e31644f6487f318",
+          "title": "Kubernetes v1.38 Sneak Peek",
+          "excerpt": "As we get closer to the release date for Kubernetes v1.38, the project develops and matures, features may be deprecated, removed, or replaced with better ones for the project's overall health. This blog post outlines some of the planned changes for the Kubernetes v1.38 release that the release team feels you…",
+          "source": "Kubernetes Blog",
+          "url": "https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/",
+          "publishedAt": "2026-11-23T16:00:00.000Z",
+          "technologies": [
+            "Kubernetes"
+          ],
+          "category": "DevOps",
+          "scanMinutes": 1,
+          "details": [
+            "This blog post outlines some of the planned changes for the Kubernetes v1.38 release that the release team feels you should be aware of for the continued maintenance of your Kubernetes environment and keeping up to date with the latest changes.",
+            "The information listed below is based on the current status of the v1.38 release and may change before the actual release date.",
+            "kubectl has used WebSockets instead of SPDY by default for kubectl exec , attach and cp since v1.30, and for kubectl port-forward since v1.31.",
+            "The KUBECTL_REMOTE_COMMAND_WEBSOCKETS and KUBECTL_PORT_FORWARD_WEBSOCKETS environment variables let you turn that behavior off.",
+            "These variables are going to be removed in v1.38. kubectl will then always try WebSockets first and fall back to SPDY when it needs to (the same as the current default behavior)."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "articles": [
+        {
+          "id": "c851a250df92def9",
+          "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+          "excerpt": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
+          "publishedAt": "2026-11-20T20:24:38.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "On November 19, 2026, the Ruby team disclosed ruby2shell ( CVE-2026-132825 ), a heap buffer overflow in the way Ruby changes the case of strings. Ruby rates the flaw Critical and says it is aware of proofs of concept that achieve remote code execution in some scenarios. Fixes shipped in Ruby 3.3.14, 3.4.13, and 4.0.10 .",
+            "The reach is wide. Veria Labs reports that Ruby on Rails and classic-style Sinatra applications reach the bug in their default configuration, before any authentication. Self-hosted products that bundle Ruby, including GitLab, GitHub Enterprise Server, Mastodon, OpenProject, Discourse and Chatwoot, shipped an affected Ruby in their latest release at the time of disclosure.",
+            "Cloudflare WAF blocks ruby2shell for all customers, including those on the Free plan. We have added two rules to both the Cloudflare Free Managed Ruleset and the Cloudflare Managed Ruleset, with Block as the default action: one for ruby2shell and one for GHSA-87fm-7w84-j2px, a related integer overflow in Ruby string case conversion fixed in the same releases.",
+            "The WAF is a compensating control, not a replacement for patching. Exploits can reach the bug through paths a WAF does not see, and the only complete fix is to upgrade Ruby. Our team continues to monitor attack traffic and will update the rules as new techniques appear. You can track rule changes in the WAF changelog and get the latest on the vulnerability in the Cloudflare Zero Wire briefing .",
+            "Cloudflare has patched its own systems that use Ruby, and we have found no indication of compromise."
+          ]
+        },
+        {
+          "id": "17fab3637860c9a7",
+          "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
+          "excerpt": "Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare's proxy are shielded from the most serious of these bugs.",
+          "source": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/nginx2root/",
+          "publishedAt": "2026-11-20T01:58:29.000Z",
+          "technologies": [
+            "Software Engineering"
+          ],
+          "category": "Security",
+          "scanMinutes": 1,
+          "details": [
+            "On November 18, 2026, F5 and nginx.org disclosed ten vulnerabilities in nginx.",
+            "Five of them, detailed by the Xint research team and published under the name nginx2root , are memory corruption flaws that an unauthenticated attacker can use to crash an nginx worker or, per Xint's research, run commands on the server.",
+            "Xint also found a Linux kernel bug that turns that foothold into root on the host, including from inside a Docker container.",
+            "Other teams found the two HTTP/2 bugs independently: F5 also credits Rapid7, Wiz Research and Ikotas Labs for CVE-2026-123007, and Metnir, Wiz Research, and Palo Alto Networks Unit 42 for CVE-2026-123633.",
+            "nginx is an HTTP web server that also serves as reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server. nginx runs a large share of the world's web servers, so this is a patch-now event."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Open Source",
+      "articles": [
+        {
+          "id": "5f364a8612fd0351",
+          "title": "The best things in open source are built together",
+          "excerpt": "Introducing Replica and the Open Source Accessibility Framework, new open source projects for collaboration and inclusion. The post The best things in open source are built together appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/",
+          "publishedAt": "2026-11-19T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Open Source",
+          "scanMinutes": 1,
+          "details": [
+            "In 2026, public contributions on GitHub soared to 2.5 billion , more than double last year's total of 1.12 billion. It goes to show how open source remains a powerful mechanism for developers to build, share, and grow communities.",
+            "Open source is how I began my GitHub journey. I contributed to Processing Foundation by adding alt-text to images on the p5.js website. This was the first time I felt included in a software development space as someone with a background in traditional fine arts and design. It was the first time I made a fork, opened a pull request, and merged code on a repo that wasn't mine.",
+            "Working at GitHub, you hear stories like mine everywhere. Open source is foundational to us not only as a business but also for who we are as the people who build it! We recently launched two new open source projects to share with the community: Replica , an open-source design harness, and the Open Source Accessibility Framework .",
+            "I attended John Maeda's session with Qianqian Ye, Director of Creative Technology at Processing Foundation, at GitHub Universe titled, \"Sketching with code in the age of AI.\" This session talked about the power of the open source community and reminded me how important it is to our developer ecosystem.",
+            "It is the reason AI tooling understands different coding languages so well, how developers hacked agent harnesses to be more efficient, and why new AI companies have formed."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "articles": [
+        {
+          "id": "215487d78b45f131",
+          "title": "These are the gifts developers will actually want",
+          "excerpt": "The developer you're shopping for hasn’t shared their holiday wish list with you yet? Check out these gifts, plus our Black Friday discount all week long. The post These are the gifts developers will actually want appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/these-are-the-gifts-developers-will-actually-want/",
+          "publishedAt": "2026-11-24T16:00:00.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "Some people tell you exactly what they want for the holidays, but some people just don't. The gifts, the decor, the food, for all of it, you have to guess at what they might like. You trawl thousands of gift guide lists titled \"the definitive gift guide for 2026,\" but none of the guides are quite right for that special person. That is, until this one came along.",
+            "We won't say it's the definitive guide for the developer in your life (or for yourself, we won't judge), but we have brought together a few of our favorite pieces from the GitHub Shop for you to pick from.",
+            "At GitHub Universe this year we brought our brand new GitHub x Omnitype Bauer Lite Keyboard Kit to the Makerspace for our attendees to build.",
+            "If you like building keyboards, you'll want the details.",
+            "Each GitHub-exclusive Bauer Lite kit arrives in a randomly selected color combination and includes a hot-swap PCB with RGB underglow, Omnitype Hawk linear switches, dye-sublimated PBT keycaps, and the essential hardware and tools for a hands-on custom build."
+          ]
+        },
+        {
+          "id": "7c512829bf524dd8",
+          "title": "GitHub availability report: October 2026",
+          "excerpt": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog .",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+          "publishedAt": "2026-11-13T00:20:16.000Z",
+          "technologies": [
+            "GitHub"
+          ],
+          "category": "Developer Tools",
+          "scanMinutes": 1,
+          "details": [
+            "We continue to share monthly updates on the work behind GitHub's availability and reliability.",
+            "The short version of October: we added substantial independently scalable Azure capacity and removed several ways that failures could escalate. However, write outages, monitoring gaps during data migrations, and a regional network disruption reinforced the need for capacity growth to be paired with safer operations, stronger isolation, and validated regional recovery.",
+            "As of November 9, 140 of 151 production services and 32 of 50 MySQL primaries were running in Azure Central US. Azure served 63% of migrated-service reads, 66% of monolith reads, and 52% of Git reads. We also completed a compute expansion across all nine Central US Kubernetes clusters, more than doubling capacity.",
+            "That capacity is already carrying real growth. Migrated-service traffic has increased 82% since March, with Central US absorbing the growth beyond the highest weekly-average load previously served from our existing datacenter. This gives GitHub more room to grow without pushing the original environment beyond its prior operating range.",
+            "We also made several targeted reliability improvements."
+          ]
+        }
+      ]
+    }
+  ]
+}
