@@ -1,6 +1,6 @@
 {
   "week": "2026-W48",
-  "generatedAt": "2026-11-27T04:18:13.960Z",
+  "generatedAt": "2026-11-28T03:19:54.265Z",
   "sections": [
     {
       "name": "AI",
@@ -225,6 +225,31 @@
             "Xint also found a Linux kernel bug that turns that foothold into root on the host, including from inside a Docker container.",
             "Other teams found the two HTTP/2 bugs independently: F5 also credits Rapid7, Wiz Research and Ikotas Labs for CVE-2026-123007, and Metnir, Wiz Research, and Palo Alto Networks Unit 42 for CVE-2026-123633.",
             "nginx is an HTTP web server that also serves as reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server. nginx runs a large share of the world's web servers, so this is a patch-now event."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Languages",
+      "articles": [
+        {
+          "id": "dd7571e60edbe9c2",
+          "title": "Announcing Rust 1.100.1",
+          "excerpt": "The Rust team has published a new point release of Rust, 1.100.1. Rust is a programming language that is empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup, getting Rust 1.100.1 is as easy as: $ rustup update stable If you don't have it…",
+          "source": "Rust Blog",
+          "url": "https://blog.rust-lang.org/2026/11/27/Rust-1.100.1/",
+          "publishedAt": "2026-11-27T00:00:00.000Z",
+          "technologies": [
+            "Rust"
+          ],
+          "category": "Languages",
+          "scanMinutes": 1,
+          "details": [
+            "If you have a previous version of Rust installed via rustup, getting Rust 1.100.1 is as easy as:",
+            "If you don't have it already, you can get rustup from the appropriate page on our website.",
+            "If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default nightly ). Please report any bugs you might come across!",
+            "Rust 1.100.1 fixes a regression where some types were not inferred as having Iterator impls .",
+            "We reverted a change to the unstable const version of Iterator in Rust 1.100.0, which cannot actually be used by stable code, but accidentally prevented some types with valid Iterator impls from being seen as actually implementing Iterator ."
           ]
         }
       ]
